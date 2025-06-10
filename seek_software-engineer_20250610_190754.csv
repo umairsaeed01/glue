@@ -1,0 +1,32 @@
+job_id,title,company,location,url,description
+84808010,C++ Software Engineer,Forge Dynamics Pty Ltd,Sydney NSW,https://www.seek.com.au/job/84808010?type=standard&ref=search-standalone&origin=cardTitle#sol=33e4069f015ff9ec6b05bef60ba270e4998d0683,"About us
+We are a small, Australian-owned and operated company delivering cutting-edge telemetry-analytics solutions for the Defence sector. We move fast, embrace modern C++, and offer you the freedom to work fully remote or from our Sydney offices on your terms.
+
+Qualifications & Experience
+Bachelor’s degree in Engineering (preferred) or Computer Science
+5+ years (2× Mid-Level roles) / 10+ years (1× Senior role) of low-latency, high-performance desktop C++ development
+Strong mastery of modern C++ (C++20+) and the STL
+Proven track record in low-latency algorithm development, high-throughput networking, and time-series relational databases
+Experience building Windows desktop applications with Visual Studio (or equivalent)
+Solid understanding of multithreading, IPC, and real-time (“soft”-deterministic) systems
+Sound knowledge and practical use of object-oriented design principles and abstraction patterns
+Baseline AGSVA security clearance required; NV1 or higher preferred
+Desirable Skills & Experience
+Experience with CMake and Ninja build systems
+Experience in cross-compilation for Linux targets
+Experience in data science and/or machine learning
+Experience in refactoring and optimising existing code to drive higher performance
+Experience in front-end UI integration in C++ (e.g. Qt or other desktop frameworks)
+Experience with parallel/GPU compute (CUDA, OpenCL), hardware-accelerated graphics APIs (OpenGL, DirectX) and 3D engine platforms (Unreal, Omniverse)
+Experience in Agile software development and tooling (e.g. Git, Jira, Confluence)
+Tasks & Responsibilities
+Design, develop and optimise C++ modules for data ingestion, processing and analytics
+Develop and implement high-performance, low-latency, scalable data processing pipelines and networking architectures
+Build and maintain test suites, continuous integration pipelines and conduct code reviews
+Contribute to architectural decisions in a small, cross-functional team
+Mentor junior and mid-level engineers (senior role)
+Benefits
+Flexible work – fully remote or hybrid from our modern Sydney office
+Impactful projects – mission-critical Defence systems
+Career growth – clear pathways to senior and technical-lead roles
+Collaborative culture – small teams, short feedback loops, direct stakeholder access"

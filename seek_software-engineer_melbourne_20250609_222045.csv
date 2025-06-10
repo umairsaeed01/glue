@@ -1,0 +1,697 @@
+Job Title,Company Name,Location,Salary/Pay Range,Key Responsibilities,Required Skills/Qualifications,Date Posted,Job Type,Phone Number,Email,Full Job Description,Job URL
+Software Engineer,Private Advertiser,Melbourne VIC,-,See Full Description,See Full Description,-,Full time,-,-,"Pozi is a web-based Geographic Information System (GIS) software company that makes spatial data more accessible and useful for organisations. We aggregate data from various sources, including public data catalogues, corporate databases, and third-party web services into a user-friendly mapping platform that allows our customers to make easy data driven decisions.
+We are seeking a passionate and dynamic
+Software Engineer
+, specialising in front end development, to help drive the continued success of our platform through innovative thinking, clean and scalable code, and a user-centric approach.
+In this role, you’ll collaborate closely with a small, agile team to solve real-world problems, enhance our product capabilities, and deliver powerful spatial solutions to our growing customer base.
+You will be responsible for undertaking a variety of tasks including but not limited to:
+Develop and maintain in house software and web applications
+Build user interfaces and provide solutions for simplifying highly complex information.
+Monitor frameworks for error detection
+Provide advice and resolutions for complex issues.
+We are looking for a highly motivated individual with strong communication and interpersonal skills, a sense of fun, the ability to work well under pressure and an absolute focus on exceptional service.
+You will bring:
+Tertiary degree within the Computer Science or Software Engineering field
+Minimum 5 years technical proficiency and experience
+Essential skills:
+Javascript/Typescript, HTML and CSS
+React
+NodeJS
+Experience working with RESTful APIs
+Git/Github
+Highly Desirable:
+Experience with mapping frameworks such as OpenLayers, Mapbox or Leaflet.
+Experience with Geospatial web services and OGC web services
+Desirable:
+Familiar with working with Linux, Bash
+Previous experience working with frameworks like PHP CodeIgniter, Laravel, Python Django, Ruby on Rails
+Testing methodologies - unit testing, functional testing, integration testing, feature flags
+Familiar with Continuous Integration and Continuous Delivery processes(CI/CD)
+Willingness to develop, refactor, and maintain legacy code
+Software Development Lifecycle Process(Agile, Scrum)
+Knowledge on Authorisation and Authentication topics(OAuth)
+Observability Tools - Sentry, OpenTelemetry, Grafana, etc
+Microsoft Azure (AD, Entra, IIS)
+Amazon Web Services",https://www.seek.com.au/job/84591035
+Backend Developer,MAS Australia PTY Ltd,Melbourne VIC,-,See Full Description,See Full Description,-,Full time,-,-,"Join us as a Backend Developer to architect the foundation of our aged care platform's Australian expansion. Working with a successful UK HealthTech company, you'll build robust APIs and scalable systems that power critical care coordination tools. This position offers significant technical ownership as we adapt our proven platform for Australian aged care providers, with your work directly enabling better care outcomes.
+About The Company:
+CareLineLive, launched in 2018 by Josh Hough – Managing Director. Josh was born with a rare muscle weakening illness and unfortunately was written off by doctors at an early age. This and the struggles his family faced getting information about his grandfather’s care fuelled his fire and was the inspiration behind setting up CareLineLive.
+We serve 650 customers, in seven countries, produce revenues of over £3.5m and have over 40 staff. It helps 20,000 carers deliver better care and for the home care companies to improve their operations and their regulatory compliance
+Key Responsibilities:
+Architect and develop RESTful APIs using Laravel and PHP that power our care management platform.
+Collaborate with our UK development team to adapt and localise platform features for Australian aged care requirements.
+Design database schemas and optimise queries for growing data volumes.
+Build integrations with healthcare systems and third-party services.
+Ensure platform security, reliability, and compliance with local requirements.
+Contribute to infrastructure decisions and deployment strategies.
+Establish coding standards and automated testing practices.
+Partner with frontend developers to deliver cohesive full-stack features.
+Work closely with our Engineering Manager and Product Manager to translate user needs into technical solutions.
+Share expertise and elevate the team's backend capabilities.
+What We're Looking For:
+Mid to senior-level developer with 3+ years of commercial experience.
+Strong OOP skills: you understand Object-Oriented Programming principles like encapsulation and inheritance, and you write modular, reusable code.
+Solid MVC experience: you're comfortable with Model-View-Controller architecture, separating business logic, data, and presentation layers for cleaner, more maintainable applications.
+Proven backend development skills with Laravel expertise or similar frameworks like Django/Node.js.
+API design knowledge including authentication, versioning, and documentation.
+Database design expertise (MySQL/PostgreSQL) with performance tuning skills.
+Remote work ready: self-motivated with excellent written communication skills.
+Collaborative approach: you enjoy working with distributed teams and sharing knowledge.
+Quality focused: passionate about writing clean, maintainable, and well-tested code.
+Motivated by impact: eager to develop solutions that have a tangible effect on the lives of older adults and caregivers (no healthcare background necessary).
+What We Offer:
+Competitive salary with performance-based incentives.
+A collaborative, mission-driven culture that values innovation and growth.
+Ongoing training, development, and clear career progression paths.
+Hybrid working environment.
+PerkBox discount scheme
+28 days annual leave including bank holidays
+Industry
+Home Health Care Services
+Employment Type
+Full-time",https://www.seek.com.au/job/84727859
+Software Engineer,Aerodynamic Pty Ltd,"Keilor Park, Melbourne VIC","$78,000 per year plus super",See Full Description,See Full Description,-,Full time,-,-,"Aerodynamic is an avionics equipment service provider focused on providing solutions for commercial and business jet operators, MRO’s and military customers. With over 30 years’ experience, Aerodynamic is the leading flight data services provider for major airlines and maintenance repair facilities globally. Our passion and commitment to deliver quality support, services and knowledge to ensure we meet your project needs and business downtime is minimal.
+The Position
+We are looking for a full time software Engineer to carry out the design of software applications, development of new capabilities and all software related functions.
+Salary Package
+$78,000 + Superannuation benefits
+Duties and Responsibilities
+Software development, software upgrades, verification & validation
+Developing new capabilities of software applications, interfacing with hardware to meet requirements
+Researching, consulting, analysing and evaluating system program needs
+Identifying technology limitations and deficiencies
+Testing, debugging, diagnosing and correcting errors and faults
+Writing and maintaining program code to meet system requirements
+Writing, updating and maintaining technical program, end user documentation and operational procedures
+Providing advice, guidance and expertise in developing proposals and strategies on projects
+Take part in regular training programs
+Skills and Experience
+To be considered for this role you will be
+A degree qualified Software Engineer who brings 2 years of local or international experience as a Software Engineer with software development, embedded engineering or equivalent
+You will have knowledge of appropriate programming software languages (C, C++), packages and platforms including Python, React, Java Script
+Candidates that bring electronics hardware and software engineering qualifications will be highly regarded.
+Please send full resume along with your application.",https://www.seek.com.au/job/84736935
+Software Engineer,AGITO Group Pty Ltd,Melbourne VIC,"$100,000 – $130,000 per year",See Full Description,See Full Description,-,Full time,-,-,"WHO WE ARE
+AGITO are a multinational engineering company who develop and implement automation and technology solutions.
+Our engineering expertise and industry knowledge are in the areas of logistics, distribution, production and materials handling. Systems engineering, manufacturing, software development, and ongoing service are an important part of our business model, and we encourage our team to seek out innovative and contemporary methods.
+AGITO’s recent joint venture partnership with Hilton Food Group is a key driver for our growth and global expansion, and with the support of Hilton, we are advancing into new markets and transforming the automation sector.
+This position offers the right person an opportunity to get in on the ground floor of a business that will only continue to grow.
+PURPOSE OF ROLE
+The core functions of the role are designing and developing software solutions for AGITO’s automation solutions and will also include support for systems already in the field.
+You will be at the forefront of designing and developing software for technologies in the areas of automation (AMRs, Roaming Shuttle systems, Co-bots, etc) and real-time communications as we expand into new markets across the globe.
+KEY ACCOUNTABILITIES & RESPONSIBILITIES
+The role will give the successful applicant the opportunity to:
+Build efficient and reusable applications and services that improve usability and remote support for AGITO Automation solutions
+Develop data analysis and reporting functionality
+Develop tools and dashboards for Materials Handling and Warehousing systems
+Design and develop to API specifications
+Develop innovative networking and communications solutions with a focus on cyber security, scalability, and performance
+Work with mechanical and electrical teams on integration of IT Systems with mechatronic / robotic systems
+Participate in code reviews with other engineers
+Set up server hardware, switches, virtualizing platforms and cloud environments
+Be part of the commissioning, installation and connection of developed systems on customer’s site
+Communicate and demonstrate the software and AGITO’s vision clearly to both internal teams and external customers
+Software support and maintenance including paid rostered after-hours support
+KEY EXPERIENCE, KNOWLEDGE & SKILLS
+Experience:
+Hold a Tertiary Qualification in Computer Science, IT, Software Engineering, or a related discipline
+Have a minimum 2+ years’ experience in Software Development
+Have solid programming skills with a good working knowledge of building APIs using modern OO languages such as C#, .Net, Node.js, JAVA, JavaScript, HTML5, XML, JSON, SQL, NoSQL
+Have experience in implementing solutions on both Linux and Windows platforms
+Work collaboratively and be committed to be part of a successful team
+Adapt to new programming frameworks and languages as required
+Respond quickly to client demand
+Knowledge & Skills:
+A willingness to learn and grow your knowledge
+The knowledge and experience to adapt to new programming frameworks and languages as required
+The drive to respond quickly to client demand
+Experience in design and development to API “best practice design” and specifications
+Attention to detail
+The ability to work either as part of a team or autonomously and prioritize competing demands
+Have solid skills in documenting solutions and manuals
+Practical site experience with automation systems
+Ability to review, understand, document and improve existing code / solutions
+AT AGITO
+We are all about creating better experiences – for our customers and for each other.
+We work hard to support and nurture our people, and as the business continues to expand into international markets, we offer ongoing career development and opportunities for our team.
+Please note:
+To apply you must reside in AU & hold Permanent working rights.
+This role will initially be 100% WFH, transitioning to Hybrid.",https://www.seek.com.au/job/84259847
+Software Engineer,Chef Q Pty Ltd,"Hoppers Crossing, Melbourne VIC","$80,000 – $100,000 per year",See Full Description,See Full Description,-,Full time,-,-,"· Research & Consulting: Research and analyze the software needs of our factory systems, identifying technology limitations and inefficiencies in existing processes, procedures, and methods.
+· System Evaluation: Evaluate current systems and processes to recommend improvements and optimizations for production efficiency and overall system performance.
+· Testing & Debugging: Test, debug, diagnose, and correct errors in software used for production, ensuring that programs meet established testing protocols and quality standards.
+· Program Code Maintenance: Write, maintain, and update software code to meet the factory's system requirements and technical specifications while ensuring compliance with quality standards.
+· Documentation: Create and maintain technical documentation, including program code documentation, end-user guides, and operational procedures, to ensure clarity and usability for factory staff.
+· Consulting & Strategy Development: Provide guidance on software design proposals, including financial evaluations and recommendations for upgrading or purchasing software tools for our production systems.
+· Proven experience in software engineering, preferably with a background in industrial or manufacturing systems.
+· Strong knowledge of system analysis, design, and testing methodologies.
+· Proficiency in programming languages (e.g., Java, C++, Python, etc.).
+· Experience working with software that supports factory operations, manufacturing systems, or production environments is a plus.
+· Ability to diagnose and resolve technical issues promptly and efficiently.
+· Strong communication skills for creating clear documentation and providing support to factory staff.
+A degree in Computer Science, Software Engineering, or a related field is preferred",https://www.seek.com.au/job/84718039
+Software Engineer,My Profile Score Pty Ltd,Melbourne VIC,"$100,000 – $104,000 per year",See Full Description,See Full Description,-,Full time,-,Kb@myprofilescore.com,"Full Time Permanent Position
+$104,000 +super
+About the role.
+We are looking for a skilled and experienced Software Engineer to join our team. As a Software Engineer, you will design, develop, test, and maintain software systems, write clean code, resolve technical issues, and improve existing technologies. You’ll manage deployments, ensure security, provide technical documentation, and support continuous improvement. Flexibility to work on weekdays and weekends may be required based on project needs.
+Role and Responsibilities
+• Designing and developing tools to support software development, deployment, security, and overall management. • Writing, reviewing, and maintaining program code to align with system designs, technical specifications, and accredited quality standards.
+• Testing, debugging, and correcting software errors within set protocols to ensure applications, including their security features, perform as intended.
+• Conducting in-depth research and consultation to analyse and evaluate system programming needs.
+• Identifying shortcomings and inefficiencies in existing systems, technologies, and operational procedures.
+• Writing and maintaining technical documentation, user guides, and standard operating procedures for software systems.
+• Managing and automating the testing and deployment processes of applications to streamline delivery and ensure reliability.
+• Gathering and analysing operational performance metrics to drive system improvements.
+• Developing and implementing strategies for continuous integration, delivery, and improvement throughout the software development lifecycle.
+• Advising on software design proposals, including financial evaluations, cost estimates, and recommendations for purchases or upgrades.
+• Performing forensic analysis to detect security anomalies or threats within systems and applications.
+• Implementing encryption and decryption processes to ensure data confidentiality and system integrity.
+• Identifying, assessing, and mitigating risks that may affect software performance and security across the product lifecycle.
+Benefits and perks
+Business offers a great workplace for its staff where everyone feels valued and respected. It's an opportunity for you to be an integral part of this unique organization.
+Skills and experience
+• must have an experience of more than 2 years working as a Software Engineer.
+• Applicant must have Bachelor or higher qualification in the relevant sector.
+• Strong attention to detail and ability to follow the procedures accurately.
+• Excellent time management skills to meet the deadlines. • Flexibility to work in a fast-paced and dynamic environment.
+How to Apply If you are interested in applying for the above position, please forward your resume to us on
+Kb@myprofilescore.com
+.
+Please note we will ONLY be contacting candidates who are successful for an interview.",https://www.seek.com.au/job/84633116
+Software Developer,Unifacta Pty Ltd,"South Melbourne, Melbourne VIC","$80,000 – $90,000 per year",See Full Description,See Full Description,-,Full time,-,-,"About the role
+Unifacta Pty Ltd is seeking a talented Software Engineer to join our dynamic and innovative team based in Melbourne, Victoria. As a Software Engineer, you will play a crucial role in developing and enhancing our cutting-edge software solutions. This full-time position offers the opportunity to work alongside experienced professionals and contribute to the growth and success of our company.
+We are a small team that work closely together and lean on each others skills and abilities regularly.
+What you'll be doing
+Collaborate with a small but dedicated team to design, develop, and implement software applications and features
+Write clean, efficient, and well-documented code using the latest technologies and best practices
+Participate in the entire software development lifecycle, including requirements gathering, design, testing, and deployment
+Communicate with clients to understand requirements and translate into technical briefs.
+Troubleshoot and debug existing applications to identify and resolve issues
+Continually learn and stay up-to-date with the latest industry trends and technologies
+Contribute to the development of innovative solutions to complex business problems
+Assist various departments where necessary within the areas of your technical expertise, including On-Boarding and Support.
+What we're looking for
+3-5 years of experience in software development, either through internships, projects, or previous roles
+Strong proficiency in front-end frameworks and technologies including JavaScript, CSS and HTML. React & React Native experience an advantage.
+Experience collaborating with customers to solve problems
+Excellent communication skills with the ability to bridge the gap between technical teams and business stakeholders.
+Strong problem-solving and critical thinking skills
+Excellent communication and collaboration abilities
+Passion for staying up-to-date with the latest technologies and trends in the industry
+Bachelor's degree in Computer Science, Software Engineering, or a related field, preferred but not necessary depending on experience
+What we offer
+At Unifacta, we believe in fostering a supportive and inclusive work environment that empowers our employees to thrive. We offer a range of benefits, including:
+- Competitive salary and bonus structure
+- Flexible work arrangements to support work-life balance
+- Collaborative and innovative work culture
+About us
+Unifacta Pty Ltd is a leading provider of innovative software solutions for a diverse range of industries. Our mission is to deliver cutting-edge technology that drives business success and transforms the way our clients operate. With a talented team of experts, we are committed to pushing the boundaries of what's possible and delivering exceptional value to our customers.
+If you're passionate about software engineering and eager to join a dynamic and innovative team, we encourage you to apply for this exciting opportunity.
+Apply now
+and take the first step towards a rewarding career at Unifacta Pty Ltd.",https://www.seek.com.au/job/84205470
+Software Engineer,Saab Australia Pty Ltd,"Hawthorn, Melbourne VIC","6 weeks paid leave, 13.5% super, Hybrid working",See Full Description,See Full Description,-,Full time,-,-,"The role
+As part of our Naval Combat Systems group, the Software Engineer's main focus will be on the specification, design, development, documentation and testing of software components within a software team responsible for one or more CMS functions. The Senior Software Engineer shall be able to undertake these tasks without supervision.
+Further, the successful candidate will:
+Participate in the development and maintenance of software components and associated simulators.
+Develop an understanding of the operational use of the associated system under development.
+Participate in the specification of software components.
+Design, implementation and testing of software components to meet the specified requirements.
+Produce all artefacts required for deliverables and internal reviews.
+Participate in reviews of software and documentation as required.
+Provide technical guidance to junior software engineers.
+Flexible work arrangements such as hybrid work from home / office, 9-day fortnight will be considered for this role.
+About you
+Your education, skills and experience will include:
+Essential:
+Tertiary qualifications in software engineering, computer science, or related technical discipline
+Knowledge about contemporary software development standards, principles and best practices.
+Writing software requirements for software components within software intensive systems.
+Designing, developing and testing software components within software intensive systems.
+Defect resolution of legacy software components within software intensive systems.
+Working within a team environment.
+At least one of the following languages, Java and/or Ada
+Desirable:
+A genuine interest and appreciation of large commercial and defence software intensive systems.
+Developing in both procedural and Object Orientated paradigms.
+Any of the following languages: C#, C++, Bash, Python and Go.
+Any of the following tools/technologies, Dockers, Jenkins, DDS, Git, Clearcase and Automated Test Frameworks.
+Linux experience
+As Defence security clearance is required for this role, applicants will be required to hold an Australian Defence Security Clearance preferably to NV1 level or have the ability to gain one.
+About us
+Saab Australia is a defence, security and cyber solutions provider, specialising in the development and integration of major defence and security systems. For over 30 years in Australia, we have built a reputation for delivering complex systems integration projects that provide proven and advanced capabilities to keep us ahead of today's challenges.
+From combat, communications, security and underwater systems, to mixed reality, cyber security and deployable health solutions, our extensive portfolio of products and services provide high-technology solutions for defence forces and civil industries across the globe.
+Apply today to join our crew and deliver solutions with purpose!
+Culture and benefits
+We employ over 1000 Australians and are committed to fostering a culture of excellence and enriching the employee experience.
+By joining Saab, you'll be a part of a collaborative and supportive organisation, where your professional growth and work-life balance are emphasised. You'll work within an innovative and vibrant workplace, while having the opportunity to develop a long-term, fulfilling career.
+As a valued team member of Saab Australia, you'll access a variety of perks and benefits to support you and your family including:
+6 weeks paid leave each year
+13.5% Superannuation
+Free Income Protection Insurance
+Flexible working options
+Access to the Saab shares matching scheme
+Access to
+MySaab -
+our online store offering everything from cash back at hundreds of stores to discounts from exclusive partners
+For further information about a career at Saab, visit the page adjacent: https://www.saab.com/markets/australia/careers/saab-life
+Applications
+Click 'Apply' to submit your CV and cover letter in support of your application. Kindly observe that this is an ongoing recruitment process and in exceptional circumstances, the position might be filled before the closing date of the advertisement. We encourage applications as early as possible to avoid disappointment.
+By submitting an application to Saab, you consent to undertaking workforce screening activities including, but not limited to: reference checks, Australian Federal Police check, verification of working rights and qualifications, sanctions screening and a pre-employment medical declaration.
+Saab Australia is an Equal Opportunity Employer and encourages Aboriginal and Torres Strait Islanders to apply. We also welcome applications from individuals with culturally diverse backgrounds.
+Saab Australia is a nationally recognised Veteran Employer of Choice that welcomes the interest of ex-service members, veterans and their families.",https://www.seek.com.au/job/84634915
+Software Engineer,EngineRoom Applications,Melbourne VIC,"$100,000 – $130,000 per year",See Full Description,See Full Description,-,Full time,-,-,"Role: Software Engineer - 100% REMOTE ROLE
+Reports to: CTO
+We unlock business potential.
+EngineRoom was founded in 2013 to make better use of digital and technology as a source of competitive advantage for high-achieving SMEs. We created an approach that integrates business objectives and digital channels into strategies that drive growth and success.
+Today, the EngineRoom team continues to live our core mission — using digital, data and technology to help businesses unlock their full potential.
+Ready to unlock your potential?
+EngineRoom helps businesses grow through data, digital and technology, but it’s our people that really make the difference. We’re an award-winning team of industry leaders and subject matter experts, data analysts and digital marketers, content creators and strategists, designers and engineers.
+Is this the right role for you?
+Delivering positive outcomes for our clients and EngineRoom is what we are about. As our business continues to grow we are looking for a highly skilled Software Engineer to join our Engineering team to take our Growth Marketing Platform to the next level.
+Write high-quality code using best practices
+Collaborate within a cross-functional team and update our platform with new features to improve user experience
+Be a great team player and find ways to continually improve
+Some skills that we are looking for:
+Experience working in an agile environment in small cross-functional teams
+Proficiency in fundamental software engineering concepts such as SOLID principles, DRY, clean code, automated testing and TDD
+Proficiency in PHP and Laravel
+Proficiency in JavaScript and Vue.js
+Solid understanding of relational databases such as MySQL and Postgres
+Experience building RESTful APIs
+Experience working with a major cloud platform, ideally AWS
+Worked on multi-tenant SaaS web applications used by thousands of users
+Minimum of 3-years work experience required
+Here’s some extra things you may bring to the table:
+Experience working in marketing technology or a similar vertical
+Experience working with data-heavy software products before
+We are a Remote1st company
+, this means our team has the freedom and support to work where they want. Our team is a committed crew that are empowered to show up everyday and make magic happen. There are many things that make EngineRoom an amazing place to work, but we think these are worth a special mention:
+Annual $1000 Design Your Own Work Environment Allowance to spend on anything you need to kit up your home office
+Wellness and WFH vouchers
+Great Place to Work - three years in a row!
+Regular virtual team events
+Industry leading salaries and incentives
+If the sound of a determined, high performing and innovative team environment gives you goosebumps then we would love to hear from you!",https://www.seek.com.au/job/84365035
+Junior Software Developer - Remote,MEQ Probe,Melbourne VIC,-,See Full Description,See Full Description,-,Full time,-,lawrence@meqprobe.com,"At MEQ Probe, our mission is to revolutionise the animal protein industry, with a specialisation in red meat. We provide cutting-edge solutions that harness early, objective data, benefiting everyone from breeders to consumers. Currently, our portfolio includes four primary innovative technical solutions: MEQ Live, MEQ Probe, MEQ Insights and MEQ Camera.  Our primary focus is on live cattle and carcass evaluation in the Sheep and Beef sectors. Our innovative technologies allow the application and utilisation of data to unlock new customer value. Through our innovative solutions, we are revolutionising the red meat industry and building  a more sustainable future,  for businesses and consumers.
+About the Role:
+MEQ is seeking a passionate and proactive Junior Software Developer to join our Machine Learning and Research & Development team. This position plays a vital role in supporting internal software tools, integrating hardware, managing data workflows, and contributing to data-driven research projects. This is an ideal opportunity for a technically minded individual to gain hands-on experience in a fast-paced, innovation-led environment. This is a
+remote role
+, with MEQ Head Office in Melbourne.
+Key responsibilities of the role include:
+Software Development & Maintenance
+Develop, test, and maintain internal software tools and features.
+Integrate hardware peripherals and sensors with software systems.
+Implement workflow efficiencies and maintain high coding standards.
+Data Management & Analysis
+Support the ML data labelling platform’s infrastructure and workflows.
+Conduct data cleaning, analysis, and visualisation to support research.
+Maintain detailed records of data and findings.
+Technical Support & Troubleshooting
+Investigate and resolve technical issues across the team.
+Contribute to technical documentation and knowledge sharing.
+Research & Learning
+Experiment with new tools and technologies relevant to ML and R&D.
+Support development of ML models and exploratory data projects.
+Team Collaboration & Communication
+Collaborate effectively within the team to meet project objectives.
+Clearly communicate technical progress and insights.
+About You:
+Essential
+A Bachelor’s degree in Computer Science, Mathematics, or a relevant field - or 2+ years equivalent industry experience or open source contributions.
+Proficient in Python programming, including multiprocessing/multithreading.
+Strong problem-solving skills and a self-directed learning mindset.
+Experience working with Linux systems (e.g., Ubuntu, Debian).
+Preferred
+Knowledge of ML, statistical modelling, or signal processing.
+Familiarity with databases, networking, and infrastructure.
+Experience with microcontrollers (e.g., Arduino), reverse engineering, or Kotlin.
+Exposure to cloud platforms such as AWS, GCP, or Snowflake.
+Experience in the AgTech or red meat industry.
+Understanding of lean manufacturing and process improvement.
+What MEQ Probe Offers:
+Be a part of a fast-growing Australian company disrupting the industry with world-first technology.
+Flexible working arrangements: Work remotely
+Competitive salary package, including equity and sales commissions, commensurate with experience.
+Access to a supportive Paid Parental Leave Package and generous leave options for parents.
+Career development opportunities and professional growth.
+A safe and inclusive workplace where you can be your authentic self.
+To Apply:
+Please apply via the ‘apply’ button by submitting your resume and cover letter. For more information, contact Lawrence Au at
+lawrence@meqprobe.com
+.",https://www.seek.com.au/job/84156846
+Software Developer,Murdoch Children's Research Institute,"Parkville, Melbourne VIC","$97,000 - $116,000 per annum plus super",See Full Description,See Full Description,-,Full time,-,"will.boland@vcgs.org, recruitment@mcri.edu.au","Job description:
+Victoria Clinical Genetics Services (VCGS) are looking for a passionate and experienced
+Software Developer
+to join our Software Systems and Integration Unit. If you're excited by the opportunity to contribute to healthcare through innovative technology, this role is for you.
+As a Software Developer, you'll play a vital role in developing, maintaining, and integrating software solutions that power our clinical and laboratory systems. Collaborating with a cross-functional team—including software architects, DevOps engineers, lab staff, and bioinformaticians—you will ensure the delivery of high-quality, robust, and scalable applications and data pipelines.
+You will be a technical expert and an advocate for software development best practices, contributing to projects with both operational and strategic impact across VCGS and MCRI.
+Your responsibilities include:
+Design, develop, review, and maintain applications, APIs, data pipelines, and cloud services.
+Promote and implement software development best practices.
+Collaborate with technical and non-technical stakeholders to ensure fit-for-purpose solutions.
+Participate in sprint planning, code reviews, and continuous integration/deployment workflows.
+Provide clear, accessible system documentation and user support.
+Keep current with emerging technologies to continually improve systems and practices.
+What we need from you:
+Degree in Computer Science, Software Engineering, IT, or related discipline.
+Proficient in
+TypeScript
+or
+Python
+.
+Experience with
+RESTful/RPC APIs
+,
+SQL
+, and
+relational databases
+.
+Familiarity with
+automated testing frameworks
+(e.g., Playwright, Cypress).
+Skilled in
+Git
+,
+Linux/Bash
+, and
+cloud platforms (AWS)
+.
+Experience with
+serverless microservices architecture
+and
+Infrastructure as Code
+(e.g., Terraform, AWS CDK).
+Excellent communication skills, both verbal and written.
+For full viewing of responsibilities and requirements please refer to the
+position description.
+Any specific questions related to this position should be directed to Will Boland at
+will.boland@vcgs.org,au
+,
+What's in it for you?
+Benefit from salary packaging, including entertainment and novated leases
+Be part of a dynamic and growing tech team supporting cutting-edge genetics and genomics services.
+Contribute to impactful healthcare outcomes in a collaborative, multidisciplinary environment.
+Flexible hybrid working arrangements with strong workplace culture.
+Opportunities for professional growth and innovation.
+Who we are
+The Victorian Clinical Genetics Service (VCGS), a not-for-profit subsidiary of the Murdoch Children's Research Institute (MCRI), offers integrated genetic testing, diagnostics, and counselling globally. Our experts collaborate closely to ensure accurate interpretation of complex genetic tests. VCGS is actively involved in driving translational research, policy development, and fostering an inclusive and positive working environment that values diversity and prioritises equal opportunities for all. We are dedicated to developing our staff and creating a culture centred on respect and continuous learning.
+We are committed to the safety of children and young people and takes a zero-tolerance approach to all forms of child abuse, exploitation and harm. Child safety is prioritised in our decision-making at all levels of the Institute.
+Join Us!
+If you believe this role is a good fit for you, please apply by submitting:
+Your resume
+A cover letter addressing the selection criteria
+Ensure these documents are combined into a single PDF file.
+We welcome individuals of diverse genders, ages, ethnicities, cultural backgrounds, abilities, religions, and sexual orientations in our workplace. We actively encourage talented individuals from all walks of life to apply for our job openings. Our commitment lies in fostering a workplace that is barrier-free and inclusive, aiming to attract the most skilled candidates.
+For any questions related to the recruitment process, feel free to reach out to our Recruitment team at
+recruitment@mcri.edu.au
+. Ensure that you include the position number and job title in the subject line. Please refrain from sharing your application to this email address.
+Please note, we reserve the right to close the vacancy prior to the closing date once a sufficient number of applications have been received.
+No recruitment agencies please.
+Position Description
+Applications close: 4 July 2025
+AUS Eastern Daylight time",https://www.seek.com.au/job/84746677
+Software Engineer,Wipro Limited,Melbourne VIC,"$104,000 – $111,272 per year",See Full Description,See Full Description,-,Full time,-,-,"Roles and Responsibilities:
+Hands-on experience in Selenium/Java , TestCafe, WebDriverIO , UFT , QTP.
+Proven experience in designing and building API driven test frameworks.
+Strong hands-on experience on IntelliJ, Eclipse, Jenkins, Postman, Automation framework.
+Understanding of Automation Framework  & Automation Test Approach.
+Very strong knowledge in Application testing life cycle
+Experience working in an Agile/Scrum environment.
+Experience in using various defect-reporting and defect-tracking tools
+Experience in creating and executing automation scripts for System Test, Integration test - Progression, Regression.
+Prepare and write Test Plans and Test Scripts
+Create Test Cases based on business requirements
+Perform Regression Testing , UI Testing, API Testing and other forms of testing using automation
+Develop Automation Feasibility Matrix based on the requirements.
+Links business requirements with the Test Cases and defects
+Raise defects based on the failures in Automation Test Reports
+Providing consultation on the best suited automation testing tools
+Providing advice, guidance, and expertise in developing proposals and strategies for software design activities such as financial evaluation and costings for recommending software purchases and upgrades.
+Requirements:
+13+yrs hands- on experience.
+Strong debugging and analytical skills Work closely with developers and product teams to ensure high-quality releases.
+Expertise in developing test frameworks, the position actively contributes to maintaining the quality and reliability of software applications throughout the project lifecycle.
+Ability to identify and address potential issues or flaws in the software through comprehensive testing methodologies.
+Excellent oral and written communication
+Positions Flashed: 5",https://www.seek.com.au/job/84713011
+Full Stack Developer,Whitehorse City Council,Melbourne VIC,-,See Full Description,See Full Description,-,Full time,-,-,"At Whitehorse City Council, community is at the heart of everything we do.
+Salary $117k to $130k per annum + 11.5% Superannuation
+Full Time
+New position within our Organisational Technology Department
+At Whitehorse City Council, community is at the heart of everything we do. To stay ahead of and best respond to the evolving changes and needs of the community, the organisation is undertaking an exciting journey that will transform ways of working and will empower employees to be innovative and constantly striving towards providing excellent customer experience at all times. The five pillars of our transformation focus on:
+Excellent Customer Experience and Service Delivery
+Great Organisational Culture
+Innovation and Continuous Improvement
+Good Governance and Integrity
+Long Term Financial Sustainability
+The role:
+We are seeking a highly skilled Full Stack Developer to join our team. The ideal candidate will have expertise in both front-end and back-end technologies, with a strong understanding of software development principles, architecture, and best practices. You will be responsible for designing, developing, and maintaining scalable web applications that meet business needs
+About you:
+To be considered for this position you will have:
+Relevant tertiary qualification in Information Technology or similar. Proficiency in front-end technologies: HTML, CSS, JavaScript, and frameworks like React, Angular, or Vue.js.
+Strong back-end development experience with Node.js, Python, Java, or .NET.
+Experience with databases such as PostgreSQL, MySQL, MongoDB, or Firebase.
+Knowledge of RESTful APIs, GraphQL, and microservices architecture.
+Familiarity with cloud platforms (AWS, Azure, GCP) and containerisation.
+Experience with version control systems.
+Understanding of Agile/Scrum methodologies.
+In return, we will offer:
+The ability to make a difference -
+Working at Whitehorse City Council you contribute to making a real difference in the lives of the community and those that live, learn, work or visit Whitehorse. Every day you really will see how the work you're involved in benefits the diverse community.
+Great working conditions
+- a professional environment, friendly and supportive teams and a flexibility program that promotes employee work life balance.
+An extensive Health and Wellbeing offering
+- Employee assistance program, private health insurance benefits, health checks (skin, hearing and vaccinations), discounted gym membership and facilities (e.g. Theatre, Arts, Leisure) and an active health and wellness program (e.g. stretching, healthy eating demonstrations and health challenges.
+Career opportunities
+- engaging work and the opportunity to apply your skills and experience.
+Transformation
+- We are in a time of transformation to stay ahead of the evolving changes and needs of our community. Together, we are on an exciting journey to empower all of our employees to be innovative, and constantly strive towards continuous improvement.
+Reward & Recognition -
+extensive reward and recognition program, corporate learning offerings, study assistance and comprehensive leadership development programs.
+Further Information:
+Further information is available from Antoine Acklin on
+9262 6215
+. To apply, please submit a copy of your resume (max 5 pages) and one page statement addressing the selection criteria and what you would bring to the role by 9 June 2025.
+Come and join the transformation!
+Download the Position Description:
+Full Stack Developer
+City of Whitehorse is a culturally and linguistically diverse community. We are proud of the diversity of our workforce and recognise the strength this provides in meeting the needs of our community. We are committed to upholding a safe, inclusive and respectful workplace that values the contribution of all.
+Whitehorse City Council is committed to being a child safe organisation. We recognise our responsibilities to keep children and young people safe from harm and have established policies, procedures and training to achieve these commitments.
+ABOUT US The City of Whitehorse, located 15 kilometres east of the Melbourne CBD, is a culturally diverse community of almost 177,000 people. Whitehorse includes the suburbs of Box Hill, Burwood, Nunawading, Blackburn, Mitcham, Forest Hill and Vermont and is characterised by quiet tree-lined residential streets, an abundance of parks, gardens and natural bushland reserves, bustling shopping centres and a diverse range of arts, cultural, sports and leisure facilities.
+Whitehorse City Council provides more than 100 services and facilities across a range of areas within our community services, city development, infrastructure, corporate services and transformation directorates. Whitehorse is one of Melbourne's largest metropolitan councils with a workforce of approximately 1300 employees and aspires to foster an inclusive, vibrant, prosperous and sustainable community. Our employees help us achieve these goals!
+At Whitehorse, employee health, wellbeing and development are paramount, and we aim for everyone to become the best they can be in the workplace. Benefits of working with us include:
+A welcoming and supportive working environment
+Great opportunities for training and to build a long-term career within Whitehorse or the local government sector.
+Extensive employee health and wellbeing programs including flexible working arrangements
+Salary sacrifice options for gym / swim memberships, childcare and superannuation; and access to novated vehicle leases.
+Competitive terms and conditions of employment
+Ample onsite parking at most facilities with ready access to public transport
+Active Social Club with a calendar of events through the year",https://www.seek.com.au/job/84461177
+Software Engineer,Wipro Limited,Melbourne VIC,"$85,000 – $104,687 per year",See Full Description,See Full Description,-,Full time,-,-,"Facilitation of quality checks and inspection-based testing with establishing test strategy and test plan around current business state and future business state application workflows.
+Developing and testing software solution by understanding existing code and system using various tools like Microfocus ALM, JIRA, Confluence and PractiTest and interacting with business analysts.
+Understanding of business requirements and producing a test plan for commencement of test execution.
+Designing and developing test cases and test scenarios for identifying software and application bugs and developing defect triage techniques for prevention of potential defects.
+Developing and maintaining technical documents for the end user as well as creating personas through research and data.
+Participating in architectural and software development activities, workshop flows to understand the software requirements of the organization.
+Conducting end to end functional testing, system integration testing, regression testing, database testing.
+Conducting User Acceptance Testing for business approvals for deploying tested code to production.
+Developing and delivering test plans, test summary reports, defect coverage reports, test status updates and technical supporting documents as a part of documentation for the Software testing lifecycle using MS tools.
+No # openings : 5",https://www.seek.com.au/job/84494685
+Software Engineer II,Microsoft,Melbourne VIC,Subsidised health insurance + stock discounts,See Full Description,See Full Description,-,Full time,-,-,"Overview
+The
+Azure Core New Tech team
+is seeking engineers who are eager to help with the New Technology onboarding process: automating how new hardware is verified, managed, and delivered to Microsoft datacenters for Azure, High-Performance Computing, Office, and Edge Computing products within Microsoft. The team works at the interface of software and hardware. The team creates technology to validate, onboard and manage the hardware throughout its lifespan (from arrival to disposal), track the hardware metadata, and ensure the quality and security of hardware when it reaches Microsoft datacenters. It supports the expansion of all capacity for Microsoft services and is at the leading edge of new hardware platforms coming to the cloud. The team is focused on automating the management and tracking the process of New Technology onboarding to bring new and innovative technologies to market faster.
+In Azure Core New Tech team, your role as a
+Software Engineer (SW2)
+will be to understand requirements, create designs, and implement the features needed to enable new technologies. This opportunity will let you grow your skills in software and hardware by collaborating with various Azure teams, learning about the emerging technologies in the industry and bring change to Azure.
+The team provides a flexible working environment that enables both hands-on opportunities with hardware and hybrid work contributions.
+Microsoft’s mission is to empower every person and every organization on the planet to achieve more. As employees we come together with a growth mindset, innovate to empower others, and collaborate to realize our shared goals. Each day we build on our values of respect, integrity, and accountability to create a culture of inclusion where everyone can thrive at work and beyond.
+Sydney or Melbourne based
+Qualifications
+Required Qualifications:
+Bachelor's Degree in Computer Science or related technical field AND min 2+ years  technical engineering experience working in a professional business setting with coding in languages including, but not limited to, C, C++, C#, Java, JavaScript, or Python
+OR equivalent experience.
+Preferred Qualifications:
+Bachelor's Degree in Computer Science or related technical field AND 4+ years  technical engineering experience with coding in languages including, but not limited to, C, C++, C#, Java, JavaScript, or Python
+OR Master's Degree in Computer Science or related technical field AND 2+ years  technical engineering experience with coding in languages including, but not limited to, C, C++, C#, Java, JavaScript, or Python, OR equivalent experience.
+Knowledge of operating systems, hardware integration, and low-level computing software technologies
+Highly regarded  -Knowledge and exeperience with Operating System development, kernel module, kernel debugging, hardware driver development, new hardware qualification, network stack experience, routing table, IPv6, network packet analysis, Linux
+Other Requirements:
+Ability to meet Microsoft, customer and/or government security screening requirements are required for this role. These requirements include, but are not limited to the following specialized security screenings:
+Microsoft Cloud Background Check: This position will be required to pass the Microsoft Cloud Background Check upon hire/transfer and every two years thereafter.
+Responsibilities
+Works with appropriate stakeholders to determine user requirements for a set of features.
+Drives identification of dependencies and the development of design documents for a product, application, service, or platform.
+Creates, implements, optimizes, debugs, refactors, and reuses code to establish and improve performance and maintainability, effectiveness, and return on investment (ROI).
+Contributes to efforts to break down larger work items into smaller work items and provides estimation.
+Acts as a Designated Responsible Individual (DRI) working on-call to monitor system/product feature/service for degradation, downtime, or interruptions and gains approval to restore system/product/service for simple problems.
+Proactively seeks new knowledge and adapts to new trends, technical solutions, and patterns that will improve the availability, reliability, efficiency, observability, and performance of products while also driving consistency in monitoring and operations at scale.",https://www.seek.com.au/job/84737871
+Staff Software Engineer,Redcat Pty Ltd,"Cremorne, Melbourne VIC",-,See Full Description,See Full Description,-,Full time,-,-,"Job description
+About the Company
+The
+Redcat
+Hospitality IT Platform offers business-management software and hardware solutions that cover web and mobile applications including online ordering and loyalty systems, tightly integrated with the point of sale (POS) and back of house applications. Redcat also supports multiple integrations to enhance the offerings suite for our clients.
+We work with amazing hospitality brands like Boost Juice, Nando's, Chatime, Grill'd, Schnitz just to name a few, to provide them with a hospitality platform that provides a seamless customer experience.
+We're a company that puts culture first and are looking for people to help us continue our growth!
+Key Responsibilities
+Technology leadership
+Evangelise and help lead the product development teams to achieve continuous delivery of valuable software by delivering software with a focus on fast feedback and automation through robust engineering & delivery practices.
+Campaign technical strategy to your peers and to the senior leadership team of Redcat through your ability to take complex technical issues and propose solutions that are deliverable and ensure we are moving toward our desired state
+Produce well-designed, high-quality solutions that deliver measurable business value and meet customer needs
+Lead major architectural initiatives to improve security, governance, and infrastructure scalability & overall platform reliability
+Through your work with our product development teams, lead the design and development of scalable, high-performance systems.
+Leadership
+Working closely with product & engineering, shape our products roadmap, ensuring we are balancing delivery and platform evolution
+Bring a technical perspective to product portfolio prioritisation and planning, bridging the gap between product ideas and engineering realities
+Foster a team culture of collaboration, ownership and continuous improvement
+Mentor and coach software engineers to develop problem-solving skills, broaden and deepen technical knowledge, develop product thinking skills, and support career growth
+A natural coach and guide, sought after by peers for assistance
+Understand deeply Redcat’s business strategy and evangelise that across our product development teams
+About You
+You will have extensive experience in designing, developing, and maintaining cloud-first applications and APIs, with a focus on well-architected systems
+Proven ability to lead technical roadmaps, implement CI/CD practices, and drive platform health across engineering teams.
+Strong software engineering skills with experience in writing well-tested, secure, and readable software
+Demonstrated experience in technical leadership, including mentoring, coaching, and guiding software engineers within and across teams
+Ability to influence and negotiate with senior stakeholders, focusing on outcomes that align with overall strategy.
+Experience implementing continuous delivery, agile and lean practices
+Our Values
+Integrity - We stand for integrity
+Teamwork - Together we shine
+Customer Centric - We have the customer at the Heart
+Innovation - Be the agent of change
+Accountability - We deliver what we promise
+Why Join Us?
+To attract the best people we understand that it takes more than just a generous salary. To keep an engaged and motivated team, we also provide career growth opportunities, work flexibility, autonomy, and a high-performance culture – all to ensure that you can achieve your best – both inside and away from work.
+Benefits Include
+A day off for your birthday 🎁
+Regular social events 🎉
+Sponsored professional development 👩🏻‍💻
+A relaxed and friendly team culture 🤗",https://www.seek.com.au/job/84619447
+AI Software Developer,"Agriculture Victoria, Department of Energy, Environment and Climate Action","Bundoora, Melbourne VIC","$113,022 - $124,884 + super.",See Full Description,See Full Description,-,Full time,-,-,"This role is responsible for developing open-source artificial intelligence (AI) tools to help plant researchers and breeders quickly find the data they need to make informed decisions. As scientific advances are generating ever increasing volumes of data, new tools are needed to efficiently mine, integrate and analyse this information to support data-driven research. Agriculture Victoria Research is addressing this need by developing intuitive open-source web-based tools that allow scientists to explore and analyse complex datasets without requiring specialist skills. However, the increasing scale and complexity of data presents a significant challenge: keeping up with it. This position will apply AI techniques such as large language models and knowledge graphs to help plant breeders and researchers navigate datasets and identify information most relevant to their needs. By improving access to data, you will support data-driven research and accelerate the development of improved grain varieties for Australian growers.
+You will work in a multidisciplinary team of research scientists, data scientists and software developers to develop open-source tools that allow users to search and connect with data using plain language, without needing to understand where or how it is stored. You will contribute significantly to project delivery, both independently and as part of a team, and play a key role in communicating outputs to a wide range of stakeholders and reporting on project progress.
+You will be highly motivated, with strong interpersonal, organisational and communication skills, both verbal and written. You will work effectively in a multidisciplinary team as well as independently. You will have strong programming skills (Python, R or similar) and demonstrated experience with AI-based approaches such as large language models and knowledge graphs. You will also have experience with graph databases (e.g. Neo4j), web front-end frameworks and APIs, and a working knowledge of high-performance computing environments and code management tools such as Git. Your skills will allow you to work comfortably across the full software development pipeline, from design through to deployment and adoption.
+The position offers a unique opportunity to join a forward-thinking team that is transforming how plant scientists and breeders interact with data. The position is based at AgriBio - a state-of-the-art biosciences research centre - within the Plant Sciences branch, which includes 65+ scientists and technical staff specialising in plant genetic resources, crop genetic improvement, genomics and bioinformatics.
+Specialist/Technical Expertise/Qualifications
+Proven programming skills in Python, R or a similar language, with experience in developing AI-driven applications - particularly those using large language models and knowledge graphs.
+Demonstrated experience with graph databases (e.g. Neo4j), web front-end frameworks and API development.
+Strong time management skills and a proven ability to deliver project milestones independently and within a team setting.
+Excellent interpersonal, organisational and communication skills, with the ability to engage effectively with a broad range of stakeholders to build and maintain professional relationships.
+Desirable: A post-graduate degree in computer science, data science, artificial intelligence or a related field,
+This is a fixed term position available for a period of 3 Years. The work location for this position is AgriBio Bundoora with hybrid work arrangements available.
+To be considered for this position, applicants are encouraged to submit a resume and cover letter addressing the Key Selection Criteria outlined in the Position Description.
+Applications close at midnight on Wednesday, 11 June 2025.
+Other relevant information:
+Preferred candidates will be required to undertake pre-employment screening, including a Declaration and Consent form and a National Police Check.
+To be eligible for appointment to this role, applicants will possess corresponding work rights for the advertised employment period. Appointment to an ongoing position is only available to an Australian/New Zealand citizen or an Australian Permanent Resident.
+A Diverse, Inclusive and Flexible Workplace
+DEECA welcomes applicants from a diverse
+range of backgrounds and we focus on the essential requirements of the job and being consistent and fair in our treatment of all applicants. We also understand that a balanced life is important to our employees. Talk to us about our flexible options such as working some days from home, starting early or late, working part time, job sharing or accessing paid or unpaid leave.",https://www.seek.com.au/job/84530753
+Junior Full Stack Developer – React + Node | Education Sector | Full-Time,Key Institute,Melbourne VIC,"$70,000 – $85,000 per year",See Full Description,See Full Description,-,Full time,-,-,"At
+Key Institute
+, we’re not your average training provider. We're shaking up the online education space by combining practical support, real student outcomes, and smart digital systems. Every day, our team helps Australians gain meaningful qualifications and skills to move forward in life.
+We're growing, and we're looking for a
+Junior Full Stack Developer
+who’s ready to roll up their sleeves, contribute to real product improvements, and learn fast in a highly supportive environment.
+About the Role
+We’re looking for a junior developer with a solid foundation in
+JavaScript, React, and Node.js
+to join our internal tech team. This is a
+full-time role
+based in Australia (remote or hybrid options available).
+You’ll be working on:
+Building and refining features in our
+custom LMS
+Developing dashboards, integrations, and internal tools
+Collaborating with our CEO, developers, and product users to prioritise improvements
+Writing clean, maintainable code and learning best practices along the way
+This is an opportunity to make a real impact — your code will go live and be used by real students every week.
+Tech Stack
+Front-end:
+React
+, Tailwind, TypeScript (nice to have)
+Back-end:
+Node.js
+, Express, REST APIs
+Database: MySQL
+Dev Tools: GitHub, Trello
+About You
+You might be a recent graduate, a bootcamp grad, or self-taught — we care more about your
+attitude and ability to learn
+than formal credentials.
+We're looking for someone who:
+Has
+some hands-on experience
+(personal, university, or freelance projects)
+Can write JavaScript and work with front-end and back-end code
+Enjoys building user-facing features and solving real-world problems
+Can manage time and ask smart questions
+Wants to
+grow into a bigger role
+over time
+Understands the capability of integrating AI into your daily workflow to perform and create better code.
+What We Offer
+Full-time salary
+in the range of
+$70,000 – $85,000 + super
+(based on experience)
+Flexible work
+– Starting from our Melbourne office, with the scope to work remotely later
+The chance to make
+real-world impact
+in education and skills development
+A role where your voice matters — you’ll have direct input on product direction",https://www.seek.com.au/job/84576996
+Software Engineer - Full Stack Developer,Crystal Delta,Melbourne VIC,-,See Full Description,See Full Description,-,Full time,-,-,"The Role
+We are looking for a full stack developer with 3-4 years of commercial project experience with front and back end skills. DevOps and Automation of development workflow are key.
+Responsibilities
+Develop, Implement and Support software systems
+Maintain and improve the performance of existing software
+Clearly and regularly communicate with internal and client stakeholders
+Test and maintain software products to ensure strong functionality and ease of use
+Recommend improvements to existing software programs as necessary
+Qualifications
+3-4 years of experience in Designing and Developing Software projects
+Minimum of Bachelor’s Degree in Computer Science or similar
+Skills
+Extensive Knowledge of web technologies, such as Node JS, TypeScript, VueJS, React, Redux, HTML, CSS and other JavaScript.
+Extensive knowledge of a range of development tools and web frameworks
+Extensive experience with databases such as MySQL, MongoDB
+Extensive Object Oriented design, development, and analysis experience
+Proponent of DevOps especially Continuous Integration (CI) and Continuous Delivery (CD)
+Solid experience of Continuous Deployment primarily in AWS, plus Azure or GCP
+Good knowledge of Agile Delivery methodology
+Strong attention to detail and work in a local + remote team collaboration environment
+Benefits
+We aim to provide a rich and varied work style and keep options open for our employees. We work in teams, yet there is room for autonomy in the delivery of tasks.
+Our organisation is product focused, and there are opportunities to develop products internally. Initiative, and personal development are encouraged and rewarded.
+The Company
+CRYSTAL DELTA is a software development and technology solutions company. We focus on products and productisation. We believe small companies can do great things, and we embrace the philosophy of Extreme Ownership.",https://www.seek.com.au/job/84394778
+Software Engineer- Bubble Certified,Lightning Ventures,"Collingwood, Melbourne VIC",-,See Full Description,See Full Description,-,Full time,-,-,"About Us
+Lightning Ventures is a fast-growing digital product studio helping mission-driven organizations build high-impact software — faster and smarter.
+We work across climate, health, education, and non-profit sectors, turning complex challenges into powerful web and mobile platforms using modern tools like Bubble.io, Xano, FlutterFlow, and AI.
+We don’t just build apps — we partner with teams solving real problems and help them ship products at lightning speed.
+The Role
+We’re hiring a
+Software Engineer
+who wants to build end-to-end products with speed, creativity, and care.
+You’ll work closely with product leads, designers, and clients to bring ideas to life — using both traditional and no-code tools to deliver beautiful, scalable software in a fraction of the time.
+Responsibilities
+Develop full-stack web applications using modern tools and frameworks
+Build backend logic, API integrations, and scalable data structures
+Collaborate with cross-functional teams to deliver features fast
+Conduct QA testing, debugging, and deploy high-quality software
+Continuously optimize app performance, security, and UX
+About You
+Bachelor’s degree in Software Engineering, Computer Science, or related field
+At least 2 years of experience in software or web application development
+Strong understanding of software architecture, APIs, and databases
+Bonus points for experience with Bubble.io, Xano, FlutterFlow, or Make
+You care about building software that’s useful, elegant, and fast
+You're collaborative, curious, and love getting products out into the world
+Bubble.io Certified
+Why Join Us?
+Make a real impact working with climate, health, and purpose-led clients
+Be part of a nimble team that values speed, ownership, and outcomes
+Work in a flexible, hybrid environment with a high-trust culture
+Get exposure to next-gen tools and real-world product innovation
+Apply now to join a team redefining how modern software gets built.
+Let’s move fast and build things that matter.",https://www.seek.com.au/job/84547685

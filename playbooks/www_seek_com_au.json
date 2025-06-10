@@ -1,0 +1,31 @@
+{
+  "actions": [
+    {
+      "action": "click",
+      "selector": "input[name='resume-method'][value='upload']",
+      "field": "select resume upload"
+    },
+    {
+      "action": "upload",
+      "selector": "input[name='file'][data-field='resume']",
+      "field": "resume file",
+      "value": "[RESUME_PATH]"
+    },
+    {
+      "action": "click",
+      "selector": "input[name='coverLetter-method'][value='upload']",
+      "field": "select cover letter upload"
+    },
+    {
+      "action": "upload",
+      "selector": "input[name='file'][data-field='cover_letter']",
+      "field": "cover letter file",
+      "value": "[COVER_LETTER_PATH]"
+    },
+    {
+      "action": "click",
+      "selector": "button[data-testid='continue-button']",
+      "field": "continue button"
+    }
+  ]
+}

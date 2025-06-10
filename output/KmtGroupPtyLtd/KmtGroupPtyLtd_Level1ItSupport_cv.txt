@@ -1,0 +1,15 @@
+Dear Hiring Manager,
+
+As a Cyber Security Intern with a passion for leveraging technology to enhance operational efficiency, I am excited to apply for the Level 1 IT Support Technician position at KMT Group Pty Ltd. Your commitment to delivering outstanding service and fostering a collaborative workplace resonates with my values of continuous learning and proactive problem-solving.
+
+Here's how my qualifications align with the requirements of the role and the values of KMTech:
+
+- Developed a C-based security alert classifier with anomaly detection, reducing false positives by 25% at WE CLAN, showcasing my technical troubleshooting skills and commitment to enhancing real-time data accuracy.
+- Conducted penetration testing automation using ML-based models, aligning with AI engineering practices, demonstrating my ability to make quick decisions and troubleshoot efficiently.
+
+I am eager to bring my hands-on experience in IT support, proficiency in Microsoft technologies, and commitment to customer service to your team. My collaborative nature and dedication to meeting key performance indicators make me well-suited to thrive in your service-oriented environment.
+
+I am enthusiastic about the opportunity to contribute to KMTech's innovative solutions and high-performance culture. Thank you for considering my application.
+
+Sincerely,
+Umair Saeed

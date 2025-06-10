@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scrape Job Here</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        #status { margin-top: 15px; font-style: italic; color: #555; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; table-layout: fixed; /* Helps with wide columns */}
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; word-wrap: break-word; /* Allow long text to wrap */}
+        th { background-color: #f2f2f2; }
+        td pre { white-space: pre-wrap; /* Preserve formatting in description */ font-family: inherit; margin: 0;}
+        .error { color: red; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <h1>Scrape Job Here</h1>
+    <form id="scrapeForm">
+        <label for="jobTitle">Job Title:</label><br>
+        <input type="text" id="jobTitle" name="jobTitle" required><br><br>
+
+        <label for="location">Location:</label><br>
+        <input type="text" id="location" name="location" required><br><br>
+
+        <label for="numJobs">Number of Jobs to Scrape:</label><br>
+        <input type="number" id="numJobs" name="numJobs" value="2" required min="1"><br><br>
+
+        <input type="submit" value="Scrape Jobs">
+    </form>
+
+    <div id="status"></div>
+    <div id="csv-link"></div>
+    <div id="results"></div>
+
+    <script>
+        const scrapeForm = document.getElementById('scrapeForm');
+        const statusDiv = document.getElementById('status');
+        const csvLinkDiv = document.getElementById('csv-link');
+        const resultsDiv = document.getElementById('results');
+
+        scrapeForm.onsubmit = async function(event) {
+            event.preventDefault();
+            resultsDiv.innerHTML = ''; // Clear previous results
+            csvLinkDiv.innerHTML = ''; // Clear previous CSV link
+            statusDiv.textContent = 'Sending request...'; // Initial status
+
+            const jobTitle = document.getElementById('jobTitle').value;
+            const location = document.getElementById('location').value;
+            const numJobs = document.getElementById('numJobs').value;
+
+            if (!jobTitle || !location || !numJobs) {
+                statusDiv.textContent = 'Please fill in all fields.';
+                return;
+            }
+             if (parseInt(numJobs) < 1) {
+                 statusDiv.textContent = 'Number of jobs must be at least 1.';
+                 return;
+             }
+
+            statusDiv.textContent = `Request sent for "${jobTitle}" in "${location}" (${numJobs} jobs). Waiting for server...`;
+
+            try {
+                const url = `/scrape?jobTitle=${encodeURIComponent(jobTitle)}&location=${encodeURIComponent(location)}&numJobs=${encodeURIComponent(numJobs)}`;
+                statusDiv.textContent = 'Server received request. Starting scraping process... (This may take several minutes depending on the number of jobs)';
+
+                const response = await fetch(url);
+
+                statusDiv.textContent = 'Processing response from server...';
+
+                if (!response.ok) {
+                    let errorMsg = `HTTP error! Status: ${response.status}`;
+                    try {
+                        const errorData = await response.json();
+                        errorMsg += ` - ${errorData.error || 'Unknown server error'}`;
+                        if(errorData.details) { errorMsg += ` Details: ${errorData.details}`; }
+                    } catch (e) { errorMsg += ` - ${await response.text()}`; }
+                     throw new Error(errorMsg);
+                }
+
+                const data = await response.json();
+
+                if (data.error) { // Check for error object from Python script
+                     throw new Error(`Scraping Error: ${data.error}`);
+                }
+
+                // Handle the new response format with jobs array and csv_file
+                const jobsData = data.jobs || data; // Support both new and old format
+                const csvFile = data.csv_file;
+
+                // Display CSV file link if available
+                if (csvFile) {
+                    csvLinkDiv.innerHTML = `
+                        <div style="margin: 15px 0; padding: 10px; background-color: #e8f5e9; border-radius: 5px;">
+                            <strong>CSV Export:</strong>
+                            <a href="${csvFile}" download>Download ${csvFile}</a>
+                        </div>
+                    `;
+                }
+
+                if (Array.isArray(jobsData) && jobsData.length > 0) {
+                    statusDiv.textContent = `Scraping completed. Found details for ${jobsData.length} jobs. Displaying results...`;
+                    const table = createTable(jobsData);
+                    resultsDiv.innerHTML = table;
+                } else if (Array.isArray(jobsData) && jobsData.length === 0) {
+                    statusDiv.textContent = 'Scraping completed, but no jobs found or details could not be extracted.';
+                    resultsDiv.innerHTML = '<p>No job details found.</p>';
+                } else {
+                     console.error("Received unexpected data format:", data);
+                     throw new Error('Received unexpected data format from server.');
+                }
+
+            } catch (error) {
+                console.error('Error during fetch or processing:', error);
+                statusDiv.innerHTML = `<span class="error">Error: ${error.message}</span>`;
+                resultsDiv.innerHTML = '';
+            }
+        };
+
+        function createTable(jobsData) {
+            if (!Array.isArray(jobsData)) return '<p>Error: Invalid data for table.</p>';
+
+            const table = document.createElement('table');
+            const headerRow = table.insertRow();
+            // Define headers based on the keys in the Python details dictionary
+            const headers = [
+                "Job Title", "Company Name", "Location", "Salary/Pay Range", "Job Type", "Date Posted",
+                "Key Responsibilities", "Required Skills/Qualifications",
+                "Phone Number", "Email", "Full Job Description", "Job URL"
+            ];
+            headers.forEach(headerText => {
+                const header = document.createElement('th');
+                header.textContent = headerText;
+                headerRow.appendChild(header);
+            });
+
+            jobsData.forEach(job => {
+                const tableRow = table.insertRow();
+                // Populate cells using the keys from the Python dictionary
+                tableRow.insertCell().textContent = job["Job Title"] || '-';
+                tableRow.insertCell().textContent = job["Company Name"] || '-';
+                tableRow.insertCell().textContent = job["Location"] || '-';
+                tableRow.insertCell().textContent = job["Salary/Pay Range"] || '-';
+                tableRow.insertCell().textContent = job["Job Type"] || '-';
+                tableRow.insertCell().textContent = job["Date Posted"] || '-';
+                tableRow.insertCell().textContent = job["Key Responsibilities"] || '-';
+                tableRow.insertCell().textContent = job["Required Skills/Qualifications"] || '-';
+                tableRow.insertCell().textContent = job["Phone Number"] || '-';
+                tableRow.insertCell().textContent = job["Email"] || '-';
+                // Use <pre> for description to preserve formatting
+                const descCell = tableRow.insertCell();
+                const pre = document.createElement('pre');
+                pre.textContent = job["Full Job Description"] || '-';
+                descCell.appendChild(pre);
+                // Make URL clickable
+                const urlCell = tableRow.insertCell();
+                if (job["Job URL"] && job["Job URL"] !== '-') {
+                    const linkElement = document.createElement('a');
+                    linkElement.href = job["Job URL"];
+                    linkElement.textContent = 'View Original';
+                    linkElement.target = '_blank';
+                    urlCell.appendChild(linkElement);
+                } else {
+                    urlCell.textContent = '-';
+                }
+            });
+
+            return table.outerHTML;
+        }
+    </script>
+</body>
+</html>
