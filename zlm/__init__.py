@@ -49,7 +49,7 @@ class AutoApplyModel:
         job_details_extraction(url: str) -> dict: Extracts job details from the specified job URL.
         resume_builder(job_details: dict, user_data: dict) -> dict: Generates a resume based on job details and user data.
         cover_letter_generator(job_details: dict, user_data: dict) -> str: Generates a cover letter based on job details and user data.
-        resume_cv_pipeline(job_url: str, user_data_path: str) -> None: Runs the Auto Apply Pipeline.
+        resume_cv_pipeline(job_url: str, user_data_path: str, old_resume_path: str = None) -> None: Runs the Auto Apply Pipeline.
     """
 
     def __init__(
@@ -300,13 +300,14 @@ class AutoApplyModel:
             st.write("Error: \n\n",e)
             return resume_path, resume_details
 
-    def resume_cv_pipeline(self, job_url: str, user_data_path: str = demo_data_path):
+    def resume_cv_pipeline(self, job_url: str, user_data_path: str = demo_data_path, old_resume_path: str = None):
         """Run the Auto Apply Pipeline.
 
         Args:
             job_url (str): The URL of the job to apply for.
             user_data_path (str, optional): The path to the user profile data file.
                 Defaults to os.path.join(module_dir, "master_data','user_profile.json").
+            old_resume_path (str, optional): The path to the old resume file.
 
         Returns:
             None: The function prints the progress and results to the console.
@@ -324,6 +325,7 @@ class AutoApplyModel:
             user_data = self.user_data_extraction(user_data_path)
 
             # Extract job details
+            # TODO: Ensure job_details are dynamically extracted from job_url and not hardcoded.
             job_details, jd_path = self.job_details_extraction(url=job_url)
             # job_details = read_json("/Users/saurabh/Downloads/JobLLM_Resume_CV/Netflix/Netflix_MachineLearning_JD.json")
 
