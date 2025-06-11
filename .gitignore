@@ -1,2 +1,5 @@
 html/
 screenshots/
+output/
+*.pdf
+*.mp4
