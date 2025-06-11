@@ -3,3 +3,11 @@ screenshots/
 output/
 *.pdf
 *.mp4
+.env
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.svg
