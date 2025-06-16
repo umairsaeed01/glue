@@ -11,3 +11,4 @@ scikit-learn>=1.4.0
 fpdf>=1.7.0
 markdown-pdf>=0.0.1
 validators>=0.22.0
+docx2pdf==0.1.8

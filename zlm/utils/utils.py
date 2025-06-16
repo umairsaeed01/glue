@@ -47,20 +47,32 @@ def read_json(file_path: str):
 
 
 def job_doc_name(job_details: dict, output_dir: str = "output", type: str = ""):
+    """
+    Generate a simple filename for job documents.
+    
+    Args:
+        job_details (dict): Dictionary containing job information
+        output_dir (str): Directory to save files
+        type (str): Type of document ('jd', 'resume', 'cv')
+    
+    Returns:
+        str: Path to the generated file
+    """
+    # Clean company name
     company_name = clean_string(job_details["company_name"])
-    job_title = clean_string(job_details["job_title"])[:15]
-    doc_name = "_".join([company_name, job_title])
-    doc_dir = os.path.join(output_dir, company_name)
-    os.makedirs(doc_dir, exist_ok=True)
+    
+    # Create output directory if it doesn't exist
+    os.makedirs(output_dir, exist_ok=True)
 
+    # Generate filenames based on type
     if type == "jd":
-        return os.path.join(doc_dir, f"{doc_name}_JD.json")
+        return os.path.join(output_dir, f"{company_name}_jobdetails.json")
     elif type == "resume":
-        return os.path.join(doc_dir, f"{doc_name}_resume.json")
+        return os.path.join(output_dir, f"{company_name}_resume.pdf")
     elif type == "cv":
-        return os.path.join(doc_dir, f"{doc_name}_cv.txt")
+        return os.path.join(output_dir, f"{company_name}_coverletter.pdf")
     else:
-        return os.path.join(doc_dir, f"{doc_name}_")
+        return os.path.join(output_dir, f"{company_name}_")
 
 
 def clean_string(text: str):
