@@ -101,7 +101,7 @@ def try_click_continue(driver):
             continue
     return False
 
-def main():
+def main(job_url=None, resume_path=None, cover_letter_path=None):
     profile_path = "/Users/umairsaeed/Library/Application Support/Firefox/Profiles/4219wmga.default-release"
 
     options = FirefoxOptions()
@@ -134,7 +134,9 @@ def main():
     client = OpenAI()
 
     try:
-        job_url = "https://www.seek.com.au/job/84528630"
+        # Use provided job_url or default
+        if job_url is None:
+            job_url = "https://www.seek.com.au/job/84528630"
         debug_print(f"Opening job page: {job_url}")
         driver.get(job_url)
 
@@ -242,7 +244,7 @@ def main():
                     debug_print("Skipping cover letter upload - already completed", "INFO")
                     continue
 
-                success = execute_playbook_actions(driver, [action], RESUME_PATH, COVER_LETTER_PATH)
+                success = execute_playbook_actions(driver, [action], resume_path if resume_path else RESUME_PATH, cover_letter_path if cover_letter_path else COVER_LETTER_PATH)
                 executed_action_keys.add(f"{action['action']}|{action['selector']}|{action.get('value', '')}")
 
                 # Check if we need to dispatch to special page handler after each action

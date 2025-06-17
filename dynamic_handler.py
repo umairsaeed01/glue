@@ -13,6 +13,7 @@ from selenium.common.exceptions import (
     ElementClickInterceptedException
 )
 from openai import OpenAI
+openai.log = "debug"
 from resume_summarizer import RÉSUMÉ_SUMMARY
 
 def analyze_page_structure(driver):
@@ -411,6 +412,16 @@ Please provide answers in the specified JSON format, using zero-based indices fo
                 # Debug print before clicking
                 html = target_checkbox.get_attribute("outerHTML")
                 debug_print(f"→ Clicking checkbox at index {answer_index}:\n{html}\n")
+                
+                # log human-readable audit for each pick
+                reasoning = answer.get("reasoning", "").strip()
+                label = wrapper.find_element(
+                    By.CSS_SELECTOR,
+                    f"label[for='{target_checkbox.get_attribute('id')}']"
+                ).text.strip()
+                debug_print(f"🔹 Question: {question_text}")
+                debug_print(f"🔸 Chosen:   [{answer_index}] "{label}"")
+                debug_print(f"   Reason:   {reasoning}\n")
                 
                 # Scroll into view and click
                 driver.execute_script("arguments[0].scrollIntoView(true);", target_checkbox)
