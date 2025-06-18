@@ -9,6 +9,9 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
 from openai import OpenAI
 
+# NOTE: This file uses the OpenAI >=1.0.0 client interface. Do not use openai.ChatCompletion.create or openai.Completion.create.
+# Only use: from openai import OpenAI; client = OpenAI(...); client.chat.completions.create(...)
+
 # ------------------------------------------------------------
 # 1) PATHS & CONSTANTS
 # ------------------------------------------------------------

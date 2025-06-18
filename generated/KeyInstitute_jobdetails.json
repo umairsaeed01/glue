@@ -1,0 +1,39 @@
+{
+  "job_title": "Junior Full Stack Developer",
+  "job_purpose": "To contribute to real product improvements, learn fast in a supportive environment, and make a real impact by developing features for an online education platform.",
+  "keywords": [
+    "JavaScript",
+    "React",
+    "Node.js",
+    "LMS",
+    "dashboards",
+    "integrations",
+    "clean code",
+    "AI integration"
+  ],
+  "job_duties_and_responsibilities": [
+    "Building and refining features in the custom LMS",
+    "Developing dashboards, integrations, and internal tools",
+    "Collaborating with CEO, developers, and product users to prioritize improvements",
+    "Writing clean, maintainable code",
+    "Learning best practices",
+    "Making a real impact with code used by real students weekly"
+  ],
+  "required_qualifications": [
+    "Hands-on experience in JavaScript",
+    "Ability to work with front-end and back-end code",
+    "Experience in building user-facing features",
+    "Time management skills",
+    "Desire to grow into a bigger role over time",
+    "Understanding of AI integration in daily workflow"
+  ],
+  "preferred_qualifications": [
+    "Experience with TypeScript",
+    "Knowledge of Tailwind CSS",
+    "Experience with MySQL databases",
+    "Familiarity with Express and REST APIs",
+    "Proficiency in using GitHub and Trello"
+  ],
+  "company_name": "Key Institute",
+  "company_details": "Key Institute is revolutionizing online education by providing practical support, real student outcomes, and smart digital systems to help Australians gain meaningful qualifications and skills for personal advancement."
+}

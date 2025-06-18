@@ -14,6 +14,9 @@ load_dotenv()
 # - API limits or other service-side errors
 # It also demonstrates handling large inputs by extracting relevant information.
 
+# NOTE: This file uses the OpenAI >=1.0.0 client interface. Do not use openai.ChatCompletion.create or openai.Completion.create.
+# Only use: from openai import OpenAI; client = OpenAI(...); client.chat.completions.create(...)
+
 def interact_with_openai_llm():
     """
     Attempts to send a request to the OpenAI Chat Completions endpoint.

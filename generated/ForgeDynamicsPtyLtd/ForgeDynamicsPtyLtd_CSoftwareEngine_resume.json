@@ -1,0 +1,124 @@
+{
+  "personal": {
+    "name": "Umair Saeed",
+    "phone": "+61 - 452024050",
+    "email": "umir saed1@gmail.c om",
+    "github": "Github:// Umair",
+    "linkedin": null
+  },
+  "work_experience": [
+    {
+      "role": "AI ENGINEER | MACHINE LEARNING ENGINEER",
+      "company": "WE CLAN",
+      "location": "Melbourne, VIC",
+      "from_date": "April 2024",
+      "to_date": "July 2024",
+      "description": [
+        "Developed a C++-based anomaly detection system for security alerts, reducing false positives by 25%.",
+        "Implemented ML-based automation for penetration testing, enhancing threat detection efficiency.",
+        "Created interactive compliance metric dashboards using Power BI & Python for real-time monitoring."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "AI-POWERED DENTAL APPOINTMENT SCHEDULER",
+      "type": null,
+      "link": null,
+      "from_date": "January 2025",
+      "to_date": "January 2025",
+      "description": [
+        "Developed an NLP-driven AI voice assistant for automated dental appointment booking, integrating speech-to-text (Whisper API) & text-to-speech (Google TTS) with 92% accuracy, enhancing communication in a fast-paced environment.",
+        "Engineered a scheduling algorithm using FastAPI, PostgreSQL, and .NET, achieving 100% automation of the booking process, optimizing efficiency in appointment management.",
+        "Deployed the AI model using AWS Lambda & Docker, reducing response time by 30% and ensuring scalability, enhancing system performance for seamless appointment scheduling."
+      ]
+    },
+    {
+      "name": "AI-GENERATED NO-CODE WEBSITE",
+      "type": null,
+      "link": null,
+      "from_date": "February 2025",
+      "to_date": "February 2025",
+      "description": [
+        "Built a fully functional AI-powered website generator (www.civaroai.com) using GPT-driven code conversion and C++ for backend efficiency, streamlining website development processes.",
+        "Integrated an automated demo scheduling system via AI chatbots, reducing administrative workload by 30%, improving user experience and efficiency.",
+        "Increased website traffic by 15% through Google Search Console optimization, enhancing online visibility and user engagement."
+      ]
+    },
+    {
+      "name": "LEARNING INSIGHT REPORT",
+      "type": null,
+      "link": null,
+      "from_date": "July 2022",
+      "to_date": "July 2022",
+      "description": [
+        "Developed ML models predicting financial stability with 90% accuracy, utilizing XGBoost & Random Forest, enabling data-driven decision-making.",
+        "Designed interactive Tableau dashboards for audience engagement tracking, enhancing data visualization and analysis.",
+        "Conducted customer segmentation analysis for targeted business strategies, optimizing marketing efforts and customer satisfaction."
+      ]
+    },
+    {
+      "name": "INTERACTIVE MEDICAL DATA DASHBOARD",
+      "type": null,
+      "link": null,
+      "from_date": "October 2021",
+      "to_date": "October 2021",
+      "description": [
+        "Built real-time SQL-connected Tableau dashboards for enhanced medical data visualization, facilitating data-driven healthcare decisions.",
+        "Collected, cleaned, and analyzed large-scale patient datasets for statistical insights, improving data accuracy and decision-making.",
+        "Assisted in developing predictive models for medical research applications, contributing to advancements in healthcare technology."
+      ]
+    }
+  ],
+  "skill_section": [
+    {
+      "name": "Programming",
+      "skills": [
+        "C++",
+        "Python"
+      ]
+    },
+    {
+      "name": "Technology",
+      "skills": [
+        "AWS",
+        "Database Indexing & Optimization"
+      ]
+    },
+    {
+      "name": "Soft Skills",
+      "skills": [
+        "Problem Solving",
+        "Communication",
+        "Teamwork"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Master of Data Science",
+      "university": "DEAKIN UNIVERSITY, Melbourne, VIC",
+      "from_date": "July 2022",
+      "to_date": "July 2022",
+      "courses": [
+        "Machine Learning & Deployment",
+        "Deep Learning",
+        "NLP & AI for Cybersecurity",
+        "Analysis of Algorithms"
+      ]
+    },
+    {
+      "degree": "Bachelors of Software Engineering",
+      "university": "BAHRIA UNIVERSITY, Islamabad, VIC",
+      "from_date": "July 2018",
+      "to_date": "July 2018",
+      "courses": []
+    }
+  ],
+  "achievements": [
+    "Led the optimization of a critical C++ application, reducing latency by 30% through efficient algorithm redesign.",
+    "Collaborated with quantitative analysts to implement a new trading algorithm, resulting in a 25% increase in trading system efficiency.",
+    "Received recognition for exceptional problem-solving skills during a complex software debugging session, ensuring minimal downtime for critical systems."
+  ],
+  "keywords": "C++, low-latency applications, quantitative analysis, trading systems, data structures, algorithms, Linux development, problem-solving, communication, teamwork"
+}

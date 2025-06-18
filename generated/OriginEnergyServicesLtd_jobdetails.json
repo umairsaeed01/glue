@@ -1,0 +1,41 @@
+{
+  "job_title": "Lead Software Engineer",
+  "job_purpose": "Drive the design and delivery of key digital capabilities across platforms like MyAccount, the Mobile App, Metering, and Customer Identity.",
+  "keywords": [
+    "Java",
+    "JavaScript",
+    "Spring Boot",
+    "React",
+    "Restful APIs",
+    "GraphQL APIs",
+    "CI/CD pipelines",
+    "AWS",
+    "Git",
+    "Agile development",
+    "HCD"
+  ],
+  "job_duties_and_responsibilities": [
+    "Oversee and guide software analysis, design, and development activities, ensuring alignment with business goals and technical strategy.",
+    "Establish and enforce best practices for Quality Assurance, test automation, and test-driven development across teams.",
+    "Architect and optimize CI/CD pipelines, ensuring seamless integration and deployment of applications.",
+    "Lead collaboration to define and prioritize requirements and acceptance criteria for complex user stories.",
+    "Facilitate and drive Agile ceremonies to ensure team alignment, efficiency, and effective delivery of objectives.",
+    "Serve as a thought leader on tools, processes, and technologies, driving innovation and influencing cross-functional Guilds.",
+    "Strategically manage test environments and test data, ensuring scalability and reliability for enterprise applications.",
+    "Lead mentoring and coaching efforts, building a high-performing team and promoting a culture of continuous learning and improvement."
+  ],
+  "required_qualifications": [
+    "Proven leadership experience within a software engineering team.",
+    "Extensive and demonstrable expertise with Java & JavaScript languages, including Spring Boot, React, and related frameworks.",
+    "Proven ability to architect and deliver complex Restful or GraphQL APIs and automation for UI and API testing.",
+    "In-depth understanding of event-driven systems using tools such as SQS, RabbitMQ, or Kafka.",
+    "Comprehensive knowledge of database architecture, optimization, and SQL, with experience scaling database solutions.",
+    "Mastery in designing and managing CI/CD pipelines and deploying scalable applications on AWS.",
+    "Proficient in Git version control and leading GitHub-based collaboration at scale.",
+    "Strong leadership in Agile development, lean methodologies, and driving user-centric designs with HCD.",
+    "Exceptional communication, decision-making, and the ability to navigate and guide teams through uncertainty."
+  ],
+  "preferred_qualifications": [],
+  "company_name": "Origin Energy Services Ltd",
+  "company_details": "At Origin, being useful is more than a tagline - it\u2019s how we approach work every day. As a collective, we\u2019re a team that thrives on finding better ways, working together, and owning our impact. From powering homes to delivering award-winning internet and helping to lead Australia\u2019s energy transition."
+}

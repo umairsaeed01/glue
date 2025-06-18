@@ -1,0 +1,41 @@
+{
+  "job_title": "Software Developer - Automation Solutions",
+  "job_purpose": "Designing and developing software solutions for AGITO's automation solutions, supporting systems in the field, and contributing to the global expansion of automation technologies.",
+  "keywords": [
+    "Software Development",
+    "Automation Solutions",
+    "Data Analysis",
+    "API Development",
+    "Networking Solutions",
+    "Cyber Security",
+    "Materials Handling",
+    "Warehousing Systems",
+    "IT Systems Integration",
+    "Client Communication",
+    "Software Support",
+    "Team Collaboration"
+  ],
+  "job_duties_and_responsibilities": [
+    "Build efficient and reusable applications and services for AGITO Automation solutions",
+    "Develop data analysis and reporting functionality",
+    "Design and develop tools and dashboards for Materials Handling and Warehousing systems",
+    "Develop innovative networking and communications solutions with a focus on cyber security, scalability, and performance",
+    "Work on IT Systems integration with mechatronic/robotic systems",
+    "Participate in code reviews and server setup",
+    "Commission, install, and connect developed systems at customer sites",
+    "Communicate software and AGITO's vision to internal teams and external customers",
+    "Provide software support and maintenance including after-hours support"
+  ],
+  "required_qualifications": [
+    "Tertiary Qualification in Computer Science, IT, Software Engineering, or related discipline",
+    "Minimum 2+ years' experience in Software Development",
+    "Solid programming skills in C#, .Net, Node.js, JAVA, JavaScript, HTML5, XML, JSON, SQL, NoSQL",
+    "Experience in Linux and Windows platforms",
+    "Ability to adapt to new programming frameworks and languages",
+    "Client-focused with strong documentation skills",
+    "Practical site experience with automation systems"
+  ],
+  "preferred_qualifications": [],
+  "company_name": "AGITO",
+  "company_details": "AGITO is a multinational engineering company specializing in automation and technology solutions for logistics, distribution, production, and materials handling. The recent partnership with Hilton Food Group is driving global expansion and innovation in the automation sector."
+}

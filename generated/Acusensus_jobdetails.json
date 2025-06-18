@@ -1,0 +1,44 @@
+{
+  "job_title": "Software Engineer - Road Worker Safety (RWS)",
+  "job_purpose": "Design and build a next-gen safety platform for road workers, contributing to real-time hazard detection and protection in high-risk environments.",
+  "keywords": [
+    "Full Stack Engineer",
+    "C#",
+    "C++",
+    "Real-time technology",
+    "Road safety platform",
+    "AWS-based cloud platform",
+    "IoT",
+    "DevOps",
+    "AI & Data",
+    "Web Technologies"
+  ],
+  "job_duties_and_responsibilities": [
+    "Contribute to the design, development, and deployment of the real-time road safety platform",
+    "Build and maintain full-stack solutions using C#, C++ and modern web technologies",
+    "Integrate data from wearables, vehicles, sensors, and base stations for actionable safety insights",
+    "Help scale and automate the 'Safety-as-a-Service' cloud platform (AWS-based)",
+    "Participate in testing, including hands-on hardware integration and occasional fieldwork",
+    "Troubleshoot and resolve client-reported issues",
+    "Collaborate with other engineers in code reviews and design sessions",
+    "Support cross-functional teams including Operations and Sales",
+    "Take initiative on technical research, documentation, and non-coding tasks"
+  ],
+  "required_qualifications": [
+    "1-2+ years' experience in software engineering",
+    "Strong C# or C++ programming skills",
+    "Experience in full-stack development in collaborative team settings",
+    "Proactive mindset with a focus on system improvement",
+    "Strong communication skills and willingness to share ideas",
+    "Enthusiasm for solving real-world problems with practical tech",
+    "Hold full working rights in Australia"
+  ],
+  "preferred_qualifications": [
+    "Experience in IoT / Embedded systems",
+    "Experience in DevOps: AWS, Linux, CI/CD pipelines, Terraform, Puppet",
+    "Experience in AI & Data: Computer Vision, Machine Learning, real-time data streaming",
+    "Experience in Web Technologies: Dashboards, APIs, relational databases"
+  ],
+  "company_name": "Acusensus",
+  "company_details": "Acusensus is an ASX-listed Australian tech company focused on road safety solutions. They aim to reduce road trauma through innovative technology and have a global impact. The company values Impact, Collaboration, Integrity, and Care in its work culture."
+}

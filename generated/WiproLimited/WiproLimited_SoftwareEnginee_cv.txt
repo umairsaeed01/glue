@@ -1,0 +1,17 @@
+Dear Hiring Manager,
+
+As an AI & ML specialist with a strong foundation in NLP, deep learning, and model deployment, I am excited about the opportunity to apply for the Software Engineer position at Wipro Limited. My experience aligns closely with the requirements of designing and building API driven test frameworks, developing automation scripts, and ensuring high-quality releases in an Agile/Scrum environment.
+
+Here's how my qualifications match the job requirements and company values:
+
+- Developed a C-based security alert classifier with anomaly detection, reducing false positives by 25%, showcasing my strong debugging and analytical skills.
+- Conducted penetration testing automation using ML-based pattern recognition models, improving threat detection efficiency, demonstrating my ability to identify and address potential software issues through testing methodologies.
+
+I am adept at linking business requirements with test cases and defects, a skill that I believe will be valuable in ensuring high-quality releases at Wipro Limited. My passion for building AI-powered solutions that drive real-world impact resonates with Wipro's commitment to delivering excellence in technology services.
+
+I am eager to bring my expertise in AI model deployment, automation, and AI-powered solutions to Wipro Limited, contributing to the development of robust automation frameworks and ensuring efficient testing processes.
+
+Thank you for considering my application. I look forward to the possibility of contributing to the innovative solutions and excellence that Wipro Limited is known for.
+
+Sincerely,
+Umair Saeed

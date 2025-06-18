@@ -1,0 +1,37 @@
+{
+  "job_title": "Graduate/Junior Software Developer",
+  "job_purpose": "To learn and contribute to both frontend and backend development for the organization's platform using best practices, collaborate with the team to implement new features, gain exposure to DevOps and AWS, and work in an agile team environment.",
+  "keywords": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Object-Oriented Programming",
+    "Git",
+    "REST APIs",
+    "Vue.js",
+    "Java Spring Boot",
+    "Cloud",
+    "DevOps",
+    "AWS",
+    "Agile",
+    "CI/CD pipelines"
+  ],
+  "job_duties_and_responsibilities": [
+    "Learn and build frontend and backend development for the platform",
+    "Collaborate with Product Owner and developer to implement new features",
+    "Gain hands-on experience with CI/CD pipelines, containerization, and AWS ecosystem",
+    "Participate in sprint standups, pair programming, and issue resolution"
+  ],
+  "required_qualifications": [
+    "Solid fundamentals in HTML, CSS, and JavaScript",
+    "Strong skills in one Object-Oriented Programming language",
+    "Experience with Git and REST APIs",
+    "Eagerness to tackle new challenges and contribute in a fast-paced team environment"
+  ],
+  "preferred_qualifications": [
+    "Exposure to Vue.js or other JavaScript frameworks",
+    "Experience with Java Spring Boot, Cloud, or open-source contributions"
+  ],
+  "company_name": "Elan2",
+  "company_details": "Elan2 is a SaaS startup company offering an organization management platform to optimize workflows and daily tasks. The company values mentorship, a supportive culture, flexibility, and professional development for its employees."
+}

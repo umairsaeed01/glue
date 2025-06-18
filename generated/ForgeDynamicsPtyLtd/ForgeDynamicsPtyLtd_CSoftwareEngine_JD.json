@@ -1,0 +1,42 @@
+{
+  "job_title": "C++ Software Engineer",
+  "job_purpose": "Designing, developing, and optimizing cutting-edge software for high-performance computing solutions in financial modeling.",
+  "keywords": [
+    "C++",
+    "low-latency applications",
+    "quantitative analysis",
+    "trading systems",
+    "data structures",
+    "algorithms",
+    "Linux development",
+    "problem-solving",
+    "communication",
+    "teamwork"
+  ],
+  "job_duties_and_responsibilities": [
+    "Design, develop, and maintain high-performance, low-latency C++ applications.",
+    "Collaborate with quantitative analysts and traders to understand requirements and deliver robust solutions.",
+    "Optimize existing codebases for speed and efficiency.",
+    "Participate in code reviews, testing, and debugging to ensure high-quality software.",
+    "Contribute to the full software development life cycle, from conception to deployment.",
+    "Stay up-to-date with the latest industry trends and technologies."
+  ],
+  "required_qualifications": [
+    "Bachelor's or Master's degree in Computer Science, Software Engineering, or a related field.",
+    "Strong proficiency in C++ with a deep understanding of C++11/14/17 standards.",
+    "Experience with multi-threading, concurrency, and performance optimization.",
+    "Solid understanding of data structures and algorithms.",
+    "Familiarity with Linux development environments.",
+    "Excellent problem-solving skills and attention to detail.",
+    "Strong communication and teamwork abilities."
+  ],
+  "preferred_qualifications": [
+    "Experience in the financial industry, especially with trading systems.",
+    "Knowledge of Python for scripting and data analysis.",
+    "Familiarity with low-latency programming.",
+    "Experience with distributed systems.",
+    "Experience with agile development methodologies."
+  ],
+  "company_name": "Forge Dynamics Pty Ltd",
+  "company_details": "Forge Dynamics Pty Ltd is a leading innovator in high-performance computing solutions for financial modeling. The company is based in Sydney and offers a dynamic work environment focused on cutting-edge software development for proprietary trading systems."
+}

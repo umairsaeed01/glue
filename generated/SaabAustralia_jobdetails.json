@@ -1,0 +1,53 @@
+{
+  "job_title": "Senior Software Engineer - Naval Combat Systems",
+  "job_purpose": "To lead the specification, design, development, documentation, and testing of software components within a software team responsible for CMS functions in the Naval Combat Systems group.",
+  "keywords": [
+    "Software Engineering",
+    "CMS Functions",
+    "Software Development",
+    "Operational Systems",
+    "Technical Guidance",
+    "Java",
+    "Ada",
+    "C#",
+    "C++",
+    "Bash",
+    "Python",
+    "Go",
+    "Dockers",
+    "Jenkins",
+    "DDS",
+    "Git",
+    "Clearcase",
+    "Automated Test Frameworks",
+    "Linux",
+    "Defence Security Clearance"
+  ],
+  "job_duties_and_responsibilities": [
+    "Participate in software development and maintenance of components and simulators",
+    "Design, implement, and test software components to meet specified requirements",
+    "Provide technical guidance to junior software engineers",
+    "Contribute to software specification and documentation",
+    "Understand operational use of associated systems",
+    "Produce deliverables and internal review artefacts",
+    "Participate in software and documentation reviews"
+  ],
+  "required_qualifications": [
+    "Tertiary qualifications in software engineering, computer science, or related technical discipline",
+    "Knowledge of contemporary software development standards and best practices",
+    "Experience in writing software requirements, designing, developing, and testing software components within software intensive systems",
+    "Working knowledge of Java and/or Ada",
+    "Ability to work within a team environment",
+    "Defect resolution experience in legacy software components within software intensive systems",
+    "Australian Defence Security Clearance preferably to NV1 level or ability to obtain one"
+  ],
+  "preferred_qualifications": [
+    "Interest in large commercial and defence software intensive systems",
+    "Experience in procedural and Object-Oriented paradigms",
+    "Knowledge of additional languages such as C#, C++, Bash, Python, Go",
+    "Familiarity with tools/technologies like Dockers, Jenkins, DDS, Git, Clearcase, Automated Test Frameworks",
+    "Linux experience"
+  ],
+  "company_name": "Saab Australia",
+  "company_details": "Saab Australia specializes in defence, security, and cyber solutions, focusing on the development and integration of major defence and security systems. With over 30 years of experience, Saab Australia is known for delivering complex systems integration projects that offer advanced capabilities to address current challenges in combat, communications, security, and more."
+}

@@ -1,0 +1,50 @@
+{
+  "job_title": "Senior Software Engineer",
+  "job_purpose": "To display technical leadership, own key features in a microservices environment, and contribute to the development of top-tier sportsbook and online gaming experiences.",
+  "keywords": [
+    "event-driven architecture",
+    "performance",
+    "scalability",
+    "security",
+    "coding practices",
+    "SDLC",
+    "modular code",
+    "testable code",
+    "continuous integration",
+    "continuous delivery",
+    "DevOps",
+    "mentoring",
+    "industry trends",
+    "cloud platforms",
+    "C#",
+    "messaging systems",
+    "SQL",
+    "NoSQL",
+    "software design",
+    "testing best practices"
+  ],
+  "job_duties_and_responsibilities": [
+    "Design and implement technical solutions focusing on event-driven architecture",
+    "Contribute to understanding current and emerging technologies",
+    "Shape coding practices and processes throughout the SDLC",
+    "Design and implement efficient, intuitive, modular, and testable code",
+    "Participate in daily stand-ups, retros, and sprint planning sessions",
+    "Ensure development work conforms to standards and meets timelines",
+    "Contribute to team objectives including coding practices and CI/CD processes",
+    "Act as DevOps for planning and executing deployments",
+    "Mentor junior and mid-level developers",
+    "Stay updated on industry trends and recommend changes to practices",
+    "Work with cloud platforms, C#, messaging systems, SQL, NoSQL, and more"
+  ],
+  "required_qualifications": [
+    "3-5 years of experience building scalable, high-performance applications",
+    "3-5+ years of experience as a Senior Software Engineer",
+    "Passion for software development and modern backend architectures",
+    "Deep understanding of coding practices and software design",
+    "Experience with cloud platforms, C#, messaging systems, SQL, NoSQL",
+    "Ability to learn and adapt in a fast-paced environment"
+  ],
+  "preferred_qualifications": [],
+  "company_name": "PointsBet",
+  "company_details": "PointsBet is a leading name in the online gaming industry, delivering top-tier sportsbook and online gaming experiences to customers across Australia and Canada. The company is dedicated to innovation, responsible gaming, and crafting digital products that redefine entertainment through cutting-edge design and technology."
+}

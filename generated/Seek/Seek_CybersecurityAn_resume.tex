@@ -1,0 +1,108 @@
+%==== PACKAGES AND OTHER DOCUMENT CONFIGURATIONS  ====%
+\documentclass{resume} % Use the custom resume.cls style
+\usepackage[left=0.25in,top=0.25in,right=0.25in,bottom=0.25in]{geometry} % Document margins
+\usepackage[T1]{fontenc}
+\usepackage{xcolor}
+\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+\usepackage{fontawesome} % For GitHub and LinkedIn symbols
+\usepackage{textcomp} % For mobile phone and email symbols
+% \usepackage[colorlinks=true, linkcolor=blue, citecolor=blue, urlcolor=blue]{hyperref}
+\usepackage{xcolor}  % Required for defining custom colors
+\usepackage{hyperref}
+% Define your custom colors
+% \definecolor{myblue}{RGB}{173, 216, 246}
+% \definecolor{myblue}{RGB}{123, 176, 206}
+\definecolor{myblue}{RGB}{0, 164, 218}
+
+% Set hyperlink colors
+\hypersetup{
+    colorlinks=true,
+    linkcolor=myblue,
+    citecolor=myblue,
+    urlcolor=myblue
+}
+
+\usepackage{hyperref}
+
+%==== Headings ====%
+\name{John Doe} % Your name
+\address{
+{\faPhone} \href{tel:123{-}456{-}7890}{123{-}456{-}7890} \quad {\faEnvelope} \href{mailto:john.doe@example.com}{john.doe@example.com} \quad {\faGithub} \href{https://github.com/johndoe}{https://github.com/johndoe} \quad {\faLinkedin} \href{https://linkedin.com/in/johndoe}{https://linkedin.com/in/johndoe} }
+
+\begin{document}
+
+%===== WORK EXPERIENCE SECTION =====%
+    \begin{rSection}{Work Experience}
+                    \begin{rSubsection}
+                {Cybersecurity Analyst}{Actual Start Date - Actual End Date}
+                                    {\normalfont{\textit{Previous Company from Resume}}}
+                                {\normalfont{\textit{Actual Location from Resume}}}
+                                    \item Monitored and analyzed security incidents to protect against potential threats, enhancing threat intelligence capabilities.
+                                    \item Implemented and maintained security measures to safeguard company systems, reducing vulnerability exposure by 30\%.
+                                    \item Collaborated with cross{-}functional teams to enhance security protocols, resulting in a 20\% improvement in incident response time.
+                            \end{rSubsection}
+            \end{rSection}
+
+%==== EDUCATION SECTION ====%
+\begin{rSection}{Education}
+                        \textbf{XYZ University} \hfill {Aug 2017 - May 2021} \\
+                            {Bachelor of Science in Computer Science}
+                         
+             
+         
+    \end{rSection}
+
+% ==== PROJECTS SECTION =====%
+    \begin{rSection}{Projects}
+                    \begin{rSubsection}
+                                    {\href{https://github.com/secure\_network\_project}{Secure Network Infrastructure Enhancement}}
+                                {\normalfont{2018{-}06{-}01 - 2020{-}01{-}15}}{}{}
+                                    \item Enhanced network security protocols to mitigate potential threats
+                                    \item Implemented intrusion detection systems to monitor network traffic
+                                    \item Reduced response time to security incidents by 40\% through automation
+                            \end{rSubsection}
+                    \begin{rSubsection}
+                                    {\href{https://github.com/threat\_intel\_project}{Threat Intelligence Platform Development}}
+                                {\normalfont{2019{-}03{-}10 - 2021{-}05{-}20}}{}{}
+                                    \item Developed a threat intelligence platform to proactively identify cyber threats
+                                    \item Integrated threat feeds to enhance real{-}time threat detection capabilities
+                                    \item Improved incident response time by 50\% by providing actionable threat intelligence
+                            \end{rSubsection}
+                    \begin{rSubsection}
+                                    {\href{https://github.com/vulnerability\_tool\_project}{Vulnerability Assessment Automation Tool}}
+                                {\normalfont{2020{-}09{-}05 - 2022{-}03{-}12}}{}{}
+                                    \item Automated vulnerability assessments to streamline security audits
+                                    \item Identified and remediated critical vulnerabilities, reducing exposure by 60\%
+                                    \item Enhanced vulnerability management processes, resulting in 30\% faster patching
+                            \end{rSubsection}
+            \end{rSection}
+
+%==== TECHNICAL STRENGTHS SECTION ====%
+    \begin{rSection}{Technical Skills}
+        \begin{tabular}{ @{} l @{\hspace{1ex}} l }
+                                \textbf{Cybersecurity Skills}: Incident Response, Security Operations, Threat Intelligence, Vulnerability Management, Security Assessments, Security Audits, Security Incident Analysis, Cross{-}functional Collaboration, Cybersecurity Trends Awareness\\
+                                \textbf{Technical Skills}: Network Security, Data Protection, Cloud Security, Regulatory Compliance Standards, Problem{-}solving, Analytical Skills, Communication Skills, Teamwork Abilities\\
+                        \textbf{Certifications:} 
+                                            \href{https://www.isc2.org/Certifications/CISSP}{\textbf{Certified Information Systems Security Professional (CISSP)}},\\
+                                            \href{https://www.eccouncil.org/programs/certified{-}ethical{-}hacker{-}ceh/}{\textbf{Certified Ethical Hacker (CEH)}},\\
+                                 
+        \end{tabular}
+    \end{rSection}
+ 
+
+% ACHIEVEMENTS SECTION
+    \begin{rSection}{Achievements}
+        \begin{rSubsection}{}{}{}
+                            \item Led the implementation of a comprehensive incident response plan, reducing response time by 40\%.
+                            \item Received recognition for identifying and mitigating a critical security vulnerability, preventing a potential data breach.
+                            \item Successfully conducted security assessments resulting in the enhancement of company{-}wide security protocols.
+                            \item Collaborated with cross{-}functional teams to develop and implement a threat intelligence program, improving proactive threat detection.
+                            \item Stayed updated on the latest cybersecurity trends and threats through continuous learning and professional development.
+                    \end{rSubsection}
+    \end{rSection}
+
+\newcommand\myfontsize{\fontsize{0.1pt}{0.1pt}\selectfont} \myfontsize \color{white}
+Cybersecurity, Incident Response, Security Operations, Threat Intelligence, Vulnerability Management, Cybersecurity, Incident Response, Security Operations, Threat Intelligence, Vulnerability Management, {artificial intelligence engineer, azure cognitive services exp, azure services, core azure services, azure cognitive and generative ai, genai, aws,  gcp, java, clean, efficient, maintainable code, react, front end, back end, ai solutions, data analysis, pretrained models, automl, software development principles, version control, testing, continuous integration and deployment, python, javascript, prompt engieering, frontend, backend, html, css, api, angular, development, machine learning, artificial intelligence, deep learning, data warehouse, data modeling, data extraction, data transformation, data loading, sql, etl, data quality, data governance, data privacy, data visualization, data controls, privacy, security, compliance, sla, aws, terabyte to petabyte scale data, full stack software development, cloud, security engineering, security architecture, ai/ml engineering, technical product management, microsoft office, google suite, visualization tools, scripting, coding, programming languages, analytical skills, collaboration, leadership, communication, presentation skills, computer vision, senior, ms or ph.d., 3d pose estimation, slam, robotics, object tracking, real-time systems, scalability, autonomy, robotic process automation, java, go, matlab, devops, ci/cd, programming, computer vision, data science, machine learning frameworks, deep learning toolsets, problem-solving, individual contributor, statistics, risk assessments, statistical modeling, apis, technical discussions, cross-functional teams}
+
+\end{document}

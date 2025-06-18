@@ -1,0 +1,52 @@
+{
+  "job_title": "Senior C++ Developer - Defence Sector",
+  "job_purpose": "Design, develop, and optimize high-performance telemetry-analytics solutions for mission-critical Defence systems.",
+  "keywords": [
+    "C++ development",
+    "low-latency algorithms",
+    "high-throughput networking",
+    "time-series relational databases",
+    "Windows desktop applications",
+    "multithreading",
+    "real-time systems",
+    "object-oriented design",
+    "AGSVA security clearance",
+    "CMake",
+    "Ninja build systems",
+    "Linux cross-compilation",
+    "data science",
+    "machine learning",
+    "code optimization",
+    "UI integration",
+    "parallel computing",
+    "Agile software development"
+  ],
+  "job_duties_and_responsibilities": [
+    "Design, develop, and optimize C++ modules for data ingestion, processing, and analytics",
+    "Implement high-performance, low-latency, scalable data processing pipelines and networking architectures",
+    "Build and maintain test suites, continuous integration pipelines, and conduct code reviews",
+    "Contribute to architectural decisions in a small, cross-functional team",
+    "Mentor junior and mid-level engineers"
+  ],
+  "required_qualifications": [
+    "Bachelor\u2019s degree in Engineering or Computer Science",
+    "10+ years of low-latency, high-performance desktop C++ development",
+    "Strong mastery of modern C++ (C++20+) and the STL",
+    "Experience with Windows desktop applications using Visual Studio",
+    "Solid understanding of multithreading, IPC, and real-time systems",
+    "Sound knowledge of object-oriented design principles",
+    "Baseline AGSVA security clearance required",
+    "Experience in Agile software development"
+  ],
+  "preferred_qualifications": [
+    "Experience with CMake and Ninja build systems",
+    "Experience in cross-compilation for Linux targets",
+    "Experience in data science and/or machine learning",
+    "Experience in refactoring and optimizing existing code",
+    "Experience in front-end UI integration in C++",
+    "Experience with parallel/GPU compute and 3D engine platforms",
+    "Experience in Agile software development and tooling"
+  ],
+  "company_name": "Telemetry-Analytics Solutions Pty Ltd",
+  "company_details": "A small, Australian-owned company specializing in delivering cutting-edge telemetry-analytics solutions for the Defence sector. The company values speed, modern C++ development, and offers flexible work arrangements either fully remote or from the Sydney office."
+}

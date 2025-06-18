@@ -1,0 +1,42 @@
+{
+  "job_title": "Software Engineer at DataMesh Group",
+  "job_purpose": "Join a dynamic engineering team to develop enterprise-grade software, foster team collaboration, mentor peers, and deliver impactful results aligned with business objectives.",
+  "keywords": [
+    "Computer Science",
+    "Algorithms",
+    "Application Design",
+    "AWS",
+    "Azure",
+    "Cloud-Native Development",
+    "RESTful APIs",
+    "MERN Stack",
+    "Golang",
+    "Kubernetes",
+    "Docker"
+  ],
+  "job_duties_and_responsibilities": [
+    "Produce quality code to raise the bar for the team on quality and speed",
+    "Interpret business requirements and ensure technical requirements are met",
+    "Estimate complexity of implementation tasks",
+    "Write code, unit tests, build prototypes, solve issues, profile, and analyze bottlenecks",
+    "Design performant, robust APIs",
+    "Manage and optimize scalable distributed systems on the cloud",
+    "Optimize applications for performance and scalability",
+    "Develop automated tests for regression testing",
+    "Communicate with stakeholders, project managers, QA teams, and developers on technology roadmap progress",
+    "Create and maintain workflows for consistent visual designs"
+  ],
+  "required_qualifications": [
+    "Degree in Computer Science or equivalent experience",
+    "Strong foundations in computer science, algorithms, and application design",
+    "Experience building secure, high-performance applications",
+    "Proficiency with AWS or Azure and cloud-native development",
+    "Expertise in designing RESTful APIs and developing with the MERN stack",
+    "Experience with Golang, Kubernetes, and Docker",
+    "Collaborative mindset with ability to work independently on mission-critical projects",
+    "Curiosity, growth mindset, and ability to challenge the status quo"
+  ],
+  "preferred_qualifications": [],
+  "company_name": "DataMesh Group",
+  "company_details": "DataMesh Group is revolutionizing payment systems for merchants and retailers, offering integrated payment capabilities and valuable customer insights through bespoke solutions. The company is in a growth phase, providing opportunities for impactful changes and career acceleration."
+}

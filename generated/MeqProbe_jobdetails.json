@@ -1,0 +1,47 @@
+{
+  "job_title": "Junior Software Developer - Machine Learning and Research & Development",
+  "job_purpose": "Supporting internal software tools, integrating hardware, managing data workflows, and contributing to data-driven research projects in a fast-paced, innovation-led environment.",
+  "keywords": [
+    "Python programming",
+    "Linux systems",
+    "ML",
+    "statistical modelling",
+    "signal processing",
+    "microcontrollers",
+    "cloud platforms",
+    "AgTech",
+    "red meat industry",
+    "lean manufacturing",
+    "process improvement"
+  ],
+  "job_duties_and_responsibilities": [
+    "Develop, test, and maintain internal software tools and features.",
+    "Integrate hardware peripherals and sensors with software systems.",
+    "Implement workflow efficiencies and maintain high coding standards.",
+    "Support the ML data labelling platform\u2019s infrastructure and workflows.",
+    "Conduct data cleaning, analysis, and visualization to support research.",
+    "Maintain detailed records of data and findings.",
+    "Investigate and resolve technical issues across the team.",
+    "Contribute to technical documentation and knowledge sharing.",
+    "Experiment with new tools and technologies relevant to ML and R&D.",
+    "Support development of ML models and exploratory data projects.",
+    "Collaborate effectively within the team to meet project objectives.",
+    "Clearly communicate technical progress and insights."
+  ],
+  "required_qualifications": [
+    "A Bachelor\u2019s degree in Computer Science, Mathematics, or a relevant field - or 2+ years equivalent industry experience or open source contributions.",
+    "Proficient in Python programming, including multiprocessing/multithreading.",
+    "Strong problem-solving skills and a self-directed learning mindset.",
+    "Experience working with Linux systems (e.g., Ubuntu, Debian)."
+  ],
+  "preferred_qualifications": [
+    "Knowledge of ML, statistical modelling, or signal processing.",
+    "Familiarity with databases, networking, and infrastructure.",
+    "Experience with microcontrollers (e.g., Arduino), reverse engineering, or Kotlin.",
+    "Exposure to cloud platforms such as AWS, GCP, or Snowflake.",
+    "Experience in the AgTech or red meat industry.",
+    "Understanding of lean manufacturing and process improvement."
+  ],
+  "company_name": "MEQ Probe",
+  "company_details": "Revolutionizing the red meat industry with innovative technical solutions focused on live cattle and carcass evaluation in the Sheep and Beef sectors. Building a more sustainable future for businesses and consumers."
+}

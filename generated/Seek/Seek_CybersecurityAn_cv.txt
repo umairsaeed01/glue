@@ -1,0 +1,23 @@
+Dear Hiring Manager,
+
+As a dedicated Cybersecurity Analyst with a passion for safeguarding digital assets and ensuring a secure online environment, I am excited about the opportunity to contribute to SEEK's commitment to innovation and integrity.
+
+My experience aligns closely with the requirements outlined for the position at SEEK:
+
+- Proven track record in monitoring and analyzing security incidents to proactively protect against potential threats.
+- Implementation of robust security measures to fortify company systems against cyber risks.
+- Conducting regular security assessments and audits to maintain a secure environment.
+- Swift and effective response to security breaches, providing incident response support to mitigate risks promptly.
+- Collaboration with cross-functional teams to enhance security protocols and ensure comprehensive protection.
+- Continuous learning and staying updated on the latest cybersecurity trends and threats to adapt security strategies accordingly.
+
+My background includes a Bachelor's degree in Computer Science, along with over 2 years of hands-on experience in cybersecurity roles. I possess a strong foundation in security operations, incident response, threat intelligence, and vulnerability management.
+
+One notable achievement includes leading a cybersecurity incident response team to successfully mitigate a sophisticated cyber attack, minimizing potential data exposure and ensuring business continuity.
+
+I am eager to bring my expertise in cybersecurity, problem-solving skills, and effective communication abilities to the dynamic environment at SEEK. I am confident in my ability to contribute to SEEK's mission of creating a safe and inclusive work environment through robust cybersecurity practices.
+
+Thank you for considering my application. I look forward to the possibility of discussing how my skills and experiences align with SEEK's cybersecurity objectives.
+
+Sincerely,
+John Doe

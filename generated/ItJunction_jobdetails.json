@@ -1,0 +1,47 @@
+{
+  "job_title": "Software Engineer at IT Junction",
+  "job_purpose": "To design, develop, and maintain secure software solutions and integrations for cybersecurity products, collaborate with product vendors, and contribute to the technical evaluation of new cybersecurity technologies.",
+  "keywords": [
+    "Software Engineer",
+    "Cybersecurity",
+    "Python",
+    "Java",
+    "Go",
+    "Cloud Platforms",
+    "AWS",
+    "Azure",
+    "GCP",
+    "Containerized Environments",
+    "Docker",
+    "Kubernetes",
+    "SIEM",
+    "IDS/IPS",
+    "Endpoint Security",
+    "Penetration Testing",
+    "Problem-Solving",
+    "Communication Skills",
+    "Teamwork"
+  ],
+  "job_duties_and_responsibilities": [
+    "Design, develop, and maintain secure software solutions and integrations for cybersecurity products.",
+    "Collaborate with product vendors and internal stakeholders to implement and customize automated penetration testing, threat detection, and security monitoring solutions.",
+    "Build and maintain APIs, dashboards, and tools for both internal use and client delivery.",
+    "Support deployment, testing (including automated testing), and monitoring of applications in cloud and hybrid environments.",
+    "Contribute to the technical evaluation of new cybersecurity technologies and POCs."
+  ],
+  "required_qualifications": [
+    "Bachelor\u2019s or master\u2019s degree in computer science, Software Engineering, or related field.",
+    "3+ years of experience in software development (Python, Java, Go, or similar languages).",
+    "Experience with cloud platforms (AWS, Azure, GCP) and containerized environments (Docker, Kubernetes).",
+    "Familiarity with cybersecurity concepts and tools (SIEM, IDS/IPS, endpoint security, penetration testing).",
+    "Strong problem-solving skills and ability to work independently in a fast-paced environment.",
+    "Excellent communication and teamwork skills."
+  ],
+  "preferred_qualifications": [
+    "Exposure to AI/ML or deep learning projects.",
+    "Experience integrating third-party security solutions or working with security APIs.",
+    "Previous work with cybersecurity frameworks (NIST, MITRE ATT&CK, ISO 27001)."
+  ],
+  "company_name": "IT Junction",
+  "company_details": "IT Junction is a cutting-edge technology platform empowering businesses with innovations in AI, Deep Learning, and Cybersecurity. They are the Master MSP/MSSP Aggregator for Deep Instinct and the exclusive distributor for Ridge Security in Australia, offering world-class solutions like RidgeBot and RidgeShield. IT Junction works closely with customers to deliver secure, competitive, and future-ready solutions."
+}

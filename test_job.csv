@@ -1,0 +1,22 @@
+job_id,title,company,location,url,description,email,phone,salary,resume_filename,coverletter_filename
+1,Software Engineer,Test Company,Sydney,https://example.com/job1,"We are looking for a Software Engineer to join our team. The ideal candidate should have:
+- 3+ years of experience in software development
+- Strong knowledge of Python and JavaScript
+- Experience with web frameworks like Django and React
+- Good understanding of databases and SQL
+- Excellent problem-solving skills
+- Bachelor's degree in Computer Science or related field
+
+Responsibilities:
+- Develop and maintain web applications
+- Write clean, maintainable, and efficient code
+- Collaborate with cross-functional teams
+- Participate in code reviews
+- Debug and fix issues in production
+
+Benefits:
+- Competitive salary
+- Flexible working hours
+- Remote work options
+- Health insurance
+- Professional development opportunities",careers@testcompany.com,02-1234-5678,"$100,000 - $120,000 per annum ",,

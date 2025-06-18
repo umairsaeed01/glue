@@ -1,0 +1,40 @@
+{
+  "job_title": "AI Tools Developer for Plant Researchers and Breeders",
+  "job_purpose": "Develop open-source AI tools to assist plant researchers and breeders in efficiently accessing and analyzing large datasets for data-driven research and improved grain varieties development.",
+  "keywords": [
+    "Python",
+    "R",
+    "AI-driven applications",
+    "Large language models",
+    "Knowledge graphs",
+    "Graph databases",
+    "Web front-end frameworks",
+    "API development",
+    "High-performance computing environments",
+    "Git",
+    "Data-driven research",
+    "Plant science",
+    "Agriculture",
+    "Artificial intelligence"
+  ],
+  "job_duties_and_responsibilities": [
+    "Develop open-source AI tools for plant researchers and breeders to navigate and extract relevant information from complex datasets",
+    "Collaborate with a multidisciplinary team to create intuitive web-based tools for data exploration and analysis",
+    "Contribute significantly to project delivery independently and as part of a team",
+    "Communicate project outputs to various stakeholders and report on project progress",
+    "Utilize AI techniques such as large language models and knowledge graphs to enhance data accessibility for researchers"
+  ],
+  "required_qualifications": [
+    "Proven programming skills in Python, R, or similar languages",
+    "Experience in developing AI-driven applications using large language models and knowledge graphs",
+    "Demonstrated experience with graph databases (e.g., Neo4j), web front-end frameworks, and API development",
+    "Strong time management skills and ability to deliver project milestones independently and within a team setting",
+    "Excellent interpersonal, organizational, and communication skills",
+    "Ability to engage effectively with stakeholders and build professional relationships"
+  ],
+  "preferred_qualifications": [
+    "Post-graduate degree in computer science, data science, artificial intelligence, or related field"
+  ],
+  "company_name": "Agriculture Victoria Research",
+  "company_details": "Agriculture Victoria Research is dedicated to developing innovative solutions for plant scientists and breeders by creating open-source tools that facilitate data-driven research and accelerate the development of improved grain varieties. The organization operates within AgriBio, a cutting-edge biosciences research center, fostering collaboration among scientists and technical staff specializing in plant genetic resources, crop genetic improvement, genomics, and bioinformatics."
+}

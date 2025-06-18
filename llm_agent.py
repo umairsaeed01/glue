@@ -13,6 +13,9 @@ load_dotenv()
 # The OpenAI client will automatically look for the OPENAI_API_KEY environment variable
 # We will pass the client instance to the functions that need it.
 
+# NOTE: This file uses the OpenAI >=1.0.0 client interface. Do not use openai.ChatCompletion.create or openai.Completion.create.
+# Only use: from openai import OpenAI; client = OpenAI(...); client.chat.completions.create(...)
+
 # MODEL_NAME = "gpt-3.5-turbo" # Or another suitable OpenAI model
 # MAX_CHARS_SINGLE = 15000 # Keep this if needed for context splitting, but OpenAI handles larger contexts
 

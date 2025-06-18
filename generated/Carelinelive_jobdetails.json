@@ -1,0 +1,51 @@
+{
+  "job_title": "Backend Developer",
+  "job_purpose": "Architect the foundation of the aged care platform's Australian expansion by building robust APIs and scalable systems for critical care coordination tools.",
+  "keywords": [
+    "Backend Developer",
+    "RESTful APIs",
+    "Laravel",
+    "PHP",
+    "Australian aged care",
+    "Database schemas",
+    "Healthcare systems integration",
+    "Infrastructure decisions",
+    "Automated testing",
+    "Full-stack development",
+    "OOP",
+    "MVC architecture",
+    "API design",
+    "Database design",
+    "Remote work",
+    "Collaborative approach",
+    "Quality focused",
+    "Impact-driven"
+  ],
+  "job_duties_and_responsibilities": [
+    "Architect and develop RESTful APIs using Laravel and PHP for the care management platform.",
+    "Collaborate with the UK development team to adapt and localize platform features for Australian aged care requirements.",
+    "Design database schemas and optimize queries for growing data volumes.",
+    "Build integrations with healthcare systems and third-party services.",
+    "Ensure platform security, reliability, and compliance with local requirements.",
+    "Contribute to infrastructure decisions and deployment strategies.",
+    "Establish coding standards and automated testing practices.",
+    "Partner with frontend developers to deliver cohesive full-stack features.",
+    "Work closely with Engineering Manager and Product Manager to translate user needs into technical solutions.",
+    "Share expertise and elevate the team's backend capabilities."
+  ],
+  "required_qualifications": [
+    "Mid to senior-level developer with 3+ years of commercial experience.",
+    "Strong OOP skills and modular, reusable code writing.",
+    "Solid MVC experience with Model-View-Controller architecture.",
+    "Proven backend development skills with Laravel expertise or similar frameworks.",
+    "API design knowledge including authentication, versioning, and documentation.",
+    "Database design expertise (MySQL/PostgreSQL) with performance tuning skills.",
+    "Remote work ready with excellent written communication skills.",
+    "Collaborative approach and enjoyment of working with distributed teams.",
+    "Quality focused with a passion for writing clean, maintainable, and well-tested code.",
+    "Motivated by impact and eager to develop solutions for older adults and caregivers."
+  ],
+  "preferred_qualifications": [],
+  "company_name": "CareLineLive",
+  "company_details": "CareLineLive, launched in 2018 by Josh Hough, serves 650 customers in seven countries, producing revenues of over \u00a33.5m with over 40 staff. The company helps 20,000 carers deliver better care and assists home care companies in improving their operations and regulatory compliance."
+}

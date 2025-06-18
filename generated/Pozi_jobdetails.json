@@ -1,0 +1,57 @@
+{
+  "job_title": "Software Engineer - Front End Development",
+  "job_purpose": "To drive the continued success of Pozi's GIS platform through innovative front end development, clean code, and user-centric solutions.",
+  "keywords": [
+    "Javascript/Typescript",
+    "HTML",
+    "CSS",
+    "React",
+    "NodeJS",
+    "RESTful APIs",
+    "Git/Github",
+    "Mapping frameworks",
+    "Geospatial web services",
+    "Linux",
+    "Bash",
+    "PHP CodeIgniter",
+    "Laravel",
+    "Python Django",
+    "Ruby on Rails",
+    "Testing methodologies",
+    "Continuous Integration",
+    "Continuous Delivery",
+    "Legacy code maintenance",
+    "Agile",
+    "Scrum",
+    "Authorisation",
+    "Authentication",
+    "Observability Tools",
+    "Microsoft Azure",
+    "Amazon Web Services"
+  ],
+  "job_duties_and_responsibilities": [
+    "Develop and maintain in house software and web applications",
+    "Build user interfaces for simplifying complex information",
+    "Monitor frameworks for error detection",
+    "Provide advice and resolutions for complex issues"
+  ],
+  "required_qualifications": [
+    "Tertiary degree in Computer Science or Software Engineering",
+    "Minimum 5 years technical proficiency and experience",
+    "Strong communication and interpersonal skills",
+    "Ability to work well under pressure",
+    "Focus on exceptional service"
+  ],
+  "preferred_qualifications": [
+    "Experience with mapping frameworks like OpenLayers, Mapbox, or Leaflet",
+    "Experience with Geospatial web services and OGC web services",
+    "Familiarity with Linux, Bash",
+    "Previous experience with PHP CodeIgniter, Laravel, Python Django, Ruby on Rails",
+    "Knowledge of testing methodologies and CI/CD processes",
+    "Willingness to work on legacy code",
+    "Experience with Agile, Scrum, Authorisation, Authentication, and Observability Tools",
+    "Knowledge of Microsoft Azure and Amazon Web Services"
+  ],
+  "company_name": "Pozi",
+  "company_details": "Pozi is a web-based Geographic Information System (GIS) software company that aggregates data from various sources into a user-friendly mapping platform, enabling organizations to make data-driven decisions."
+}

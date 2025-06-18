@@ -1,0 +1,49 @@
+{
+  "job_title": "Software Engineer at Wipro Limited",
+  "job_purpose": "To design and build API driven test frameworks, develop automation scripts, and ensure high-quality releases in an Agile/Scrum environment.",
+  "keywords": [
+    "Selenium",
+    "Java",
+    "TestCafe",
+    "WebDriverIO",
+    "UFT",
+    "QTP",
+    "IntelliJ",
+    "Eclipse",
+    "Jenkins",
+    "Postman",
+    "Automation framework",
+    "Agile/Scrum",
+    "Application testing life cycle",
+    "Regression Testing",
+    "UI Testing",
+    "API Testing",
+    "Automation Feasibility Matrix",
+    "Defect-reporting",
+    "Defect-tracking",
+    "Test Plans",
+    "Test Scripts"
+  ],
+  "job_duties_and_responsibilities": [
+    "Design and build API driven test frameworks",
+    "Create and execute automation scripts for System Test, Integration test, Progression, Regression",
+    "Prepare and write Test Plans and Test Scripts",
+    "Perform Regression Testing, UI Testing, API Testing using automation",
+    "Develop Automation Feasibility Matrix based on requirements",
+    "Link business requirements with Test Cases and defects",
+    "Raise defects based on failures in Automation Test Reports",
+    "Provide consultation on automation testing tools",
+    "Provide advice on software design activities",
+    "Work closely with developers and product teams to ensure high-quality releases"
+  ],
+  "required_qualifications": [
+    "13+ years hands-on experience",
+    "Strong debugging and analytical skills",
+    "Expertise in developing test frameworks",
+    "Ability to identify and address potential software issues through testing methodologies",
+    "Excellent oral and written communication skills"
+  ],
+  "preferred_qualifications": [],
+  "company_name": "Wipro Limited",
+  "company_details": "Wipro Limited is a global information technology, consulting, and business process services company. They are known for their innovative solutions and commitment to delivering excellence in technology services."
+}

@@ -1,0 +1,33 @@
+{
+  "job_title": "Senior Software Engineer",
+  "job_purpose": "Design, develop, and maintain large scale software applications across multiple technology stacks while working closely with team members to deliver high-quality solutions.",
+  "keywords": [
+    "Senior Software Developers",
+    "Java",
+    "Python",
+    "PHP",
+    "Angular",
+    "React",
+    "AWS services",
+    "Serverless architecture",
+    "Microservices architecture",
+    "CI/CD pipelines",
+    "Git"
+  ],
+  "job_duties_and_responsibilities": [
+    "Write high-quality code as individual contributors",
+    "Design, develop, and maintain large scale software applications across multiple technology stacks",
+    "Work closely with team members to deliver high-quality solutions",
+    "Expand technical expertise in cloud, frontend, and backend technologies"
+  ],
+  "required_qualifications": [
+    "Extensive experience with Java, Python, or PHP",
+    "Experience with frontend frameworks such as Angular or React",
+    "Solid experience with AWS services related to serverless architecture",
+    "Strong understanding of microservices architecture and cloud-based solutions",
+    "Familiarity with CI/CD pipelines and version control (e.g., Git)"
+  ],
+  "preferred_qualifications": [],
+  "company_name": "Australian Tech Company",
+  "company_details": "A SaaS company providing cloud-based software solutions to help businesses run more smoothly and work more intelligently. Trusted by thousands of users globally, passionate about building smart, user-friendly solutions."
+}

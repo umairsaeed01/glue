@@ -1,0 +1,38 @@
+{
+  "job_title": "Senior Software Engineer | Backend .Net",
+  "job_purpose": "To take defined designs and turn them into code, applying appropriate technologies and current software engineering best practices. Write secure, stable, testable, and maintainable code with minimal defects. Participate in team design, scoping, and prioritization discussions.",
+  "keywords": [
+    ".Net",
+    "AWS",
+    "Microservices architecture",
+    "Event Driven Architecture",
+    "CI/CD",
+    "High-Availability Systems",
+    "Event-driven architecture",
+    "Messaging",
+    "Event bus platforms",
+    "GitHub Actions",
+    "Octopus",
+    "Jenkins",
+    "AWS certification"
+  ],
+  "job_duties_and_responsibilities": [
+    "Take defined designs and turn them into code",
+    "Apply appropriate technologies and current software engineering best practices",
+    "Write secure, stable, testable, and maintainable code with minimal defects",
+    "Participate in team design, scoping, and prioritization discussions"
+  ],
+  "required_qualifications": [
+    "Strong experience across .Net (8-10+ years)",
+    "Strong AWS experience",
+    "Hands-on experience designing, development, and building microservices architecture",
+    "Unit and integration testing",
+    "Expertise across High-Availability Systems",
+    "Event-driven architecture, messaging, and event bus platforms (e.g. Kafka, RabbitMQ)",
+    "CI/CD - Continuous Delivery (GitHub Actions, Octopus, Jenkins or similar)",
+    "Building scalable and self-healing infrastructure in cloud (AWS certification will be preferred)"
+  ],
+  "preferred_qualifications": [],
+  "company_name": "Confidential",
+  "company_details": "Our client uses a Tech First approach, always putting the customer first and continuously innovating their products to stay competitive. They drive innovation, value others' efforts, ideas, and expertise. The team is passionate about learning and continually developing themselves, working hard while maintaining a strong work/life balance with a great team and culture. This client is often the preferred choice of employers for Senior Software Engineers."
+}

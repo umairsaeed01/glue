@@ -1,0 +1,41 @@
+{
+  "job_title": "Software Engineer",
+  "job_purpose": "To take EngineRoom's Growth Marketing Platform to the next level by writing high-quality code, collaborating within a cross-functional team, and continuously improving user experience.",
+  "keywords": [
+    "PHP",
+    "Laravel",
+    "JavaScript",
+    "Vue.js",
+    "MySQL",
+    "Postgres",
+    "RESTful APIs",
+    "AWS",
+    "SaaS web applications",
+    "agile environment",
+    "SOLID principles",
+    "clean code",
+    "automated testing",
+    "TDD"
+  ],
+  "job_duties_and_responsibilities": [
+    "Write high-quality code using best practices",
+    "Collaborate within a cross-functional team and update the platform with new features to improve user experience",
+    "Be a great team player and find ways to continually improve"
+  ],
+  "required_qualifications": [
+    "Minimum of 3 years of work experience",
+    "Experience working in an agile environment in small cross-functional teams",
+    "Proficiency in PHP and Laravel",
+    "Proficiency in JavaScript and Vue.js",
+    "Solid understanding of relational databases such as MySQL and Postgres",
+    "Experience building RESTful APIs",
+    "Experience working with a major cloud platform, ideally AWS",
+    "Worked on multi-tenant SaaS web applications used by thousands of users"
+  ],
+  "preferred_qualifications": [
+    "Experience working in marketing technology or a similar vertical",
+    "Experience working with data-heavy software products before"
+  ],
+  "company_name": "EngineRoom",
+  "company_details": "EngineRoom was founded in 2013 to help businesses unlock their full potential through digital, data, and technology. They are an award-winning team of industry leaders and subject matter experts, committed to creating a high-performing and innovative team environment."
+}

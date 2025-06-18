@@ -1,0 +1,124 @@
+%==== PACKAGES AND OTHER DOCUMENT CONFIGURATIONS  ====%
+\documentclass{resume} % Use the custom resume.cls style
+\usepackage[left=0.25in,top=0.25in,right=0.25in,bottom=0.25in]{geometry} % Document margins
+\usepackage[T1]{fontenc}
+\usepackage{xcolor}
+\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+\usepackage{fontawesome} % For GitHub and LinkedIn symbols
+\usepackage{textcomp} % For mobile phone and email symbols
+% \usepackage[colorlinks=true, linkcolor=blue, citecolor=blue, urlcolor=blue]{hyperref}
+\usepackage{xcolor}  % Required for defining custom colors
+\usepackage{hyperref}
+% Define your custom colors
+% \definecolor{myblue}{RGB}{173, 216, 246}
+% \definecolor{myblue}{RGB}{123, 176, 206}
+\definecolor{myblue}{RGB}{0, 164, 218}
+
+% Set hyperlink colors
+\hypersetup{
+    colorlinks=true,
+    linkcolor=myblue,
+    citecolor=myblue,
+    urlcolor=myblue
+}
+
+\usepackage{hyperref}
+
+%==== Headings ====%
+\name{UMAIR SAEED} % Your name
+\address{
+{\faPhone} \href{tel:+61{-}452024050}{+61{-}452024050} \quad {\faEnvelope} \href{mailto:umir saed1@gmail.com}{umir saed1@gmail.com} \quad {\faGithub} \href{https://github.com/Umair}{https://github.com/Umair} \quad {\faLinkedin} \href{https://www.linkedin.com/in/Umair}{https://www.linkedin.com/in/Umair} }
+
+\begin{document}
+
+%===== WORK EXPERIENCE SECTION =====%
+    \begin{rSection}{Work Experience}
+                    \begin{rSubsection}
+                {Cyber Security Intern}{April 2024 - July 2024}
+                                    {\normalfont{\textit{WE CLAN}}}
+                                {\normalfont{\textit{Melbourne, VIC}}}
+                                    \item Developed a C{-}based security alert classifier with anomaly detection, reducing false positives by 25\% and enhancing real{-}time data accuracy.
+                                    \item Conducted penetration testing automation using ML{-}based pattern recognition models, improving threat detection efficiency and aligning with AI engineering practices.
+                                    \item Built dashboard visualizations to monitor compliance metrics using Power BI \& Python, streamlining data{-}driven decision{-}making processes.
+                            \end{rSubsection}
+            \end{rSection}
+
+%==== EDUCATION SECTION ====%
+\begin{rSection}{Education}
+                        \textbf{DEAKIN UNIVERSITY, Melbourne, VIC} \hfill {July 2022 - None} \\
+                            {Master of Data Science}
+                         
+             
+         
+                        \textbf{BAHRIA UNIVERSITY, Islamabad, VIC} \hfill {July 2018 - None} \\
+                            {Bachelors of Software Engineering}
+                         
+             
+         
+    \end{rSection}
+
+% ==== PROJECTS SECTION =====%
+    \begin{rSection}{Projects}
+                    \begin{rSubsection}
+                                    {AI{-}POWERED DENTAL APPOINTMENT SCHEDULER}
+                                {\normalfont{January 2025 - None}}{}{}
+                                    \item Developed an NLP{-}driven AI voice assistant by integrating speech{-}to{-}text (Whisper API) \& text{-}to{-}speech (Google TTS), achieving 92\% accuracy in automated dental appointment booking.
+                                    \item Engineered a scheduling algorithm using FastAPI, PostgreSQL, and .NET, achieving 100\% automation of the booking process, enhancing efficiency.
+                                    \item Deployed the AI model using AWS Lambda \& Docker, reducing response time by 30\% and ensuring scalability for real{-}time user interactions.
+                            \end{rSubsection}
+                    \begin{rSubsection}
+                                    {AI{-}GENERATED NO{-}CODE WEBSITE}
+                                {\normalfont{February 2025 - None}}{}{}
+                                    \item Built a fully functional AI{-}powered website generator using GPT{-}driven code conversion and C++ for backend efficiency, streamlining website creation.
+                                    \item Integrated an automated demo scheduling system via AI chatbots, reducing administrative workload by 30\% and enhancing user engagement.
+                                    \item Increased website traffic by 15\% through strategic Google Search Console optimization, improving visibility and user reach.
+                            \end{rSubsection}
+                    \begin{rSubsection}
+                                    {LEARNING INSIGHT REPORT}
+                                {\normalfont{July 2022 - None}}{}{}
+                                    \item Developed ML models predicting financial stability with 90\% accuracy by utilizing XGBoost \& Random Forest, providing actionable insights.
+                                    \item Designed interactive Tableau dashboards for audience engagement tracking, enhancing data visualization and user interaction.
+                                    \item Conducted customer segmentation analysis to inform targeted business strategies, improving decision{-}making processes.
+                            \end{rSubsection}
+                    \begin{rSubsection}
+                                    {INTERACTIVE MEDICAL DATA DASHBOARD}
+                                {\normalfont{October 2021 - None}}{}{}
+                                    \item Built real{-}time SQL{-}connected Tableau dashboards for enhanced medical data visualization, improving data accessibility.
+                                    \item Collected, cleaned, and analyzed large{-}scale patient datasets, providing statistical insights for medical research.
+                                    \item Assisted in developing predictive models for medical research applications, contributing to healthcare innovation.
+                            \end{rSubsection}
+            \end{rSection}
+
+%==== TECHNICAL STRENGTHS SECTION ====%
+    \begin{rSection}{Technical Skills}
+        \begin{tabular}{ @{} l @{\hspace{1ex}} l }
+                                \textbf{Programming Languages}: Python, C\#, C++, C, SQL, PL/SQL\\
+                                \textbf{AI and Software Development}: AI Engineering, Software Development, Large Language Models (LLMs), Retrieval{-}Augmented Generation (RAG) pipelines, Microservices, RESTful APIs\\
+                                \textbf{Cloud and Database Technologies}: AWS, Azure, Oracle Database, Database Indexing \& Optimization, ETL, Backup/Recovery, Data Modeling\\
+                                \textbf{Tools \& Technologies}: FastAPI, Flask, Stored Procs, Functions, Triggers, PL/SQL Performance Tuning\\
+                                \textbf{Soft Skills}: Stakeholder Collaboration, Analytical Thinking, Problem Solving, Time Management, Cross{-}Functional Teamwork\\
+                                \textbf{Backend Development Skills}: RESTful APIs, Laravel, PHP, Database schemas, API design, Database design, OOP, MVC architecture, Automated testing, Collaborative approach, Quality focused\\
+                        \textbf{Certifications:} 
+                                            \href{https://laravel.com/certification}{\textbf{Certified Laravel Developer}},\\
+                                            \href{https://www.zend.com/en/services/certification/php{-}certification}{\textbf{PHP Developer Certification}},\\
+                                 
+        \end{tabular}
+    \end{rSection}
+ 
+
+% ACHIEVEMENTS SECTION
+    \begin{rSection}{Achievements}
+        \begin{rSubsection}{}{}{}
+                            \item Led the development of a critical care coordination tool, optimizing API performance by 40\% through efficient database schema design.
+                            \item Collaborated with the UK team to successfully localize platform features for Australian aged care requirements, enhancing user experience and expanding market reach.
+                            \item Implemented automated testing practices, reducing bug resolution time by 50\% and ensuring high code quality standards across the platform.
+                            \item Contributed to infrastructure decisions that improved system scalability and reliability, resulting in a 30\% increase in platform uptime.
+                            \item Received recognition for consistently delivering clean, maintainable, and well{-}tested code, aligning with the company's quality{-}focused development approach.
+                    \end{rSubsection}
+    \end{rSection}
+
+\newcommand\myfontsize{\fontsize{0.1pt}{0.1pt}\selectfont} \myfontsize \color{white}
+Backend Developer, RESTful APIs, Laravel, PHP, Australian aged care, Database schemas, Healthcare systems integration, Infrastructure decisions, Automated testing, Full{-}stack development, OOP, MVC architecture, API design, Database design, Remote work, Collaborative approach, Quality focused, Impact{-}driven, Backend Developer, RESTful APIs, Laravel, PHP, Australian aged care, Database schemas, Healthcare systems integration, Infrastructure decisions, Automated testing, Full{-}stack development, OOP, MVC architecture, API design, Database design, Remote work, Collaborative approach, Quality focused, Impact{-}driven, {artificial intelligence engineer, azure cognitive services exp, azure services, core azure services, azure cognitive and generative ai, genai, aws,  gcp, java, clean, efficient, maintainable code, react, front end, back end, ai solutions, data analysis, pretrained models, automl, software development principles, version control, testing, continuous integration and deployment, python, javascript, prompt engieering, frontend, backend, html, css, api, angular, development, machine learning, artificial intelligence, deep learning, data warehouse, data modeling, data extraction, data transformation, data loading, sql, etl, data quality, data governance, data privacy, data visualization, data controls, privacy, security, compliance, sla, aws, terabyte to petabyte scale data, full stack software development, cloud, security engineering, security architecture, ai/ml engineering, technical product management, microsoft office, google suite, visualization tools, scripting, coding, programming languages, analytical skills, collaboration, leadership, communication, presentation skills, computer vision, senior, ms or ph.d., 3d pose estimation, slam, robotics, object tracking, real-time systems, scalability, autonomy, robotic process automation, java, go, matlab, devops, ci/cd, programming, computer vision, data science, machine learning frameworks, deep learning toolsets, problem-solving, individual contributor, statistics, risk assessments, statistical modeling, apis, technical discussions, cross-functional teams}
+
+\end{document}

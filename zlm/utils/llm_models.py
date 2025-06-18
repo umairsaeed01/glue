@@ -7,13 +7,15 @@ Developer Email: zinjadsaurabh1997@gmail.com
 Copyright (c) 2023 Saurabh Zinjad. All rights reserved | GitHub: Ztrimus
 -----------------------------------------------------------------------
 '''
+# NOTE: This file uses the OpenAI >=1.0.0 client interface. Do not use openai.ChatCompletion.create or openai.Completion.create.
+# Only use: from openai import OpenAI; client = OpenAI(...); client.chat.completions.create(...)
 import json
 import textwrap
 from openai import OpenAI
-import openai
+# import openai  # REMOVE this line, not needed with new client interface
 import pandas as pd
 import streamlit as st
-from openai import OpenAI
+# from openai import OpenAI  # REMOVE duplicate import
 from langchain_community.llms.ollama import Ollama
 from langchain_ollama import OllamaEmbeddings
 import google.generativeai as genai

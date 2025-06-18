@@ -1,0 +1,60 @@
+{
+  "job_title": "Senior Software Engineer",
+  "job_purpose": "Designing, developing, and testing embedded software and control systems for the Corvo family of autonomous systems at SYPAQ in Port Melbourne.",
+  "keywords": [
+    "C/C++",
+    "Java",
+    "Python",
+    "Shell scripting",
+    "Embedded development",
+    "Linux",
+    "ARM",
+    "Manufacture and test of embedded products",
+    "Full SDLC",
+    "Ground Control Systems",
+    "Human Machine Interfaces",
+    "Image processing",
+    "Signal processing",
+    "Tactical data links",
+    "GPS/GNSS technologies",
+    "Radio communications",
+    "Version control",
+    "Task tracking software",
+    "Atlassian suite of tools",
+    "Regulated software domains",
+    "Defence",
+    "Medical",
+    "Automotive"
+  ],
+  "job_duties_and_responsibilities": [
+    "Design, develop, and test embedded software and control systems for the Corvo family of autonomous systems",
+    "Demonstrate strong C/C++, Java, and scripting skills",
+    "Work on embedded development using Linux and/or ARM platforms",
+    "Manage manufacture and test processes for embedded products",
+    "Engage in the full Software Development Life Cycle (SDLC)",
+    "Utilize expertise in Ground Control Systems and Human Machine Interfaces",
+    "Apply knowledge in image and signal processing",
+    "Work with tactical data links, GPS/GNSS technologies, and radio communications",
+    "Utilize version control and task tracking software such as the Atlassian suite",
+    "Adhere to regulated software domains standards in Defence, Medical, and Automotive sectors"
+  ],
+  "required_qualifications": [
+    "Minimum 2+ years of experience",
+    "Bachelor\u2019s Degree in Computer Science or Engineering",
+    "Australian Citizen",
+    "Ability to hold and maintain Australian Defence Security Clearance NV1 Minimum",
+    "Strong interpersonal skills",
+    "Ability to work in a team or independently"
+  ],
+  "preferred_qualifications": [
+    "Experience with Ground Control Systems and Human Machine Interface\u2019s",
+    "Experience with image and/or signal processing",
+    "Experience with tactical data links",
+    "Familiarity with GPS/GNSS technologies",
+    "Familiarity with radio communications",
+    "Experience with version control and task tracking software (such as the Atlassian suite of tools)",
+    "Experience in regulated software domains (Defence, Medical, Automotive)"
+  ],
+  "company_name": "SYPAQ",
+  "company_details": "SYPAQ is a world-leading innovator in the development and delivery of autonomous systems and complex technical projects. They specialize in secure networks, information and cyber security governance architecture, and Certification and Accreditation of systems in Federal Government and Defence contexts."
+}

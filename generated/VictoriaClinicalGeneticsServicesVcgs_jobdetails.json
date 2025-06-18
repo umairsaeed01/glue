@@ -1,0 +1,37 @@
+{
+  "job_title": "Software Developer at Victoria Clinical Genetics Services (VCGS)",
+  "job_purpose": "Develop, maintain, and integrate software solutions for clinical and laboratory systems at VCGS.",
+  "keywords": [
+    "TypeScript",
+    "Python",
+    "RESTful/RPC APIs",
+    "SQL",
+    "Automated testing frameworks",
+    "Git",
+    "Linux/Bash",
+    "Cloud platforms",
+    "Serverless microservices architecture",
+    "Infrastructure as Code",
+    "Communication skills"
+  ],
+  "job_duties_and_responsibilities": [
+    "Design, develop, review, and maintain applications, APIs, data pipelines, and cloud services.",
+    "Promote and implement software development best practices.",
+    "Collaborate with stakeholders to ensure fit-for-purpose solutions.",
+    "Participate in sprint planning, code reviews, and continuous integration/deployment workflows.",
+    "Provide clear system documentation and user support.",
+    "Stay updated with emerging technologies to improve systems and practices."
+  ],
+  "required_qualifications": [
+    "Degree in Computer Science, Software Engineering, IT, or related discipline.",
+    "Proficiency in TypeScript or Python.",
+    "Experience with RESTful/RPC APIs, SQL, and relational databases.",
+    "Familiarity with automated testing frameworks (e.g., Playwright, Cypress).",
+    "Skills in Git, Linux/Bash, and cloud platforms (AWS).",
+    "Experience with serverless microservices architecture and Infrastructure as Code (e.g., Terraform, AWS CDK).",
+    "Excellent communication skills, both verbal and written."
+  ],
+  "preferred_qualifications": [],
+  "company_name": "Victoria Clinical Genetics Services (VCGS)",
+  "company_details": "VCGS, a not-for-profit subsidiary of the Murdoch Children's Research Institute (MCRI), offers integrated genetic testing, diagnostics, and counselling globally. Committed to driving translational research and fostering an inclusive working environment."
+}

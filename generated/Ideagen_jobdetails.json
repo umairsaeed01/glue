@@ -1,0 +1,46 @@
+{
+  "job_title": "Software Developer",
+  "job_purpose": "To develop new features for Ideagen products using Node.js, JavaScript, Vue.js, and other open-source technologies, ensuring high-quality solutions and contributing to the overall improvement of enterprise solutions.",
+  "keywords": [
+    "Node.js",
+    "JavaScript",
+    "Vue.js",
+    "Agile practices",
+    "User Experience",
+    "Problem-Solving",
+    "Testing",
+    "Continuous Improvement",
+    "Source Control",
+    "UX / Design",
+    "Unit tests",
+    "Agile software development methodologies",
+    "Database development",
+    "CI/CD tools"
+  ],
+  "job_duties_and_responsibilities": [
+    "Build new features for Ideagen products using Node.js, JavaScript, Vue.js, and other open-source technologies",
+    "Work closely with Development Managers, Product Owners, and cross-functional teams to deliver enterprise solutions",
+    "Partner with the Product Design Team to create seamless and user-friendly designs",
+    "Participate in Agile practices (e.g., Scrum), contributing to sprint backlogs and planned release cycles",
+    "Diagnose, troubleshoot, and resolve software defects while ensuring high-quality solutions",
+    "Write unit tests to validate development work and ensure feature reliability",
+    "Contribute to team practices, technology decisions, and documentation",
+    "Perform tasks autonomously, applying sound judgment to achieve project goals"
+  ],
+  "required_qualifications": [
+    "At least 2 years\u2019 experience in a Software Development role",
+    "Proven ability to deliver technical design within an enterprise application using Node.js and JavaScript",
+    "Demonstrable experience implementing Node.js programming best practices",
+    "Web application front-end development experience in HTML, CSS, and JavaScript",
+    "Experience using Source Control, preferably Git",
+    "Basic understanding of UX / Design",
+    "Strong communication and presentation skills, both verbal and written, in English",
+    "Experience writing backend and front-end unit tests",
+    "Understanding of Agile software development methodologies/frameworks such as Scrum",
+    "Database development experience preferably in PostgreSQL",
+    "Knowledge using CI/CD tools specifically Jenkins, SonarQube, Docker, TeamCity, Octopus, Chef"
+  ],
+  "preferred_qualifications": [],
+  "company_name": "Ideagen",
+  "company_details": "Ideagen is a global company with offices worldwide, dedicated to providing software solutions that contribute to the safety and well-being of millions of people. They value work-life balance, flexibility, and inclusivity in their work environment."
+}

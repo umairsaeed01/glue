@@ -1,0 +1,125 @@
+{
+  "personal": {
+    "name": "John Doe",
+    "phone": "123-456-7890",
+    "email": "john.doe@example.com",
+    "github": "https://github.com/johndoe",
+    "linkedin": "https://linkedin.com/in/johndoe"
+  },
+  "work_experience": [
+    {
+      "role": "Cybersecurity Analyst",
+      "company": "Previous Company from Resume",
+      "location": "Actual Location from Resume",
+      "from_date": "Actual Start Date",
+      "to_date": "Actual End Date",
+      "description": [
+        "Monitored and analyzed security incidents to protect against potential threats, enhancing threat intelligence capabilities.",
+        "Implemented and maintained security measures to safeguard company systems, reducing vulnerability exposure by 30%.",
+        "Collaborated with cross-functional teams to enhance security protocols, resulting in a 20% improvement in incident response time."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Secure Network Infrastructure Enhancement",
+      "type": "Network Security",
+      "link": "https://github.com/secure_network_project",
+      "from_date": "2018-06-01",
+      "to_date": "2020-01-15",
+      "description": [
+        "Enhanced network security protocols to mitigate potential threats",
+        "Implemented intrusion detection systems to monitor network traffic",
+        "Reduced response time to security incidents by 40% through automation"
+      ]
+    },
+    {
+      "name": "Threat Intelligence Platform Development",
+      "type": "Cybersecurity",
+      "link": "https://github.com/threat_intel_project",
+      "from_date": "2019-03-10",
+      "to_date": "2021-05-20",
+      "description": [
+        "Developed a threat intelligence platform to proactively identify cyber threats",
+        "Integrated threat feeds to enhance real-time threat detection capabilities",
+        "Improved incident response time by 50% by providing actionable threat intelligence"
+      ]
+    },
+    {
+      "name": "Vulnerability Assessment Automation Tool",
+      "type": "Security Operations",
+      "link": "https://github.com/vulnerability_tool_project",
+      "from_date": "2020-09-05",
+      "to_date": "2022-03-12",
+      "description": [
+        "Automated vulnerability assessments to streamline security audits",
+        "Identified and remediated critical vulnerabilities, reducing exposure by 60%",
+        "Enhanced vulnerability management processes, resulting in 30% faster patching"
+      ]
+    }
+  ],
+  "skill_section": [
+    {
+      "name": "Cybersecurity Skills",
+      "skills": [
+        "Incident Response",
+        "Security Operations",
+        "Threat Intelligence",
+        "Vulnerability Management",
+        "Security Assessments",
+        "Security Audits",
+        "Security Incident Analysis",
+        "Cross-functional Collaboration",
+        "Cybersecurity Trends Awareness"
+      ]
+    },
+    {
+      "name": "Technical Skills",
+      "skills": [
+        "Network Security",
+        "Data Protection",
+        "Cloud Security",
+        "Regulatory Compliance Standards",
+        "Problem-solving",
+        "Analytical Skills",
+        "Communication Skills",
+        "Teamwork Abilities"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Science in Computer Science",
+      "university": "XYZ University",
+      "from_date": "Aug 2017",
+      "to_date": "May 2021",
+      "courses": [
+        "Cybersecurity Fundamentals",
+        "Network Security",
+        "Information Security Management",
+        "Ethical Hacking",
+        "Data Privacy and Protection"
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Certified Information Systems Security Professional (CISSP)",
+      "by": "International Information System Security Certification Consortium (ISC)\u00b2",
+      "link": "https://www.isc2.org/Certifications/CISSP"
+    },
+    {
+      "name": "Certified Ethical Hacker (CEH)",
+      "by": "EC-Council",
+      "link": "https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/"
+    }
+  ],
+  "achievements": [
+    "Led the implementation of a comprehensive incident response plan, reducing response time by 40%.",
+    "Received recognition for identifying and mitigating a critical security vulnerability, preventing a potential data breach.",
+    "Successfully conducted security assessments resulting in the enhancement of company-wide security protocols.",
+    "Collaborated with cross-functional teams to develop and implement a threat intelligence program, improving proactive threat detection.",
+    "Stayed updated on the latest cybersecurity trends and threats through continuous learning and professional development."
+  ],
+  "keywords": "Cybersecurity, Incident Response, Security Operations, Threat Intelligence, Vulnerability Management"
+}

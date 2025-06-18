@@ -1,0 +1,56 @@
+{
+  "job_title": "Software Engineer (Jr)",
+  "job_purpose": "Design software and control systems that integrate with multiple hardware systems across residential and commercial applications within Seeley International's Imagineering team.",
+  "keywords": [
+    "Software Engineering",
+    "Computer Science",
+    "Modern software development",
+    "Scripting languages",
+    "C++",
+    "Written communication",
+    "Verbal communication",
+    "Problem-solving",
+    "Initiative",
+    "Linux",
+    "Atlassian tools",
+    "Git",
+    "OSI model",
+    "TCP/IP stack",
+    "BACnet",
+    "Modbus",
+    "MQTT",
+    "Electronics",
+    "Adelaide",
+    "Remote work",
+    "WFH"
+  ],
+  "job_duties_and_responsibilities": [
+    "Design software and control systems for new 'over-the-horizon' products and manufacturing systems",
+    "Integrate software with various hardware systems in residential and commercial applications",
+    "Collaborate with a team of engineers from different disciplines",
+    "Receive coaching and training for professional development",
+    "Contribute directly to the development of new products"
+  ],
+  "required_qualifications": [
+    "Bachelor's degree in Software Engineering or Computer Science",
+    "Minimum of two years of professional software engineering experience",
+    "Experience with modern software development and scripting languages",
+    "Basic C++ experience",
+    "Strong written and verbal communication skills",
+    "Excellent problem-solving skills",
+    "Initiative-driven",
+    "Trustworthy with a positive work attitude",
+    "High degree of personal and professional integrity",
+    "Living in or near Adelaide"
+  ],
+  "preferred_qualifications": [
+    "Linux knowledge and experience",
+    "Experience with Atlassian tools (e.g., Jira, Confluence)",
+    "Familiarity with Git or other version control tools",
+    "Knowledge of OSI model and TCP/IP stack",
+    "Understanding of open data communications protocols (e.g., BACnet, Modbus, MQTT)",
+    "Basic electronics knowledge"
+  ],
+  "company_name": "Seeley International",
+  "company_details": "Seeley International is one of Australia's largest manufacturers of energy-efficient heating, cooling, and ventilation products. With a legacy of over 50 years, Seeley is known for iconic brands like Climate Wizard, Breezair, Braemar, Aira, and Coolair. The company is committed to innovation and providing premium climate control solutions."
+}

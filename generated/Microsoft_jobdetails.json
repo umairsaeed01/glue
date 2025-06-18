@@ -1,0 +1,52 @@
+{
+  "job_title": "Software Engineer - Azure Core New Tech Team",
+  "job_purpose": "To enable new technologies by understanding requirements, creating designs, and implementing features to automate the onboarding process of new hardware for Microsoft datacenters within Azure, High-Performance Computing, Office, and Edge Computing products.",
+  "keywords": [
+    "Software Engineer",
+    "New Technology",
+    "Hardware Management",
+    "Automation",
+    "Microsoft Datacenters",
+    "Azure",
+    "High-Performance Computing",
+    "Office",
+    "Edge Computing",
+    "Collaboration",
+    "Emerging Technologies",
+    "Design",
+    "Coding",
+    "Linux",
+    "FreeBSD",
+    "Windows Environment",
+    "Operating System Development",
+    "Kernel Debugging",
+    "Hardware Driver Development",
+    "Network Stack",
+    "IPv6",
+    "Problem-Solving",
+    "Security Screening",
+    "Microsoft Cloud Background Check"
+  ],
+  "job_duties_and_responsibilities": [
+    "Determine user requirements for scenarios in collaboration with stakeholders",
+    "Develop design documents for products, applications, services, or platforms",
+    "Implement, optimize, debug, refactor, and reuse code to improve performance and maintainability",
+    "Guide project plans, release plans, and work items leveraging subject-matter expertise",
+    "Act as a Designated Responsible Individual (DRI) to monitor system/product/service and initiate actions for problem resolution",
+    "Stay updated on new trends, technical solutions, and patterns to enhance product performance and reliability"
+  ],
+  "required_qualifications": [
+    "Bachelor's Degree in Computer Science or related technical discipline AND 4+ years technical engineering experience with coding in languages including, but not limited to, C, C++, C#, Java, JavaScript, or Python",
+    "Experience in operating systems like Linux or FreeBSD adaptable to the Windows environment used in Microsoft",
+    "Experience in operating system development, kernel module, kernel debugging, hardware driver development, new hardware qualification, network stack experience, routing table, IPv6, network packet analysis",
+    "Ability to work cross-team and collaborate effectively",
+    "Ability to prioritize tasks and work independently",
+    "Excellent hands-on design, coding, and problem-solving skills",
+    "Ability to meet Microsoft, customer, and/or government security screening requirements"
+  ],
+  "preferred_qualifications": [
+    "Master's Degree in Computer Science or related technical field AND 6+ years technical engineering experience with coding in languages including, but not limited to, C, C++, C#, Java, JavaScript, or Python"
+  ],
+  "company_name": "Microsoft",
+  "company_details": "Microsoft's mission is to empower every person and every organization on the planet to achieve more. The company values respect, integrity, and accountability to create a culture of inclusion where everyone can thrive at work and beyond."
+}

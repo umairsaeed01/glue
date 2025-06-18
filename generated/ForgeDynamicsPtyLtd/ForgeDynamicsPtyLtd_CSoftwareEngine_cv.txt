@@ -1,0 +1,17 @@
+Dear Hiring Manager,
+
+As a seasoned AI & ML specialist with a strong foundation in C++ and a passion for developing cutting-edge solutions, I am excited to apply for the C++ Software Engineer position at Forge Dynamics Pty Ltd. Your focus on high-performance computing solutions for financial modeling aligns perfectly with my expertise in NLP, deep learning, and model deployment.
+
+Here's how my qualifications match your requirements and company values:
+
+- Proficient in C++ with experience in developing low-latency applications and optimizing code for efficiency.
+- Collaborative mindset demonstrated through working with quantitative analysts and traders to deliver robust solutions.
+- Strong problem-solving skills showcased by developing AI-powered solutions with real-world impact.
+- Excellent communication and teamwork abilities honed through cross-functional projects like the AI-POWERED DENTAL APPOINTMENT SCHEDULER and AI-GENERATED NO-CODE WEBSITE.
+
+I am particularly excited about the opportunity to contribute to Forge Dynamics' innovative work environment and be part of a team that stays ahead of industry trends. My experience in AI model deployment, MLOps, and cloud-based applications equips me to add immediate value to your team.
+
+I am looking forward to the possibility of discussing how my background, skills, and enthusiasm can contribute to the exceptional work being done at Forge Dynamics Pty Ltd.
+
+Sincerely,
+Umair Saeed
