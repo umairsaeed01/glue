@@ -27,12 +27,13 @@ def debug_print(message, level="INFO"):
     """Helper function for consistent debug output"""
     print(f"[{level}] {message}")
 
-def dispatch_special_pages(driver):
+def dispatch_special_pages(driver, job_url=None):
     """
     After any Continue click, check if we're on a "special" page:
       • /apply/role-requirements  → call role_requirements_handler
       • /apply/profile            → call profile_handler
       • /apply/review             → call review_handler
+      • /apply/success            → call success_handler
     Returns True if we dispatched (so the main loop should break/stop).
     """
     time.sleep(0.5)  # allow URL to settle
@@ -67,9 +68,24 @@ def dispatch_special_pages(driver):
             print("[Dispatcher] Review page handling failed")
             return False
 
+    # 4) Success page
+    if "/apply/success" in url:
+        print("[Dispatcher] Detected success page, dispatching to handler")
+        from success_handler import handle_success_page
+        result = handle_success_page(driver, job_url)
+        if result == 'SUCCESS_COMPLETE':
+            print("[Dispatcher] Success page handled successfully - application complete")
+            return 'SUCCESS_COMPLETE'  # Special return value to exit main loop
+        elif result:
+            print("[Dispatcher] Success page handled successfully")
+            return True
+        else:
+            print("[Dispatcher] Success page handling failed")
+            return False
+
     return False
 
-def try_click_continue(driver):
+def try_click_continue(driver, job_url=None):
     """Try to click the continue button using multiple selectors"""
     selectors = [
         "button[data-testid='continue-button']",
@@ -92,7 +108,10 @@ def try_click_continue(driver):
             print(f"[SUCCESS] Clicked continue button using selector: {selector}")
             
             # Check if we need to dispatch to special page handler
-            if dispatch_special_pages(driver):
+            dispatch_result = dispatch_special_pages(driver, job_url)
+            if dispatch_result == 'SUCCESS_COMPLETE':
+                return 'SUCCESS_COMPLETE'
+            elif dispatch_result:
                 return True
                 
             return True
@@ -141,22 +160,35 @@ def main(job_url=None, resume_path=None, cover_letter_path=None):
         driver.get(job_url)
 
         debug_print("Waiting for Apply button...")
-        WebDriverWait(driver, 20).until(
-            EC.presence_of_element_located((By.XPATH, "//a[contains(., 'Apply') or contains(., 'apply')]"))
-        )
-        step_counter += 1
+        try:
+            apply_button = WebDriverWait(driver, 20).until(
+                EC.presence_of_element_located((By.XPATH, "//a[contains(., 'Apply') or contains(., 'apply')]"))
+            )
+            step_counter += 1
 
-        soup = BeautifulSoup(driver.page_source, 'html.parser')
-        job_title_element = soup.select_one('h1')
-        job_title = job_title_element.get_text(strip=True) if job_title_element else 'N-A'
+            soup = BeautifulSoup(driver.page_source, 'html.parser')
+            job_title_element = soup.select_one('h1')
+            job_title = job_title_element.get_text(strip=True) if job_title_element else 'N-A'
 
-        save_page_snapshot(driver, job_id, job_title, f"nav_{step_counter}")
+            save_page_snapshot(driver, job_id, job_title, f"nav_{step_counter}")
 
-        apply_button = driver.find_element(By.XPATH, "//a[contains(., 'Apply') or contains(., 'apply')]")
-        debug_print("Clicking Apply...")
-        apply_button.click()
-        time.sleep(5)
-        step_counter += 1
+            debug_print("Clicking Apply...")
+            apply_button.click()
+            time.sleep(5)
+            step_counter += 1
+
+        except TimeoutException:
+            debug_print("Apply button not found. Checking if job is unavailable.", "WARNING")
+            from job_unavailable_handler import handle_job_unavailable
+            if handle_job_unavailable(driver):
+                debug_print("Job is confirmed to be no longer available. Closing browser.", "ERROR")
+            else:
+                debug_print("Job seems to be available, but the Apply button was not found. This might be an unexpected page layout or other issue.", "ERROR")
+            return  # Exit since we can't proceed.
+        
+        except Exception as e:
+            debug_print(f"An unexpected error occurred: {e}", "ERROR")
+            return
 
         visited_states = set()
         executed_action_keys = set()
@@ -173,10 +205,18 @@ def main(job_url=None, resume_path=None, cover_letter_path=None):
                 debug_print("Waiting 10 seconds before clicking continue button...", "INFO")
                 time.sleep(10)
                 # Try to click continue button after uploads
-                if try_click_continue(driver):
+                continue_result = try_click_continue(driver, job_url)
+                if continue_result == 'SUCCESS_COMPLETE':
+                    debug_print("Application completed successfully, exiting main loop", "SUCCESS")
+                    break
+                elif continue_result:
                     debug_print("Successfully clicked continue button after uploads", "SUCCESS")
                     # Check if we need to dispatch to special page handler
-                    if dispatch_special_pages(driver):
+                    dispatch_result = dispatch_special_pages(driver, job_url)
+                    if dispatch_result == 'SUCCESS_COMPLETE':
+                        debug_print("Application completed successfully, exiting main loop", "SUCCESS")
+                        break
+                    elif dispatch_result:
                         debug_print("Handed off to special page handler, exiting main loop", "SUCCESS")
                         break
                 else:
@@ -187,7 +227,11 @@ def main(job_url=None, resume_path=None, cover_letter_path=None):
             debug_print(f"Current URL: {current_url}", "INFO")
 
             # Check if we need to dispatch to special page handler
-            if dispatch_special_pages(driver):
+            dispatch_result = dispatch_special_pages(driver, job_url)
+            if dispatch_result == 'SUCCESS_COMPLETE':
+                debug_print("Application completed successfully, exiting main loop", "SUCCESS")
+                break
+            elif dispatch_result:
                 debug_print("Handed off to special page handler, exiting main loop", "SUCCESS")
                 break
 
@@ -248,13 +292,22 @@ def main(job_url=None, resume_path=None, cover_letter_path=None):
                 executed_action_keys.add(f"{action['action']}|{action['selector']}|{action.get('value', '')}")
 
                 # Check if we need to dispatch to special page handler after each action
-                if dispatch_special_pages(driver):
+                dispatch_result = dispatch_special_pages(driver, job_url)
+                if dispatch_result == 'SUCCESS_COMPLETE':
+                    debug_print("Application completed successfully, exiting action loop", "SUCCESS")
+                    break
+                elif dispatch_result:
                     debug_print("Handed off to special page handler, exiting action loop", "SUCCESS")
                     break
 
             # Handle any remaining special pages in sequence (role-requirements → profile → review)
-            while dispatch_special_pages(driver):
-                pass
+            while True:
+                dispatch_result = dispatch_special_pages(driver, job_url)
+                if dispatch_result == 'SUCCESS_COMPLETE':
+                    debug_print("Application completed successfully, exiting main loop", "SUCCESS")
+                    break
+                elif not dispatch_result:
+                    break
 
             step_counter += 1
 

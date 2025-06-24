@@ -1,8 +1,9 @@
 import os
+import argparse
 from dotenv import load_dotenv
 from zlm import AutoApplyModel
 import json
-from read_csv_job import get_first_job_description, update_csv_with_filenames, get_pending_jobs
+from read_csv_job import get_pending_jobs, update_csv_with_filenames, get_job_by_row_index
 
 # Load environment variables
 load_dotenv()
@@ -20,7 +21,7 @@ def generate_resume_and_cover_letter(job_description: str, old_resume_path: str,
     resume_llm = AutoApplyModel(
         api_key=os.getenv("OPENAI_API_KEY"),
         provider="GPT",
-        model="gpt-3.5-turbo",
+        model="gpt-4o",
         downloads_dir=output_dir
     )
 
@@ -45,6 +46,13 @@ def generate_resume_and_cover_letter(job_description: str, old_resume_path: str,
         print(f"Resume saved to: {resume_path}")
         print(f"Cover letter saved to: {cv_path}")
         
+        # Print estimated cost as per user's formula
+        # Formula: cost = 1500 * 0.000005 + 500 * 0.00002 = $0.0175
+        input_cost = 1500 * 0.000005
+        output_cost = 500 * 0.00002
+        total_cost = input_cost + output_cost
+        print(f"Estimated cost for this generation: ${total_cost:.4f}")
+
         return resume_path, cv_path
         
     except Exception as e:
@@ -52,43 +60,69 @@ def generate_resume_and_cover_letter(job_description: str, old_resume_path: str,
         return None, None
 
 if __name__ == "__main__":
-    # Example usage
-    csv_file_path = "software_engineer.csv"
-    old_resume_path = "resume.pdf"
+    parser = argparse.ArgumentParser(description="Generate resume and cover letter for jobs in a CSV file.")
+    parser.add_argument("csv_file", help="Path to the CSV file containing job listings.")
+    parser.add_argument("row_number", type=int, nargs='?', help="Optional: Specify a 1-based row number to process only that job.")
+    args = parser.parse_args()
+
+    csv_file_path = args.csv_file
+    row_to_process = args.row_number
+    old_resume_path = "Umair_resume.pdf"
     
-    # Get all pending jobs from CSV
-    pending_jobs = get_pending_jobs(csv_file_path)
-    
-    if not pending_jobs:
-        print("No pending jobs found in the CSV file.")
-        exit()
-    
-    print(f"\nProcessing {len(pending_jobs)} pending jobs...")
-    
-    # Process each pending job
-    for row_index, job_description in pending_jobs:
-        print(f"\nProcessing job at row {row_index + 1}...")
+    if row_to_process is not None:
+        print(f"Processing job at row {row_to_process} from {csv_file_path}...")
+        job_info = get_job_by_row_index(csv_file_path, row_to_process)
         
-        # Generate resume and cover letter
-        resume_path, cv_path = generate_resume_and_cover_letter(
-            job_description=job_description,
-            old_resume_path=old_resume_path
-        )
-        
-        # If generation was successful, update the CSV with the filenames
-        if resume_path and cv_path:
-            # Extract just the filenames from the paths
-            resume_filename = os.path.basename(resume_path)
-            coverletter_filename = os.path.basename(cv_path)
-            
-            # Update the CSV with the generated filenames
-            update_csv_with_filenames(
-                csv_file_path=csv_file_path,
-                row_index=row_index,
-                resume_filename=resume_filename,
-                coverletter_filename=coverletter_filename
+        if job_info:
+            row_index, job_description = job_info
+            resume_path, cv_path = generate_resume_and_cover_letter(
+                job_description=job_description,
+                old_resume_path=old_resume_path
             )
+            
+            if resume_path and cv_path:
+                resume_filename = os.path.basename(resume_path)
+                coverletter_filename = os.path.basename(cv_path)
+                
+                update_csv_with_filenames(
+                    csv_file_path=csv_file_path,
+                    row_index=row_index,
+                    resume_filename=resume_filename,
+                    coverletter_filename=coverletter_filename
+                )
+            else:
+                print(f"Failed to generate documents for row {row_to_process}")
         else:
-            print(f"Failed to generate documents for row {row_index + 1}")
+            print(f"Could not find job at row {row_to_process} or it has no job description.")
+
+    else:
+        pending_jobs = get_pending_jobs(csv_file_path)
+        
+        if not pending_jobs:
+            print("No pending jobs found in the CSV file.")
+            exit()
+        
+        print(f"\nProcessing {len(pending_jobs)} pending jobs...")
+        
+        for row_index, job_description in pending_jobs:
+            print(f"\nProcessing job at row {row_index + 1}...")
+            
+            resume_path, cv_path = generate_resume_and_cover_letter(
+                job_description=job_description,
+                old_resume_path=old_resume_path
+            )
+            
+            if resume_path and cv_path:
+                resume_filename = os.path.basename(resume_path)
+                coverletter_filename = os.path.basename(cv_path)
+                
+                update_csv_with_filenames(
+                    csv_file_path=csv_file_path,
+                    row_index=row_index,
+                    resume_filename=resume_filename,
+                    coverletter_filename=coverletter_filename
+                )
+            else:
+                print(f"Failed to generate documents for row {row_index + 1}")
     
-    print("\nAll pending jobs have been processed!") 
+    print("\nProcessing complete!") 

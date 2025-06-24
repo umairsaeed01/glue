@@ -1,0 +1,113 @@
+%==== PACKAGES AND OTHER DOCUMENT CONFIGURATIONS  ====%
+\documentclass{resume} % Use the custom resume.cls style
+\usepackage[left=0.25in,top=0.25in,right=0.25in,bottom=0.25in]{geometry} % Document margins
+\usepackage[T1]{fontenc}
+\usepackage{xcolor}
+\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+\usepackage{fontawesome} % For GitHub and LinkedIn symbols
+\usepackage{textcomp} % For mobile phone and email symbols
+% \usepackage[colorlinks=true, linkcolor=blue, citecolor=blue, urlcolor=blue]{hyperref}
+\usepackage{xcolor}  % Required for defining custom colors
+\usepackage{hyperref}
+% Define your custom colors
+% \definecolor{myblue}{RGB}{173, 216, 246}
+% \definecolor{myblue}{RGB}{123, 176, 206}
+\definecolor{myblue}{RGB}{0, 164, 218}
+
+% Set hyperlink colors
+\hypersetup{
+    colorlinks=true,
+    linkcolor=myblue,
+    citecolor=myblue,
+    urlcolor=myblue
+}
+
+\usepackage{hyperref}
+
+%==== Headings ====%
+\name{Umair Saeed} % Your name
+\address{
+{\faPhone} \href{tel:+61{-}452024050}{+61{-}452024050} \quad {\faEnvelope} \href{mailto:umirsaed1@gmail.com}{umirsaed1@gmail.com} \quad {\faGithub} \href{https://github.com/umairsaeed01}{https://github.com/umairsaeed01} \quad {\faLinkedin} \href{https://www.linkedin.com/in/umirsaed/}{https://www.linkedin.com/in/umirsaed/} }
+
+\begin{document}
+
+%===== WORK EXPERIENCE SECTION =====%
+    \begin{rSection}{Work Experience}
+                    \begin{rSubsection}
+                {Cyber Security Intern}{April 2024 - July 2024}
+                                    {\normalfont{\textit{WECLAN}}}
+                                {\normalfont{\textit{Melbourne, VIC}}}
+                                    \item Developed a C{-}based security alert classifier with anomaly detection, reducing false positives by 25\%, enhancing data{-}driven decision{-}making.
+                                    \item Conducted penetration testing automation using ML{-}based pattern recognition models, improving threat detection efficiency and aligning with AI research goals.
+                                    \item Built dashboard visualizations to monitor compliance metrics using Power BI \& Python, facilitating data{-}driven insights and supporting data visualization objectives.
+                            \end{rSubsection}
+            \end{rSection}
+
+%==== EDUCATION SECTION ====%
+\begin{rSection}{Education}
+                        \textbf{DEAKIN UNIVERSITY, Melbourne, VIC} \hfill {July 2022 - } \\
+                            {Master of Data Science}
+                         
+             
+         
+                        \textbf{BAHRIA UNIVERSITY, Islamabad, VIC} \hfill { - July 2018} \\
+                            {Bachelors of Software Engineering}
+                         
+             
+         
+    \end{rSection}
+
+% ==== PROJECTS SECTION =====%
+    \begin{rSection}{Projects}
+                    \begin{rSubsection}
+                                    {AI{-}Powered Dental Appointment Scheduler}
+                                {\normalfont{January 2025 - }}{}{}
+                                    \item Developed an NLP{-}driven AI voice assistant by integrating speech{-}to{-}text (Whisper API) \& text{-}to{-}speech (Google TTS), achieving 92\% accuracy in automated dental appointment booking.
+                                    \item Engineered a scheduling algorithm using FastAPI, PostgreSQL, and .NET, achieving 100\% automation of the booking process, enhancing operational efficiency.
+                                    \item Deployed the AI model using AWS Lambda \& Docker, reducing response time by 30\% and ensuring scalability for increased user demand.
+                            \end{rSubsection}
+                    \begin{rSubsection}
+                                    {\href{www.civaroai.com}{AI{-}Generated No{-}Code Website}}
+                                {\normalfont{February 2025 - }}{}{}
+                                    \item Built a fully functional AI{-}powered website generator using GPT{-}driven code conversion and C++ for backend efficiency, streamlining web development processes.
+                                    \item Integrated an automated demo scheduling system via AI chatbots, reducing administrative workload by 30\% and improving user engagement.
+                                    \item Optimized website traffic by 15\% through strategic use of Google Search Console, enhancing online visibility and user reach.
+                            \end{rSubsection}
+                    \begin{rSubsection}
+                                    {Learning Insight Report}
+                                {\normalfont{July 2022 - }}{}{}
+                                    \item Developed ML models predicting financial stability with 90\% accuracy using XGBoost \& Random Forest, providing actionable insights for financial planning.
+                                    \item Designed interactive Tableau dashboards to track audience engagement, facilitating data{-}driven decision{-}making.
+                                    \item Conducted customer segmentation analysis to inform targeted business strategies, enhancing market positioning.
+                            \end{rSubsection}
+                    \begin{rSubsection}
+                                    {Interactive Medical Data Dashboard}
+                                {\normalfont{Oct 2021 - }}{}{}
+                                    \item Built real{-}time SQL{-}connected Tableau dashboards for enhanced medical data visualization, improving data accessibility for researchers.
+                                    \item Collected, cleaned, and analyzed large{-}scale patient datasets, providing statistical insights for medical research.
+                                    \item Assisted in developing predictive models for medical research applications, contributing to advancements in healthcare solutions.
+                            \end{rSubsection}
+            \end{rSection}
+
+%==== TECHNICAL STRENGTHS SECTION ====%
+    \begin{rSection}{Technical Skills}
+        \begin{tabular}{ @{} l @{\hspace{1ex}} l }
+                                \textbf{Programming Languages}: Python, SQL, C, C++, C\#, .NET\\
+                                \textbf{Data Science \& Machine Learning}: Data Science, Machine Learning, AI Research, Data Engineering, NLP, Computer Vision, Generative AI\\
+                                \textbf{Tools \& Technologies}: TensorFlow, PyTorch, Spark, AWS, Azure, ETL, Azure Data Factory, Snowflake, Databricks, SQL Server\\
+                                \textbf{Cloud Platforms}: AWS, Azure\\
+                                \textbf{Soft Skills}: Stakeholder Collaboration, Analytical Thinking, Problem Solving, Time Management, Cross{-}Functional Teamwork\\
+                        \textbf{Certifications:} 
+                                            \href{}{\textbf{Certified ScrumMaster}},\\
+                                 
+        \end{tabular}
+    \end{rSection}
+ 
+
+% ACHIEVEMENTS SECTION
+
+\newcommand\myfontsize{\fontsize{0.1pt}{0.1pt}\selectfont} \myfontsize \color{white}
+Data Science, Machine Learning, AI Research, Data Engineering, Python, SQL, TensorFlow, PyTorch, Spark, AWS, GCP, Azure, Big Data, NLP, Computer Vision, Generative AI, Data Pipelines, Cloud Platforms, Data Visualization, ETL, Azure Data Factory, Snowflake, Databricks, SQL Server, ArcGIS, RPA, Appian, BPM, Splunk, DevOps, Kubernetes, Release Management, Solution Planning, Client Management, Data Science, Machine Learning, AI Research, Data Engineering, Python, SQL, TensorFlow, PyTorch, Spark, AWS, GCP, Azure, Big Data, NLP, Computer Vision, Generative AI, Data Pipelines, Cloud Platforms, Data Visualization, ETL, Azure Data Factory, Snowflake, Databricks, SQL Server, ArcGIS, RPA, Appian, BPM, Splunk, DevOps, Kubernetes, Release Management, Solution Planning, Client Management, {artificial intelligence engineer, azure cognitive services exp, azure services, core azure services, azure cognitive and generative ai, genai, aws,  gcp, java, clean, efficient, maintainable code, react, front end, back end, ai solutions, data analysis, pretrained models, automl, software development principles, version control, testing, continuous integration and deployment, python, javascript, prompt engieering, frontend, backend, html, css, api, angular, development, machine learning, artificial intelligence, deep learning, data warehouse, data modeling, data extraction, data transformation, data loading, sql, etl, data quality, data governance, data privacy, data visualization, data controls, privacy, security, compliance, sla, aws, terabyte to petabyte scale data, full stack software development, cloud, security engineering, security architecture, ai/ml engineering, technical product management, microsoft office, google suite, visualization tools, scripting, coding, programming languages, analytical skills, collaboration, leadership, communication, presentation skills, computer vision, senior, ms or ph.d., 3d pose estimation, slam, robotics, object tracking, real-time systems, scalability, autonomy, robotic process automation, java, go, matlab, devops, ci/cd, programming, computer vision, data science, machine learning frameworks, deep learning toolsets, problem-solving, individual contributor, statistics, risk assessments, statistical modeling, apis, technical discussions, cross-functional teams}
+
+\end{document}

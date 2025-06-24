@@ -1,0 +1,49 @@
+{
+  "job_title": "AI Specialist",
+  "job_purpose": "To accelerate AI-driven transformation, enhancing the Tasman Control Tower and delivering world-class solutions for operations and clients, contributing to new revenue and sustainability goals.",
+  "keywords": [
+    "AI",
+    "Machine Learning",
+    "Predictive Analytics",
+    "Dynamic Routing",
+    "Customer Engagement",
+    "Sustainability",
+    "Cloud Platforms",
+    "Python",
+    "TensorFlow",
+    "PyTorch",
+    "AWS",
+    "Azure",
+    "Real-time Data Processing",
+    "IoT",
+    "APIs",
+    "Analytics Tools",
+    "Tableau",
+    "Power BI",
+    "Problem-solving",
+    "Communication"
+  ],
+  "job_duties_and_responsibilities": [
+    "Develop and deploy machine learning models to enhance the Control Tower, optimizing fleet and warehousing operations.",
+    "Create AI-driven tools for customer acquisition, such as chatbots and customer journey mapping.",
+    "Implement predictive churn models and tailored analytics dashboards to enhance customer retention.",
+    "Use AI to optimize client supply chains and deliver cost savings.",
+    "Apply AI to predictive maintenance and resource allocation to cut operational costs.",
+    "Collaborate with tech team to integrate AI tools, ensuring scalability and innovation.",
+    "Develop AI-driven sustainability metrics to support ESG goals."
+  ],
+  "required_qualifications": [
+    "Bachelor\u2019s/Master\u2019s in Computer Science, Data Science, AI, or related field.",
+    "3+ years in AI/ML development.",
+    "Proficiency in ML frameworks such as Python, TensorFlow, PyTorch.",
+    "Experience with cloud platforms like AWS, Azure.",
+    "Experience with real-time data processing and analytics tools.",
+    "Strong problem-solving and communication skills."
+  ],
+  "preferred_qualifications": [
+    "Knowledge of logistics KPIs and ESG metrics.",
+    "Familiarity with NLP, IoT, or blockchain in supply chain applications."
+  ],
+  "company_name": "Tasman Logistics Services Pty Ltd",
+  "company_details": "Tasman Logistics Services is Australia\u2019s premier logistics company, leading in global supply chain innovation with AI-driven solutions, sustainability, and unmatched reliability. The company aims to achieve $1B in revenue by 2030, fostering a culture of excellence and sustainability under CEO Ivan Vanis."
+}
