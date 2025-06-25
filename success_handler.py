@@ -19,53 +19,21 @@ def extract_job_id_from_url(url):
     except:
         return None
 
-def update_csv_with_application_status(job_url, status="Applied"):
+def update_csv_with_application_status(job_url, row_number=None, status="Applied", csv_file_path="software_engineer.csv"):
     """
     Update CSV file with application status.
     Creates 'Applied' column if it doesn't exist, then adds status and date.
     """
     try:
-        job_id = extract_job_id_from_url(job_url)
-        if not job_id:
-            print(f"[Success Handler] Could not extract job ID from URL: {job_url}")
+        # Use the provided CSV file and row number
+        if not os.path.exists(csv_file_path):
+            print(f"[Success Handler] CSV file not found: {csv_file_path}")
             return False
-        
-        # Find CSV file that contains this job URL
-        csv_files = [f for f in os.listdir('.') if f.endswith('.csv')]
-        
-        if not csv_files:
-            print("[Success Handler] No CSV files found in current directory")
-            return False
-        
-        # Find the CSV file that contains this job URL
-        target_csv_file = None
-        for csv_file in csv_files:
-            try:
-                print(f"[Success Handler] Checking CSV file: {csv_file}")
-                with open(csv_file, 'r', newline='', encoding='utf-8') as file:
-                    reader = csv.DictReader(file)
-                    for row in reader:
-                        row_job_url = row.get('Job URL', '') or row.get('url', '') or row.get('job_url', '')
-                        row_job_id = extract_job_id_from_url(row_job_url)
-                        if row_job_id == job_id:
-                            target_csv_file = csv_file
-                            print(f"[Success Handler] Found job ID {job_id} in {csv_file}")
-                            break
-                    if target_csv_file:
-                        break
-            except Exception as e:
-                print(f"[Success Handler] Error reading CSV file {csv_file}: {e}")
-                continue
-        
-        if not target_csv_file:
-            print(f"[Success Handler] Could not find CSV file containing job ID: {job_id}")
-            return False
-        
-        print(f"[Success Handler] Found target CSV file: {target_csv_file}")
+        print(f"[Success Handler] Updating row {row_number} in {csv_file_path}")
         
         # Read existing CSV data
         rows = []
-        with open(target_csv_file, 'r', newline='', encoding='utf-8') as file:
+        with open(csv_file_path, 'r', newline='', encoding='utf-8') as file:
             reader = csv.DictReader(file)
             fieldnames = reader.fieldnames
             
@@ -80,22 +48,18 @@ def update_csv_with_application_status(job_url, status="Applied"):
                 print("[Success Handler] Created 'Application Date' column")
             
             # Process each row
-            for row in reader:
-                # Check if this row corresponds to the current job
-                # Try different possible column names for job URL
-                row_job_url = row.get('Job URL', '') or row.get('url', '') or row.get('job_url', '')
-                row_job_id = extract_job_id_from_url(row_job_url)
-                
-                if row_job_id == job_id:
+            for i, row in enumerate(reader, start=1):
+                # Update the specific row number
+                if i == row_number:
                     # Update this row with application status
                     row['Applied'] = status
                     row['Application Date'] = datetime.now().strftime('%d %B %Y')  # e.g., "23 June 2025"
-                    print(f"[Success Handler] Updated row for job ID: {job_id}")
+                    print(f"[Success Handler] Updated row {row_number} with status: {status}")
                 
                 rows.append(row)
         
         # Write back to CSV
-        with open(target_csv_file, 'w', newline='', encoding='utf-8') as file:
+        with open(csv_file_path, 'w', newline='', encoding='utf-8') as file:
             writer = csv.DictWriter(file, fieldnames=fieldnames)
             writer.writeheader()
             writer.writerows(rows)
@@ -107,13 +71,14 @@ def update_csv_with_application_status(job_url, status="Applied"):
         print(f"[Success Handler] Error updating CSV: {e}")
         return False
 
-def handle_success_page(driver, job_url):
+def handle_success_page(driver, job_url, row_number=None):
     """
     Handle the success page after job application submission.
     
     Args:
         driver: Selenium WebDriver instance
         job_url: The original job URL
+        row_number: The row number in the original CSV file to update
         
     Returns:
         str: 'SUCCESS_COMPLETE' if success page was handled successfully and should exit
@@ -183,7 +148,7 @@ def handle_success_page(driver, job_url):
             print("[Success Handler] ✅ Job applied successfully!")
             
             # Update CSV with application status
-            if update_csv_with_application_status(job_url):
+            if update_csv_with_application_status(job_url, row_number):
                 print("[Success Handler] ✅ CSV updated successfully")
             else:
                 print("[Success Handler] ⚠️ Failed to update CSV")
@@ -198,7 +163,7 @@ def handle_success_page(driver, job_url):
                 print("[Success Handler] ✅ Assuming job applied successfully based on URL!")
                 
                 # Update CSV with application status
-                if update_csv_with_application_status(job_url):
+                if update_csv_with_application_status(job_url, row_number):
                     print("[Success Handler] ✅ CSV updated successfully")
                 else:
                     print("[Success Handler] ⚠️ Failed to update CSV")

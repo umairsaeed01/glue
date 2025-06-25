@@ -1,4 +1,4 @@
-job_id,title,company,location,url,description,email,phone,salary,resume_filename,coverletter_filename
+job_id,title,company,location,url,description,email,phone,salary,resume_filename,coverletter_filename,Applied,Application Date
 85037933,Remote - Online Data Analyst (English speakers),TELUS International AI Inc.,Melbourne VIC,https://www.seek.com.au/job/85037933?type=standard&ref=search-standalone&origin=cardTitle#sol=8d20c606a7283e2dbd9540736f7726b766716eef,"Are you a detail-oriented individual with a passion for research and a good understanding of national and local geography? This freelance opportunity allows you to work at your own pace and from the comfort of your own home.
  A Day in the Life of an Online Data Analyst:
 In this role, you will be working on a project aimed at enhancing the content and quality of digital maps that are used by millions of people worldwide
@@ -14,7 +14,7 @@ Daily access to a broadband internet connection, computer, and relevant software
  Assessment
 In order to be hired into the program, you’ll take an open book qualification exam that will determine your suitability for the position and complete ID verification. Our team will provide you with guidelines and learning materials before your qualification exam. You will be required to complete the exam in a specific timeframe but at your convenience.
  Equal Opportunity
-All qualified applicants will receive consideration for a contractual relationship without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, or protected veteran status. At TELUS Digital AI, we are proud to offer equal opportunities and are committed to creating a diverse and inclusive community. All aspects of selection are based on applicants’ qualifications, merits, competence, and performance without regard to any characteristic related to diversity.",,,,,
+All qualified applicants will receive consideration for a contractual relationship without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, or protected veteran status. At TELUS Digital AI, we are proud to offer equal opportunities and are committed to creating a diverse and inclusive community. All aspects of selection are based on applicants’ qualifications, merits, competence, and performance without regard to any characteristic related to diversity.",,,,TelusDigitalAi_resume.pdf,TelusDigitalAi_coverletter.pdf,,
 85054011,AI Specialist,Tasman Logistic Services Pty Ltd,Melbourne VIC,https://www.seek.com.au/job/85054011?type=standard&ref=search-standalone&origin=cardTitle#sol=17b4bb21eeff2c05968932030f044a3886f0a65f,"Position Description: AI Specialist
 Location: Melbourne, VIC, Australia
 Employment Type: Full-Time, Permanent
@@ -49,7 +49,7 @@ Impact: Contribute to new revenue helping Tasman achieve a $1B+ global vision by
 Innovation: Develop AI solutions with our Control Tower and Supersite, leading the logistics industry
 Growth: Join a large team with global opportunities
 Rewards: Competitive salary, performance bonuses, and career growth in a tech-driven company.
-Culture: Work under CEO Ivan Vanis and his highly driven and hungry team in a bold, visionary environment, passionate about excellence and sustainability",,,$1,TasmanLogisticsServicesPtyLtd_resume.pdf,TasmanLogisticsServicesPtyLtd_coverletter.pdf
+Culture: Work under CEO Ivan Vanis and his highly driven and hungry team in a bold, visionary environment, passionate about excellence and sustainability",,,$1,TasmanLogisticsServicesPtyLtd_resume.pdf,TasmanLogisticsServicesPtyLtd_coverletter.pdf,Error - UNEXPECTED EXCEPTION,25 June 2025
 84823901,AI Smart Search Specialist,Paxus,Melbourne VIC,https://www.seek.com.au/job/84823901?type=standard&ref=search-standalone&origin=cardTitle#sol=a22b66679841de807c50c2c1a231f781b04a7b56,"About The Team
 The Website Strategy and Management team of approximately 10 website strategy and functionality experts is located across multiple sites, primarily in Brisbane and Newcastle. The team manages the departments websites and website projects and facilitates better website user experiences for clients and staff through the provision of platform and content strategy, governance and guidance. We identify and prioritise improvements, delivering iterative enhancements by driving innovation in our platforms.
 The AI Smart Search specialist will:
@@ -76,7 +76,7 @@ The worker will participate in knowledge/skills transfer activities as part of t
 
 
 To be considered for the role click the 'apply' button or for more information about this and other opportunities please contact Muhammad Warsi on (0)2 6151 9201 or email: mwarsi@paxus.com.au and quote the above job reference number.
-Paxus values diversity and welcomes applications from Indigenous Australians, people from diverse cultural and linguistic backgrounds and people living with a disability. If you require an adjustment to the recruitment process, including the application form in an alternate format, please contact me on the above contact details.",mwarsi@paxus.com.au,,,Paxus_resume.pdf,Paxus_coverletter.pdf
+Paxus values diversity and welcomes applications from Indigenous Australians, people from diverse cultural and linguistic backgrounds and people living with a disability. If you require an adjustment to the recruitment process, including the application form in an alternate format, please contact me on the above contact details.",mwarsi@paxus.com.au,,,Paxus_resume.pdf,Paxus_coverletter.pdf,,
 84939957,Data & AI Consultant - Multiple Positions,Akkodis,Melbourne VIC,https://www.seek.com.au/job/84939957?type=standard&ref=search-standalone&origin=cardTitle#sol=6901345c34970ab881226cd14a96f0916923d2fd,"Location: Melbourne, Sydney, Canberra
 Competitive Salary Package - Permanent Opportunities
 Multiple Roles and Opportunities
@@ -189,7 +189,7 @@ Due to new privacy laws regarding the collection and handling of personal inform
 
 
 
-""Akkodis is an Equal Opportunity employer, committed to all forms of workforce inclusion. We actively invite and encourage applications by candidates from diverse backgrounds",,,,Akkodis_resume.pdf,Akkodis_coverletter.pdf
+""Akkodis is an Equal Opportunity employer, committed to all forms of workforce inclusion. We actively invite and encourage applications by candidates from diverse backgrounds",,,,Akkodis_resume.pdf,Akkodis_coverletter.pdf,,
 84708639,AI Analyst,Praemium Limited,Melbourne VIC,https://www.seek.com.au/job/84708639?type=standard&ref=search-standalone&origin=cardTitle#sol=81625cabf92c296f97aea96cb4b2262ce617d0f7,"About Us
 
 Founded in 2001, we set out to simplify the complexities of wealth management. We support leading institutions and private wealth firms with cutting-edge technology and outstanding service. We offer the only fully integrated investment platform that enables comprehensive management of an investor’s entire portfolio in one place. Join us on our mission to redefine and evolve effective wealth management.
@@ -227,4 +227,741 @@ Please apply with your CV and cover letter detailing how your capabilities and c
 
 We are committed to building a diverse and inclusive workforce and welcome applications from all qualified candidates.
 
-Please Note: Only applicants with full, unrestricted work rights in Australia will be considered. A police check will be required for successful candidates.",,,,,
+Please Note: Only applicants with full, unrestricted work rights in Australia will be considered. A police check will be required for successful candidates.",,,,WealthManagementCompany_resume.pdf,WealthManagementCompany_coverletter.pdf,,
+85101882,Automation & AI Engineer,Sense Recruitment,Perth WA,https://www.seek.com.au/job/85101882?type=standard&ref=search-standalone&origin=cardTitle#sol=7bc24350294bd24ed64bcc49b4a05c21efe81f05,"Automation and AI Integration Specialist | Make It Smarter | Perth CBD (Mining and Logistics)
+
+Not just a cog. Not just a coder. This is your chance to bring automation and AI into the heart of corporate and operational decision making.
+  
+The corporate environment is polished and professional, structured where it counts. But the Tech team? We are small, hands on, and proudly strappy. Think fewer layers, more action. More startup than status quo.
+
+We are looking for someone who gets things done. Someone who is excited to build tools that replace spreadsheets, manual tasks and double handling with smart automation and backend logic. You will be solving real problems for real users, every day, from the boardroom to the operations centre.
+  
+This is not your typical RPA role. While experience with tools like UiPath or Automation Anywhere is a bonus, we are more focused on fast, API driven automation using n8n, Python and TypeScript. Flexible, lightweight and fit for purpose.
+  
+If you are looking for a place where automation and AI are more than buzzwords, and where your work has visible impact, keep reading.
+  
+What You Will Be Doing
+Automate workflows across scheduling, maintenance, fatigue and compliance
+Build backend logic using n8n, Python, TypeScript or whatever fits the problem
+Create small, practical AI tools to streamline decision making and reduce admin
+Integrate systems through APIs, file exchanges and direct data connections
+Own your tools from prototype to production, with clear logging and documentation
+Work directly with internal users to train, support and refine your solutions
+  
+What You Will Bring
+Experience in automation, backend development or systems integration
+Knowledge of RPA tools such as UiPath or Automation Anywhere is welcome but not essential
+Strong skills in Python, JavaScript or TypeScript, or similar scripting languages
+Comfortable working with APIs, operational platforms and legacy systems
+A strong interest in AI tooling and a practical approach to using it
+Clear communicator with a low ego and a focus on real outcomes
+Bonus if you have worked in transport, logistics or data heavy environments
+  
+What Is On Offer
+A newly created role with room to shape how automation and AI are applied across the business
+Real world impact, your work sits at the heart of both corporate and operations
+Hands on, on site role based in the Perth CBD tech hub
+A collaborative environment that values transparency, simplicity and momentum
+Occasional regional travel with the IT Manager
+  
+This is not about refining what is already built. It is about building what is needed.
+If that sounds like you, reach out!",,,,MakeItSmarter_resume.pdf,MakeItSmarter_coverletter.pdf,,
+85118348,Machine Learning Engineer,Micromine Australia Pty Ltd,Perth WA,https://www.seek.com.au/job/85118348?type=standard&ref=search-standalone&origin=cardTitle#sol=967a207797346499525184ea713199c8b5ec5b17,"About Us
+Founded 37 years ago, Micromine is at the cutting edge of next-generation technology for mining. With offices in 9 different countries, we are one of the world's premier mining software companies; our technology is used in all corners of the globe.
+ What We Offer
+An established multinational business, growing fast, with great benefits:
+High growth company providing growth opportunities for our people
+Work from home (WFH) and flexibility options to balance work and home life
+12 weeks paid parental leave – primary and secondary carers
+Free gym membership
+Employee Assistance Program for you and your family
+Social Connection and Responsibility Program
+Discounted private health insurance
+Novated leasing
+The opportunity to work across both the Mining and Technology sectors
+An engaging team culture and a modern office within Perth CBD
+ About The Opportunity
+Micromine is at the forefront of revolutionising the mining industry through cutting-edge AI tools; enhancing efficiency, safety, and decision-making. As we continue to expand, we are seeking a Machine Learning Engineer to strengthen our team and drive innovation in AI-powered mining solutions.
+In this role you will design, develop and implement machine learning models that solve real-world problems.
+This isn’t a role focused on simply integrating existing AI models like ChatGPT; we build our machine learning and AI solutions from scratch, tailored to our specific needs and challenges.
+Develop and deploy machine learning models using PyTorch.
+Optimise deep learning architectures for performance and scalability.
+Implement and maintain model training, evaluation, and monitoring pipelines.
+Work with large datasets and apply best practices for data preprocessing and feature engineering.
+Stay up to date with the latest advancements in deep learning and AI technologies.
+ About You
+Ideally you will have a proven background in the Machine Learning / AI field.
+Other key skills, experience, and qualifications:
+Strong experience with PyTorch (or similar framework) for deep learning model development.
+Proficiency in Python and familiarity with related ML libraries (NumPy, Pandas, Scikit-learn, etc.).
+Solid understanding of neural networks, computer vision, or NLP.
+Experience deploying models in production environments.
+Bachelor's or higher degree in Computer Science, AI, or a related field.
+ Next Steps
+If you are looking to shape the future direction of technology in the industry, we encourage you to apply for this exciting opportunity.
+To learn more or apply, visit our website at www.micromine.com.
+Micromine is dedicated to fostering a diverse and inclusive work environment, and we welcome applicants from a variety of backgrounds to apply.",,,,Micromine_resume.pdf,Micromine_coverletter.pdf,,
+84737223,AI and Reporting Lead,Wesfarmers,Perth WA,https://www.seek.com.au/job/84737223?type=standard&ref=search-standalone&origin=cardTitle#sol=275ae05726b4de9a618387ef34496cf8b4e6cc18,"Be part of a team who are focused on harnessing the power of data and transforming it into meaningful and actionable insights that supports decision making and improves business performance
+Opportunity to pilot emerging technology and showcase innovative data, AI and reporting solutions to senior leaders
+Collaborate with all departments within our Corporate Office to prioritise use cases and deliver successful outcomes
+Flexible, supportive work environment with work from home options
+Newly created, full time permanent role ideally based in Perth (we would consider Melbourne)
+About the team
+We are building a cross-skilled and diverse Technology team focused on engaging the business, understanding strategic drivers, co-creating value-adding solutions and pushing technical boundaries to innovate and deliver excellence to the Corporate Office. With a clear data driven vision, plus all the tools and learning you will need, the tone is set for success.
+What you’ll do
+Reporting to our Head of Technology Strategy and Delivery, this role will lead the development and execution of the GenAI strategy for Corporate Office, ensuring alignment with business objectives. You will design and deploy AI models and data solutions which enhance operational efficiency and data-driven insights.
+Additionally, you will collaborate closely with cross-functional teams to identify opportunities where GenAI can drive automation, improve reporting, and enhance decision-making. Working closely with technology, cyber and data teams you will oversee the successful design of an integrated AI delivery platform.
+By actively engaging with stakeholders, you will identify opportunities to enhance program outcomes and drive continuous improvement. The aim is to ensure that the business benefits from cutting-edge technology solutions, leading to improved ways of working and operational excellence across all departments.
+What you’ll need
+Hands-on experience in delivering technology, data and AI solutions
+Proficiency in GenAI models, NLP, LLMs, and AI tools/platforms (e.g. OpenAI, Microsoft Azure AI, AWS AI/ML, Google Vertex AI)
+Strong knowledge of modern cloud platforms, infrastructure as code, automated data governance controls and cyber security and risk management principles
+Ability to deploy MLOps and AI model lifecycle management
+Strong experience in data visualisation
+Experience in Agile methodology and working in large complex data environments
+A naturally inquisitive and analytical mind, and strong ability to problem solve
+Strong stakeholder engagement and influencing skills
+Excellent communication and presentation skills, including the ability to communicate complex topics simply
+A genuine interest and passion to learn and develop new skills
+Strong people leadership with the ability to motivate a high performing, outcome driven team ensuring mentoring, support and professional development for team members
+About Wesfarmers
+As one of Australia’s largest listed companies, we’re proud of our longstanding contribution to Australians. We continually reinvent ourselves and invest in the businesses we own and operate, including leading retailers like Bunnings, Kmart, Target, Officeworks and Priceline. We also have an online offering, including OnePass and the Group shared data asset. Our work doesn’t stop there, we operate in the industrials sector which supplies the nation with chemicals, energy and fertilisers, and industrial and safety products. And we participate in an integrated lithium joint venture, including the operation of a mine and concentrator and the development of a refinery.
+Join the team at Corporate Office which provides support and advice across the Wesfarmers Group
+The Corporate Office provides corporate services and support to the autonomous businesses within the Wesfarmers Group, enabling the achievement of Group objectives. It leads capital allocation and portfolio management for the Group and focuses on leveraging and enhancing the Group’s reputation to support attraction and retention of talent, securing investment opportunities and maintaining a low-cost capital. To do this, we need great people, working together and role modelling our values and ways of working.
+Our culture
+We’re results focused, but we’re a business that cares. Here we are less about titles and more about everyone playing a valuable role. We provide autonomy and space with freedom to operate, quickly learning from mistakes because we know they are part of the way forward. We’re curious, open minded, and collaborative. And although we’re thought leaders, we’re humble, and willing to share knowledge and learn from one another.
+We know that diversity fosters greater innovation and better customer connection, so we strive to create an inclusive and diverse work environment.
+Next steps
+If this sounds like your next career move, then combine your cover letter and resume into one document and click on the ‘Apply’ button by Friday, 27 June 2025. Please note that we may commence interviewing of candidates prior to this closing date.
+For brief enquiries please contact Human Resources on (08) 9327 4223.
+We’re hiring the best and the brightest talent. Let’s start to explore the possibilities of achieving great things together.
+For more information, visit our website at www.wesfarmers.com.au",,,,Wesfarmers_resume.pdf,Wesfarmers_coverletter.pdf,,
+84996868,Domain Solutions Lead - Data & AI,Schlumberger Australia Pty Ltd,Perth WA,https://www.seek.com.au/job/84996868?type=standard&ref=search-standalone&origin=cardTitle#sol=31167dbc4d22bc3c6fadc037e3951a926f3d87be,"About SLB:
+We are a global technology company, driving energy innovation for a balanced planet.
+Together, we create amazing technology that unlocks access to energy for the benefit of all.
+ Our inclusive culture is the key to our success. We collaborate with our internal community of colleagues, alumni, and our valued external partners to support each other and achieve our goals. We aim to raise the bar high. We look for people who are committed to innovation and success and act with integrity to become and be a part of one of the most diverse group of experts in our industry, anywhere around the globe.
+ Global in outlook, local in practice – and with a united, shared passion for discovering solutions, we hire talented, driven people and support them to succeed, personally and professionally.
+ Role: Domain Solutions Lead
+ Location: Perth Western Australia
+ Type of contract: Permanent
+ Roster: Full Time
+ Job Description:
+ As a Domain Solutions Sales Lead, you will drive strategic business development initiatives for data and AI solutions across the Australia and New Zealand region. This role combines deep technical expertise with commercial acumen to identify market opportunities, develop solution proposals, and establish SLB as the preferred partner for digital transformation in the energy sector. Strong knowledge of SLB's technology portfolio including ProSource, Studio, Lumi, and Delfi is essential to effectively position and sell our integrated solutions.
+ Roles and Responsibilities:
+·         Lead identification and capture of new market opportunities for data and AI solutions
+·         Collaborate with cross-functional teams, including data scientists, engineers, and developers, to formulate innovative technology and service offerings that ensure data integrity and alignment with customer requirements.
+·         Develop comprehensive solution proposals combining advanced AI/ML capabilities with domain expertise.
+·         Collect and analyze market intelligence, competitor information, and market size data
+·         Contribute to product development roadmap based on market feedback and customer requirements
+·         Serve as a technical advisor to both internal and external stakeholders, providing guidance and recommendations based on your domain knowledge.
+  Qualifications and Experience:
+·         Bachelor's degree in Computer Science, Engineering, Petroleum Engineering, or related technical discipline
+·         Minimum 8-10 years of experience in technical sales, business development, or solution architecture within the energy sector
+·         Proven track record in data solution architecture with understanding of backend/frontend development and cloud technologies
+·         Demonstrated success in achieving revenue targets and winning new business opportunities
+·         Strong familiarity with oil and gas domain, including E&P data management practices
+·         Experience with cloud computing platforms (AWS, Google Cloud) and data analytics tools (SQL, visualization)
+·         Understanding of AI/ML technologies and their application in industrial settings
+·         Familiarity with SLB applications including ProSource, Studio, Lumi, and Delfi platform highly desirable
+·         Excellent communication skills with ability to convey complex technical concepts to non-technical stakeholders
+·         Proven ability to work collaboratively in cross-functional teams and build relationships at all organizational levels
+·         Experience in conducting workshops, technical presentations, and customer demonstrations
+ Benefits:
+·         Permanent employment
+·         Gold Tier Private Health Cover
+·         Comprehensive Life, TPD & Income Protection Insurances
+·         Wellness Benefits
+·         Employment Assistance Program
+·         Discounted Stock Purchase Program
+·         Attractive compensation package
+
+Please apply via this advertisement and upload a detailed resume outlining your qualifications and work experience.
+Applications are open from 18-Jun-2025 to 18-Jul-2025.
+Only successful applicants that meet the above criteria will be contacted.
+SLB is an equal opportunity employer. Qualified applicants are considered without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, age, disability, or veteran status.
+We are committed to providing employment opportunities for Aboriginal and Torres Strait Islander people.
+www.careers.slb.com
+https://www.youtube.com/watch?v=40PaXCJfi6M",,,,Slb_resume.pdf,Slb_coverletter.pdf,,
+84897327,AI Business Partner,Roy Hill,Perth WA,https://www.seek.com.au/job/84897327?type=standard&ref=search-standalone&origin=cardTitle#sol=c72e52d36043cb11d9013492e9b85a8c6071f860,"Monday to Friday | Perth Roster
+Performance, Retention and Profit Share Bonuses
+18 weeks paid Parental Leave for primary caregivers
+Company contribution towards private health cover for employees and immediate family
+About the role:
+The Technology Business Partnering team is currently seeking an AI Business Partner to join them on a Monday - Friday Roster based at Perth. Reporting to the Manager, you will be responsible for driving the awareness and understanding of artificial intelligence capabilities across Roy Hill. This role is crucial in fostering an AI-savvy culture, upskilling employees, and ensuring that all departments recognize and leverage the benefits of AI technologies to enhance decision-making, operational efficiency, and innovation.
+
+Duties:
+Develop and execute an organization-wide AI literacy program to educate employees on AI concepts, tools, and their practical applications within the mining industry.
+Collaborate with departmental leaders to identify AI learning needs and tailor training initiatives to various roles and functions within Roy Hill.
+Create engaging content and resources, such as workshops, seminars, and e-learning modules, to promote AI knowledge and skills development.
+Establish an AI community of practice within Roy Hill to facilitate knowledge sharing, best practices, and collaborative problem-solving.
+Measure and report on the effectiveness of AI education programs, adjusting strategies to maximize engagement and learning outcomes.
+Provide ongoing support and resources to ensure that AI adoption is sustainable and continues to evolve with the organization's needs.
+Organize and host AI-focused events, such as hackathons or innovation challenges, to stimulate interest and creative thinking around AI opportunities.
+Assess and optimize the utilization of existing AI tools and platforms across the company, ensuring they are fully leveraged for maximum value and efficiency.
+Skills and Experience:
+Bachelor's degree in Technology, Education, Business, Communication, or a related field, with a strong emphasis on technology and adult learning principles
+experience in leading or significantly contributing to AI or technology implementation projects. This experience is crucial for understanding the challenges and opportunities of integrating AI into business processes.
+Familiarity with the mining industry or related sectors where AI has significant applications (such as manufacturing or logistics) would be highly beneficial.
+Professional experience in designing and delivering educational programs, preferably with a focus on technology adoption and digital literacy.
+A solid understanding of AI and machine learning concepts, including familiarity with different types of algorithms, data processing, and the ability to grasp the technical aspects of AI tools and platforms.
+Experience in managing projects, including planning, execution, monitoring, and closing projects related to AI initiatives and educational programs.
+Perth ROC Facilities:
+Free on-site parking at remote operational centre (ROC)
+Modern spacious office with break-out facilities
+In-house café providing variety of hot & cold food options and barista coffee
+Flexi Leave available to all Perth based office staff
+Flexible working hours outside of core business hours
+Active social club with community events and activities for employees
+Lifestyle, Learning and Recreation initiative which provide events for your family
+About the Company:
+Roy Hill is a world class mining company, leading the way through innovative, integrated mining rail and port operations, to export iron ore safely and efficiently from West Australia's Pilbara region.
+We are a company where people matter. We support our team to reach their full potential by providing generous benefits and opportunities, empowering them to actively contribute to our success and that of our state and country.
+We are committed to the use of new technologies that results in higher quality product, less waste, improved efficiencies and above all, a safer workplace. Our integrated next generation mine, rail and port operations enable the sustained low-cost production of iron ore at a consistent quality and grade, allowing us to respond to changing market cycles.
+We are proud to collaborate and work in partnership with the communities in which we operate, supporting programs and initiatives that help achieve positive outcomes and leave a lasting legacy.
+We are dedicated to minimising our environmental footprint, designing our operations to optimise the rehabilitation of the land when and where mining has been completed.
+We are Roy Hill.
+Equal Opportunity:
+Roy Hill is an Equal Opportunity Employer, and we proudly encourage indigenous Australians, Veteran personnel and females to apply. We promote cultural diversity, gender equality and non- discrimination.
+
+We are proud of our relationships with our Traditional Owners and value the difference these partnerships make to the success of the project and to the lives of the people on whose land we operate.
+How to apply
+Click APPLY to submit your application.
+To be eligible to apply for this role you must be legally permitted to work permanently in Australia.
+Please note that unsolicited applications from recruitment agencies will not be accepted.",,,,RoyHill_resume.pdf,RoyHill_coverletter.pdf,,
+85059508,AI and Automation Lead,Fuelfix Pty Ltd,Wangara,https://www.seek.com.au/job/85059508?type=standard&ref=search-standalone&origin=cardTitle#sol=950187bdd1dd321b23fa73db14c8bcc439d83122,"Fuelfix & Tanks2Go is a leader in the provision of fuel management and emissions solutions, with four main business streams are Repairs and Maintenance, Tank Hire and Sales, Fuel Projects and Facility Management.
+As we look to drive intelligent automation solutions across the business, we are seeking a technically skilled and strategically minded AI and Automation Lead to drive the adoption, integration, and optimisation of this business strategy.
+You will be instrumental in leveraging Microsoft 365 Business Central, Power Platform (including PowerApps and Power Automate), and Microsoft Dynamics CRM to streamline operations, enhance data-driven decision-making, and foster a culture of innovation and continuous improvement.
+About The Role
+As the subject matter expert for Microsoft 365 Business Central and Power Platform this role will:
+Lead the design, development, and deployment of AI-driven and automated solutions using Microsoft Power Platform, Business Central, and Dynamics CRM.
+Collaborate with business units to identify automation opportunities and translate them into scalable solutions.
+Integrate AI capabilities such as Copilot and Azure AI services into business workflows.
+Establish governance frameworks for automation development, ensuring security, compliance, and performance standards are met.
+Develop and deliver training sessions and documentation to upskill internal teams on automation tools and best practices.
+Drive user adoption of new tools and processes through effective change management strategies.
+Monitor usage and performance metrics to continuously improve solution effectiveness
+About You
+2 years + experience in designing and implementing solutions using Microsoft PowerApps, Power Automate, and Dynamics 365 CRM
+Experience in Business Central essential including integration and customisation capability
+Familiarity with AI tools such as Microsoft Copilot, Azure AI, or similar platforms
+Excellent communication and interpersonal skills, with a passion for teaching and enabling others.
+Ability to manage multiple projects and stakeholders in a fast-paced environment.
+Relevant certifications (e.g., Microsoft Power Platform Functional Consultant, Dynamics 365 Fundamentals) are a plus.
+Why Fuelfix
+The opportunity to work at a market leader that is well placed for continued success in Australia’s ever-growing Hydrocarbon Management Industry.
+We have a strong and inclusive company culture that focuses on the things that matter – People and Safety. We work with our team to develop skills, achieve qualifications, and build a wide range of experiences to enable success.
+This role offers an opportunity to refine and build your skills and experience in the hydrocarbons industry, working with key clients across the resource sector. With a mix of workshop and on-site work - with the opportunity to travel at times - no two days are the same.
+Think you are a good fit for the role?
+Hit APPLY and send in your cover letter and detailed resume. If you have any questions, please email careers@fuelfix.com.au.
+Fuelfix is an Equal Opportunity Employer, and we encourage applications from female and Aboriginal and Torres Strait Islander candidates. We embrace cultural diversity and inclusion, and we welcome applications from all backgrounds.",careers@fuelfix.com.au,,,FuelfixTanks2Go_resume.pdf,FuelfixTanks2Go_coverletter.pdf,,
+84549605,AI Change & Adoption Specialist,Fortescue,Perth WA,https://www.seek.com.au/job/84549605?type=standard&ref=search-standalone&origin=cardTitle#sol=fc472307898c6968b8aeb1b7d260f61828c5a72d,"About Us
+Be part of something big. Fortescue is leading the world with our plan to decarbonise our iron ore operations, projects that harness renewable energy and the development of technology that will change our planet forever.
+Our Opportunity
+Title: AI Change & Adoption Specialist
+Work Location: Perth Office
+Roster: Monday to Friday
+Fortescue is scaling up its AI foundations to unlock the next wave of value across both its Metals and Energy businesses. We turn artificial-intelligence prototypes and ideas into real business value. That means changing how people work and integrating technology into our everyday. You will own the human side of value delivery; working with the business to identify where opportunities exist, ensuring that every model, dashboard or agent lands cleanly in operations, hits its targets and delivers for the users. Working within the core AI team, you will map processes, prepare frontline teams for change and prove the dollars in the bank.
+Key Responsibilities
+Be the face of AI to managers and GMs across the business
+Build and execute change plans (stakeholder analysis, comms, training, adoption KPIs)
+Facilitate workshops to capture current-state processes and design future-state journeys enabled by AI
+Develop user-segmented training curricula and ""train-the-trainer"" assets
+Track adoption metrics and feed insights back into the product roadmap
+Coordinate with Legal & Risk on Responsible-AI communications and policy roll-outs
+Act as Product Owner proxy when AI Strategists are deep in discovery to keep delivery cadence unblocked
+Create board-ready artefacts that translate technical wins into business language.
+Qualifications and Experience
+Experienced in organisational change management / digital adoption; experience with data or AI products preferred
+Certified Change Practitioner (e.g., Prosci ADKAR) or equivalent track record
+Comfortable running process-mapping sessions (BPMN or similar) and translating outputs into agile backlogs
+Proven storytelling ability - you can brief a shift supervisor at 6 am and a director at 6 pm
+Familiarity with OKR frameworks and benefits-realisation tracking
+Analytics skills to self-serve adoption dashboards (Power BI, Tableau or Looker).
+Our Commitment
+Fortescue celebrates individual strengths and team members are encouraged to bring their whole selves to work. Our global workforce drives and promotes an inclusive culture, both within our organisation and throughout the communities we interact with. Diverse backgrounds include First Nations Peoples, people with disabilities, LGBTQ+ community, gender, neurodiverse, cultural diversity, all age groups, and those with an intersectional or multiple diverse characteristics. We encourage candidates from all backgrounds to apply.
+https://fortescue.com/careers
+Internal Candidates / Current Contractors please apply via Success Factors Careers Portal. For further information on how to apply please visit the Fortescue Hub.
+Fortescue reserves the right to close applications early should a suitable pool of candidates be identified. Fortescue will never contact you to ask for payment of any kind, whether directly or through a third party.",,,,Fortescue_resume.pdf,Fortescue_coverletter.pdf,,
+84783621,AI Systems Orchestrator,Poppy Lissiman & Co,Fremantle,https://www.seek.com.au/job/84783621?type=standard&ref=search-standalone&origin=cardTitle#sol=25262fea57b6ca4a5e4dd400eee03d745ce9da42,"AI-Native Systems Orchestrator  
+AKA: The Ops Architect Who Can See the Matrix
+Poppy Lissiman is a globally recognised Australian fashion accessories label, renowned for its unapologetic design, pop-art aesthetic, and cult following that includes Beyoncé, Margot Robbie, Billie Eilish, the Hadids, Kardashians, and Jenners. While the brand has built remarkable equity over its 17-year journey, it is now seeking to integrate AI solutions across key aspects of the business to equip it for future growth in the rapidly evolving Ecomm landscape. The business is now undergoing a full-scale transformation into a technology-first, data-led operation which the successful candidate will spearhead.
+This marks a unique inflection point: one where brand equity meets scalable infrastructure. We are seeking a systems thinker, fluent in AI and automation, who can hardwire intelligence into every aspect of our operations. Your mission is to unlock performance, drive margin expansion, and build the digital backbone for sustainable growth at scale.
+The Role: AI Systems Orchestrator
+This isn’t a role for process maintainers, it’s for builders. You’ll design and implement the systems architecture that integrates our merchandising, finance, creative, CRM, logistics, and marketing functions into a unified, insight-rich ecosystem. You’ll work closely with:
+• Former Uber Head of Growth & Strategy for APAC
+• Our globally celebrated Creative Director, Poppy Lissiman
+You will be a key partner in reengineering the business from the inside out: autonomously, cross-functionally, and without friction. Remote work arrangements will be considered for exceptional candidates.
+Key Responsibilities
+• Automate cross-functional workflows spanning operations, marketing, finance, and inventory
+• Integrate and manage a suite of AI tools across new and existing systems (Xero, Shopify, Meta, Google, Klaviyo, CIN7, Fast Simon, Glew.io)
+• Consolidate fragmented data into clean, actionable insights
+• Collaborate cross-functionally to create systems that enable exponential team efficiency
+• Continuously test and optimise AI-led processes for scale and reliability
+Ideal Candidate Profile
+• Proficiency in prompt engineering, AI toolchains, and workflow orchestration
+• Experience with tools like LangChain, Make, Zapier, and custom agent builders
+• Demonstrated ability to identify and solve real-world business problems and apply AI with measurable impact
+• Background in high-leverage operations, data science, or technical marketing
+• Master’s in AI/Data Science—or equivalent real-world obsession
+• Bonus: You’re API-fluent, spreadsheet-savvy, and allergic to inefficiency
+Why This Role is Rare
+• Transformation at scale: Shape the trajectory of a successful legacy brand entering a new growth phase
+• Creative-meets-technical environment: Leverage deep brand equity while building bleeding-edge systems
+• Executive access: Operate at strategic level with direct impact and zero red tape
+• Global visibility: What you build will not sit in a drawer—it will scale quickly and internationally
+If this sounds like you, we'd love to meet. Apply now!",,,,PoppyLissiman_resume.pdf,PoppyLissiman_coverletter.pdf,,
+84656799,Senior Software Developer – AI Agents,Oqea,Subiaco,https://www.seek.com.au/job/84656799?type=standard&ref=search-standalone&origin=cardTitle#sol=3f3957ad022e85a64ec6c8df6a3cdf578ded252d,"About Oqea
+Are you excited by a start-up environment and working for a company that can help make a real difference? Are you an all-rounder who can work well in a team and has the initiative to get the job done? If so, we want to hear from you!  
+Oqea's mission is to create a place for connected wellbeing. Our vision is to change how healthcare is delivered and received for the better of everyone, everywhere, and we need your help to achieve this! The Oqea team has developed an online platform for consumers and providers to connect, collaborate and communicate. Oqea aims to bring self-help tools and professional support together to reduce isolation and ensure no one gets left behind. If you care about helping others and enjoy connecting with individuals from many different walks of life, this may be your role! 
+ About the Role
+We're seeking an exceptional Senior Software Developer to join our innovative team in a dual capacity: driving full-stack development of our core healthcare platform while pioneering cutting-edge agentic tooling for mental health consultation support. As a dynamic senior developer with strong Python skills and full-stack expertise, you'll balance traditional product development with building intelligent, AI-assisted systems that enhance mental health care delivery through ambient listening, automated summarisation, and differential diagnostic support tools.
+You'll work at the forefront of AI-driven healthcare technology, collaborating closely with our Product Team and Chief Technology Officer to architect and deliver core platform features and sophisticated AI agent solutions. This role requires technical leadership across the whole development spectrum—from Vue.js interfaces to Python-based agent evaluation systems, focusing on measuring, optimising, and fine-tuning AI agent performance for clinical environments.
+ Our Tech Stack
+·       Frontend: Module Federated Vue.js for Single Page Applications
+·       Backend: Hono for high-performance API development + Python for agent orchestration
+·       Infrastructure: Fully managed PaaS in Azure with AI Foundry resources LLM tooling
+·       Architecture: Microservices with typesafety throughout
+·       Agent Technologies: Python-based agent frameworks, LLM APIs
+·       Development Environment: Modern monorepo setup
+Key Responsibilities
+·       Full-Stack Product Development: Design and develop scalable applications using Vue.js frontend and Hono API backend, contributing to core platform features and user experiences
+·       Agentic Tool Development: Build Python-based intelligent agents for mental health consultation support, including ambient listening systems, automated clinical note generation, and diagnostic assistance tools
+·       Agent Quality & Evaluation: Develop sophisticated measurement frameworks to assess agent performance, accuracy, and clinical relevance using Python-based evaluation pipelines
+·       Fine-Tuning & Optimisation: Implement fine-tuning workflows to continuously improve agent responses based on clinical feedback and performance metrics
+·       Real-Time Integration: Build seamless connections between full-stack applications and agentic systems for real-time clinical support
+·       Performance Monitoring: Create monitoring tools to track agent behaviour, response quality, and system performance in clinical environments
+·       Technical Leadership: Mentor junior developers across both full-stack and AI domains, lead architecture discussions for hybrid traditional/agent-based systems
+·       Cross-Platform Coordination: Ensure smooth integration between traditional web applications and intelligent agent workflows
+Skills & Experience We Value
+Full-Stack Development:
+·       Frontend Expertise: Strong experience with JavaScript/TypeScript and Vue.js for building responsive, user-friendly interfaces
+·       Backend Development: Proficiency with Node.js API frameworks (e.g., Hono, Express, Fastify) and understanding of microservice architecture
+·       Python Development: Solid Python skills for building agent orchestration, evaluation tools, and integration services
+Agent Development & Evaluation:
+·       Agentic System Integration: Experience working with LLM APIs (OpenAI, Anthropic, etc.) and agent orchestration frameworks
+·       Quality Measurement: Ability to design and implement evaluation frameworks for assessing agent output quality, relevance, and accuracy
+·       Fine-Tuning Experience: Understanding of fine-tuning processes, prompt engineering, and iterative agent improvement techniques
+·       Performance Monitoring: Skills in building monitoring and analytics tools to track agent behaviour and performance metrics
+ Healthcare & Domain Knowledge:
+·       Clinical Data Understanding: Familiarity with healthcare data standards (FHIR, HL7) and clinical workflows
+·       Mental Health Technology: Interest in digital mental health solutions and understanding of therapeutic technology requirements
+·       Privacy & Compliance: Understanding of healthcare data privacy requirements and secure system design
+ Additional Technical Skills:
+·       Experience with cloud environments, particularly Microsoft Azure
+·       Knowledge of CI/CD pipelines, DevOps practices, and Infrastructure as Code (Terraform)
+·       Comfort working with monorepo structures and module federation concepts
+·       Understanding of real-time data processing and event-driven architectures
+Education & Experience
+·       Bachelor's or Master's degree in Computer Science, Software Engineering, or equivalent experience
+·       7+ years of professional software development experience with strong full-stack capabilities
+·       2+ years of experience with Python development and/or AI agent integration
+·       Demonstrated experience in measuring and evaluating software system performance and quality
+·       Previous technical leadership experience and mentoring capabilities
+ What Sets You Apart
+·       Dual Development Expertise: Proven ability to excel in both traditional full-stack development and modern agent-based system development
+·       Agent Evaluation Experience: Background in building evaluation frameworks, quality metrics, or testing systems for AI/agent outputs
+·       Fine-Tuning & Optimisation: Experience with prompt engineering, model fine-tuning, or iterative improvement of AI system performance
+·       Healthcare Technology: Previous work in healthcare applications, clinical workflows, or medical technology solutions
+·       Performance Analytics: Experience building monitoring, analytics, or measurement tools for complex software systems
+·       Startup Agility: Proven ability to thrive in fast-paced environments while balancing multiple technical domains
+·       Clinical Domain Interest: Understanding of mental health practices, diagnostic workflows, or therapeutic technology needs
+Our Values
+Our core values resonate with you: integrity, commitment, empathy, openness and empowering, and loyalty and teamwork.
+Company Compliance
+You must adhere to all Company Policies and Procedures.
+We believe great talent comes in many forms. If you're passionate about building innovative software solutions and don't precisely match every requirement but believe you have what it takes to succeed in this role, we encourage you to apply.",,,,Oqea_resume.pdf,Oqea_coverletter.pdf,,
+85061422,Machine Learning Software Engineer,NES Fircroft,Perth WA,https://www.seek.com.au/job/85061422?type=standard&ref=search-standalone&origin=cardTitle#sol=98be542231b8375f593f2d03b306a65c3de9c74a,"Our innovative client, a well-known mining & energy organisation, is looking for the next Machine Learning Software Engineer to join the team. This will be an initial 6 month contract with a solid pipeline of work on the horizon. This is a Perth CBD position that requires in office presence up to 3 times a week. This person should be comfortable in an environment where they can design, build, and scale real-world applications powered by large language models (LLMs). The right person will find themselves working closely with domain experts, product managers, and ML researchers to turn ideas into prototypes and prototypes into production-ready tools that solve meaningful problems using cutting-edge AI.
+
+Key Responsibilities
+Collaborate with cross-functional teams to identify high-impact AI use cases that benefit from LLM capabilities
+Understand mining and engineering domain challenges and develop AI solutions to assist
+Design and build software applications and APIs that leverage LLMs (e.g., OpenAI GPT, Claude, Mistral, LLaMA)
+Implement prompt engineering strategies and optimisation techniques for specific business tasks
+Create autonomous agents capable of planning, reasoning, and executing complex multi-step tasks
+Integrate LLM-powered features into new or existing products with strong UX considerations
+Develop evaluation frameworks to test LLM output quality, relevance, and safety
+Stay on top of LLM advancements and contribute to internal best practices and technical strategy
+Write clean, maintainable, and well-documented code
+About You
+You’re a software engineer with a builder’s mindset and a passion for AI. You may not be a deep learning researcher, but you’re excited to turn LLMs into useful products. You can clearly communicate and present ideas, progress and results to both technical and non-technical audiences. 
+
+Required Qualifications
+Bachelor's degree in Computer Science, Software Engineering, or equivalent experience
+5+ years of professional software engineering experience
+Strong proficiency in Python (preferred) or TypeScript/JavaScript
+Experience integrating APIs, especially LLMs (OpenAI, Hugging Face, etc.)
+Familiarity with modern backend frameworks (FastAPI, Flask, Node.js)
+Understanding of prompt engineering and basic model evaluation
+Experience with cloud platforms (AWS, GCP, or Azure)
+Experience with AI development tools and libraries (LangChain, LlamaIndex, CrewAI, etc.)
+Preferred Qualifications
+Understanding of embeddings, vector databases, and retrieval-augmented generation (RAG)
+Experience with front-end frameworks (React, Vue) for building user-facing LLM tools
+Experience with MLOps practices such as model versioning, monitoring, evaluation pipelines and CI/CD
+Familiarity with model fine-tuning or training using libraries like Hugging Face Transformers
+Knowledge of data privacy and security concerns when deploying AI applications
+What We Offer
+The opportunity to work at the frontier of applied AI
+A collaborative and high-trust engineering culture
+Flexible work arrangements
+Access to powerful compute resources and the latest LLMs
+A chance to shape the next generation of intelligent tools
+
+Full working Australian rights will be required. Perth based candidates or candidates planning a relocation to Perth preferred.
+Due to a high level of applications and tight timeframe, shortlisted profiles will be contacted directly.
+This role may progress with shortlisting ahead of closing date so make sure your application counts and apply.
+
+With over 90 years' combined experience, NES Fircroft (NES) is proud to be the world's leading engineering staffing provider spanning the Oil & Gas, Power & Renewables, Chemicals, Construction & Infrastructure, Life Sciences, Mining and Manufacturing sectors worldwide. With more than 80 offices in 45 countries, we are able to provide our clients with the engineering and technical expertise they need, wherever and whenever it is needed. We offer contractors far more than a traditional recruitment service, supporting with everything from securing visas and work permits, to providing market-leading benefits packages and accommodation, ensuring they are safely and compliantly able to support our clients.",,,,NesFircroft_resume.pdf,NesFircroft_coverletter.pdf,,
+84549345,Cloud & AI Platform Engineer,Fortescue,Perth WA,https://www.seek.com.au/job/84549345?type=standard&ref=search-standalone&origin=cardTitle#sol=dba78fe18ce9ab2c27fbd79770ab826ecb8e4048,"About Us
+Be part of something big. Fortescue is leading the world with our plan to decarbonise our iron ore operations, projects that harness renewable energy and the development of technology that will change our planet forever.
+Our Opportunity
+Title: Cloud & AI Platform Engineer
+Work Location: Perth Office
+Roster: Monday to Friday
+Fortescue is scaling up its AI foundations to unlock the next wave of value across both its Metals and Energy businesses. As a Cloud & AI Platform Engineer, you will architect, build and optimise AI, Python and Platform components that make our products possible. The role will sit in the core AI team and partner closely with Cloud, IT and product teams, you will ensure our codebases and AWS infrastructure remain secure, scalable and cost effective while enabling rapid experimentation with emerging AI services and GenAI capabilities.
+Key Responsibilities
+Own and evolve the code‑base (predominantly Python) enabling AI functionality at Fortescue, setting coding standards and merging the (rare) hot‑fix quickly and safely.
+Support architecture decisions to strategically integrate new technologies into Fortescue's tech stack.
+Define patterns for integrating new tools, APIs and enterprise systems and reviewing cyber compliance.
+Design and maintain AWS infrastructure‑as‑code, extending Terraform modules to keep environments secure, scalable and cost‑efficient.
+Automate CI/CD pipelines (GitHub Actions) to test, containerise and deploy code, and implement end‑to‑end production monitoring with alerting, logging and incident‑response playbooks
+Lead LLM best-practice: prompt engineering, embeddings, cost-control guard-rails and safe model usage.
+Qualifications and Experience
+Solid hands‑on experience with AWS services such as Lambda, ECS/EKS, S3, IAM and VPC networking
+Experience with Python for scripting, automation or application development
+Production exposure to Apache Airflow or Dagster (or a similar orchestrator) for scheduling and monitoring workflows
+Confidence setting up CI/CD pipelines in GitHub Actions or comparable tooling
+Comfort writing and refactoring Terraform (or other IaC) modules - managing multi‑environment state and safe roll‑outs
+Familiarity with modern GenAI / LLM stacks (e.g., OpenAI, Bedrock) including prompt design and vector search concepts
+Relevant tertiary qualifications or equivalent practical experience.
+Our Commitment
+Fortescue celebrates individual strengths and team members are encouraged to bring their whole selves to work. Our global workforce drives and promotes an inclusive culture, both within our organisation and throughout the communities we interact with. Diverse backgrounds include First Nations Peoples, people with disabilities, LGBTQ+ community, gender, neurodiverse, cultural diversity, all age groups, and those with an intersectional or multiple diverse characteristics. We encourage candidates from all backgrounds to apply.
+https://fortescue.com/careers
+Internal Candidates / Current Contractors please apply via Success Factors Careers Portal. For further information on how to apply please visit the Fortescue Hub.
+Fortescue reserves the right to close applications early should a suitable pool of candidates be identified. Fortescue will never contact you to ask for payment of any kind, whether directly or through a third party.",,,,Fortescue_resume.pdf,Fortescue_coverletter.pdf,,
+85131238,Data Senior Engineer,Fortescue,Perth WA,https://www.seek.com.au/job/85131238?type=standard&ref=search-standalone&origin=cardTitle#sol=eec522c228e6acfe14a9e1bb23bc6be53fd0a772,"Our Opportunity
+Work Location: Fortescue's Perth office is located on the traditional lands of the Whadjuk people.
+Roster: Monday to Friday - site travel is unlikely but possible.
+Fortescue is currently transforming its business using AI to accelerate and automate the mining value chain. We are choosing to be ahead of the curve and on the forefront of new technology opportunities that will change the world.
+Fortescue's Data Science team is dedicated to delivering value and driving innovation through the disciplined application of the scientific method and agile delivery. We collaborate with diverse teams across the business to address real-world challenges and develop solutions that drive value. We are passionate about leveraging deep technical, analytical, statistical, and mathematical capabilities to identify and solve business problems, providing clear and actionable insights that support Fortescue's strategic goals.
+From exploratory opportunity identification and precise problem definition to conducting complex technical analyses and producing explainable, trusted insights, our team plays a crucial role in enabling transformation and innovation across the business. We strive to move beyond technical delivery to create meaningful impact and drive strategic advancements.
+Effective team members in the Data and AI Data Science area combine a vision for the future with a focus on value, curiosity, and creativity. They harness the power of data, data science, and AI to fuel innovation, unlock new opportunities, solve complex challenges, streamline processes, and enable strategic advancements that align with Fortescue's Vision.
+The Science skill tree attracts, retains, and grows the careers of individuals who are passionate about creating and implementing advanced data-driven solutions. These team members are key to empowering decision-making and operational efficiency across Fortescue, ensuring all solutions inform and support the company's broader objectives.
+Key Responsibilities
+Data Analysis and AI
+Analyse complex data sets to provide actionable insights and present findings.
+Develop, implement, optimise, monitor, and maintain AI models and solutions.
+Apply principles of AI and data ethics to ensure solutions are ethical, safe, and explainable.
+Strategic Planning and Emerging Technologies
+Monitor and apply emerging technology and open-source trends and assess their potential impact on current and future data science projects.
+Conduct informal research to explore new methodologies, tools, and techniques that can enhance data science capabilities.
+Contribute and lead knowledge management endeavors by documenting methodologies, processes, and insights, ensuring they are accessible and usable by the team.
+Technical Development and Programming
+Develop and maintain software solutions using best practices in programming and software development.
+Conduct rigorous testing to ensure the quality and reliability of data science models and solutions.
+Assist solution architecture and systems design efforts to ensure data science solutions are integrated effectively within the enterprise architecture.
+Data Management and Engineering
+Manage and maintain data management processes, ensuring data integrity, security, and accessibility.
+Design, build, and optimise data pipelines and infrastructure.
+Requirements Management
+Gather and validate requirements for data science projects from stakeholders, ensuring they align with business needs and objectives.
+Qualifications and Experience
+Bachelor's degree in Computer Science, Software Engineering, mathematics, statistics, machine learning, or a related field.
+Experience (5+ years) in data science and AI solution system development in the mining, energy, green energy, or heavy industrial operations preferred.
+Artificial Intelligence
+Strong understanding and practical experience in Machine Learning and Generative AI, and the scientific and programmatic use, deployment, and measurement of AI and GenAI models.
+Strong knowledge of data science tools and technologies, including programming languages such as Python and the use of Git.
+Software Engineering
+Strong proficiency in Python, JavaScript/TypeScript, SQL, and machine learning frameworks (e.g TensorFlow, PyTorch)
+Experience and understanding of platforms such as Snowflake, Kafka, S3 and Databricks/SageMaker (beneficial).
+Familiar with cloud platforms such as AWS or Azure.
+Practical experience with software development industry best practices.
+Modern Work
+Highly proficient in the use and application of Generative AI for writing, coding and other accelerated work activities.
+Strong stakeholder relationship management and presentation skills.
+Excellent problem-solving and analytical abilities.
+Strong written and verbal communication skills, with the ability to communicate complex technical concepts to both multi-disciplinary product teams and to non-technical stakeholders.
+Follow and exhibit the Fortescue Values.
+About Us
+Be part of something big. Fortescue is leading the world with our plan to decarbonise our iron ore operations, projects that harness renewable energy and the development of technology that will change our planet forever.
+Our Commitment
+Fortescue celebrates individual strengths and team members are encouraged to bring their whole selves to work. Our global workforce drives and promotes an inclusive culture, both within our organisation and throughout the communities we interact with. Diverse backgrounds include First Nations Peoples, people with disabilities, LGBTQ+ community, gender, neurodiverse, cultural diversity, all age groups, and those with an intersectional or multiple diverse characteristics. We encourage candidates from all backgrounds to apply.
+https://fortescue.com/careers
+Internal Candidates / Current Contractors please apply via Success Factors Careers Portal. For further information on how to apply please visit the Fortescue Hub.
+Fortescue reserves the right to close applications early should a suitable pool of candidates be identified. Fortescue will never contact you to ask for payment of any kind, whether directly or through a third party.",,,,Fortescue_resume.pdf,Fortescue_coverletter.pdf,,
+85058873,Data Analyst,Perth Airport Pty Ltd,Perth Airport,https://www.seek.com.au/job/85058873?type=standard&ref=search-standalone&origin=cardTitle#sol=f0e32ab050cc422da1b6a590757d0cd351949105,"Perth Airport is Australia’s Western Hub connecting the people, businesses and communities of Western Australia with the rest of Australia and the world. Operating 24 hours a day, seven days a week throughout the year, Perth Airport plays a significant role in providing economic, social and cultural benefits to West Australians.
+Perth Airport is investing more than $5 billion in new infrastructure so we can support our airline partners to grow, offering more services to new destinations and an improved customer experience.
+Over the coming decade we will expand T1 International, and build new domestic terminal facilities, a parallel runway, two multi-storey carparks and our first airport hotel. This will deliver one airport for the people of Western Australia which will host all flight services in a central location giving passengers a seamless, world-class travel experience.
+The Perth Airport estate is spread over 2100 hectares and has developed a $1.5 billion portfolio of existing industrial premises and significant vacant land holdings.
+We service a truly diverse community and play an important role in strengthening cultural, family and social bonds while supporting business, tourism and leisure travel.
+Our team are currently looking for an experienced and enthusiastic Human Resources Data Analyst.
+
+What you'll do:
+As our HR Data Analyst, you’ll play a pivotal role in transforming people data into strategic insights that drive planning, workforce decision, and remuneration strategies.
+From designing dashboards to supporting executive and board reporting, you’ll partner across the business to elevate how we use data to make decisions. You'll also help embed AI, automation, and predictive analytics into our people processes - paving the way for smarter, faster insights.
+This role is ideal for someone who enjoys both the technical and human side of data, and who thrives on continuous improvement, storytelling through analytics, and creating user-friendly tools for decision-makers.
+·      Building dynamic reports and dashboards across performance, remuneration, talent, and workforce metrics.
+·      Supporting major people cycles (rem reviews, succession planning) with accurate and timely data.
+·      Using data modelling and visualisation tools like Power BI to inform workforce and business strategy.
+·      Exploring AI and automation to improve reporting, efficiency, and access to insights.
+·      Benchmarking against market trends and contributing to policy, reward, and organisational design.
+·      Uplifting data literacy and empowering teams through self-service and education.
+ About you:
+To thrive in this role, you’ll bring a strong analytical mindset and a passion for transforming data into meaningful insights. You’ll also have:
+·      A degree in HR, Business, Commerce, Data Analytics or related discipline.
+·      Proven experience in people or workforce analytics with a solid understanding of HR systems and processes.
+·      Advanced skills in data analysis and visualisation tools such as Excel and Power BI, with the ability to interpret trends and translate them into strategic insights.
+·      Familiarity with remuneration benchmarking, workforce surveys, and supporting reward frameworks.
+·      A proactive approach to exploring automation and AI tools to enhance reporting and decision-making.
+·      Strong stakeholder engagement skills, with the ability to communicate complex data clearly to both technical and non-technical audiences.
+·      A detail-oriented mindset with a commitment to data integrity, governance, and continuous improvement.
+·      A collaborative and curious nature, always looking to learn and improve processes through innovation.
+
+About Us:
+We offer a dynamic and supportive team culture, a contemporary workplace with great facilities and a modern approach to work/life integration. Our competitive remuneration package comes with additional company benefits including free parking.
+Perth Airport is an Equal Opportunities Employer. We are committed to building an equitable and diverse workforce representative of the community we serve. We encourage and welcome applications from all communities and backgrounds.
+Doing the right thing by the planet and future generations is important to us. At PAPL we place a strong emphasis on embedding sustainability throughout our business strategy and operations. We remain steadfast in our commitment to driving ESPG (Environmental, Social, People, Governance) performance across our value chain and areas that have material environmental and social impact.
+If this sounds like you please get in touch.",,,$5,PerthAirport_resume.pdf,PerthAirport_coverletter.pdf,,
+84905711,Data/ AI Solution Architecture Manager,Peoplebank Australia WA,Perth WA,https://www.seek.com.au/job/84905711?type=standard&ref=search-standalone&origin=cardTitle#sol=c15055317c197d5583825b1b1c75565cdebae3e8,"Data / AI Solution Architect Manager
+
+The Client: 
+An IT Technology client with global reach.
+
+The role:
+We’re helping a fast-scaling enterprise build their next-gen data platform. We’re looking for experienced architects and leads who can shape, design, and drive cloud-native data infrastructure across Azure.
+
+Responsibilities: 
+Design data architectures using Snowflake, Azure Synapse and Data Lake
+Lead teams delivering pipelines via Databricks and Spark
+Support metadata, lineage, and governance across large datasets
+Collaborate with platform and product teams to align architecture with strategy 
+To be successful, you'll bring:
+Experience with Snowflake, Azure data services (Synapse, Data Factory, Databricks)
+Strong SQL and cloud pipeline design background
+Exposure to scalable data governance frameworks
+Ability to lead delivery in a collaborative enterprise environment 
+Benefits:
+Large-scale data engineering and analytics program
+High-performing team with modern cloud stack
+Hybrid work and flexible engagement models
+Long-term opportunities in a growth-focused organisation
+
+If you are interested and possess the required experience, please apply now via the link below to be considered.  
+
+Contact: Lisa Williams – (08) 9423 1429  - (Job reference: 266917)",,,,ItTechnologyClientWithGlobalReach_resume.pdf,ItTechnologyClientWithGlobalReach_coverletter.pdf,,
+84916931,Full Stack Developer,NES Fircroft,Perth WA,https://www.seek.com.au/job/84916931?type=standard&ref=search-standalone&origin=cardTitle#sol=ae0054c294c0612b1ec8764d23dce711b713ca46,"Our innovative client, a well-known mining & energy organisation, is looking for the next Full Stack Developer to join the team on a 6 month contract basis. This is a Perth CBD position that requires in office presence up to 3 times a week. We’re looking for a skilled Full Stack Developer with expertise in both front-end and back-end technologies. In this role, you’ll work closely with Engineering, Projects, R&D, and broader tech teams to design and deliver high-performance web applications and services that drive innovation across our technology initiatives.
+
+Key Responsibilities:
+Design, develop, and implement full-stack web applications using modern frameworks and technologies
+Create and maintain APIs to facilitate integration between front-end and back-end systems
+Deploy and manage cloud infrastructure using infrastructure as code (CloudFormation or Terraform)
+Collaborate with cross-functional teams to deliver features, improvements, and fixes
+Write clear, maintainable, and well-documented code
+Manage codebase and version control effectively
+
+Desired Skills and Experience:
+Minimum of 4 years of experience in full-stack development roles
+Full Australian working rights
+Proficiency in front-end technologies such as HTML, CSS, JavaScript (React, Angular, or Vue.js)
+Experience working with data intensive applications for ML/AI projects
+Experience working in chemical process environments highly regarded
+Strong back-end development skills with languages like Python, Node.js, or C++
+Experience with relational databases and SQL (knowledge of Snowflake is a plus)
+Knowledge of RESTful API design and development
+Experience with cloud platforms like AWS, Azure, or Google Cloud
+Proficiency in using version control systems like Git
+Familiarity with containerization and orchestration tools such as Docker and Kubernetes
+Understanding of CI/CD pipelines and automated testing
+Strong problem-solving skills and a proactive approach to challenges
+Excellent communication skills, both verbal and written
+Ability to work effectively in a team and independently
+Bachelor’s Degree in Computer Science, Information Technology, or a related field
+
+Full working Australian rights will be required. Perth based candidates or candidates planning a relocation to Perth preferred.
+Due to a high level of applications and tight timeframe, shortlisted profiles will be contacted directly.
+This role may progress with shortlisting ahead of closing date so make sure your application counts and apply.
+
+With over 90 years' combined experience, NES Fircroft (NES) is proud to be the world's leading engineering staffing provider spanning the Oil & Gas, Power & Renewables, Chemicals, Construction & Infrastructure, Life Sciences, Mining and Manufacturing sectors worldwide. With more than 80 offices in 45 countries, we are able to provide our clients with the engineering and technical expertise they need, wherever and whenever it is needed. We offer contractors far more than a traditional recruitment service, supporting with everything from securing visas and work permits, to providing market-leading benefits packages and accommodation, ensuring they are safely and compliantly able to support our clients.",,,,NesFircroftNes_resume.pdf,NesFircroftNes_coverletter.pdf,,
+84999718,Mechatronics Engineer – Mining Innovation,Innovative Mining Services (Aust) Pty Ltd,Malaga,https://www.seek.com.au/job/84999718?type=standard&ref=search-standalone&origin=cardTitle#sol=bc56ebe98db1cf6d6ff656d400ded379531df0fe,"Mechatronics Engineer – Mining Innovation
+Location: Malaga, WA
+Company: Innovative Mining Services
+Employment Type: Full-Time
+Innovative Mining Services (IMS) is seeking a skilled and driven Mechatronics Engineer to join our engineering team and lead the development of new technology mining equipment.
+This is a hands-on, high-impact role where your technical expertise will help shape the future of mine site productivity and safety.
+What You’ll Do
+Design, prototype, and test electro-mechanical systems
+Develop embedded control systems and integrate sensor-driven automation
+Contribute to the integration of AI technologies to enhance automation, decision-making, and system performance
+Work closely with mechanical and electrical teams, fabricators, and external partners, locally and internationally
+Support field testing and real-world application of engineered solutions
+Contribute to R&D documentation and technical reporting
+Assist in identifying, documenting, and managing intellectual property and patent applications related to product innovations
+What You’ll Bring
+Degree in Mechatronics, Electrical, and/or Mechanical Engineering
+3+ years of experience in industrial automation, product development, or related fields
+Strong practical experience with embedded systems and control logic
+Confidence with CAD, prototyping, and on-site troubleshooting
+Demonstrated ability to think outside the box to design complex and innovative engineering solutions
+A hands-on, collaborative, and solution-oriented mindset
+Experience in the water and conveyor technology, mining, robotics, or manufacturing sectors will be highly regarded.
+Why IMS?
+Join a fast-growing, Australian-owned company that turns practical ideas into real-world innovation for the mining industry
+Work on patented, award-winning products—our products have been formally recognised by Tier 1 miners for its impact on safety and performance
+Be part of a company leading global innovation in mining technology, with products already in use internationally and a strong pipeline of future opportunities
+Take ownership of your ideas and help bring new products to life—your contributions will shape the next generation of smart, site-ready equipment
+Thrive in a supportive, close-knit environment where engineering excellence is valued and recognised
+Enjoy modern facilities in Malaga, flexible working arrangements, and the chance to grow your career as IMS expands both locally and globally
+Remuneration is negotiable and will reflect your experience and contribution.
+Apply Today
+Submit your resume and a cover letter explaining why you’re the right fit for this role.",,,,InnovativeMiningServices_resume.pdf,InnovativeMiningServices_coverletter.pdf,,
+84874045,Python Developer / Automation Specialist,Sharp & Carter Digital & Technology Perth,Perth WA,https://www.seek.com.au/job/84874045?type=standard&ref=search-standalone&origin=cardTitle#sol=93f324cb8608a3ffd6dabc8d2b2cd22ea4ea0491,"About the role:
+
+Are you a driven Python Developer with a passion for automation, AI, and data? Ready to step out of your comfort zone and into a role where your ideas and skills will help shape smarter, more efficient processes on a global scale?
+We’re partnering with a leading global engineering company to find a talented Python Developer / Automation Specialist to join their high-performing team in a newly created role. This is an exciting opportunity for someone who thrives on challenge, loves working with data, and is ready to make a real impact.
+
+What You'll Be Doing:
+Designing and implementing automation solutions to streamline internal processes
+Building and maintaining Python-based tools and scripts
+Working with large datasets and integrating AI where applicable
+Collaborating closely with technical and non-technical stakeholders to understand business needs
+Continuously identifying areas for improvement and innovation
+What We're Looking For:
+3–5 years of experience in Python development, ideally in automation-heavy roles
+Strong experience with SQL and handling data pipelines
+Exposure to or keen interest in AI and data-driven technologies
+A degree in Computer Science, Engineering, or a related field
+Excellent communication and stakeholder engagement skills
+Someone adaptable, proactive, and excited to embrace change
+Why You'll Love It Here:
+Join a respected global brand with cutting-edge projects
+Full-time, permanent role with stability and long-term growth
+Modern CBD-based office, five days a week onsite
+Flexible start and finish times for better work-life balance
+A collaborative and forward-thinking team that values fresh ideas",,,,GlobalEngineeringCompany_resume.pdf,GlobalEngineeringCompany_coverletter.pdf,,
+84953017,Principal Software Engineer (cloud native),Clinical Innovation Systems Pty Ltd,Perth WA,https://www.seek.com.au/job/84953017?type=standard&ref=search-standalone&origin=cardTitle#sol=d9c8e4595caeaa2c2758e88acb28c6c5ff59fccc,"Join our innovative healthcare (cloud-first) company to build AI-enhanced functionality on AWS, with kubernetes scalability; work from home, flexible hours.
+·        AWS, kubernetes, microservices
+·        Expanding Australian healthcare SaaS company
+·        Flexible working arrangements
+About CRiS Care
+CRiS Care is an Australian company servicing the healthcare industry (primarily hospitals and medical facilities) with cloud-based patient care capabilities. This includes managing tests, as well as facilitating clinical assessments (structured, dictated or ambient-listening AI), and providing a platform for seamless clinical care across the facility.
+Position Description & Responsibilities
+As Principal Software Engineer with CRiS Care, you will be leading a small team of engineers to architect, build and maintain cloud-based microservices and Angular web UI’s for CRiS Care web applications.
+You will be leading the technical team, and reporting to CRiS Care’s board of Directors.
+While technical ability is important, the capacity to rapidly learn new technologies and the ability to collaborate in a small team in a dynamic environment is paramount. We are looking for a team player, based in Australia.
+As you will be involved in safeguarding personal healthcare information, we will require contactable references, background checks and signed acceptance of our company Information Security Policy.
+Personal Attributes
+·        Excellent English
+·        Outcomes-focussed
+·        Good communicator and ability to work within a team
+·        Adept at learning new skills & technologies
+·        Adept at scoping, planning, and prioritising tasks
+Experience, Skills and Technologies
+Mandatory criteria
+1.        At least 5 years of full-time software development experience (employment or contracting)
+2.        Have designed and implemented distributed systems
+3.        At least 12 months experience with Kotlin (or Java)
+Desirable proficiencies
+1.        Qualifications in Computer Science
+2.        Spring Boot (REST and GraphQL APIs)
+3.        Experience in DevOps (Docker, Kubernetes, Terraform, AWS)
+4.        Event-sourcing data models
+5.        SQL (MySQL, Liquibase)
+6.        Cyber-security principles
+7.        HL7 integrations (Mirth Connect)
+8.        Familiarity with Artificial Intelligence tools and services
+9.        Previous experience in the domain of healthcare
+10.  Angular (or other SPA frameworks)
+Demonstrable attributes
+A brief technical task (coding challenge) may be required prior to interview, for submission within a short time-frame (1-2 days).
+Interview questions will be centred around:
+·        Experience & technologies
+·        Teamwork & collaboration (examples)
+·        Communication & conflict resolution (examples)
+·        Problem-solving and solution planning (on the spot challenge)
+Remuneration
+Options include full-time employment or full-time contracting (at an hourly rate), with remuneration based on experience and capability. Initial 12-week probation period applies with no guarantee of ongoing contract; on successful completion of probation period and by mutual agreement thereafter, ongoing contract of 6 or 12 months may be offered, based on the successful applicant’s preference. Workplace arrangement is for remote service, tracking actual hours worked - working from home, or a co-working space. Target salary will be in the range of 120-180k per annum.
+Please note: Successful candidate must have full working rights to work in Australia. Unfortunately, we are unable to sponsor visas for overseas candidates at this stage.
+CRiS Care does not accept unsolicited resumes from recruitment agencies and search firms. Please do not email or send unsolicited resumes to any CRiS Care employee, location or address. CRiS Care is not responsible for any fees related to unsolicited resumes.",,,120-180k per annum,CrisCare_resume.pdf,CrisCare_coverletter.pdf,,
+84722712,Data Scientist,VitalTrace Pty Ltd,Perth WA,https://www.seek.com.au/job/84722712?type=standard&ref=search-standalone&origin=cardTitle#sol=0aacffda27808ca63089700bf2a9904e63088105,"The primary goal of this position is to drive the advanced data science initiatives focused on biosensor current – analysis and modelling for cutting-edge fetal lactate monitoring technology. This role will drive the development of robust and sophisticated machine learning models and algorithms to interpret biosensor electrical signals, with particular emphasis on current based measurements from our novel biosensor. The position requires deep expertise in electrical signal processing, current modelling, and advanced analytics to transform raw biosensor data into clinically actionable insights, build, train and test machine learning model development and model deployment, with a focus on leveraging data integration platforms such as Pentaho, Talend, and KNIME.
+VitalTrace Pty Ltd is a multi-award-winning, VC-funded Australian-based Med-tech start-up company aiming to improve outcomes for mothers and children during the childbirth process. We are doing this by developing novel cutting-edge biosensor technologies for fetal monitoring during childbirth. We believe that mothers and babies deserve the highest standard of care, and that childbirth monitoring should be accurate and allow clinicians to make informed and timely decisions. We have a vibrant culture with a diverse, high-performing multidisciplinary team of clinicians, researchers, engineers, chemists, software developers, and data scientists all working towards the same goal.
+Position Responsibilities:
+We may from time to time vary or modify your duties but only to those duties for which you have the skill and competence.
+Sensor Current Analysis and Modelling:
+Design and implement advanced algorithms for analysing biosensor current signals, FHR and ECG
+Develop predictive models for our current-lactate algorithm
+Signal Processing & Feature Extraction:
+Design and develop algorithms for signal feature detection (e.g., ECG, Heart Rate, CTG) and the calculation of key clinical metrics
+Create sophisticated feature extraction techniques specific to biosensor outputs and also leveraging pre-clinical and clinical data
+Design filters and noise reduction algorithms
+Implement real-time signal processing solutions for continuous lactate monitoring
+Build production-ready machine learning models
+Perform rigorous testing and validation of models to ensure reliability and accuracy, generating clinical evidence for product design, regulatory pathways, and new product launches
+Comprehensive project scoping documents for each model development initiative, defining objectives, success metrics, timelines, and resource requirements
+Platform Development and Integration:
+Develop APIs and integration layers for biosensor data consumption by clinical systems
+Handle the transition from proof-of-concept models to production-ready models
+Collaboration:
+Work closely with the Data Architect, Data Scientist, R&D Scientists, Formulation Scientists, and Product Development teams to define model requirements for building models/algorithms
+Collaborate to integrate machine learning models into scalable, production-ready systems as the role evolves into more data science responsibilities
+Business & Technical Translation:
+Collaborate with stakeholders to understand business needs and translate them into technical solutions
+Documentation & Regulatory Compliance:
+Compile and document product and system requirements, ensuring they align with regulated medical device standards
+Ensure all modelling and analytical approaches meet medical device regulatory standards
+Support regulatory submissions with detailed technical analyses and validation reports
+Generate clinical evidence packages demonstrating model/algorithm validity and safety
+Team Support & Flexibility:
+Be open to supporting team and company objectives in areas beyond your direct expertise, including evolving responsibilities in machine learning and modelling
+Qualifications/Licences/Certificates
+Bachelor's or Master's Degree in Electrical Engineering, Biomedical Engineering, or related field with strong electrical systems background
+Advanced coursework or certification in data science, machine learning, or biomedical signal processing preferred
+Relevant Experience, Skills, Knowledge and Requirements
+5+ years of experience in a similar data science role, ideally in a clinical, healthcare, or medical device setting
+Expert-level proficiency in Python with emphasis on signal processing libraries (SciPy, scikit-signal) and analysis tools
+Solid background in signal processing and time series analysis, including IoT signal processing, will be considered an advantage
+Hands-on experience with KNIME, MATLAB, or similar platforms for analysis and model development
+Expertise in SQL and experience with Snowflake for data storage and querying.
+Superior proficiency in machine learning principles and techniques, with the ability to build production-ready models
+Strong understanding of data science methodologies and best practices
+Strong organizational skills, attention to detail, and a critical-thinking mindset
+Excellent written and verbal communication skills, with the ability to present complex data insights clearly to a variety of stakeholders
+Additional information relevant to this position includes
+Work Location: This is an on-site role based in Perth, requiring presence at the company’s offices and laboratory facilities to collaborate with cross-functional teams and support data analysis, model development, and signal processing activities
+Due to the nature of the position and industry, there may be a requirement to work outside normal business hours",,,,VitaltracePtyLtd_resume.pdf,VitaltracePtyLtd_coverletter.pdf,,
+84977787,Cyber Security Analyst,Multiplex Constructions,Perth WA,https://www.seek.com.au/job/84977787?type=standard&ref=search-standalone&origin=cardTitle#sol=7b894535a949e3b68e057b79ad25734a1c342f0c,"Who we are and what we offer:
+Interested in shaping skylines across the globe?
+Multiplex is a premier construction company with a simple purpose: to construct a better future. As part of our team, you'll have the opportunity to help deliver some of the world's most iconic projects, supported by approachable leadership and an inclusive culture that puts our people first.
+Supporting the business, Multiplex has a Global IT division with colleagues located across Australia, UAE, UK, and Canada working to an operating model based on the principles of Design, Build, Run, and Enable.
+It's an exciting time to join the IT team at Multiplex as we pursue our strategy to modernise the business through digital technology. Alongside our Digital Transformation team, we are working on initiatives to leverage data and technology to improve the operational efficiency of our business.  The Global IT division is committed to providing certainty of service and technology solutions that just work, ensuring the business is built to outperform.
+With 110+ colleagues in the Multiplex Global IT division, we have roles across the full IT lifecycle from designing IT solutions, delivering change projects, to the business-as-usual running of our IT infrastructure, all while ensuring we are safe, secure and compliant.
+You will also have access to a range of holistic benefits including:
+Bonus schemes, annual remuneration reviews and salary continuance insurance.
+Health and Wellbeing programs, including annual voluntary skin and health checks.
+Benefits to support parents and families, including 20 weeks paid parental leave regardless of gender, payment of superannuation on unpaid leave, and transition coaching.
+Professional career development opportunities and a wealth of learning offerings through the Multiplex Learning Academy.
+An industry-leading approach to flexible work to enable better work-life balance.   
+Who we're looking for:
+Our people are united by a common belief: that we can outperform in everything we do.
+Reporting to the Global Cyber Security Manager, the Cyber Security Analyst will assist with implementing the cyber security strategy, architecture, and practices to address cybersecurity and digital business risks. Analysing the current environment and help the cyber function develop an appropriate cybersecurity framework to meet business and regulatory requirements, the Cyber Security Analyst works closely and consistently with a variety of stakeholders to ensure the framework is aligned with business goals. 
+Some of the key responsibilities include defining and managing privileged access, help develop security strategy plans and maintaining security architecture artifacts. Provide security planning advice, review, and update security procedures, conduct threat modelling, and perform security assessments. Additionally, you will monitor and advise on security tickets, security incidents, validate IT infrastructure, oversee change management for security rulesets, and conduct vendor security assessments.
+The successful candidate will have strong communication skills to clearly explain complex security issues to both technical and non-technical stakeholders, as well as teamwork and collaboration abilities. Have strong analytical skills to identify patterns, anomalies, and potential threats from large volumes of data. Have familiarity with current cybersecurity trends such as Zero Trust, Extended Detection and Response (XDR), or AI-driven security analytics. Have had involvement in security awareness programs or training employees, which is increasingly important for reducing human risk factors. And will have experience being responsible for incident response coordination, investigation, and remediation, as well as staying current with threat intelligence to proactively defend against emerging threats.
+This role may be located in Perth or Sydney australia. 
+To be successful in this role you will have:
+2-4 years' experience in a similar role where you could hit the ground running in this position.
+Bachelor's or master's degree in computer science, information systems, cybersecurity, or a related field.
+Knowledge of ISO27001, Sarbanes-Oxley Act, GDPR, Essential Eight, and Privacy Principles.
+Expertise in Ethical Hacking and NIST Cybersecurity Framework (CSF).
+Certifications such as ISC2's CISSP, ISACA's CISA, The Open Group's TOGAF, and SANS' GAIC.
+In addition, you will have:
+Experience with architecture methodologies such as SABSA, Zachman, and TOGAF.
+Hands-on experience managing security infrastructure (firewalls, IPSs, WAFs, endpoint protection, SIEM, log management, Zscaler, Proofpoint).
+Proven experience in reviewing security vulnerabilities.
+Proficiency with vulnerability management toolsets.
+Strong knowledge of threat-modelling methodologies.
+Full-stack IT infrastructure knowledge (applications, databases, operating systems, hypervisors, IP networks, storage networks, backup networks).
+Strong understanding of IT service management (ITIL disciplines: change, configuration, asset, incident, problem management).
+Experience and understanding of how applications, services and infrastructure are deployed into public cloud services (AWS, Microsoft Azure).
+A note on diversity:
+Diversity is about celebrating the ways we are all different and appreciating the unique qualities that every employee brings. We invite applications from people of all genders, cultures and walks of life. Research shows that women and people from underrepresented groups are less like to apply for roles if they don't meet every qualification. So even if you don't match all the criteria - if you are passionate about helping to construct a better future, we'd love to hear from you.
+We are committed to providing a barrier-free work environment and can support with reasonable adjustments at any stage of the recruitment process. Simply inform our Talent Acquisition team during your conversation with them.
+#LI-JR1",,,,Multiplex_resume.pdf,Multiplex_coverletter.pdf,,

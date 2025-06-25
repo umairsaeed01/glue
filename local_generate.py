@@ -21,7 +21,7 @@ def generate_resume_and_cover_letter(job_description: str, old_resume_path: str,
     resume_llm = AutoApplyModel(
         api_key=os.getenv("OPENAI_API_KEY"),
         provider="GPT",
-        model="gpt-4o",
+        model="gpt-3.5-turbo",
         downloads_dir=output_dir
     )
 

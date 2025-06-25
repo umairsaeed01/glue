@@ -37,12 +37,19 @@ CERTIFICATIONS = """You are going to write a JSON resume section of "Certificati
 
 Step to follow:
 1. Analyze my certification details to match job requirements.
-2. Create a JSON resume section that highlights strongest matches
+2. Create a JSON resume section that highlights the top 3 strongest matches most relevant to the job description.
 3. Optimize JSON section for clarity and relevance to the job description.
 
 Instructions:
-1. Focus: Include relevant certifications aligned with the job description.
+1. Focus: Include only the top 3 relevant certifications From the list of certifications in the resume aligned with the job description. Do NOT invent or add certifications not explicitly listed in the resume.
 2. Proofreading: Ensure impeccable spelling and grammar.
+
+From the list of certifications in the resume, select ONLY the top 3 certifications that are most relevant to the job description below.
+- Do NOT include more than 3 certifications.
+- Do NOT invent or add certifications not explicitly listed in the resume.
+- If fewer than 3 certifications are present, include only those available.
+- Output exactly 3 or fewer, sorted by relevance to the job.
+- When making the "Certifications:" heading a clickable link, always use the Skillsoft wallet/profile link if it is present in the certifications section (for example, any link containing `/profile/` and `/wallet`). Do NOT use individual certification or issuer links for the heading. If no wallet/profile link is present, do not make the heading a link.
 
 <CERTIFICATIONS>
 {section_data}
@@ -78,6 +85,7 @@ Instructions:
 - Proofread and Correct spelling and grammar errors.
 - Aim for clear expression over impressiveness.
 - Prefer active voice over passive voice.
+- CRITICAL DATE RULE: For to_date field, ONLY use dates explicitly stated in the resume. If no end date is provided, write "" (empty string). NEVER write "Present", "Current", "Ongoing", or any assumed dates. NEVER write "-" for dates.
 
 <Education>
 {section_data}
@@ -93,7 +101,7 @@ Instructions:
     "degree": "Actual Degree from Resume",
     "university": "Actual University from Resume",
     "from_date": "Actual Start Date",
-    "to_date": "Actual End Date" (If no date mention dont write any thing like None/Nil/-)  ,
+    "to_date": "Actual End Date" (CRITICAL: If no end date is mentioned in the resume, write ONLY "" (empty string). DO NOT write "Present", "Current", or any other assumed date. Only use dates that are explicitly stated in the original resume.),
     "grade": "Actual Grade (if available)",
     "coursework": [
       "Actual relevant coursework listed from provided resume",
@@ -104,35 +112,34 @@ Instructions:
 ],
 </example>
 
+EXAMPLES OF CORRECT DATE FORMATTING:
+- If resume shows: "July 2022 - Present" → Write: "to_date": "July 2022"
+- If resume shows: "July 2022 - " → Write: "to_date": ""
+- If resume shows: "July 2022" (no end date) → Write: "to_date": ""
+- If resume shows: "July 2022 - May 2025" → Write: "to_date": "May 2025"
+
 {format_instructions}
 """
 
 
-PROJECTS="""You are going to write a JSON resume section of "Project Experience" for an applicant applying for job posts.
+PROJECTS = """You are going to write a JSON resume section of "Projects" for an applicant applying for job posts.
 
 Step to follow:
-1. Analyze my projects details to match job requirements.
+1. Analyze my project details to match job requirements.
 2. Create a JSON resume section that highlights strongest matches
 3. Optimize JSON section for clarity and relevance to the job description.
 
 Instructions:
-1. Focus: Craft highly relevant project experiences aligned with the job description. dont miss any project from the resume put all projects.
-2. Content:
-  2.1. Bullet points: 3 per experience, closely mirroring job requirements.
-  2.2. Impact: Quantify each bullet point for measurable results.
-  2.3. Storytelling: Utilize STAR methodology (Situation, Task, Action, Result) implicitly within each bullet point.
-  2.4. Action Verbs: Showcase soft skills with strong, active verbs.
-  2.5. Honesty: Prioritize truthfulness and objective language.
-  2.6. Structure: Each bullet point follows "Did X by doing Y, achieved Z" format.
-  2.7. Specificity: Prioritize relevance to the specific job over general achievements.
-3. Style:
-  3.1. Clarity: Clear expression trumps impressiveness.
-  3.2. Voice: Use active voice whenever possible.
-  3.3. Proofreading: Ensure impeccable spelling and grammar.
+- Maintain truthfulness and objectivity in listing experience.
+- Prioritize specificity - with respect to job - over generality.
+- Proofread and Correct spelling and grammar errors.
+- Aim for clear expression over impressiveness.
+- Prefer active voice over passive voice.
+- CRITICAL DATE RULE: For to_date field, ONLY use dates explicitly stated in the resume. If no end date is provided, write "" (empty string). NEVER write "Present", "Current", "Ongoing", or any assumed dates. NEVER write "-" for dates.
 
-<PROJECTS>
+<Projects>
 {section_data}
-</PROJECTS>
+</Projects>
 
 <job_description>
 {job_description}
@@ -140,25 +147,31 @@ Instructions:
 
 <example>
 "projects": [
-    {{
-   "name": "Actual Project Name from Resume",
-      "type": "Actual Type from Resume",
-      "link": "Actual Link if provided, else omit",
-      "from_date": "Actual Start Date",
-      "to_date": "Actual End Date or completion date explicitly stated" If no date mention dont write any thing like None/Nil,
-      "description": [
-        "Actual clearly stated achievement from provided resume",
-        "Explicitly mentioned measurable impact from resume",
-        "Clearly detailed activity or contribution from provided resume",
-        [and So on ...]
-      ]
-    }}
-    [and So on ...]
-  ]
-  </example>
-  
-  {format_instructions}
-  """
+  {{
+    "title": "Actual Project Title from Resume",
+    "from_date": "Actual Start Date",
+    "to_date": "Actual End Date" (CRITICAL: If no end date is mentioned in the resume, write ONLY "" (empty string). DO NOT write "Present", "Current", or any other assumed date. Only use dates that are explicitly stated in the original resume.),
+    "description": [
+      "Actual project description from provided resume",
+      [and So on ...]
+    ],
+    "technologies": [
+      "Actual technologies used from provided resume",
+      [and So on ...]
+    ]
+  }}
+  [and So on ...]
+],
+</example>
+
+EXAMPLES OF CORRECT DATE FORMATTING:
+- If resume shows: "January 2025 - Present" → Write: "to_date": "January 2025"
+- If resume shows: "January 2025 - " → Write: "to_date": ""
+- If resume shows: "January 2025" (no end date) → Write: "to_date": ""
+- If resume shows: "January 2025 - March 2025" → Write: "to_date": "March 2025"
+
+{format_instructions}
+"""
 
 SKILLS="""You are going to write a JSON resume section of "Skills" for an applicant applying for job posts.
 
@@ -186,8 +199,8 @@ Instructions:
       "skills": ["Extract relevant skills from the provided resume and job description. Include:
 
 Skills explicitly listed in the resume (which are relevant to job description).
-Skills from the job description directly aligned with the candidate’s education and professional background. For example, if the candidate studied software engineering but did not explicitly mention "C#" in their resume, yet the job requires "C#", include "C#" in the skills list.
-Think contextually, matching the candidate’s education and experience with the job requirements."]
+Skills from the job description directly aligned with the candidate's education and professional background. For example, if the candidate studied software engineering but did not explicitly mention "C#" in their resume, yet the job requires "C#", include "C#" in the skills list.
+Think contextually, matching the candidate's education and experience with the job requirements."]
     }},
     and so on ...
   ]
@@ -197,51 +210,51 @@ Think contextually, matching the candidate’s education and experience with the
   """
 
 
-EXPERIENCE="""You are going to write a JSON resume section of "Work Experience" for an applicant applying for job posts.
+EXPERIENCE="""You are going to write a JSON resume section of "Experience" for an applicant applying for job posts.
 
 Step to follow:
-1. Analyze my Work details to match job requirements.
+1. Analyze my experience details to match job requirements.
 2. Create a JSON resume section that highlights strongest matches
 3. Optimize JSON section for clarity and relevance to the job description.
 
 Instructions:
-1. Strictly NO fabrication: Do NOT include roles, companies, or achievements not explicitly listed in the provided resume.
-2. Content:
-  2.1. Maintain exact accuracy regarding role titles, dates, and companies as given.
-  2.2. Impact: Quantify each bullet point for measurable results.
-  2.3. Storytelling: Utilize STAR methodology (Situation, Task, Action, Result) implicitly within each bullet point.
-  2.4. Action Verbs: Showcase soft skills with strong, active verbs.
-  2.5. Honesty: Prioritize truthfulness and objective language.
-  2.6. Structure: Each bullet point follows "Did X by doing Y, achieved Z" format.
-  2.7. Specificity: Prioritize relevance to the specific job over general achievements.
-3. Style:
-  3.1. Clarity: Clear expression trumps impressiveness.
-  3.2. Voice: Use active voice whenever possible.
-  3.3. Proofreading: Ensure impeccable spelling and grammar.
+- Maintain truthfulness and objectivity in listing experience.
+- Prioritize specificity - with respect to job - over generality.
+- Proofread and Correct spelling and grammar errors.
+- Aim for clear expression over impressiveness.
+- Prefer active voice over passive voice.
+- CRITICAL DATE RULE: For to_date field, ONLY use dates explicitly stated in the resume. If no end date is provided, write "" (empty string). NEVER write "Present", "Current", "Ongoing", or any assumed dates. NEVER write "-" for dates.
 
-<work_experience>
+<Experience>
 {section_data}
-</work_experience>
+</Experience>
 
 <job_description>
 {job_description}
 </job_description>
 
 <example>
-"work_experience": [
-{{
-      "role": "Actual Role Title from Resume",
-      "company": "Actual Company from Resume",
-      "location": "Actual Location from Resume",
-      "from_date": "Actual Start Date",
-      "to_date": "Actual End Date",
-      "description": [
-        "Explicitly mentioned responsibility or achievement from provided resume",
-        "Quantified and clearly stated impact from provided resume"
-      ]
-    }}
-]
+"experience": [
+  {{
+    "title": "Actual Job Title from Resume",
+    "company": "Actual Company from Resume",
+    "from_date": "Actual Start Date",
+    "to_date": "Actual End Date" (CRITICAL: If no end date is mentioned in the resume, write ONLY "" (empty string). DO NOT write "Present", "Current", or any other assumed date. Only use dates that are explicitly stated in the original resume.),
+    "location": "Actual Location from Resume",
+    "description": [
+      "Actual job description from provided resume",
+      [and So on ...]
+    ]
+  }}
+  [and So on ...]
+],
 </example>
+
+EXAMPLES OF CORRECT DATE FORMATTING:
+- If resume shows: "January 2025 - Present" → Write: "to_date": "January 2025"
+- If resume shows: "January 2025 - " → Write: "to_date": ""
+- If resume shows: "January 2025" (no end date) → Write: "to_date": ""
+- If resume shows: "January 2025 - March 2025" → Write: "to_date": "March 2025"
 
 {format_instructions}
 """

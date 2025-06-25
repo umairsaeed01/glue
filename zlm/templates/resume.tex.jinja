@@ -30,8 +30,8 @@
 \address{
 \BLOCK{ if personal.phone }{\faPhone} \href{tel:\VAR{personal.phone}}{\VAR{personal.phone.replace(' ','')}} \quad \BLOCK{ endif }
 \BLOCK{ if personal.email }{\faEnvelope} \href{mailto:\VAR{personal.email}}{\VAR{personal.email}} \quad \BLOCK{ endif }
-\BLOCK{ if personal.github }{\faGithub} \href{\VAR{personal.github}}{\VAR{personal.github}} \quad \BLOCK{ endif }
-\BLOCK{ if personal.linkedin }{\faLinkedin} \href{\VAR{personal.linkedin}}{\VAR{personal.linkedin}} \BLOCK{ endif }
+\BLOCK{ if personal.github }{\faGithub} \href{\VAR{personal.github}}{\VAR{personal.name.split(' ')[0]}} \quad \BLOCK{ endif }
+\BLOCK{ if personal.linkedin }{\faLinkedin} \href{\VAR{personal.linkedin}}{\VAR{personal.name.split(' ')[0]}} \BLOCK{ endif }
 }
 
 \begin{document}
@@ -98,18 +98,29 @@
 %==== TECHNICAL STRENGTHS SECTION ====%
 \BLOCK{ if skill_section }
     \begin{rSection}{Technical Skills}
-        \begin{tabular}{ @{} l @{\hspace{1ex}} l }
+        \begin{tabular}{ @{} l @{	} l }
             \BLOCK{ for section in skill_section }
                     \textbf{\VAR{section.name}}: \VAR{', '.join(section.skills)}\\
             \BLOCK{ endfor }
-            \BLOCK{ if certifications }\textbf{Certifications:} 
-                    \BLOCK{ for certification in certifications }
-                        \href{\VAR{certification.link}}{\textbf{\VAR{certification.name}}},\\
-                    \BLOCK{ endfor }
-            \BLOCK{ endif } 
+            % \BLOCK{ if certifications }
+            %     \href{https://skillsoft.digitalbadges.skillsoft.com/profile/umairsaeed185770/wallet}{\textbf{Certifications:}} 
+            %     \BLOCK{ for cert in certifications }\VAR{cert.name}\BLOCK{ if not loop.last }, \BLOCK{ endif }\BLOCK{ endfor }\\
+            % \BLOCK{ endif } 
         \end{tabular}
     \end{rSection}
-\BLOCK{ endif } 
+\BLOCK{ endif }
+
+% CERTIFICATIONS SECTION
+\BLOCK{ if certifications }
+    \begin{rSection}{Certifications}
+        \begin{rSubsection}{}{}{}
+            \BLOCK{ for cert in certifications}
+                \item \VAR{cert.name}
+            \BLOCK{ endfor }
+        \end{rSubsection}
+        \href{https://skillsoft.digitalbadges.skillsoft.com/profile/umairsaeed185770/wallet}{View all certifications}
+    \end{rSection}
+\BLOCK{ endif }
 
 % ACHIEVEMENTS SECTION
 \BLOCK{ if achievements }

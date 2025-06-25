@@ -48,10 +48,14 @@ def get_job_by_row_index(csv_file_path: str, row_number: int):
             elif 'job_description' in df.columns:
                 job_description = df.loc[row_index, 'job_description']
 
-            if pd.notna(job_description):
-                return (row_index, job_description)
-            else:
-                return None
+            # Handle NaN values and convert to string
+            if pd.notna(job_description) and job_description is not None:
+                # Convert to string and strip whitespace
+                job_description = str(job_description).strip()
+                if job_description:  # Check if not empty after stripping
+                    return (row_index, job_description)
+            
+            return None
         else:
             return None
             

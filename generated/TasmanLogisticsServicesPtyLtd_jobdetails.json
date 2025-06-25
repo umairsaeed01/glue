@@ -1,49 +1,36 @@
 {
   "job_title": "AI Specialist",
-  "job_purpose": "To accelerate AI-driven transformation, enhancing the Tasman Control Tower and delivering world-class solutions for operations and clients, contributing to new revenue and sustainability goals.",
+  "job_purpose": "To accelerate Tasman Logistics Services' AI-driven transformation, enhancing the Tasman Control Tower and delivering world-class solutions for operations and clients.",
   "keywords": [
-    "AI",
+    "AI Specialist",
     "Machine Learning",
-    "Predictive Analytics",
-    "Dynamic Routing",
+    "Logistics",
+    "AI Solutions",
     "Customer Engagement",
-    "Sustainability",
-    "Cloud Platforms",
-    "Python",
-    "TensorFlow",
-    "PyTorch",
-    "AWS",
-    "Azure",
-    "Real-time Data Processing",
-    "IoT",
-    "APIs",
-    "Analytics Tools",
-    "Tableau",
-    "Power BI",
-    "Problem-solving",
-    "Communication"
+    "Supply Chain Optimization",
+    "Predictive Maintenance",
+    "Sustainability Metrics"
   ],
   "job_duties_and_responsibilities": [
-    "Develop and deploy machine learning models to enhance the Control Tower, optimizing fleet and warehousing operations.",
-    "Create AI-driven tools for customer acquisition, such as chatbots and customer journey mapping.",
-    "Implement predictive churn models and tailored analytics dashboards to enhance customer retention.",
-    "Use AI to optimize client supply chains and deliver cost savings.",
-    "Apply AI to predictive maintenance and resource allocation to cut operational costs.",
-    "Collaborate with tech team to integrate AI tools, ensuring scalability and innovation.",
-    "Develop AI-driven sustainability metrics to support ESG goals."
+    "Develop AI Solutions: Build and deploy machine learning models to enhance the Control Tower, optimizing fleet and warehousing operations",
+    "Support Customer Acquisition: Create AI-driven tools to personalize onboarding and pricing",
+    "Enhance Customer Retention: Implement predictive churn models and tailored analytics dashboards",
+    "Optimize Client Supply Chains: Use AI to deliver cost savings",
+    "Improve Operations: Apply AI to predictive maintenance and resource allocation",
+    "Collaborate with Tech Team: Work with AI, IoT, blockchain, and analytics specialists to integrate AI tools",
+    "Support ESG Goals: Develop AI-driven sustainability metrics aligning with net-zero targets"
   ],
   "required_qualifications": [
-    "Bachelor\u2019s/Master\u2019s in Computer Science, Data Science, AI, or related field.",
-    "3+ years in AI/ML development.",
-    "Proficiency in ML frameworks such as Python, TensorFlow, PyTorch.",
-    "Experience with cloud platforms like AWS, Azure.",
-    "Experience with real-time data processing and analytics tools.",
-    "Strong problem-solving and communication skills."
+    "Bachelor\u2019s/Master\u2019s in Computer Science, Data Science, AI, or related field",
+    "3+ years in AI/ML development",
+    "Proficiency in ML frameworks (e.g., Python, TensorFlow, PyTorch) and cloud platforms (e.g., AWS, Azure)",
+    "Experience with real-time data processing and analytics tools",
+    "Strong problem-solving and communication skills"
   ],
   "preferred_qualifications": [
-    "Knowledge of logistics KPIs and ESG metrics.",
-    "Familiarity with NLP, IoT, or blockchain in supply chain applications."
+    "Knowledge of logistics KPIs and ESG metrics",
+    "Familiarity with NLP, IoT, or blockchain in supply chain applications"
   ],
   "company_name": "Tasman Logistics Services Pty Ltd",
-  "company_details": "Tasman Logistics Services is Australia\u2019s premier logistics company, leading in global supply chain innovation with AI-driven solutions, sustainability, and unmatched reliability. The company aims to achieve $1B in revenue by 2030, fostering a culture of excellence and sustainability under CEO Ivan Vanis."
+  "company_details": "Tasman Logistics Services is Australia\u2019s premier logistics company leading the charge in global supply chain innovation. They are obsessed with being the best and are focused on becoming a leader in Tech and AI to redefine the future of logistics."
 }

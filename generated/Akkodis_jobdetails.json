@@ -1,11 +1,11 @@
 {
-  "job_title": "Data Scientists, Machine Learning Engineers, AI Researchers, and Data Engineers",
-  "job_purpose": "To tackle complex challenges and drive meaningful change through data-driven solutions by unlocking the power of data and transforming it into intelligent solutions.",
+  "job_title": "Data and AI Professional",
+  "job_purpose": "To tackle complex challenges and drive meaningful change through data-driven solutions",
   "keywords": [
-    "Data Science",
-    "Machine Learning",
-    "AI Research",
-    "Data Engineering",
+    "Data Scientist",
+    "Machine Learning Engineer",
+    "AI Researcher",
+    "Data Engineer",
     "Python",
     "SQL",
     "TensorFlow",
@@ -14,44 +14,25 @@
     "AWS",
     "GCP",
     "Azure",
-    "Big Data",
     "NLP",
     "Computer Vision",
-    "Generative AI",
-    "Data Pipelines",
-    "Cloud Platforms",
-    "Data Visualization",
-    "ETL",
-    "Azure Data Factory",
-    "Snowflake",
-    "Databricks",
-    "SQL Server",
-    "ArcGIS",
-    "RPA",
-    "Appian",
-    "BPM",
-    "Splunk",
-    "DevOps",
-    "Kubernetes",
-    "Release Management",
-    "Solution Planning",
-    "Client Management"
+    "Big Data",
+    "Business Insights"
   ],
   "job_duties_and_responsibilities": [
     "Building and deploying machine learning models at scale",
-    "Designing data pipelines and infrastructure to power AI systems",
+    "Designing data pipelines and infrastructure for AI systems",
     "Conducting cutting-edge research in NLP, computer vision, or generative AI",
-    "Leveraging big data to generate actionable business insights",
+    "Using big data to generate actionable business insights",
     "Collaborating across teams to embed intelligence into real-world products"
   ],
   "required_qualifications": [
-    "Strong expertise in Python, SQL, and relevant data/ML frameworks (e.g., TensorFlow, PyTorch, Spark, etc.)",
-    "Experience working with large-scale datasets and cloud platforms (AWS, GCP, or Azure)",
+    "Strong expertise in Python, SQL, and relevant data/ML frameworks",
+    "Experience with large-scale datasets and cloud platforms (AWS, GCP, or Azure)",
+    "Curious mindset and drive to innovate",
     "Ability to communicate complex technical ideas to non-technical stakeholders"
   ],
-  "preferred_qualifications": [
-    "A curious mindset and a drive to innovate"
-  ],
+  "preferred_qualifications": [],
   "company_name": "Akkodis",
-  "company_details": "A large global company that helps other businesses grow and improve by offering services in consulting, technology, and operations. It works with many different industries to solve problems and find better ways of doing things. Using new technology and smart ideas, the company supports its clients in becoming more efficient and successful. With teams around the world, it brings together experts who understand both business and technology."
+  "company_details": "A large global company offering services in consulting, technology, and operations to help businesses grow and improve. The company supports clients in becoming more efficient and successful through new technology and smart ideas."
 }

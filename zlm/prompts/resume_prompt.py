@@ -1,10 +1,7 @@
 '''
 -----------------------------------------------------------------------
 File: prompts/RESUME_WRITER_PERSONA.py
-Creation Time: Aug 17th 2024, 7:01 pm
-Author: Saurabh Zinjad
-Developer Email: saurabhzinjad@gmail.com
-Copyright (c) 2023-2024 Saurabh Zinjad. All rights reserved | https://github.com/Ztrimus
+
 -----------------------------------------------------------------------
 '''
 

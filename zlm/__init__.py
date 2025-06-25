@@ -294,6 +294,31 @@ class AutoApplyModel:
             resume_latex = latex_to_pdf(resume_details, resume_path)
             # st.write(f"resume_pdf_path: {resume_pdf_path}")
 
+            # Post-process certifications: keep only top 3 and find wallet/profile link
+            if 'certifications' in resume_details and isinstance(resume_details['certifications'], list):
+                # Keep only top 3
+                resume_details['certifications'] = resume_details['certifications'][:3]
+                # Find wallet/profile link
+                wallet_link = None
+                for cert in resume_details['certifications']:
+                    link = cert.get('link', '')
+                    if '/profile/' in link and '/wallet' in link:
+                        wallet_link = link
+                        break
+                # Add to personal for template use
+                if 'personal' in resume_details:
+                    resume_details['personal']['certifications_link'] = wallet_link
+                else:
+                    resume_details['personal'] = {'certifications_link': wallet_link}
+
+            # Post-process dates: replace "Present" with empty strings for projects, education, and work experience
+            for section in ['projects', 'education', 'work_experience']:
+                if section in resume_details and isinstance(resume_details[section], list):
+                    for item in resume_details[section]:
+                        if isinstance(item, dict) and 'to_date' in item:
+                            if item['to_date'] == 'Present':
+                                item['to_date'] = ''
+
             return resume_path, resume_details
         except Exception as e:
             print(e)
