@@ -1,4 +1,4 @@
-job_id,title,company,location,url,description,email,phone,salary,resume_filename,coverletter_filename,Applied,Application Date
+job_id,title,company,location,url,description,email,phone,salary,resume_filename,coverletter_filename,Applied,Application Date,Questions
 85037933,Remote - Online Data Analyst (English speakers),TELUS International AI Inc.,Melbourne VIC,https://www.seek.com.au/job/85037933?type=standard&ref=search-standalone&origin=cardTitle#sol=8d20c606a7283e2dbd9540736f7726b766716eef,"Are you a detail-oriented individual with a passion for research and a good understanding of national and local geography? This freelance opportunity allows you to work at your own pace and from the comfort of your own home.
  A Day in the Life of an Online Data Analyst:
 In this role, you will be working on a project aimed at enhancing the content and quality of digital maps that are used by millions of people worldwide
@@ -14,7 +14,7 @@ Daily access to a broadband internet connection, computer, and relevant software
  Assessment
 In order to be hired into the program, you’ll take an open book qualification exam that will determine your suitability for the position and complete ID verification. Our team will provide you with guidelines and learning materials before your qualification exam. You will be required to complete the exam in a specific timeframe but at your convenience.
  Equal Opportunity
-All qualified applicants will receive consideration for a contractual relationship without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, or protected veteran status. At TELUS Digital AI, we are proud to offer equal opportunities and are committed to creating a diverse and inclusive community. All aspects of selection are based on applicants’ qualifications, merits, competence, and performance without regard to any characteristic related to diversity.",,,,TelusDigitalAi_resume.pdf,TelusDigitalAi_coverletter.pdf,,
+All qualified applicants will receive consideration for a contractual relationship without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, or protected veteran status. At TELUS Digital AI, we are proud to offer equal opportunities and are committed to creating a diverse and inclusive community. All aspects of selection are based on applicants’ qualifications, merits, competence, and performance without regard to any characteristic related to diversity.",,,,TelusDigitalAi_resume.pdf,TelusDigitalAi_coverletter.pdf,Error - UNEXPECTED ERROR,26 June 2025,
 85054011,AI Specialist,Tasman Logistic Services Pty Ltd,Melbourne VIC,https://www.seek.com.au/job/85054011?type=standard&ref=search-standalone&origin=cardTitle#sol=17b4bb21eeff2c05968932030f044a3886f0a65f,"Position Description: AI Specialist
 Location: Melbourne, VIC, Australia
 Employment Type: Full-Time, Permanent
@@ -49,7 +49,12 @@ Impact: Contribute to new revenue helping Tasman achieve a $1B+ global vision by
 Innovation: Develop AI solutions with our Control Tower and Supersite, leading the logistics industry
 Growth: Join a large team with global opportunities
 Rewards: Competitive salary, performance bonuses, and career growth in a tech-driven company.
-Culture: Work under CEO Ivan Vanis and his highly driven and hungry team in a bold, visionary environment, passionate about excellence and sustainability",,,$1,TasmanLogisticsServicesPtyLtd_resume.pdf,TasmanLogisticsServicesPtyLtd_coverletter.pdf,Error - UNEXPECTED EXCEPTION,25 June 2025
+Culture: Work under CEO Ivan Vanis and his highly driven and hungry team in a bold, visionary environment, passionate about excellence and sustainability",,,$1,TasmanLogisticsServicesPtyLtd_resume.pdf,TasmanLogisticsServicesPtyLtd_coverletter.pdf,Applied Successfully,26 June 2025,"Selecting dropdown for question: Which of the following statements best describes your right to work in Australia? with label: I have a temporary visa with no restrictions (e.g. doctoral student)
+Selecting dropdown for question: How many years' experience do you have as an Artificial Intelligence Specialist? with label: No experience
+Selecting dropdown for question: What's your expected annual base salary? with label: $80k
+Q: Have you worked in a role which requires experience with machine learning techniques? | A: No
+Q: Do you have experience working with logistics, freight & delivery services? | A: No
+Q: Do you have a current Australian driver's licence? | A: No"
 84823901,AI Smart Search Specialist,Paxus,Melbourne VIC,https://www.seek.com.au/job/84823901?type=standard&ref=search-standalone&origin=cardTitle#sol=a22b66679841de807c50c2c1a231f781b04a7b56,"About The Team
 The Website Strategy and Management team of approximately 10 website strategy and functionality experts is located across multiple sites, primarily in Brisbane and Newcastle. The team manages the departments websites and website projects and facilitates better website user experiences for clients and staff through the provision of platform and content strategy, governance and guidance. We identify and prioritise improvements, delivering iterative enhancements by driving innovation in our platforms.
 The AI Smart Search specialist will:
@@ -76,7 +81,12 @@ The worker will participate in knowledge/skills transfer activities as part of t
 
 
 To be considered for the role click the 'apply' button or for more information about this and other opportunities please contact Muhammad Warsi on (0)2 6151 9201 or email: mwarsi@paxus.com.au and quote the above job reference number.
-Paxus values diversity and welcomes applications from Indigenous Australians, people from diverse cultural and linguistic backgrounds and people living with a disability. If you require an adjustment to the recruitment process, including the application form in an alternate format, please contact me on the above contact details.",mwarsi@paxus.com.au,,,Paxus_resume.pdf,Paxus_coverletter.pdf,,
+Paxus values diversity and welcomes applications from Indigenous Australians, people from diverse cultural and linguistic backgrounds and people living with a disability. If you require an adjustment to the recruitment process, including the application form in an alternate format, please contact me on the above contact details.",mwarsi@paxus.com.au,,,Paxus_resume.pdf,Paxus_coverletter.pdf,Applied Successfully,26 June 2025,"Selecting dropdown for question: Which of the following statements best describes your right to work in Australia? with label: I have a temporary visa with no restrictions (e.g. doctoral student)
+Selecting dropdown for question: How many years' experience do you have as an Artificial Intelligence Specialist? with label: No experience
+Selecting dropdown for question: What's your expected annual base salary? with label: $80k
+Q: Have you worked in a role which requires experience with machine learning techniques? | A: No
+Q: Do you have experience working with logistics, freight & delivery services? | A: No
+Q: Do you have a current Australian driver's licence? | A: No"
 84939957,Data & AI Consultant - Multiple Positions,Akkodis,Melbourne VIC,https://www.seek.com.au/job/84939957?type=standard&ref=search-standalone&origin=cardTitle#sol=6901345c34970ab881226cd14a96f0916923d2fd,"Location: Melbourne, Sydney, Canberra
 Competitive Salary Package - Permanent Opportunities
 Multiple Roles and Opportunities
@@ -189,7 +199,7 @@ Due to new privacy laws regarding the collection and handling of personal inform
 
 
 
-""Akkodis is an Equal Opportunity employer, committed to all forms of workforce inclusion. We actively invite and encourage applications by candidates from diverse backgrounds",,,,Akkodis_resume.pdf,Akkodis_coverletter.pdf,,
+""Akkodis is an Equal Opportunity employer, committed to all forms of workforce inclusion. We actively invite and encourage applications by candidates from diverse backgrounds",,,,Akkodis_resume.pdf,Akkodis_coverletter.pdf,Can't Find Resume Element,26 June 2025,
 84708639,AI Analyst,Praemium Limited,Melbourne VIC,https://www.seek.com.au/job/84708639?type=standard&ref=search-standalone&origin=cardTitle#sol=81625cabf92c296f97aea96cb4b2262ce617d0f7,"About Us
 
 Founded in 2001, we set out to simplify the complexities of wealth management. We support leading institutions and private wealth firms with cutting-edge technology and outstanding service. We offer the only fully integrated investment platform that enables comprehensive management of an investor’s entire portfolio in one place. Join us on our mission to redefine and evolve effective wealth management.
@@ -227,7 +237,12 @@ Please apply with your CV and cover letter detailing how your capabilities and c
 
 We are committed to building a diverse and inclusive workforce and welcome applications from all qualified candidates.
 
-Please Note: Only applicants with full, unrestricted work rights in Australia will be considered. A police check will be required for successful candidates.",,,,WealthManagementCompany_resume.pdf,WealthManagementCompany_coverletter.pdf,,
+Please Note: Only applicants with full, unrestricted work rights in Australia will be considered. A police check will be required for successful candidates.",,,,WealthManagementCompany_resume.pdf,WealthManagementCompany_coverletter.pdf,Applied Successfully,26 June 2025,"Selecting dropdown for question: Which of the following statements best describes your right to work in Australia? with label: I have a temporary visa with no restrictions (e.g. doctoral student)
+Selecting dropdown for question: What's your expected annual base salary? with label: $80k
+Selecting dropdown for question: How much notice are you required to give your current employer? with label: 2 weeks
+Filling textarea for question: Are you based in Melbourne? with: As a Cyber Security Intern at WE CLAN in Melbourne, VIC, I am currently based in Melbourne....
+Filling textarea for question: Have you held a similar role? Please elaborate with: As a Cyber Security Intern at WE CLAN, I have gained experience in cyber security practices and prot...
+Filling textarea for question: What AI implementation successes have you had? with: In my projects such as the AI-POWERED DENTAL APPOINTMENT SCHEDULER and AI-GENERATED NO-CODE WEBSITE,..."
 85101882,Automation & AI Engineer,Sense Recruitment,Perth WA,https://www.seek.com.au/job/85101882?type=standard&ref=search-standalone&origin=cardTitle#sol=7bc24350294bd24ed64bcc49b4a05c21efe81f05,"Automation and AI Integration Specialist | Make It Smarter | Perth CBD (Mining and Logistics)
 
 Not just a cog. Not just a coder. This is your chance to bring automation and AI into the heart of corporate and operational decision making.
@@ -265,7 +280,9 @@ A collaborative environment that values transparency, simplicity and momentum
 Occasional regional travel with the IT Manager
   
 This is not about refining what is already built. It is about building what is needed.
-If that sounds like you, reach out!",,,,MakeItSmarter_resume.pdf,MakeItSmarter_coverletter.pdf,,
+If that sounds like you, reach out!",,,,MakeItSmarter_resume.pdf,MakeItSmarter_coverletter.pdf,Applied Successfully,26 June 2025,"Selecting dropdown for question: Which of the following statements best describes your right to work in Australia? with label: I have a temporary visa with no restrictions (e.g. doctoral student)
+Selecting dropdown for question: How many years' experience do you have as an Artificial Intelligence Engineer? with label: No experience
+Selecting dropdown for question: What's your expected annual base salary? with label: $80k"
 85118348,Machine Learning Engineer,Micromine Australia Pty Ltd,Perth WA,https://www.seek.com.au/job/85118348?type=standard&ref=search-standalone&origin=cardTitle#sol=967a207797346499525184ea713199c8b5ec5b17,"About Us
 Founded 37 years ago, Micromine is at the cutting edge of next-generation technology for mining. With offices in 9 different countries, we are one of the world's premier mining software companies; our technology is used in all corners of the globe.
  What We Offer
@@ -300,7 +317,7 @@ Bachelor's or higher degree in Computer Science, AI, or a related field.
  Next Steps
 If you are looking to shape the future direction of technology in the industry, we encourage you to apply for this exciting opportunity.
 To learn more or apply, visit our website at www.micromine.com.
-Micromine is dedicated to fostering a diverse and inclusive work environment, and we welcome applicants from a variety of backgrounds to apply.",,,,Micromine_resume.pdf,Micromine_coverletter.pdf,,
+Micromine is dedicated to fostering a diverse and inclusive work environment, and we welcome applicants from a variety of backgrounds to apply.",,,,Micromine_resume.pdf,Micromine_coverletter.pdf,Can't Find Resume Element,26 June 2025,
 84737223,AI and Reporting Lead,Wesfarmers,Perth WA,https://www.seek.com.au/job/84737223?type=standard&ref=search-standalone&origin=cardTitle#sol=275ae05726b4de9a618387ef34496cf8b4e6cc18,"Be part of a team who are focused on harnessing the power of data and transforming it into meaningful and actionable insights that supports decision making and improves business performance
 Opportunity to pilot emerging technology and showcase innovative data, AI and reporting solutions to senior leaders
 Collaborate with all departments within our Corporate Office to prioritise use cases and deliver successful outcomes
@@ -335,7 +352,7 @@ Next steps
 If this sounds like your next career move, then combine your cover letter and resume into one document and click on the ‘Apply’ button by Friday, 27 June 2025. Please note that we may commence interviewing of candidates prior to this closing date.
 For brief enquiries please contact Human Resources on (08) 9327 4223.
 We’re hiring the best and the brightest talent. Let’s start to explore the possibilities of achieving great things together.
-For more information, visit our website at www.wesfarmers.com.au",,,,Wesfarmers_resume.pdf,Wesfarmers_coverletter.pdf,,
+For more information, visit our website at www.wesfarmers.com.au",,,,Wesfarmers_resume.pdf,Wesfarmers_coverletter.pdf,Can't Find Resume Element,26 June 2025,
 84996868,Domain Solutions Lead - Data & AI,Schlumberger Australia Pty Ltd,Perth WA,https://www.seek.com.au/job/84996868?type=standard&ref=search-standalone&origin=cardTitle#sol=31167dbc4d22bc3c6fadc037e3951a926f3d87be,"About SLB:
 We are a global technology company, driving energy innovation for a balanced planet.
 Together, we create amazing technology that unlocks access to energy for the benefit of all.
@@ -381,7 +398,13 @@ Only successful applicants that meet the above criteria will be contacted.
 SLB is an equal opportunity employer. Qualified applicants are considered without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, age, disability, or veteran status.
 We are committed to providing employment opportunities for Aboriginal and Torres Strait Islander people.
 www.careers.slb.com
-https://www.youtube.com/watch?v=40PaXCJfi6M",,,,Slb_resume.pdf,Slb_coverletter.pdf,,
+https://www.youtube.com/watch?v=40PaXCJfi6M",,,,Slb_resume.pdf,Slb_coverletter.pdf,Applied Successfully,26 June 2025,"Selecting dropdown for question: How many years' experience do you have as a Solution Lead? with label: No experience
+Selecting dropdown for question: How many years' experience do you have using SQL queries? with label: 2 years
+Selecting dropdown for question: How many years' experience do you have as a Solution Delivery Manager? with label: 1 year
+Selecting dropdown for question: Have you completed a qualification in business? with label: Yes, Bachelor Degree
+Selecting dropdown for question: Which of the following statements best describes your right to work in Australia? with label: I have a temporary visa with no restrictions (e.g. doctoral student)
+Selecting dropdown for question: How many years' experience do you have as a commercial manager? with label: Less than 1 year
+Q: Do you have experience in the offshore oil & gas industry? | A: No"
 84897327,AI Business Partner,Roy Hill,Perth WA,https://www.seek.com.au/job/84897327?type=standard&ref=search-standalone&origin=cardTitle#sol=c72e52d36043cb11d9013492e9b85a8c6071f860,"Monday to Friday | Perth Roster
 Performance, Retention and Profit Share Bonuses
 18 weeks paid Parental Leave for primary caregivers
@@ -427,7 +450,7 @@ We are proud of our relationships with our Traditional Owners and value the diff
 How to apply
 Click APPLY to submit your application.
 To be eligible to apply for this role you must be legally permitted to work permanently in Australia.
-Please note that unsolicited applications from recruitment agencies will not be accepted.",,,,RoyHill_resume.pdf,RoyHill_coverletter.pdf,,
+Please note that unsolicited applications from recruitment agencies will not be accepted.",,,,RoyHill_resume.pdf,RoyHill_coverletter.pdf,Can't Find Resume Element,26 June 2025,
 85059508,AI and Automation Lead,Fuelfix Pty Ltd,Wangara,https://www.seek.com.au/job/85059508?type=standard&ref=search-standalone&origin=cardTitle#sol=950187bdd1dd321b23fa73db14c8bcc439d83122,"Fuelfix & Tanks2Go is a leader in the provision of fuel management and emissions solutions, with four main business streams are Repairs and Maintenance, Tank Hire and Sales, Fuel Projects and Facility Management.
 As we look to drive intelligent automation solutions across the business, we are seeking a technically skilled and strategically minded AI and Automation Lead to drive the adoption, integration, and optimisation of this business strategy.
 You will be instrumental in leveraging Microsoft 365 Business Central, Power Platform (including PowerApps and Power Automate), and Microsoft Dynamics CRM to streamline operations, enhance data-driven decision-making, and foster a culture of innovation and continuous improvement.
@@ -453,7 +476,13 @@ We have a strong and inclusive company culture that focuses on the things that m
 This role offers an opportunity to refine and build your skills and experience in the hydrocarbons industry, working with key clients across the resource sector. With a mix of workshop and on-site work - with the opportunity to travel at times - no two days are the same.
 Think you are a good fit for the role?
 Hit APPLY and send in your cover letter and detailed resume. If you have any questions, please email careers@fuelfix.com.au.
-Fuelfix is an Equal Opportunity Employer, and we encourage applications from female and Aboriginal and Torres Strait Islander candidates. We embrace cultural diversity and inclusion, and we welcome applications from all backgrounds.",careers@fuelfix.com.au,,,FuelfixTanks2Go_resume.pdf,FuelfixTanks2Go_coverletter.pdf,,
+Fuelfix is an Equal Opportunity Employer, and we encourage applications from female and Aboriginal and Torres Strait Islander candidates. We embrace cultural diversity and inclusion, and we welcome applications from all backgrounds.",careers@fuelfix.com.au,,,FuelfixTanks2Go_resume.pdf,FuelfixTanks2Go_coverletter.pdf,Applied Successfully,26 June 2025,"Selecting dropdown for question: Which of the following statements best describes your right to work in Australia? with label: I have a temporary visa with no restrictions (e.g. doctoral student)
+Selecting dropdown for question: How many years' experience do you have as an Automation Lead? with label: No experience
+Selecting dropdown for question: What's your expected annual base salary? with label: $80k
+Selecting checkbox for question: Which of the following Microsoft 365 certifications have you completed? with option: Microsoft 365 Certified Fundamentals
+Selecting checkbox for question: Which of the following Microsoft 365 certifications have you completed? with option: Microsoft 365 Certified Modern Desktop Administrator Associate
+Selecting checkbox for question: Which of the following Microsoft Dynamics 365 certifications have you completed? with option: Microsoft Certified Dynamics 365 Fundamentals
+Selecting checkbox for question: Which of the following Microsoft Dynamics 365 certifications have you completed? with option: Microsoft Certified Dynamics 365 Marketing Functional Consultant Associate"
 84549605,AI Change & Adoption Specialist,Fortescue,Perth WA,https://www.seek.com.au/job/84549605?type=standard&ref=search-standalone&origin=cardTitle#sol=fc472307898c6968b8aeb1b7d260f61828c5a72d,"About Us
 Be part of something big. Fortescue is leading the world with our plan to decarbonise our iron ore operations, projects that harness renewable energy and the development of technology that will change our planet forever.
 Our Opportunity
@@ -481,7 +510,7 @@ Our Commitment
 Fortescue celebrates individual strengths and team members are encouraged to bring their whole selves to work. Our global workforce drives and promotes an inclusive culture, both within our organisation and throughout the communities we interact with. Diverse backgrounds include First Nations Peoples, people with disabilities, LGBTQ+ community, gender, neurodiverse, cultural diversity, all age groups, and those with an intersectional or multiple diverse characteristics. We encourage candidates from all backgrounds to apply.
 https://fortescue.com/careers
 Internal Candidates / Current Contractors please apply via Success Factors Careers Portal. For further information on how to apply please visit the Fortescue Hub.
-Fortescue reserves the right to close applications early should a suitable pool of candidates be identified. Fortescue will never contact you to ask for payment of any kind, whether directly or through a third party.",,,,Fortescue_resume.pdf,Fortescue_coverletter.pdf,,
+Fortescue reserves the right to close applications early should a suitable pool of candidates be identified. Fortescue will never contact you to ask for payment of any kind, whether directly or through a third party.",,,,Fortescue_resume.pdf,Fortescue_coverletter.pdf,Can't Find Resume Element,26 June 2025,
 84783621,AI Systems Orchestrator,Poppy Lissiman & Co,Fremantle,https://www.seek.com.au/job/84783621?type=standard&ref=search-standalone&origin=cardTitle#sol=25262fea57b6ca4a5e4dd400eee03d745ce9da42,"AI-Native Systems Orchestrator  
 AKA: The Ops Architect Who Can See the Matrix
 Poppy Lissiman is a globally recognised Australian fashion accessories label, renowned for its unapologetic design, pop-art aesthetic, and cult following that includes Beyoncé, Margot Robbie, Billie Eilish, the Hadids, Kardashians, and Jenners. While the brand has built remarkable equity over its 17-year journey, it is now seeking to integrate AI solutions across key aspects of the business to equip it for future growth in the rapidly evolving Ecomm landscape. The business is now undergoing a full-scale transformation into a technology-first, data-led operation which the successful candidate will spearhead.
@@ -509,7 +538,7 @@ Why This Role is Rare
 • Creative-meets-technical environment: Leverage deep brand equity while building bleeding-edge systems
 • Executive access: Operate at strategic level with direct impact and zero red tape
 • Global visibility: What you build will not sit in a drawer—it will scale quickly and internationally
-If this sounds like you, we'd love to meet. Apply now!",,,,PoppyLissiman_resume.pdf,PoppyLissiman_coverletter.pdf,,
+If this sounds like you, we'd love to meet. Apply now!",,,,PoppyLissiman_resume.pdf,PoppyLissiman_coverletter.pdf,Error - APPLY BUTTON NOT FOUND,26 June 2025,
 84656799,Senior Software Developer – AI Agents,Oqea,Subiaco,https://www.seek.com.au/job/84656799?type=standard&ref=search-standalone&origin=cardTitle#sol=3f3957ad022e85a64ec6c8df6a3cdf578ded252d,"About Oqea
 Are you excited by a start-up environment and working for a company that can help make a real difference? Are you an all-rounder who can work well in a team and has the initiative to get the job done? If so, we want to hear from you!  
 Oqea's mission is to create a place for connected wellbeing. Our vision is to change how healthcare is delivered and received for the better of everyone, everywhere, and we need your help to achieve this! The Oqea team has developed an online platform for consumers and providers to connect, collaborate and communicate. Oqea aims to bring self-help tools and professional support together to reduce isolation and ensure no one gets left behind. If you care about helping others and enjoy connecting with individuals from many different walks of life, this may be your role! 
@@ -569,7 +598,10 @@ Our Values
 Our core values resonate with you: integrity, commitment, empathy, openness and empowering, and loyalty and teamwork.
 Company Compliance
 You must adhere to all Company Policies and Procedures.
-We believe great talent comes in many forms. If you're passionate about building innovative software solutions and don't precisely match every requirement but believe you have what it takes to succeed in this role, we encourage you to apply.",,,,Oqea_resume.pdf,Oqea_coverletter.pdf,,
+We believe great talent comes in many forms. If you're passionate about building innovative software solutions and don't precisely match every requirement but believe you have what it takes to succeed in this role, we encourage you to apply.",,,,Oqea_resume.pdf,Oqea_coverletter.pdf,Applied Successfully,26 June 2025,"Selecting dropdown for question: Which of the following statements best describes your right to work in Australia? with label: I have a temporary visa with no restrictions (e.g. doctoral student)
+Selecting dropdown for question: How many years' experience do you have in a software development role? with label: 2 years
+Selecting dropdown for question: How many years' experience do you have as a Typescript Developer? with label: No experience
+Selecting dropdown for question: How many years' experience do you have as a Python Developer? with label: 3 years"
 85061422,Machine Learning Software Engineer,NES Fircroft,Perth WA,https://www.seek.com.au/job/85061422?type=standard&ref=search-standalone&origin=cardTitle#sol=98be542231b8375f593f2d03b306a65c3de9c74a,"Our innovative client, a well-known mining & energy organisation, is looking for the next Machine Learning Software Engineer to join the team. This will be an initial 6 month contract with a solid pipeline of work on the horizon. This is a Perth CBD position that requires in office presence up to 3 times a week. This person should be comfortable in an environment where they can design, build, and scale real-world applications powered by large language models (LLMs). The right person will find themselves working closely with domain experts, product managers, and ML researchers to turn ideas into prototypes and prototypes into production-ready tools that solve meaningful problems using cutting-edge AI.
 
 Key Responsibilities
@@ -611,7 +643,8 @@ Full working Australian rights will be required. Perth based candidates or candi
 Due to a high level of applications and tight timeframe, shortlisted profiles will be contacted directly.
 This role may progress with shortlisting ahead of closing date so make sure your application counts and apply.
 
-With over 90 years' combined experience, NES Fircroft (NES) is proud to be the world's leading engineering staffing provider spanning the Oil & Gas, Power & Renewables, Chemicals, Construction & Infrastructure, Life Sciences, Mining and Manufacturing sectors worldwide. With more than 80 offices in 45 countries, we are able to provide our clients with the engineering and technical expertise they need, wherever and whenever it is needed. We offer contractors far more than a traditional recruitment service, supporting with everything from securing visas and work permits, to providing market-leading benefits packages and accommodation, ensuring they are safely and compliantly able to support our clients.",,,,NesFircroft_resume.pdf,NesFircroft_coverletter.pdf,,
+With over 90 years' combined experience, NES Fircroft (NES) is proud to be the world's leading engineering staffing provider spanning the Oil & Gas, Power & Renewables, Chemicals, Construction & Infrastructure, Life Sciences, Mining and Manufacturing sectors worldwide. With more than 80 offices in 45 countries, we are able to provide our clients with the engineering and technical expertise they need, wherever and whenever it is needed. We offer contractors far more than a traditional recruitment service, supporting with everything from securing visas and work permits, to providing market-leading benefits packages and accommodation, ensuring they are safely and compliantly able to support our clients.",,,,NesFircroft_resume.pdf,NesFircroft_coverletter.pdf,Applied Successfully,26 June 2025,"Selecting dropdown for question: Which of the following statements best describes your right to work in Australia? with label: I have a temporary visa with no restrictions (e.g. doctoral student)
+Q: Are you currently located in Perth, W.A.? | A: No"
 84549345,Cloud & AI Platform Engineer,Fortescue,Perth WA,https://www.seek.com.au/job/84549345?type=standard&ref=search-standalone&origin=cardTitle#sol=dba78fe18ce9ab2c27fbd79770ab826ecb8e4048,"About Us
 Be part of something big. Fortescue is leading the world with our plan to decarbonise our iron ore operations, projects that harness renewable energy and the development of technology that will change our planet forever.
 Our Opportunity
@@ -638,7 +671,7 @@ Our Commitment
 Fortescue celebrates individual strengths and team members are encouraged to bring their whole selves to work. Our global workforce drives and promotes an inclusive culture, both within our organisation and throughout the communities we interact with. Diverse backgrounds include First Nations Peoples, people with disabilities, LGBTQ+ community, gender, neurodiverse, cultural diversity, all age groups, and those with an intersectional or multiple diverse characteristics. We encourage candidates from all backgrounds to apply.
 https://fortescue.com/careers
 Internal Candidates / Current Contractors please apply via Success Factors Careers Portal. For further information on how to apply please visit the Fortescue Hub.
-Fortescue reserves the right to close applications early should a suitable pool of candidates be identified. Fortescue will never contact you to ask for payment of any kind, whether directly or through a third party.",,,,Fortescue_resume.pdf,Fortescue_coverletter.pdf,,
+Fortescue reserves the right to close applications early should a suitable pool of candidates be identified. Fortescue will never contact you to ask for payment of any kind, whether directly or through a third party.",,,,Fortescue_resume.pdf,Fortescue_coverletter.pdf,Can't Find Resume Element,26 June 2025,
 85131238,Data Senior Engineer,Fortescue,Perth WA,https://www.seek.com.au/job/85131238?type=standard&ref=search-standalone&origin=cardTitle#sol=eec522c228e6acfe14a9e1bb23bc6be53fd0a772,"Our Opportunity
 Work Location: Fortescue's Perth office is located on the traditional lands of the Whadjuk people.
 Roster: Monday to Friday - site travel is unlikely but possible.
@@ -688,7 +721,7 @@ Our Commitment
 Fortescue celebrates individual strengths and team members are encouraged to bring their whole selves to work. Our global workforce drives and promotes an inclusive culture, both within our organisation and throughout the communities we interact with. Diverse backgrounds include First Nations Peoples, people with disabilities, LGBTQ+ community, gender, neurodiverse, cultural diversity, all age groups, and those with an intersectional or multiple diverse characteristics. We encourage candidates from all backgrounds to apply.
 https://fortescue.com/careers
 Internal Candidates / Current Contractors please apply via Success Factors Careers Portal. For further information on how to apply please visit the Fortescue Hub.
-Fortescue reserves the right to close applications early should a suitable pool of candidates be identified. Fortescue will never contact you to ask for payment of any kind, whether directly or through a third party.",,,,Fortescue_resume.pdf,Fortescue_coverletter.pdf,,
+Fortescue reserves the right to close applications early should a suitable pool of candidates be identified. Fortescue will never contact you to ask for payment of any kind, whether directly or through a third party.",,,,Fortescue_resume.pdf,Fortescue_coverletter.pdf,Can't Find Resume Element,26 June 2025,
 85058873,Data Analyst,Perth Airport Pty Ltd,Perth Airport,https://www.seek.com.au/job/85058873?type=standard&ref=search-standalone&origin=cardTitle#sol=f0e32ab050cc422da1b6a590757d0cd351949105,"Perth Airport is Australia’s Western Hub connecting the people, businesses and communities of Western Australia with the rest of Australia and the world. Operating 24 hours a day, seven days a week throughout the year, Perth Airport plays a significant role in providing economic, social and cultural benefits to West Australians.
 Perth Airport is investing more than $5 billion in new infrastructure so we can support our airline partners to grow, offering more services to new destinations and an improved customer experience.
 Over the coming decade we will expand T1 International, and build new domestic terminal facilities, a parallel runway, two multi-storey carparks and our first airport hotel. This will deliver one airport for the people of Western Australia which will host all flight services in a central location giving passengers a seamless, world-class travel experience.
@@ -721,7 +754,7 @@ About Us:
 We offer a dynamic and supportive team culture, a contemporary workplace with great facilities and a modern approach to work/life integration. Our competitive remuneration package comes with additional company benefits including free parking.
 Perth Airport is an Equal Opportunities Employer. We are committed to building an equitable and diverse workforce representative of the community we serve. We encourage and welcome applications from all communities and backgrounds.
 Doing the right thing by the planet and future generations is important to us. At PAPL we place a strong emphasis on embedding sustainability throughout our business strategy and operations. We remain steadfast in our commitment to driving ESPG (Environmental, Social, People, Governance) performance across our value chain and areas that have material environmental and social impact.
-If this sounds like you please get in touch.",,,$5,PerthAirport_resume.pdf,PerthAirport_coverletter.pdf,,
+If this sounds like you please get in touch.",,,$5,PerthAirport_resume.pdf,PerthAirport_coverletter.pdf,Can't Find Resume Element,26 June 2025,
 84905711,Data/ AI Solution Architecture Manager,Peoplebank Australia WA,Perth WA,https://www.seek.com.au/job/84905711?type=standard&ref=search-standalone&origin=cardTitle#sol=c15055317c197d5583825b1b1c75565cdebae3e8,"Data / AI Solution Architect Manager
 
 The Client: 
@@ -748,7 +781,7 @@ Long-term opportunities in a growth-focused organisation
 
 If you are interested and possess the required experience, please apply now via the link below to be considered.  
 
-Contact: Lisa Williams – (08) 9423 1429  - (Job reference: 266917)",,,,ItTechnologyClientWithGlobalReach_resume.pdf,ItTechnologyClientWithGlobalReach_coverletter.pdf,,
+Contact: Lisa Williams – (08) 9423 1429  - (Job reference: 266917)",,,,ItTechnologyClientWithGlobalReach_resume.pdf,ItTechnologyClientWithGlobalReach_coverletter.pdf,Can't Find Resume Element,26 June 2025,
 84916931,Full Stack Developer,NES Fircroft,Perth WA,https://www.seek.com.au/job/84916931?type=standard&ref=search-standalone&origin=cardTitle#sol=ae0054c294c0612b1ec8764d23dce711b713ca46,"Our innovative client, a well-known mining & energy organisation, is looking for the next Full Stack Developer to join the team on a 6 month contract basis. This is a Perth CBD position that requires in office presence up to 3 times a week. We’re looking for a skilled Full Stack Developer with expertise in both front-end and back-end technologies. In this role, you’ll work closely with Engineering, Projects, R&D, and broader tech teams to design and deliver high-performance web applications and services that drive innovation across our technology initiatives.
 
 Key Responsibilities:
@@ -781,7 +814,8 @@ Full working Australian rights will be required. Perth based candidates or candi
 Due to a high level of applications and tight timeframe, shortlisted profiles will be contacted directly.
 This role may progress with shortlisting ahead of closing date so make sure your application counts and apply.
 
-With over 90 years' combined experience, NES Fircroft (NES) is proud to be the world's leading engineering staffing provider spanning the Oil & Gas, Power & Renewables, Chemicals, Construction & Infrastructure, Life Sciences, Mining and Manufacturing sectors worldwide. With more than 80 offices in 45 countries, we are able to provide our clients with the engineering and technical expertise they need, wherever and whenever it is needed. We offer contractors far more than a traditional recruitment service, supporting with everything from securing visas and work permits, to providing market-leading benefits packages and accommodation, ensuring they are safely and compliantly able to support our clients.",,,,NesFircroftNes_resume.pdf,NesFircroftNes_coverletter.pdf,,
+With over 90 years' combined experience, NES Fircroft (NES) is proud to be the world's leading engineering staffing provider spanning the Oil & Gas, Power & Renewables, Chemicals, Construction & Infrastructure, Life Sciences, Mining and Manufacturing sectors worldwide. With more than 80 offices in 45 countries, we are able to provide our clients with the engineering and technical expertise they need, wherever and whenever it is needed. We offer contractors far more than a traditional recruitment service, supporting with everything from securing visas and work permits, to providing market-leading benefits packages and accommodation, ensuring they are safely and compliantly able to support our clients.",,,,NesFircroftNes_resume.pdf,NesFircroftNes_coverletter.pdf,Applied Successfully,26 June 2025,"Selecting dropdown for question: How many years' experience do you have as a full stack developer? with label: No experience
+Filling textarea for question: Are you currently located in Western Australia? with: As per my resume, I am currently located in Melbourne, Victoria, not in Western Australia...."
 84999718,Mechatronics Engineer – Mining Innovation,Innovative Mining Services (Aust) Pty Ltd,Malaga,https://www.seek.com.au/job/84999718?type=standard&ref=search-standalone&origin=cardTitle#sol=bc56ebe98db1cf6d6ff656d400ded379531df0fe,"Mechatronics Engineer – Mining Innovation
 Location: Malaga, WA
 Company: Innovative Mining Services
@@ -813,7 +847,8 @@ Thrive in a supportive, close-knit environment where engineering excellence is v
 Enjoy modern facilities in Malaga, flexible working arrangements, and the chance to grow your career as IMS expands both locally and globally
 Remuneration is negotiable and will reflect your experience and contribution.
 Apply Today
-Submit your resume and a cover letter explaining why you’re the right fit for this role.",,,,InnovativeMiningServices_resume.pdf,InnovativeMiningServices_coverletter.pdf,,
+Submit your resume and a cover letter explaining why you’re the right fit for this role.",,,,InnovativeMiningServices_resume.pdf,InnovativeMiningServices_coverletter.pdf,Applied Successfully,26 June 2025,"Selecting dropdown for question: Which of the following statements best describes your right to work in Australia? with label: I have a temporary visa with no restrictions (e.g. doctoral student)
+Selecting dropdown for question: How many years' experience do you have as a mechatronics engineer? with label: No experience"
 84874045,Python Developer / Automation Specialist,Sharp & Carter Digital & Technology Perth,Perth WA,https://www.seek.com.au/job/84874045?type=standard&ref=search-standalone&origin=cardTitle#sol=93f324cb8608a3ffd6dabc8d2b2cd22ea4ea0491,"About the role:
 
 Are you a driven Python Developer with a passion for automation, AI, and data? Ready to step out of your comfort zone and into a role where your ideas and skills will help shape smarter, more efficient processes on a global scale?
@@ -837,7 +872,8 @@ Join a respected global brand with cutting-edge projects
 Full-time, permanent role with stability and long-term growth
 Modern CBD-based office, five days a week onsite
 Flexible start and finish times for better work-life balance
-A collaborative and forward-thinking team that values fresh ideas",,,,GlobalEngineeringCompany_resume.pdf,GlobalEngineeringCompany_coverletter.pdf,,
+A collaborative and forward-thinking team that values fresh ideas",,,,GlobalEngineeringCompany_resume.pdf,GlobalEngineeringCompany_coverletter.pdf,Applied Successfully,26 June 2025,"Selecting dropdown for question: Which of the following statements best describes your right to work in Australia? with label: I have a temporary visa with no restrictions (e.g. doctoral student)
+Selecting dropdown for question: How many years' experience do you have as a mechatronics engineer? with label: No experience"
 84953017,Principal Software Engineer (cloud native),Clinical Innovation Systems Pty Ltd,Perth WA,https://www.seek.com.au/job/84953017?type=standard&ref=search-standalone&origin=cardTitle#sol=d9c8e4595caeaa2c2758e88acb28c6c5ff59fccc,"Join our innovative healthcare (cloud-first) company to build AI-enhanced functionality on AWS, with kubernetes scalability; work from home, flexible hours.
 ·        AWS, kubernetes, microservices
 ·        Expanding Australian healthcare SaaS company
@@ -881,7 +917,9 @@ Interview questions will be centred around:
 Remuneration
 Options include full-time employment or full-time contracting (at an hourly rate), with remuneration based on experience and capability. Initial 12-week probation period applies with no guarantee of ongoing contract; on successful completion of probation period and by mutual agreement thereafter, ongoing contract of 6 or 12 months may be offered, based on the successful applicant’s preference. Workplace arrangement is for remote service, tracking actual hours worked - working from home, or a co-working space. Target salary will be in the range of 120-180k per annum.
 Please note: Successful candidate must have full working rights to work in Australia. Unfortunately, we are unable to sponsor visas for overseas candidates at this stage.
-CRiS Care does not accept unsolicited resumes from recruitment agencies and search firms. Please do not email or send unsolicited resumes to any CRiS Care employee, location or address. CRiS Care is not responsible for any fees related to unsolicited resumes.",,,120-180k per annum,CrisCare_resume.pdf,CrisCare_coverletter.pdf,,
+CRiS Care does not accept unsolicited resumes from recruitment agencies and search firms. Please do not email or send unsolicited resumes to any CRiS Care employee, location or address. CRiS Care is not responsible for any fees related to unsolicited resumes.",,,120-180k per annum,CrisCare_resume.pdf,CrisCare_coverletter.pdf,Applied Successfully,26 June 2025,"Selecting dropdown for question: How many years' experience do you have as a software engineer? with label: 2 years
+Selecting dropdown for question: Which of the following statements best describes your right to work in Australia? with label: I have a temporary visa with no restrictions (e.g. doctoral student)
+Q: Do you have a current Police Check (National Police Certificate) for employment? | A: Yes, I have a current National Police Certificate"
 84722712,Data Scientist,VitalTrace Pty Ltd,Perth WA,https://www.seek.com.au/job/84722712?type=standard&ref=search-standalone&origin=cardTitle#sol=0aacffda27808ca63089700bf2a9904e63088105,"The primary goal of this position is to drive the advanced data science initiatives focused on biosensor current – analysis and modelling for cutting-edge fetal lactate monitoring technology. This role will drive the development of robust and sophisticated machine learning models and algorithms to interpret biosensor electrical signals, with particular emphasis on current based measurements from our novel biosensor. The position requires deep expertise in electrical signal processing, current modelling, and advanced analytics to transform raw biosensor data into clinically actionable insights, build, train and test machine learning model development and model deployment, with a focus on leveraging data integration platforms such as Pentaho, Talend, and KNIME.
 VitalTrace Pty Ltd is a multi-award-winning, VC-funded Australian-based Med-tech start-up company aiming to improve outcomes for mothers and children during the childbirth process. We are doing this by developing novel cutting-edge biosensor technologies for fetal monitoring during childbirth. We believe that mothers and babies deserve the highest standard of care, and that childbirth monitoring should be accurate and allow clinicians to make informed and timely decisions. We have a vibrant culture with a diverse, high-performing multidisciplinary team of clinicians, researchers, engineers, chemists, software developers, and data scientists all working towards the same goal.
 Position Responsibilities:
@@ -927,7 +965,9 @@ Strong organizational skills, attention to detail, and a critical-thinking minds
 Excellent written and verbal communication skills, with the ability to present complex data insights clearly to a variety of stakeholders
 Additional information relevant to this position includes
 Work Location: This is an on-site role based in Perth, requiring presence at the company’s offices and laboratory facilities to collaborate with cross-functional teams and support data analysis, model development, and signal processing activities
-Due to the nature of the position and industry, there may be a requirement to work outside normal business hours",,,,VitaltracePtyLtd_resume.pdf,VitaltracePtyLtd_coverletter.pdf,,
+Due to the nature of the position and industry, there may be a requirement to work outside normal business hours",,,,VitaltracePtyLtd_resume.pdf,VitaltracePtyLtd_coverletter.pdf,Applied Successfully,26 June 2025,"Selecting dropdown for question: How many years' experience do you have as a software engineer? with label: 2 years
+Selecting dropdown for question: Which of the following statements best describes your right to work in Australia? with label: I have a temporary visa with no restrictions (e.g. doctoral student)
+Q: Do you have a current Police Check (National Police Certificate) for employment? | A: Yes, I have a current National Police Certificate"
 84977787,Cyber Security Analyst,Multiplex Constructions,Perth WA,https://www.seek.com.au/job/84977787?type=standard&ref=search-standalone&origin=cardTitle#sol=7b894535a949e3b68e057b79ad25734a1c342f0c,"Who we are and what we offer:
 Interested in shaping skylines across the globe?
 Multiplex is a premier construction company with a simple purpose: to construct a better future. As part of our team, you'll have the opportunity to help deliver some of the world's most iconic projects, supported by approachable leadership and an inclusive culture that puts our people first.
@@ -964,4 +1004,4 @@ Experience and understanding of how applications, services and infrastructure ar
 A note on diversity:
 Diversity is about celebrating the ways we are all different and appreciating the unique qualities that every employee brings. We invite applications from people of all genders, cultures and walks of life. Research shows that women and people from underrepresented groups are less like to apply for roles if they don't meet every qualification. So even if you don't match all the criteria - if you are passionate about helping to construct a better future, we'd love to hear from you.
 We are committed to providing a barrier-free work environment and can support with reasonable adjustments at any stage of the recruitment process. Simply inform our Talent Acquisition team during your conversation with them.
-#LI-JR1",,,,Multiplex_resume.pdf,Multiplex_coverletter.pdf,,
+#LI-JR1",,,,Multiplex_resume.pdf,Multiplex_coverletter.pdf,Can't Find Resume Element,26 June 2025,

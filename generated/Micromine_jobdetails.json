@@ -1,0 +1,35 @@
+{
+  "job_title": "Machine Learning Engineer",
+  "job_purpose": "Design, develop, and implement machine learning models to revolutionize the mining industry through cutting-edge AI tools.",
+  "keywords": [
+    "Machine Learning",
+    "AI",
+    "PyTorch",
+    "Deep Learning",
+    "Neural Networks",
+    "Computer Vision",
+    "NLP",
+    "Model Deployment",
+    "Data Preprocessing",
+    "Feature Engineering"
+  ],
+  "job_duties_and_responsibilities": [
+    "Design, develop, and implement machine learning models to solve real-world problems",
+    "Build machine learning and AI solutions from scratch tailored to specific needs and challenges",
+    "Develop and deploy machine learning models using PyTorch",
+    "Optimize deep learning architectures for performance and scalability",
+    "Implement and maintain model training, evaluation, and monitoring pipelines",
+    "Work with large datasets applying best practices for data preprocessing and feature engineering",
+    "Stay up to date with the latest advancements in deep learning and AI technologies"
+  ],
+  "required_qualifications": [
+    "Strong experience with PyTorch for deep learning model development",
+    "Proficiency in Python and related ML libraries (NumPy, Pandas, Scikit-learn, etc.)",
+    "Solid understanding of neural networks, computer vision, or NLP",
+    "Experience deploying models in production environments",
+    "Bachelor's or higher degree in Computer Science, AI, or related field"
+  ],
+  "preferred_qualifications": [],
+  "company_name": "Micromine",
+  "company_details": "Micromine is a premier mining software company at the forefront of next-generation technology for mining. With a global presence in 9 countries, Micromine offers a dynamic work environment with opportunities for growth, work-life balance, and cutting-edge projects in both the Mining and Technology sectors."
+}

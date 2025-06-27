@@ -1,0 +1,40 @@
+{
+  "job_title": "Senior Software Developer",
+  "job_purpose": "To drive full-stack development of a core healthcare platform and pioneer cutting-edge agentic tooling for mental health consultation support at Oqea.",
+  "keywords": [
+    "Full-Stack Development",
+    "Frontend Expertise",
+    "Backend Development",
+    "Python Development",
+    "Agent Development & Evaluation",
+    "Healthcare & Domain Knowledge",
+    "Additional Technical Skills"
+  ],
+  "job_duties_and_responsibilities": [
+    "Design and develop scalable applications using Vue.js frontend and Hono API backend",
+    "Build Python-based intelligent agents for mental health consultation support",
+    "Develop measurement frameworks to assess agent performance and accuracy",
+    "Implement fine-tuning workflows for continuous improvement of agent responses",
+    "Create seamless connections between full-stack applications and agentic systems",
+    "Build monitoring tools to track agent behavior and system performance",
+    "Mentor junior developers in full-stack and AI domains",
+    "Ensure smooth integration between web applications and intelligent agent workflows"
+  ],
+  "required_qualifications": [
+    "Bachelor's or Master's degree in Computer Science, Software Engineering, or equivalent",
+    "7+ years of professional software development experience with strong full-stack capabilities",
+    "2+ years of experience with Python development and/or AI agent integration",
+    "Demonstrated experience in measuring and evaluating software system performance and quality",
+    "Previous technical leadership experience and mentoring capabilities"
+  ],
+  "preferred_qualifications": [
+    "Background in building evaluation frameworks, quality metrics, or testing systems for AI/agent outputs",
+    "Experience with prompt engineering, model fine-tuning, or iterative improvement of AI system performance",
+    "Previous work in healthcare applications, clinical workflows, or medical technology solutions",
+    "Experience building monitoring, analytics, or measurement tools for complex software systems",
+    "Proven ability to thrive in fast-paced environments while balancing multiple technical domains",
+    "Understanding of mental health practices, diagnostic workflows, or therapeutic technology needs"
+  ],
+  "company_name": "Oqea",
+  "company_details": "Oqea's mission is to create a place for connected wellbeing, changing how healthcare is delivered and received. The team has developed an online platform for consumers and providers to connect, collaborate, and communicate, aiming to bring self-help tools and professional support together to reduce isolation."
+}

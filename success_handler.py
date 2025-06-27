@@ -19,10 +19,11 @@ def extract_job_id_from_url(url):
     except:
         return None
 
-def update_csv_with_application_status(job_url, row_number=None, status="Applied", csv_file_path="software_engineer.csv"):
+def update_csv_with_application_status(job_url, row_number=None, status="Applied", csv_file_path="software_engineer.csv", questions_and_answers=None):
     """
-    Update CSV file with application status.
+    Update CSV file with application status and questions/answers.
     Creates 'Applied' column if it doesn't exist, then adds status and date.
+    Also creates 'Questions' column if it doesn't exist, and writes the questions_and_answers string.
     """
     try:
         # Use the provided CSV file and row number
@@ -47,6 +48,11 @@ def update_csv_with_application_status(job_url, row_number=None, status="Applied
                 fieldnames.append('Application Date')
                 print("[Success Handler] Created 'Application Date' column")
             
+            # Add 'Questions' column if it doesn't exist
+            if 'Questions' not in fieldnames:
+                fieldnames.append('Questions')
+                print("[Success Handler] Created 'Questions' column")
+            
             # Process each row
             for i, row in enumerate(reader, start=1):
                 # Update the specific row number
@@ -54,8 +60,9 @@ def update_csv_with_application_status(job_url, row_number=None, status="Applied
                     # Update this row with application status
                     row['Applied'] = status
                     row['Application Date'] = datetime.now().strftime('%d %B %Y')  # e.g., "23 June 2025"
+                    if questions_and_answers is not None:
+                        row['Questions'] = questions_and_answers
                     print(f"[Success Handler] Updated row {row_number} with status: {status}")
-                
                 rows.append(row)
         
         # Write back to CSV
@@ -64,22 +71,22 @@ def update_csv_with_application_status(job_url, row_number=None, status="Applied
             writer.writeheader()
             writer.writerows(rows)
         
-        print(f"[Success Handler] Successfully updated CSV with application status")
+        print(f"[Success Handler] Successfully updated CSV with application status and questions")
         return True
         
     except Exception as e:
         print(f"[Success Handler] Error updating CSV: {e}")
         return False
 
-def handle_success_page(driver, job_url, row_number=None):
+def handle_success_page(driver, job_url, row_number=None, csv_file_path=None, questions_and_answers=None):
     """
     Handle the success page after job application submission.
-    
     Args:
         driver: Selenium WebDriver instance
         job_url: The original job URL
         row_number: The row number in the original CSV file to update
-        
+        csv_file_path: The path to the CSV file to update (REQUIRED)
+        questions_and_answers: String containing all question/answer logs
     Returns:
         str: 'SUCCESS_COMPLETE' if success page was handled successfully and should exit
              True if success page was handled but continue processing
@@ -147,8 +154,8 @@ def handle_success_page(driver, job_url, row_number=None):
         if success_found:
             print("[Success Handler] ✅ Job applied successfully!")
             
-            # Update CSV with application status
-            if update_csv_with_application_status(job_url, row_number):
+            # Update CSV with application status and questions
+            if update_csv_with_application_status(job_url, row_number, status="Applied Successfully", csv_file_path=csv_file_path, questions_and_answers=questions_and_answers):
                 print("[Success Handler] ✅ CSV updated successfully")
             else:
                 print("[Success Handler] ⚠️ Failed to update CSV")
@@ -162,8 +169,8 @@ def handle_success_page(driver, job_url, row_number=None):
                 print("[Success Handler] ⚠️ Could not find specific success indicators, but URL indicates success page")
                 print("[Success Handler] ✅ Assuming job applied successfully based on URL!")
                 
-                # Update CSV with application status
-                if update_csv_with_application_status(job_url, row_number):
+                # Update CSV with application status and questions
+                if update_csv_with_application_status(job_url, row_number, status="Applied Successfully", csv_file_path=csv_file_path, questions_and_answers=questions_and_answers):
                     print("[Success Handler] ✅ CSV updated successfully")
                 else:
                     print("[Success Handler] ⚠️ Failed to update CSV")

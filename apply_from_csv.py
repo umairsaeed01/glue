@@ -130,7 +130,7 @@ def process_single_job(row_number, csv_file_path, base_generated_path, old_resum
         print(f"  Cover letter: {cover_letter_path}\n")
 
         # Call the main function and get the result
-        result = main(job_url, resume_path, cover_letter_path, row_number)
+        result = main(job_url, resume_path, cover_letter_path, row_number, csv_file_path)
         
         # Define success statuses (these indicate handlers have already updated CSV)
         success_statuses = [
@@ -272,9 +272,20 @@ def process_all_jobs(csv_file_path, base_generated_path, start_row=1, max_jobs=N
                 # Check if already processed
                 current_status = check_job_status(row_number, csv_file_path)
                 if current_status:
-                    print(f"⏭️  Row {row_number} already processed with status: '{current_status}'")
-                    skipped_count += 1
-                    continue
+                    # Check if it's an error status that should be retried
+                    if current_status.startswith("Error -"):
+                        print(f"Job {row_number} previously failed with status: '{current_status}'")
+                        print("Automatically retrying due to error status...")
+                        # Continue to process the job (don't skip)
+                    elif current_status in ["Applied Successfully", "Applied"]:
+                        print(f"Job {row_number} already successfully applied with status: '{current_status}'")
+                        print("Skipping job as it was already successfully processed.")
+                        skipped_count += 1
+                        continue
+                    else:
+                        print(f"⏭️  Row {row_number} already processed with status: '{current_status}'")
+                        skipped_count += 1
+                        continue
                 
                 # Process the job
                 print(f"🔄 Starting application for row {row_number}...")
@@ -389,11 +400,20 @@ def main_wrapper():
     # Check if already processed
     current_status = check_job_status(row_number, csv_file_path)
     if current_status:
-        print(f"Job {row_number} already processed with status: '{current_status}'")
-        response = input("Do you want to process it again? (y/N): ")
-        if response.lower() != 'y':
-            print("Skipping job as requested.")
+        # Check if it's an error status that should be retried
+        if current_status.startswith("Error -"):
+            print(f"Job {row_number} previously failed with status: '{current_status}'")
+            print("Automatically retrying due to error status...")
+        elif current_status in ["Applied Successfully", "Applied"]:
+            print(f"Job {row_number} already successfully applied with status: '{current_status}'")
+            print("Skipping job as it was already successfully processed.")
             return 0
+        else:
+            print(f"Job {row_number} already processed with status: '{current_status}'")
+            response = input("Do you want to process it again? (y/N): ")
+            if response.lower() != 'y':
+                print("Skipping job as requested.")
+                return 0
 
     # Process single job
     success = process_single_job(row_number, csv_file_path, base_generated_path, args.resume_file)

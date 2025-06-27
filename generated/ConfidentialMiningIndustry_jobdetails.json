@@ -1,0 +1,37 @@
+{
+  "job_title": "Technical Data Analyst - Asset Management (Perth-based)",
+  "job_purpose": "To leverage expertise in asset management within the mining industry to enhance predictive maintenance and asset health monitoring.",
+  "keywords": [
+    "Technical Data Analyst",
+    "Asset Management",
+    "Mining Industry",
+    "Fixed Plant Equipment",
+    "Asset Health Datasets",
+    "Reliability Engineering",
+    "Failure Investigations",
+    "Data Integration",
+    "Predictive Maintenance",
+    "Real-time Insights"
+  ],
+  "job_duties_and_responsibilities": [
+    "Utilize familiarity with fixed plant equipment to analyze maintenance data and optimize asset performance",
+    "Connect key datasets related to asset health to enhance predictive maintenance strategies",
+    "Conduct equipment failure investigations by analyzing required data sets",
+    "Apply reliability engineering concepts to improve asset reliability and performance",
+    "Participate in the Asset Management Platform (AMP) project to develop comprehensive solution architecture",
+    "Contribute to the Proof of Concept (PoC) use case focusing on specific assets like conveyors, reclaimers, or screenhouses",
+    "Integrate data from multiple sources into Databricks for real-time insights into asset health",
+    "Develop Failure Modes and Effects Analysis (FMEA) into application logic for predictive capabilities enhancement"
+  ],
+  "required_qualifications": [
+    "Experience in maintenance roles related to fixed plant equipment",
+    "Proficiency in analyzing asset health datasets and connecting key datasets",
+    "Knowledge of equipment failure investigations and required data analysis",
+    "Understanding of reliability engineering principles",
+    "Ability to work on the integration of data sources for real-time insights",
+    "Experience with Failure Modes and Effects Analysis (FMEA) is a plus"
+  ],
+  "preferred_qualifications": [],
+  "company_name": "Confidential (Mining Industry)",
+  "company_details": "The company is a key player in the mining industry, focusing on innovative solutions for asset management and predictive maintenance. They are committed to leveraging data analytics to optimize operational efficiency and asset performance."
+}

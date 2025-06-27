@@ -1,0 +1,44 @@
+{
+  "job_title": "Data Engineer",
+  "job_purpose": "To build and maintain data pipelines, scalable data warehouse, and smart solutions to support analytics, reporting, and business insights in a dynamic, fast-paced environment.",
+  "keywords": [
+    "SQL",
+    "Python",
+    "AWS",
+    "Azure",
+    "AWS EMR",
+    "AWS Glue",
+    "AWS S3",
+    "AWS Kinesis",
+    "Data pipelines",
+    "Data warehouse",
+    "Agile",
+    "IoT",
+    "Business insights",
+    "Stakeholder engagement",
+    "Autonomy",
+    "Energy",
+    "Curiosity",
+    "Operations Centre",
+    "IoT experience"
+  ],
+  "job_duties_and_responsibilities": [
+    "Build and maintain data pipelines across real-time, IoT, and monthly reporting environments",
+    "Build and maintain a scalable data warehouse for analytics, reporting, and interactive dashboards",
+    "Implement agile and tech-agnostic solutions focused on outcomes",
+    "Collaborate with stakeholders in Operations, Safety, and People teams to deliver required solutions",
+    "Take ownership in a small, close-knit team and contribute in various capacities",
+    "Bring order, speed, and smart solutions to a fast-moving business environment"
+  ],
+  "required_qualifications": [
+    "Strong SQL and Python skills",
+    "Experience with cloud platforms such as AWS or Azure",
+    "Familiarity with AWS EMR, Glue, S3, and Kinesis",
+    "Ability to work independently, pivot when needed, and focus on outcomes",
+    "Energy, curiosity, and a practical mindset",
+    "Bonus points for Operations Centre or IoT experience"
+  ],
+  "preferred_qualifications": [],
+  "company_name": "Make It Happen",
+  "company_details": "Make It Happen is a dynamic, hands-on organization experiencing significant growth in the Mining & Logistics sector. The company values autonomy, simplicity, transparency, and making a real impact. The work environment is fast-paced, practical, and focused on driving real business outcomes."
+}

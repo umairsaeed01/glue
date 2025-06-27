@@ -1,0 +1,39 @@
+{
+  "job_title": "Data Engineer",
+  "job_purpose": "Design and implement custom data integration solutions for enterprise mining customers, focusing on customer integration initiatives.",
+  "keywords": [
+    "Python",
+    "Snowflake",
+    "ETL/ELT processes",
+    "API integrations",
+    "AWS",
+    "Data pipelines",
+    "Customer-facing",
+    "Technical expertise",
+    "Data integration",
+    "Cloud services"
+  ],
+  "job_duties_and_responsibilities": [
+    "Design and implement custom data integration solutions for enterprise mining customers",
+    "Build and maintain robust ETL pipelines connecting customer systems to the platform",
+    "Write custom Python, Node.js, or shell scripts for data transformations",
+    "Manage data warehouse operations using Snowflake",
+    "Provide technical consultation during integration processes",
+    "Drive improvements in integration tools and processes",
+    "Participate in client meetings to understand data requirements"
+  ],
+  "required_qualifications": [
+    "Experience with Python and data pipelines in a production environment",
+    "Knowledge of Snowflake and PostgreSQL",
+    "Practical understanding of ETL/ELT processes and data pipeline orchestration tools",
+    "Experience with API integrations, webhooks, and data streaming technologies",
+    "Familiarity with cloud services like AWS",
+    "Ability to write clean, maintainable scripts in Python, Node.js, and shell",
+    "Experience in customer-facing technical roles",
+    "Analytical mindset and troubleshooting skills",
+    "Strong communication skills and attention to detail"
+  ],
+  "preferred_qualifications": [],
+  "company_name": "CorePlan",
+  "company_details": "CorePlan is a Perth tech startup revolutionizing mining operations with a digital SaaS drilling management platform. The company aims to advance digital drilling operations in mining through innovative solutions and a high-performing team."
+}

@@ -1,0 +1,127 @@
+%==== PACKAGES AND OTHER DOCUMENT CONFIGURATIONS  ====%
+\documentclass{resume} % Use the custom resume.cls style
+\usepackage[left=0.25in,top=0.25in,right=0.25in,bottom=0.25in]{geometry} % Document margins
+\usepackage[T1]{fontenc}
+\usepackage{xcolor}
+\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+\usepackage{fontawesome} % For GitHub and LinkedIn symbols
+\usepackage{textcomp} % For mobile phone and email symbols
+% \usepackage[colorlinks=true, linkcolor=blue, citecolor=blue, urlcolor=blue]{hyperref}
+\usepackage{xcolor}  % Required for defining custom colors
+\usepackage{hyperref}
+% Define your custom colors
+% \definecolor{myblue}{RGB}{173, 216, 246}
+% \definecolor{myblue}{RGB}{123, 176, 206}
+\definecolor{myblue}{RGB}{0, 164, 218}
+
+% Set hyperlink colors
+\hypersetup{
+    colorlinks=true,
+    linkcolor=myblue,
+    citecolor=myblue,
+    urlcolor=myblue
+}
+
+\usepackage{hyperref}
+
+%==== Headings ====%
+\name{Umair Saeed} % Your name
+\address{
+{\faPhone} \href{tel:+61{-}452024050}{+61{-}452024050} \quad {\faEnvelope} \href{mailto:umirsaed1@gmail.com}{umirsaed1@gmail.com} \quad {\faGithub} \href{https://github.com/umairsaeed01}{Umair} \quad {\faLinkedin} \href{https://www.linkedin.com/in/umirsae}{Umair} }
+
+\begin{document}
+
+%===== WORK EXPERIENCE SECTION =====%
+    \begin{rSection}{Work Experience}
+                    \begin{rSubsection}
+                {AI Engineer | Machine Learning Engineer}{April 2024 - July 2024}
+                                    {\normalfont{\textit{WECLAN}}}
+                                {\normalfont{\textit{Melbourne, VIC}}}
+                                    \item Developed and implemented an AI literacy program to enhance employees' understanding of artificial intelligence concepts and applications.
+                                    \item Collaborated with departmental leaders to identify AI learning needs and tailored educational content to address specific skill gaps.
+                                    \item Established an AI community of practice to facilitate knowledge sharing and foster a culture of continuous learning and innovation.
+                            \end{rSubsection}
+            \end{rSection}
+
+%==== EDUCATION SECTION ====%
+\begin{rSection}{Education}
+                        \textbf{DEAKIN UNIVERSITY, Melbourne, VIC} \hfill {July 2022 - } \\
+                            {Master of Data Science}
+                         
+             
+         
+                        \textbf{BAHRIA UNIVERSITY, Islamabad, VIC} \hfill {July 2018 - } \\
+                            {Bachelors of Software Engineering}
+                         
+             
+         
+    \end{rSection}
+
+% ==== PROJECTS SECTION =====%
+    \begin{rSection}{Projects}
+                    \begin{rSubsection}
+                                    {AI{-}POWERED DENTAL APPOINTMENT SCHEDULER}
+                                {\normalfont{January 2025 - }}{}{}
+                                    \item Developed an AI literacy program for dental professionals, integrating NLP{-}driven AI voice assistant for automated appointment booking with 92\% accuracy.
+                                    \item Implemented an AI community of practice using FastAPI, PostgreSQL, and .NET, achieving 100\% automation of scheduling processes.
+                                    \item Evaluated and optimized AI model deployment on AWS Lambda \& Docker, resulting in a 30\% reduction in response time and enhanced scalability.
+                            \end{rSubsection}
+                    \begin{rSubsection}
+                                    {AI{-}GENERATED NO{-}CODE WEBSITE}
+                                {\normalfont{February 2025 - }}{}{}
+                                    \item Designed and executed an AI learning program for website development, utilizing GPT{-}driven code conversion and C++ backend efficiency.
+                                    \item Established an AI tools and platforms resource center, integrating AI chatbots for demo scheduling and reducing administrative workload by 30\%.
+                                    \item Enhanced website traffic by 15\% through AI{-}driven Google Search Console optimization strategies.
+                            \end{rSubsection}
+                    \begin{rSubsection}
+                                    {LEARNING INSIGHT REPORT}
+                                {\normalfont{July 2022 - }}{}{}
+                                    \item Led the development of an AI literacy program predicting financial stability with 90\% accuracy, leveraging XGBoost \& Random Forest models.
+                                    \item Established an engaging AI education program through interactive Tableau dashboards for audience engagement tracking.
+                                    \item Executed customer segmentation analysis to drive targeted business strategies and enhance AI learning outcomes.
+                            \end{rSubsection}
+                    \begin{rSubsection}
+                                    {INTERACTIVE MEDICAL DATA DASHBOARD}
+                                {\normalfont{Oct 2021 - }}{}{}
+                                    \item Implemented an AI literacy initiative through real{-}time SQL{-}connected Tableau dashboards for enhanced medical data visualization.
+                                    \item Analyzed and interpreted large{-}scale patient datasets to derive statistical insights for medical research applications.
+                                    \item Contributed to the development of predictive models to enhance medical research outcomes and AI utilization in healthcare.
+                            \end{rSubsection}
+            \end{rSection}
+
+%==== TECHNICAL STRENGTHS SECTION ====%
+    \begin{rSection}{Technical Skills}
+        \begin{tabular}{ @{} l @{	} l }
+                                \textbf{Programming}: Python, FastAPI, Flask, Model Training \& Tuning, CI/CD, C\#\\
+                                \textbf{Technology}: AWS, Azure, ETL, Data Modeling\\
+                                \textbf{Soft Skills}: Stakeholder Collaboration, Analytical Thinking, Problem Solving, Time Management\\
+                        %             %     \href{https://skillsoft.digitalbadges.skillsoft.com/profile/umairsaeed185770/wallet}{\textbf{Certifications:}} 
+            %     Machine Learning with TensorFlow \& Cloud ML, Implementations with BigQuery for Big Data, Getting Started with Machine Learning\\
+            %  
+        \end{tabular}
+    \end{rSection}
+
+% CERTIFICATIONS SECTION
+    \begin{rSection}{Certifications}
+        \begin{rSubsection}{}{}{}
+                            \item Machine Learning with TensorFlow \& Cloud ML
+                            \item Implementations with BigQuery for Big Data
+                            \item Getting Started with Machine Learning
+                    \end{rSubsection}
+        \href{https://skillsoft.digitalbadges.skillsoft.com/profile/umairsaeed185770/wallet}{View all certifications}
+    \end{rSection}
+
+% ACHIEVEMENTS SECTION
+    \begin{rSection}{Achievements}
+        \begin{rSubsection}{}{}{}
+                            \item Led the development and implementation of an AI literacy program for a multinational tech company, increasing AI knowledge across departments by 60\%
+                            \item Received recognition for designing and delivering engaging AI learning resources, resulting in a 40\% increase in employee AI skills proficiency
+                            \item Managed a successful AI community of practice, facilitating knowledge sharing and collaboration among team members, leading to a 30\% improvement in AI project outcomes
+                    \end{rSubsection}
+    \end{rSection}
+
+\newcommand\myfontsize{\fontsize{0.1pt}{0.1pt}\selectfont} \myfontsize \color{white}
+AI literacy program, AI learning, AI community of practice, AI education programs, AI tools and platforms, Mining industry, Technology implementation projects, Educational programs, AI and machine learning concepts, Project management, AI literacy program, AI learning, AI community of practice, AI education programs, AI tools and platforms, Mining industry, Technology implementation projects, Educational programs, AI and machine learning concepts, Project management, {artificial intelligence engineer, azure cognitive services exp, azure services, core azure services, azure cognitive and generative ai, genai, aws,  gcp, java, clean, efficient, maintainable code, react, front end, back end, ai solutions, data analysis, pretrained models, automl, software development principles, version control, testing, continuous integration and deployment, python, javascript, prompt engieering, frontend, backend, html, css, api, angular, development, machine learning, artificial intelligence, deep learning, data warehouse, data modeling, data extraction, data transformation, data loading, sql, etl, data quality, data governance, data privacy, data visualization, data controls, privacy, security, compliance, sla, aws, terabyte to petabyte scale data, full stack software development, cloud, security engineering, security architecture, ai/ml engineering, technical product management, microsoft office, google suite, visualization tools, scripting, coding, programming languages, analytical skills, collaboration, leadership, communication, presentation skills, computer vision, senior, ms or ph.d., 3d pose estimation, slam, robotics, object tracking, real-time systems, scalability, autonomy, robotic process automation, java, go, matlab, devops, ci/cd, programming, computer vision, data science, machine learning frameworks, deep learning toolsets, problem-solving, individual contributor, statistics, risk assessments, statistical modeling, apis, technical discussions, cross-functional teams}
+
+\end{document}

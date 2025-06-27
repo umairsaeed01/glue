@@ -227,13 +227,92 @@ def extract_radio_groups(driver, form):
                 fields.append({
                     "question": question_text,
                     "name": name,
-                    "type": "select",  # Treat as dropdown for consistency
+                    "type": "radio",
                     "options": options
                 })
                 
     except Exception as e:
         print(f"[extract_radio_groups] error: {e}")
     
+    return fields
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Extractor #6: textarea questions with their labels
+# ─────────────────────────────────────────────────────────────────────────────
+def extract_textareas(driver, form):
+    """Extract textarea questions with their labels"""
+    fields = []
+    try:
+        # Find all textarea elements
+        textareas = form.find_elements(By.TAG_NAME, "textarea")
+        
+        for textarea in textareas:
+            textarea_id = textarea.get_attribute("id")
+            if not textarea_id:
+                continue
+                
+            # Find the label for this textarea
+            try:
+                label = form.find_element(By.CSS_SELECTOR, f"label[for='{textarea_id}']")
+                question_text = label.text.strip()
+            except:
+                # If no label found, try to get text from parent container
+                try:
+                    container = textarea.find_element(By.XPATH, "./ancestor::div[contains(@class, '_1fz17ikh') or contains(@class, 'question')][1]")
+                    question_text = container.text.strip()
+                except:
+                    question_text = textarea_id.replace("_", " ").title()
+            
+            if question_text:
+                fields.append({
+                    "question": question_text,
+                    "name": textarea.get_attribute("name") or textarea_id,
+                    "id": textarea_id,
+                    "type": "textarea"
+                })
+                
+    except Exception as e:
+        print(f"[extract_textareas] error: {e}")
+    
+    return fields
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Extractor #7: radio button questions with their labels and options (label and value)
+# ─────────────────────────────────────────────────────────────────────────────
+def extract_radios(driver, form):
+    """Extract radio button questions with their labels and options (label and value)."""
+    fields = []
+    # Find all fieldsets with role radiogroup
+    for fieldset in form.find_elements(By.TAG_NAME, "fieldset"):
+        if fieldset.get_attribute("role") == "radiogroup":
+            legend = fieldset.find_element(By.TAG_NAME, "legend")
+            question_text = legend.text.strip()
+            options = []
+            for radio in fieldset.find_elements(By.CSS_SELECTOR, "input[type='radio']"):
+                value = radio.get_attribute("value")
+                # Find label for this radio
+                label = None
+                radio_id = radio.get_attribute("id")
+                if radio_id:
+                    try:
+                        label_elem = fieldset.find_element(By.CSS_SELECTOR, f"label[for='{radio_id}']")
+                        label = label_elem.text.strip()
+                    except:
+                        pass
+                if not label:
+                    # fallback: try parent label
+                    try:
+                        label_elem = radio.find_element(By.XPATH, "ancestor::label")
+                        label = label_elem.text.strip()
+                    except:
+                        label = value
+                options.append({"label": label, "value": value})
+            fields.append({
+                "type": "radio",
+                "name": radio.get_attribute("name"),
+                "question": question_text,
+                "options": options
+            })
     return fields
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -245,14 +324,16 @@ def handle_dynamic_questions(driver):
         form = wait.until(EC.presence_of_element_located((By.TAG_NAME, "form")))
     except TimeoutException:
         print("[Dynamic] No form detected")
-        return False
+        return False, ""
 
     extractors = [
         extract_selects,
+        extract_textareas,  # Add textarea extractor
         extract_by_container,
         extract_by_name_grouping,
         extract_all_checkboxes,
         extract_radio_groups,
+        extract_radios,
     ]
 
     all_questions = []
@@ -267,26 +348,34 @@ def handle_dynamic_questions(driver):
 
     if not all_questions:
         print("[Dynamic] No questions found by any extractor")
-        return False
+        return False, ""
 
     system_msg = {
         "role": "system",
         "content": """
-You are a job-application assistant. You will receive a JSON array of questions:
-- type \"select\": choose exactly one option.
-- type \"multiselect\": choose zero or more options.
-FOR EACH question you MUST choose at least one answer. Always explain your reasoning.
-Respond ONLY with valid JSON:
+You are a job-application assistant. You will receive a JSON array of questions and must respond with a JSON object containing an "answers" array.
+
+For each question, you must provide an answer in this format:
 {
-  \"answers\":[
-    {
-      \"question\":\"...\",
-      \"selected\": ..., // string for select, array of strings for multiselect
-      \"reasoning\":\"...\"
-    },
-    ...
-  ]
-}"""
+    "answers": [
+        {"question": "Question text here", "selected": "Selected option or text here"},
+        {"question": "Another question", "selected": "Another answer"}
+    ]
+}
+
+Question types:
+- type "select": choose exactly one option from the provided options list. Use the exact label text from the options.
+- type "multiselect": choose zero or more options from the provided options list.
+- type "radio": choose exactly one option from the provided options list. Return the value attribute of the selected option, not the label.
+- type "textarea": generate a relevant, professional text response based on the résumé. Do NOT select from options - create original content.
+
+IMPORTANT: 
+- For dropdown and radio questions (type "select" and "radio"), you MUST choose from the exact options provided. For radio, return the value attribute, not the label.
+- For textarea questions (type "textarea"), you MUST generate original, relevant content based on the résumé. Do not use placeholder text.
+- If you need to select an option that represents your experience level, choose the closest available option.
+
+FOR EACH question you MUST choose at least one answer. Always answer in the required format.
+"""
     }
 
     user_msg = {
@@ -316,10 +405,18 @@ Respond ONLY with valid JSON:
         data = json.loads(raw)
     except json.JSONDecodeError as e:
         print("[Dynamic] JSON parse error:", e)
-        return False
+        return False, ""
+
+    # Only handle the expected format with answers array
+    answers = data.get("answers", [])
+    if not answers:
+        print("[Dynamic] No answers found in response")
+        return False, ""
 
     answered = set()
-    for ans in data.get("answers", []):
+    question_logs = []  # Collect question/answer logs
+    
+    for ans in answers:
         q_text = ans["question"]
         sel = ans["selected"]
         entry = next((e for e in all_questions if e["question"] == q_text), None)
@@ -337,17 +434,72 @@ Respond ONLY with valid JSON:
                 input_element = form.find_element(By.NAME, entry["name"])
                 
                 if input_element.tag_name == "select":
-                    # Handle dropdowns (existing logic)
-                    print(f"[Dynamic] Selecting for question: {entry['question']} with value: {sel}")
+                    # Handle dropdowns with improved matching
+                    print(f"[Dynamic] Selecting for question: {entry['question']} with selection: {sel}")
                     dropdown = Select(input_element)
-                    dropdown.select_by_value(sel)
-                    print(f"[Dynamic] Successfully selected dropdown value {sel} for question '{entry['question']}'")
+                    
+                    # Try to match by value first (for LLM returning internal value)
+                    try:
+                        dropdown.select_by_value(sel)
+                        print(f"[Dynamic] Successfully selected dropdown value {sel} for question '{entry['question']}'")
+                        question_logs.append(f"Selecting dropdown for question: {entry['question']} with value: {sel}")
+                    except:
+                        # Fallback: try to match by label (for LLM returning visible label)
+                        try:
+                            dropdown.select_by_visible_text(sel)
+                            print(f"[Dynamic] Successfully selected dropdown label '{sel}' for question '{entry['question']}'")
+                            question_logs.append(f"Selecting dropdown for question: {entry['question']} with label: {sel}")
+                        except Exception as e:
+                            print(f"[Dynamic] Failed to select dropdown option '{sel}' for question '{entry['question']}': {e}")
+                            # Try to find the closest match
+                            available_options = [opt.text for opt in dropdown.options]
+                            print(f"[Dynamic] Available options: {available_options}")
+                            continue
+            elif entry["type"] == "radio":
+                # Handle radio buttons by finding the correct value based on text
+                print(f"[Dynamic] Processing radio button for question: {entry['question']} with selection: {sel}")
+                
+                # Find the radio button with the matching text
+                radio_buttons = form.find_elements(By.CSS_SELECTOR, f"input[type='radio'][name='{entry['name']}']")
+                selected_radio = None
+                
+                for radio in radio_buttons:
+                    # Get the label text for this radio button
+                    radio_id = radio.get_attribute("id")
+                    try:
+                        label = form.find_element(By.CSS_SELECTOR, f"label[for='{radio_id}']")
+                        label_text = label.text.strip()
+                        
+                        # Check if this radio button's label matches our selection
+                        if label_text.lower() == sel.lower():
+                            selected_radio = radio
+                            break
+                    except:
+                        continue
+                
+                if selected_radio:
+                    selected_radio.click()
+                    print(f"[Dynamic] Successfully selected radio button '{sel}' for question '{entry['question']}'")
+                    question_logs.append(f"Q: {entry['question']} | A: {sel}")
                 else:
-                    # Handle radio buttons (new logic)
-                    print(f"[Dynamic] Selecting radio for question: {entry['question']} with value: {sel}")
-                    radio = form.find_element(By.CSS_SELECTOR, f"input[type='radio'][value='{sel}']")
-                    radio.click()
-                    print(f"[Dynamic] Successfully selected radio value {sel} for question '{entry['question']}'")
+                    print(f"[Dynamic] ERROR: Could not find radio button with text '{sel}' for question '{entry['question']}'")
+                    # Try to find by value as fallback
+                    try:
+                        radio = form.find_element(By.CSS_SELECTOR, f"input[type='radio'][name='{entry['name']}'][value='{sel}']")
+                        radio.click()
+                        print(f"[Dynamic] Successfully selected radio button by value '{sel}' for question '{entry['question']}'")
+                        question_logs.append(f"Q: {entry['question']} | A: {sel}")
+                    except:
+                        print(f"[Dynamic] ERROR: Could not find radio button with value '{sel}' for question '{entry['question']}'")
+                        question_logs.append(f"Q: {entry['question']} | A: ERROR - Could not select '{sel}'")
+            elif entry["type"] == "textarea":
+                # Handle textarea inputs
+                print(f"[Dynamic] Filling textarea for question: {entry['question']} with: {sel[:50]}...")
+                textarea = driver.find_element(By.ID, entry["id"])
+                textarea.clear()
+                textarea.send_keys(sel)
+                print(f"[Dynamic] Successfully filled textarea for question '{entry['question']}'")
+                question_logs.append(f"Filling textarea for question: {entry['question']} with: {sel[:100]}...")
             elif entry["type"] == "multiselect":
                 for choice in sel:
                     # Try to match by value first (for LLM returning internal value)
@@ -362,6 +514,7 @@ Respond ONLY with valid JSON:
                     if not cb.is_selected():
                         cb.click()
                         print(f"[Dynamic] Checked: {choice} (label: {opt['label']}, value: {opt.get('value', opt.get('id'))})")
+                        question_logs.append(f"Selecting checkbox for question: {entry['question']} with option: {choice}")
         except Exception as e:
             print(f"[ERROR] Failed to apply answer to '{q_text}': {e}")
             continue
@@ -381,4 +534,6 @@ Respond ONLY with valid JSON:
     btn.click()
     wait.until(EC.staleness_of(form))
     print("[Dynamic] Finished handling questions.")
-    return True
+    
+    # Return success status and question logs
+    return True, "\n".join(question_logs)

@@ -1,0 +1,61 @@
+{
+  "job_title": "Principal Software Engineer",
+  "job_purpose": "Lead a small team of engineers to architect, build, and maintain cloud-based microservices and Angular web UI\u2019s for CRiS Care web applications.",
+  "keywords": [
+    "AWS",
+    "kubernetes",
+    "microservices",
+    "Angular",
+    "cloud-based",
+    "distributed systems",
+    "Kotlin",
+    "Java",
+    "Spring Boot",
+    "REST",
+    "GraphQL APIs",
+    "DevOps",
+    "Docker",
+    "Terraform",
+    "AWS",
+    "Event-sourcing data models",
+    "SQL",
+    "MySQL",
+    "Liquibase",
+    "Cyber-security principles",
+    "HL7 integrations",
+    "Mirth Connect",
+    "Artificial Intelligence",
+    "healthcare domain",
+    "Angular",
+    "SPA frameworks"
+  ],
+  "job_duties_and_responsibilities": [
+    "Lead a small team of engineers",
+    "Architect, build, and maintain cloud-based microservices",
+    "Develop Angular web UI\u2019s for CRiS Care web applications",
+    "Report to CRiS Care\u2019s board of Directors",
+    "Safeguard personal healthcare information",
+    "Collaborate in a small team in a dynamic environment",
+    "Learn new technologies rapidly",
+    "Scoping, planning, and prioritizing tasks"
+  ],
+  "required_qualifications": [
+    "At least 5 years of full-time software development experience",
+    "Experience in designing and implementing distributed systems",
+    "At least 12 months experience with Kotlin or Java"
+  ],
+  "preferred_qualifications": [
+    "Qualifications in Computer Science",
+    "Experience in Spring Boot, REST, GraphQL APIs",
+    "Experience in DevOps tools (Docker, Kubernetes, Terraform, AWS)",
+    "Experience with event-sourcing data models",
+    "Proficiency in SQL (MySQL, Liquibase)",
+    "Knowledge of Cyber-security principles",
+    "Experience with HL7 integrations (Mirth Connect)",
+    "Familiarity with Artificial Intelligence tools and services",
+    "Previous experience in the healthcare domain",
+    "Experience with Angular or other SPA frameworks"
+  ],
+  "company_name": "CRiS Care",
+  "company_details": "CRiS Care is an Australian company servicing the healthcare industry with cloud-based patient care capabilities, managing tests, facilitating clinical assessments, and providing a platform for seamless clinical care across facilities."
+}

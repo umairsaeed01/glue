@@ -1,0 +1,52 @@
+{
+  "job_title": "Data Scientist - AI and Data Science",
+  "job_purpose": "Fortescue is seeking a Data Scientist specializing in AI and Data Science to drive innovation, develop AI models, and provide actionable insights that support strategic goals.",
+  "keywords": [
+    "Data Analysis",
+    "AI",
+    "Machine Learning",
+    "Generative AI",
+    "Data Ethics",
+    "Emerging Technologies",
+    "Software Development",
+    "Data Management",
+    "Requirements Management",
+    "Python",
+    "JavaScript",
+    "SQL",
+    "TensorFlow",
+    "PyTorch",
+    "Snowflake",
+    "Kafka",
+    "S3",
+    "Databricks",
+    "SageMaker",
+    "AWS",
+    "Azure",
+    "Generative AI",
+    "Stakeholder Management",
+    "Problem-Solving",
+    "Communication Skills"
+  ],
+  "job_duties_and_responsibilities": [
+    "Analyze complex data sets to provide actionable insights and present findings",
+    "Develop, implement, optimize, monitor, and maintain AI models and solutions",
+    "Apply principles of AI and data ethics to ensure solutions are ethical, safe, and explainable",
+    "Monitor and apply emerging technology and open-source trends for data science projects",
+    "Conduct research to explore new methodologies, tools, and techniques for enhancing data science capabilities",
+    "Develop and maintain software solutions using best practices in programming and software development",
+    "Manage and maintain data management processes for data integrity, security, and accessibility",
+    "Gather and validate requirements for data science projects from stakeholders"
+  ],
+  "required_qualifications": [
+    "Bachelor's degree in Computer Science, Software Engineering, mathematics, statistics, machine learning, or related field",
+    "5+ years of experience in data science and AI solution system development in mining, energy, green energy, or heavy industrial operations",
+    "Strong understanding and practical experience in Machine Learning and Generative AI",
+    "Proficiency in Python, JavaScript/TypeScript, SQL, TensorFlow, PyTorch",
+    "Experience with Snowflake, Kafka, S3, Databricks/SageMaker, AWS, Azure",
+    "Practical experience with software development industry best practices"
+  ],
+  "preferred_qualifications": [],
+  "company_name": "Fortescue",
+  "company_details": "Fortescue is at the forefront of using AI to transform the mining value chain. The company values innovation, collaboration, and leveraging deep technical capabilities to drive strategic advancements. Fortescue is committed to decarbonizing its operations and promoting an inclusive culture."
+}

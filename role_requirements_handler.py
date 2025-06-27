@@ -68,24 +68,36 @@ def handle_role_requirements_page(driver):
             continue
 
         opts = []
-        # try <select>
+        question_type = "unknown"
+        
+        # try <select> dropdown
         try:
             sel = driver.find_element(By.CSS_SELECTOR, f"select[id='{q_id}']")
             for o in sel.find_elements(By.TAG_NAME, "option"):
                 t = o.text.strip()
                 if t: opts.append(t)
+            question_type = "dropdown"
         except:
-            # fallback: radio/checkbox
-            for inp in driver.find_elements(By.CSS_SELECTOR, f"input[name^='{q_id}'], input[id^='{q_id}']"):
-                rid = inp.get_attribute("id")
-                if not rid: continue
-                try:
-                    lab2 = driver.find_element(By.CSS_SELECTOR, f"label[for='{rid}']")
-                    opts.append(lab2.text.strip())
-                except: 
-                    pass
+            # try textarea
+            try:
+                textarea = driver.find_element(By.CSS_SELECTOR, f"textarea[id='{q_id}']")
+                question_type = "textarea"
+                # For textarea, we don't need options - the LLM will generate text
+                opts = ["[TEXT_INPUT]"]
+            except:
+                # fallback: radio/checkbox
+                for inp in driver.find_elements(By.CSS_SELECTOR, f"input[name^='{q_id}'], input[id^='{q_id}']"):
+                    rid = inp.get_attribute("id")
+                    if not rid: continue
+                    try:
+                        lab2 = driver.find_element(By.CSS_SELECTOR, f"label[for='{rid}']")
+                        opts.append(lab2.text.strip())
+                    except: 
+                        pass
+                if opts:
+                    question_type = "radio_checkbox"
 
-        if not opts:
+        if not opts and question_type != "textarea":
             continue
 
         multi = bool(driver.find_elements(By.CSS_SELECTOR,
@@ -94,7 +106,8 @@ def handle_role_requirements_page(driver):
             "id":    q_id,
             "text":  q_text,
             "options": opts,
-            "multi": multi
+            "multi": multi,
+            "type":  question_type
         })
 
     if not questions:
@@ -108,11 +121,12 @@ def handle_role_requirements_page(driver):
             "You are an assistant that fills out job-application forms on my behalf.  "
             "I will give you a list of questions and their available options, plus my résumé summary.  "
             "For each question pick the option (or options) that best fit my background.  "
+            "For text input questions (marked as [TEXT_INPUT]), provide a relevant, professional response based on my background. "
             "Return **only** valid JSON, in this exact shape:\n\n"
             "{\n"
             '  "answers": [\n'
             '    { "question": "<the full question text>",\n'
-            '      "selected": "<one option>" | ["<opt1>","<opt2>"]\n'
+            '      "selected": "<one option>" | ["<opt1>","<opt2>"] | "<text response for textarea>"\n'
             "    },\n"
             "    …\n"
             "  ]\n"
@@ -172,7 +186,16 @@ def handle_role_requirements_page(driver):
             print(f'[RoleReq] no answer for "{q["text"]}" – skipping.')
             continue
 
-        if isinstance(sel, list):
+        if q["type"] == "textarea":
+            # Handle text input
+            try:
+                textarea = driver.find_element(By.CSS_SELECTOR, f"textarea[id='{q['id']}']")
+                textarea.clear()
+                textarea.send_keys(sel)
+                print(f'[RoleReq] Filled textarea for "{q["text"]}" with: {sel[:50]}...')
+            except Exception as e:
+                print(f'[RoleReq] Error filling textarea for "{q["text"]}": {e}')
+        elif isinstance(sel, list):
             # multi-select checkboxes
             for choice in sel:
                 xpath = f"//label[contains(.,{json.dumps(choice)})]/preceding-sibling::input"

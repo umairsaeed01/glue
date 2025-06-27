@@ -97,7 +97,7 @@ def handle_job_unavailable(driver, job_url=None, row_number=None):
                 
                 # Update CSV with job unavailable status
                 if job_url and row_number:
-                    if update_csv_with_job_unavailable(job_url, row_number):
+                    if update_csv_with_job_unavailable(job_url, row_number, csv_file_path=csv_file_path):
                         print("[Job Unavailable Handler] ✅ CSV updated with 'Not Available' status")
                     else:
                         print("[Job Unavailable Handler] ⚠️ Failed to update CSV")
@@ -127,7 +127,7 @@ def handle_job_unavailable(driver, job_url=None, row_number=None):
                 
                 # Update CSV with job unavailable status
                 if job_url and row_number:
-                    if update_csv_with_job_unavailable(job_url, row_number):
+                    if update_csv_with_job_unavailable(job_url, row_number, csv_file_path=csv_file_path):
                         print("[Job Unavailable Handler] ✅ CSV updated with 'Not Available' status")
                     else:
                         print("[Job Unavailable Handler] ⚠️ Failed to update CSV")
@@ -158,7 +158,7 @@ def handle_job_unavailable(driver, job_url=None, row_number=None):
                     
                     # Update CSV with job unavailable status
                     if job_url and row_number:
-                        if update_csv_with_job_unavailable(job_url, row_number):
+                        if update_csv_with_job_unavailable(job_url, row_number, csv_file_path=csv_file_path):
                             print("[Job Unavailable Handler] ✅ CSV updated with 'Not Available' status")
                         else:
                             print("[Job Unavailable Handler] ⚠️ Failed to update CSV")
@@ -185,7 +185,7 @@ def handle_job_unavailable(driver, job_url=None, row_number=None):
                 
                 # Update CSV with job unavailable status
                 if job_url and row_number:
-                    if update_csv_with_job_unavailable(job_url, row_number):
+                    if update_csv_with_job_unavailable(job_url, row_number, csv_file_path=csv_file_path):
                         print("[Job Unavailable Handler] ✅ CSV updated with 'Not Available' status")
                     else:
                         print("[Job Unavailable Handler] ⚠️ Failed to update CSV")
@@ -199,7 +199,7 @@ def handle_job_unavailable(driver, job_url=None, row_number=None):
             
             # Update CSV with job unavailable status
             if job_url and row_number:
-                if update_csv_with_job_unavailable(job_url, row_number):
+                if update_csv_with_job_unavailable(job_url, row_number, csv_file_path=csv_file_path):
                     print("[Job Unavailable Handler] ✅ CSV updated with 'Not Available' status")
                 else:
                     print("[Job Unavailable Handler] ⚠️ Failed to update CSV")

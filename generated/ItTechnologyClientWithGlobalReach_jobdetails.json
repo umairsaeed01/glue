@@ -1,0 +1,30 @@
+{
+  "job_title": "Data / AI Solution Architect Manager",
+  "job_purpose": "To lead the design and implementation of cloud-native data infrastructure across Azure for a fast-scaling enterprise.",
+  "keywords": [
+    "Snowflake",
+    "Azure Synapse",
+    "Data Lake",
+    "Databricks",
+    "Spark",
+    "SQL",
+    "Cloud pipeline design",
+    "Data governance frameworks",
+    "Collaborative enterprise environment"
+  ],
+  "job_duties_and_responsibilities": [
+    "Design data architectures using Snowflake, Azure Synapse and Data Lake",
+    "Lead teams delivering pipelines via Databricks and Spark",
+    "Support metadata, lineage, and governance across large datasets",
+    "Collaborate with platform and product teams to align architecture with strategy"
+  ],
+  "required_qualifications": [
+    "Experience with Snowflake, Azure data services (Synapse, Data Factory, Databricks)",
+    "Strong SQL and cloud pipeline design background",
+    "Exposure to scalable data governance frameworks",
+    "Ability to lead delivery in a collaborative enterprise environment"
+  ],
+  "preferred_qualifications": [],
+  "company_name": "IT Technology client with global reach",
+  "company_details": "Large-scale data engineering and analytics program, high-performing team with modern cloud stack, hybrid work and flexible engagement models, long-term opportunities in a growth-focused organisation"
+}

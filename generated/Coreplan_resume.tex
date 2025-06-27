@@ -1,0 +1,127 @@
+%==== PACKAGES AND OTHER DOCUMENT CONFIGURATIONS  ====%
+\documentclass{resume} % Use the custom resume.cls style
+\usepackage[left=0.25in,top=0.25in,right=0.25in,bottom=0.25in]{geometry} % Document margins
+\usepackage[T1]{fontenc}
+\usepackage{xcolor}
+\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+\usepackage{fontawesome} % For GitHub and LinkedIn symbols
+\usepackage{textcomp} % For mobile phone and email symbols
+% \usepackage[colorlinks=true, linkcolor=blue, citecolor=blue, urlcolor=blue]{hyperref}
+\usepackage{xcolor}  % Required for defining custom colors
+\usepackage{hyperref}
+% Define your custom colors
+% \definecolor{myblue}{RGB}{173, 216, 246}
+% \definecolor{myblue}{RGB}{123, 176, 206}
+\definecolor{myblue}{RGB}{0, 164, 218}
+
+% Set hyperlink colors
+\hypersetup{
+    colorlinks=true,
+    linkcolor=myblue,
+    citecolor=myblue,
+    urlcolor=myblue
+}
+
+\usepackage{hyperref}
+
+%==== Headings ====%
+\name{Umair Saeed} % Your name
+\address{
+{\faPhone} \href{tel:+61{-}452024050}{+61{-}452024050} \quad {\faEnvelope} \href{mailto:umirsaed1@gmail.com}{umirsaed1@gmail.com} \quad {\faGithub} \href{https://github.com/umairsaeed01}{Umair} \quad {\faLinkedin} \href{https://www.linkedin.com/in/umirsae}{Umair} }
+
+\begin{document}
+
+%===== WORK EXPERIENCE SECTION =====%
+    \begin{rSection}{Work Experience}
+                    \begin{rSubsection}
+                {AI Engineer | Machine Learning Engineer}{April 2024 - July 2024}
+                                    {\normalfont{\textit{WECLAN}}}
+                                {\normalfont{\textit{Melbourne, VIC}}}
+                                    \item Developed a C{-}based security alert classifier with anomaly detection, reducing false positives by 25\%.
+                                    \item Conducted penetration testing automation using ML{-}based pattern recognition models, improving threat detection efficiency.
+                                    \item Built dashboard visualizations to monitor compliance metrics using Power BI \& Python.
+                            \end{rSubsection}
+            \end{rSection}
+
+%==== EDUCATION SECTION ====%
+\begin{rSection}{Education}
+                        \textbf{DEAKIN UNIVERSITY, Melbourne, VIC} \hfill {July 2022 - } \\
+                            {Master of Data Science}
+                         
+             
+         
+                        \textbf{BAHRIA UNIVERSITY, Islamabad, VIC} \hfill {July 2018 - July 2022} \\
+                            {Bachelors of Software Engineering}
+                         
+             
+         
+    \end{rSection}
+
+% ==== PROJECTS SECTION =====%
+    \begin{rSection}{Projects}
+                    \begin{rSubsection}
+                                    {AI{-}POWERED DENTAL APPOINTMENT SCHEDULER}
+                                {\normalfont{January 2025 - }}{}{}
+                                    \item Developed an NLP{-}driven AI voice assistant for automated dental appointment booking, integrating speech{-}to{-}text (Whisper API) \& text{-}to{-}speech (Google TTS) with 92\% accuracy, aligning with customer integration initiatives.
+                                    \item Designed a scheduling algorithm using FastAPI, PostgreSQL, and .NET, achieving 100\% automation of the booking process, enhancing data integration efficiency.
+                                    \item Deployed the AI model using AWS Lambda \& Docker, reducing response time by 30\% and ensuring scalability, contributing to cloud services optimization.
+                            \end{rSubsection}
+                    \begin{rSubsection}
+                                    {\href{www.civaroai.com}{AI{-}GENERATED NO{-}CODE WEBSITE}}
+                                {\normalfont{February 2025 - }}{}{}
+                                    \item Built a fully functional AI{-}powered website generator using GPT{-}driven code conversion and C++ for backend efficiency, in line with ETL/ELT processes.
+                                    \item Integrated an automated demo scheduling system via AI chatbots, reducing administrative workload by 30\%, showcasing technical expertise in customer{-}facing roles.
+                                    \item Increased website traffic by 15\% through Google Search Console optimization, demonstrating analytical mindset and attention to detail.
+                            \end{rSubsection}
+                    \begin{rSubsection}
+                                    {LEARNING INSIGHT REPORT}
+                                {\normalfont{July 2022 - }}{}{}
+                                    \item Developed ML models predicting financial stability with 90\% accuracy, utilizing XGBoost \& Random Forest, aligning with data pipeline orchestration tools.
+                                    \item Designed interactive Tableau dashboards for audience engagement tracking, showcasing technical consultation during integration processes.
+                                    \item Conducted customer segmentation analysis for targeted business strategies, demonstrating strong communication skills and attention to detail.
+                            \end{rSubsection}
+                    \begin{rSubsection}
+                                    {INTERACTIVE MEDICAL DATA DASHBOARD}
+                                {\normalfont{Oct 2021 - }}{}{}
+                                    \item Built real{-}time SQL{-}connected Tableau dashboards for enhanced medical data visualization, contributing to data warehouse operations using Snowflake.
+                                    \item Collected, cleaned, and analyzed large{-}scale patient datasets for statistical insights, showcasing practical understanding of ETL/ELT processes.
+                                    \item Assisted in developing predictive models for medical research applications, driving improvements in integration tools and processes.
+                            \end{rSubsection}
+            \end{rSection}
+
+%==== TECHNICAL STRENGTHS SECTION ====%
+    \begin{rSection}{Technical Skills}
+        \begin{tabular}{ @{} l @{	} l }
+                                \textbf{Programming}: Python, ETL/ELT processes, API integrations\\
+                                \textbf{Technology}: AWS, ETL, Data Modeling\\
+                                \textbf{Soft Skills}: Stakeholder Collaboration, Analytical Thinking, Problem Solving\\
+                        %             %     \href{https://skillsoft.digitalbadges.skillsoft.com/profile/umairsaeed185770/wallet}{\textbf{Certifications:}} 
+            %     Machine Learning with TensorFlow \& Cloud ML, Implementations with BigQuery for Big Data, Getting Started with Machine Learning\\
+            %  
+        \end{tabular}
+    \end{rSection}
+
+% CERTIFICATIONS SECTION
+    \begin{rSection}{Certifications}
+        \begin{rSubsection}{}{}{}
+                            \item Machine Learning with TensorFlow \& Cloud ML
+                            \item Implementations with BigQuery for Big Data
+                            \item Getting Started with Machine Learning
+                    \end{rSubsection}
+        \href{https://skillsoft.digitalbadges.skillsoft.com/profile/umairsaeed185770/wallet}{View all certifications}
+    \end{rSection}
+
+% ACHIEVEMENTS SECTION
+    \begin{rSection}{Achievements}
+        \begin{rSubsection}{}{}{}
+                            \item Led the successful design and implementation of a custom data integration solution for a key enterprise mining customer, resulting in a 30\% increase in data processing efficiency
+                            \item Developed and maintained robust ETL pipelines connecting multiple customer systems to the platform, ensuring seamless data flow and integrity
+                            \item Received recognition for providing technical consultation during integration processes, contributing to improved client satisfaction and retention
+                    \end{rSubsection}
+    \end{rSection}
+
+\newcommand\myfontsize{\fontsize{0.1pt}{0.1pt}\selectfont} \myfontsize \color{white}
+Python, Snowflake, ETL/ELT processes, API integrations, AWS, Data pipelines, Customer{-}facing, Technical expertise, Data integration, Cloud services, Python, Snowflake, ETL/ELT processes, API integrations, AWS, Data pipelines, Customer{-}facing, Technical expertise, Data integration, Cloud services, {artificial intelligence engineer, azure cognitive services exp, azure services, core azure services, azure cognitive and generative ai, genai, aws,  gcp, java, clean, efficient, maintainable code, react, front end, back end, ai solutions, data analysis, pretrained models, automl, software development principles, version control, testing, continuous integration and deployment, python, javascript, prompt engieering, frontend, backend, html, css, api, angular, development, machine learning, artificial intelligence, deep learning, data warehouse, data modeling, data extraction, data transformation, data loading, sql, etl, data quality, data governance, data privacy, data visualization, data controls, privacy, security, compliance, sla, aws, terabyte to petabyte scale data, full stack software development, cloud, security engineering, security architecture, ai/ml engineering, technical product management, microsoft office, google suite, visualization tools, scripting, coding, programming languages, analytical skills, collaboration, leadership, communication, presentation skills, computer vision, senior, ms or ph.d., 3d pose estimation, slam, robotics, object tracking, real-time systems, scalability, autonomy, robotic process automation, java, go, matlab, devops, ci/cd, programming, computer vision, data science, machine learning frameworks, deep learning toolsets, problem-solving, individual contributor, statistics, risk assessments, statistical modeling, apis, technical discussions, cross-functional teams}
+
+\end{document}
