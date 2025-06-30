@@ -23,11 +23,11 @@
     "Stay up to date with the latest advancements in deep learning and AI technologies"
   ],
   "required_qualifications": [
-    "Strong experience with PyTorch for deep learning model development",
-    "Proficiency in Python and related ML libraries (NumPy, Pandas, Scikit-learn, etc.)",
+    "Strong experience with PyTorch (or similar framework) for deep learning model development",
+    "Proficiency in Python and familiarity with related ML libraries (NumPy, Pandas, Scikit-learn, etc.)",
     "Solid understanding of neural networks, computer vision, or NLP",
     "Experience deploying models in production environments",
-    "Bachelor's or higher degree in Computer Science, AI, or related field"
+    "Bachelor's or higher degree in Computer Science, AI, or a related field"
   ],
   "preferred_qualifications": [],
   "company_name": "Micromine",

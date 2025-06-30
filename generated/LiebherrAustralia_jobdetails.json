@@ -1,0 +1,36 @@
+{
+  "job_title": "Software Support Engineer - Autonomous Systems",
+  "job_purpose": "Provide Critical Technical Support to the Liebherr Onboard Autonomy Kit and Autonomous Haulage Solution.",
+  "keywords": [
+    "Linux-based systems",
+    "C++",
+    "Communication protocols",
+    "Diagnostic tools",
+    "ITSM tools",
+    "Autonomous haulage systems",
+    "Real-time embedded systems",
+    "Robotics",
+    "Wireless telemetry",
+    "Software engineering",
+    "Autonomous systems",
+    "Mining vehicles"
+  ],
+  "job_duties_and_responsibilities": [
+    "Provide real-time assistance and support for the Onboard Autonomy Kit",
+    "Investigate, analyze, and resolve Tier 4 escalations related to software performance",
+    "Prepare and submit test reports and performance analysis reports",
+    "Propose modifications to design for improved reliability and performance",
+    "Analyze data trends, system logs, and vehicle behaviors"
+  ],
+  "required_qualifications": [
+    "Bachelor\u2019s degree in computer science, software engineering, or related field",
+    "3+ years of experience in software engineering with exposure to large-scale autonomous or industrial systems"
+  ],
+  "preferred_qualifications": [
+    "Specific development experience with heavy, off-road, or mining vehicles and/or autonomous haulage systems",
+    "Knowledge of autonomous haulage systems used in surface mining",
+    "Knowledge of technical fundamentals associated with robotics and autonomous ground vehicles"
+  ],
+  "company_name": "Liebherr-Australia",
+  "company_details": "Liebherr-Australia is a respected leader in selling and servicing earthmoving machinery, mining equipment, cranes, and piling equipment throughout Australia and New Zealand. The company values collaboration, innovation, and employee growth."
+}

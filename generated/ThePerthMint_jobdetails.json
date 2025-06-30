@@ -1,38 +1,35 @@
 {
   "job_title": "Data Engineer",
-  "job_purpose": "As a Data Engineer at The Perth Mint, you will play a crucial role in ensuring project and enterprise goals align with data solutions. You will be responsible for extracting, transforming, and loading data using Azure, SQL, and other technologies to meet project requirements and enhance data quality and reliability across the organization.",
+  "job_purpose": "The Data Engineer role at The Perth Mint involves working with project and data & analytics teams to ensure alignment with project and enterprise goals, extracting, transforming, and loading data using Azure, SQL, and other technologies, improving data quality and reliability, designing and implementing process improvements, building analytical tools for key business metrics, and contributing to the Corporation's data architecture and standards.",
   "keywords": [
     "Data Engineering",
     "Azure",
     "SQL",
     "Data Transformation",
     "Data Quality",
-    "Data Architecture",
+    "Data Visualization",
     "Microsoft Certification",
     "API",
-    "Data Visualization",
-    "Machine Learning"
+    "Data Architecture"
   ],
   "job_duties_and_responsibilities": [
-    "Work with Project and Data & Analytics teams to align project goals with data solutions",
+    "Work with Project and Data & Analytics teams to align project and enterprise goals and solutions",
     "Extract, transform, and load data using Azure, SQL, and other technologies",
-    "Assemble large, complex data sets to meet business and project requirements",
-    "Improve data quality, integrity, and reliability across the organization's data systems",
-    "Design and implement process improvements for scalability and automation",
-    "Assist in designing and operating components of the organization's data architecture",
-    "Build analytical tools to provide actionable insights into key business metrics",
-    "Contribute to the organization's Data Architecture and standards",
-    "Address data infrastructure needs and technical issues in collaboration with the Data & Analytics team"
+    "Assemble large, complex data sets meeting business and project requirements",
+    "Improve data quality, integrity, and reliability across the Corporation's data",
+    "Design and implement internal process improvements for scalability and automation",
+    "Build analytical tools for key business performance metrics",
+    "Contribute to the Corporation's Data Architecture and standards"
   ],
   "required_qualifications": [
-    "Bachelor\u2019s degree in Data Engineering, Analytics, Software Engineering, Computer Science, or related field",
+    "Bachelor\u2019s degree in Data Engineering, Analytics, Software Engineering, Computer Science, or related discipline",
     "Microsoft Certification in Data fields",
-    "5+ years of experience in data engineering",
-    "Experience with Microsoft Azure Data and Machine Learning services",
+    "5+ years experience in data engineering",
+    "Experience with Microsoft Azure Data and Machine Learning services, Azure Data Factory, AzureML, data orchestration, and data visualization tools",
     "Experience with SQL Server and PostgreSQL",
     "Knowledge of API functionality"
   ],
   "preferred_qualifications": [],
   "company_name": "The Perth Mint",
-  "company_details": "The Perth Mint is an iconic Western Australian organization with a global presence. It offers diverse roles and fosters a workplace culture rooted in history, sustainability, and inclusion. Employees benefit from competitive salaries, flexible work options, training opportunities, and a commitment to diversity and equality."
+  "company_details": "The Perth Mint is an iconic Western Australian organization with a global presence, known for refining, designing, producing, and distributing precious metal products worldwide. The organization values diversity, inclusion, sustainability, and employee well-being, offering competitive salaries, flexible work options, extended leave, training opportunities, and various employee resource groups."
 }

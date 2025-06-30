@@ -1,0 +1,36 @@
+{
+  "job_title": "Senior Back-End Developer",
+  "job_purpose": "Designing and developing scalable backend systems for fleet management and autonomy solutions in the mining industry.",
+  "keywords": [
+    "C# .NET Core",
+    "Entity Framework",
+    "RabbitMQ",
+    "SQL Server",
+    "unit testing",
+    "microservice architectures",
+    "Docker",
+    "Kubernetes",
+    "Linux systems",
+    "Akka.NET"
+  ],
+  "job_duties_and_responsibilities": [
+    "Design and build backend services and APIs meeting functional and non-functional requirements.",
+    "Own complex stories from design through deployment.",
+    "Participate in design reviews and contribute to architectural decisions.",
+    "Write clean, testable, well-documented code.",
+    "Improve codebase maintainability through refactoring and better observability.",
+    "Mentor junior developers and promote best practices in software design and development.",
+    "Collaborate with domain experts to integrate shared frameworks and libraries.",
+    "Proactively raise technical risks and issues with Tech Leads."
+  ],
+  "required_qualifications": [
+    "5+ years' experience in software development roles, ideally in complex, distributed environments.",
+    "Strong experience with C# .NET Core, Entity Framework, RabbitMQ, and SQL Server.",
+    "Skilled in unit testing and working in microservice architectures.",
+    "Experience with Docker or Kubernetes for containerization.",
+    "Familiarity with Linux systems and Akka.NET is desirable."
+  ],
+  "preferred_qualifications": [],
+  "company_name": "Mining Industry Leader",
+  "company_details": "A major player in the mining industry delivering cutting-edge automation solutions for fleet management and autonomy. The company values technical leadership, clean code, and innovation in pushing the boundaries of mining technology."
+}

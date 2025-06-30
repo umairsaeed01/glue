@@ -1,0 +1,45 @@
+{
+  "job_title": "Developer - Mining and Resource Sector",
+  "job_purpose": "Join a dynamic team in the mining and resource sector to contribute to the development of cutting-edge software solutions.",
+  "keywords": [
+    "Continuous Integration/Continuous Deployment (CI/CD)",
+    "DevSecOps",
+    "Python",
+    ".NET",
+    "Azure Functions",
+    "Containerization",
+    "Trunk-based development",
+    "Azure DevOps",
+    "RESTful APIs",
+    "Message buses",
+    "PostgreSQL databases",
+    "Git",
+    "C++"
+  ],
+  "job_duties_and_responsibilities": [
+    "Implement modern software practices like CI/CD and DevSecOps",
+    "Develop software solutions using Python or .NET",
+    "Utilize Azure Functions and containerization for efficient development",
+    "Work on trunk-based development and Azure DevOps",
+    "Create and maintain RESTful APIs and message buses",
+    "Manage PostgreSQL databases effectively",
+    "Contribute to version control using Git",
+    "Possess a background in C++ for additional expertise"
+  ],
+  "required_qualifications": [
+    "Proficiency in modern software practices",
+    "Experience with Python or .NET",
+    "Knowledge of Azure Functions and containerization",
+    "Strong foundation in trunk-based development and Azure DevOps",
+    "Skills in creating RESTful APIs and working with message buses",
+    "Proficiency in PostgreSQL databases",
+    "Familiarity with Git for version control",
+    "Passion for programming and willingness to learn",
+    "Adaptability to explore new technologies"
+  ],
+  "preferred_qualifications": [
+    "Background in C++"
+  ],
+  "company_name": "Mining and Resource Sector",
+  "company_details": "A leading organization in the mining and resource sector, offering a rewarding 6-month contract with potential for renewal. The company values innovation, adaptability, and a passion for technology."
+}

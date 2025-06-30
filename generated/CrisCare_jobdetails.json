@@ -6,17 +6,15 @@
     "kubernetes",
     "microservices",
     "Angular",
-    "cloud-based",
-    "distributed systems",
+    "DevOps",
+    "Docker",
+    "Terraform",
+    "AWS",
     "Kotlin",
     "Java",
     "Spring Boot",
     "REST",
     "GraphQL APIs",
-    "DevOps",
-    "Docker",
-    "Terraform",
-    "AWS",
     "Event-sourcing data models",
     "SQL",
     "MySQL",
@@ -26,8 +24,9 @@
     "Mirth Connect",
     "Artificial Intelligence",
     "healthcare domain",
-    "Angular",
-    "SPA frameworks"
+    "SPA frameworks",
+    "team player",
+    "Australia"
   ],
   "job_duties_and_responsibilities": [
     "Lead a small team of engineers",
@@ -41,21 +40,20 @@
   ],
   "required_qualifications": [
     "At least 5 years of full-time software development experience",
-    "Experience in designing and implementing distributed systems",
+    "Designed and implemented distributed systems",
     "At least 12 months experience with Kotlin or Java"
   ],
   "preferred_qualifications": [
     "Qualifications in Computer Science",
-    "Experience in Spring Boot, REST, GraphQL APIs",
-    "Experience in DevOps tools (Docker, Kubernetes, Terraform, AWS)",
-    "Experience with event-sourcing data models",
-    "Proficiency in SQL (MySQL, Liquibase)",
-    "Knowledge of Cyber-security principles",
-    "Experience with HL7 integrations (Mirth Connect)",
+    "Experience in DevOps (Docker, Kubernetes, Terraform, AWS)",
+    "Event-sourcing data models",
+    "SQL (MySQL, Liquibase)",
+    "Cyber-security principles",
+    "HL7 integrations (Mirth Connect)",
     "Familiarity with Artificial Intelligence tools and services",
-    "Previous experience in the healthcare domain",
-    "Experience with Angular or other SPA frameworks"
+    "Previous experience in the domain of healthcare",
+    "Angular or other SPA frameworks"
   ],
   "company_name": "CRiS Care",
-  "company_details": "CRiS Care is an Australian company servicing the healthcare industry with cloud-based patient care capabilities, managing tests, facilitating clinical assessments, and providing a platform for seamless clinical care across facilities."
+  "company_details": "Australian company servicing the healthcare industry with cloud-based patient care capabilities. Focus on managing tests, facilitating clinical assessments, and providing a platform for seamless clinical care across facilities."
 }

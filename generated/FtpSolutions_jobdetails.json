@@ -1,0 +1,43 @@
+{
+  "job_title": "Senior Software Developer",
+  "job_purpose": "Join an agile development team at FTP Solutions to work on the new Productivity product on the IMS platform, contributing to high-level design and hands-on implementation.",
+  "keywords": [
+    "TypeScript",
+    "Node.js",
+    "React",
+    "Python",
+    "Django",
+    "relational databases",
+    "Postgres",
+    "MSSQL",
+    "DevOps practices",
+    "automated testing",
+    "CI/CD pipelines",
+    "Agile principles",
+    "mentoring",
+    "team collaboration"
+  ],
+  "job_duties_and_responsibilities": [
+    "Lead & Design technical roadmap in collaboration with developers, UX designer, Product Owner, and CTO",
+    "Write, test, and debug code using TypeScript (Node.js/React) and Python (Django)",
+    "Explore real-world datasets for insights and patterns",
+    "Streamline and improve CI/CD pipelines for smooth releases",
+    "Contribute to test strategies for secure, stable, and high-performing software",
+    "Mentor team members and foster a healthy team culture"
+  ],
+  "required_qualifications": [
+    "Strong experience as a software developer",
+    "Proficiency in TypeScript (Node.js/React) and Python (Django)",
+    "Comfortable with relational databases like Postgres or MSSQL",
+    "Familiarity with DevOps practices, automated testing, and CI/CD pipelines",
+    "Good understanding of Agile principles",
+    "Experience mentoring others and contributing to team culture"
+  ],
+  "preferred_qualifications": [
+    "Degree in computer science or related field",
+    "Exposure to mining or industrial technologies",
+    "Experience with networking, OT, or telecommunications"
+  ],
+  "company_name": "FTP Solutions",
+  "company_details": "FTP Solutions values a fun, inclusive, and respectful environment where everyone can thrive. They encourage building useful tools that people love to use and working in a diverse team. The company invests in personal and professional development, promotes an inclusive culture, and offers challenging work in a supportive environment."
+}

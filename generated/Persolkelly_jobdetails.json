@@ -1,0 +1,35 @@
+{
+  "job_title": "Senior Developer - Backend",
+  "job_purpose": "Designing, implementing, and maintaining robust, scalable backend software for a Global Mining Company.",
+  "keywords": [
+    "C# .NET Core",
+    "Entity Framework",
+    "RabbitMQ",
+    "SQL Server",
+    "unit testing frameworks",
+    "microservice architectures",
+    "containerisation",
+    "Docker",
+    "Kubernetes",
+    "Linux systems",
+    "Akka.net"
+  ],
+  "job_duties_and_responsibilities": [
+    "Design and implement backend services, APIs, and behaviors meeting functional and non-functional requirements.",
+    "Lead technical execution of complex user stories from design to deployment.",
+    "Contribute to technical design reviews and provide feedback on system architecture.",
+    "Ensure code quality through peer reviews, automated testing, and documentation.",
+    "Improve codebase maintainability through refactoring, observability, and test coverage enhancements.",
+    "Mentor developers within the squad on patterns, practices, and software design paradigms.",
+    "Collaborate with Domain Engineers to integrate shared frameworks and libraries.",
+    "Escalate technical risks or misalignments early to the Tech Lead."
+  ],
+  "required_qualifications": [
+    "Proven 5+ years' experience as a Software Developer or similar role.",
+    "Experience with C# .NET Core, Entity Framework, RabbitMQ, SQL Server, unit testing frameworks.",
+    "Experience with microservice architectures, containerization using Docker or Kubernetes, Linux systems, Akka.net."
+  ],
+  "preferred_qualifications": [],
+  "company_name": "PERSOLKELLY",
+  "company_details": "PERSOLKELLY is the largest workforce solutions provider in APAC, committed to creating a safe and inclusive environment that values diverse backgrounds and perspectives."
+}

@@ -1,0 +1,37 @@
+{
+  "job_title": "Senior Back-End Developer",
+  "job_purpose": "Developing robust backend services and APIs for fleet management and autonomous vehicle control within a cross-functional team.",
+  "keywords": [
+    "C# .NET Core",
+    "Entity Framework",
+    "RabbitMQ",
+    "SQL Server",
+    "unit testing frameworks",
+    "microservice architectures",
+    "Docker",
+    "Kubernetes",
+    "Linux systems",
+    "Akka.net"
+  ],
+  "job_duties_and_responsibilities": [
+    "Design and implement backend services, APIs, and functionalities to meet functional and non-functional requirements.",
+    "Lead the execution of complex user stories from design through deployment.",
+    "Contribute to technical design reviews and provide feedback on system architecture.",
+    "Ensure code quality through peer reviews, automated testing, and documentation.",
+    "Mentor junior developers and provide guidance on software design and best practices.",
+    "Integrate and adopt shared frameworks and libraries with Domain Engineers.",
+    "Identify and escalate technical risks or misalignments early to the Tech Lead."
+  ],
+  "required_qualifications": [
+    "5+ years\u2019 experience as a Software Developer or in a similar role.",
+    "Expertise with C# .NET Core, Entity Framework, RabbitMQ.",
+    "Strong experience with SQL Server.",
+    "Solid knowledge of unit testing frameworks.",
+    "Proficient in microservice architectures and containerization using Docker or Kubernetes.",
+    "Familiarity with Linux systems.",
+    "Experience with Akka.net is desirable."
+  ],
+  "preferred_qualifications": [],
+  "company_name": "MTR",
+  "company_details": "MTR is seeking experienced Senior Back-End Developers to work on cutting-edge solutions for fleet management and autonomous vehicle control. The company values collaboration, innovation, and technical excellence in delivering high-quality, scalable software solutions."
+}

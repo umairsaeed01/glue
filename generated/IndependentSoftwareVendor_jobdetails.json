@@ -1,0 +1,35 @@
+{
+  "job_title": "Senior Developer \u2013 Full Stack",
+  "job_purpose": "Join as a Senior Full Stack Software Developer to build new features & products using React, TypeScript, Django, and Azure, contribute to technical direction, mentor junior developers, own delivery workflows, and support customer deployments.",
+  "keywords": [
+    "React",
+    "Django",
+    "Azure",
+    "Senior Software Engineering",
+    "Modern web frameworks",
+    "CI/CD",
+    "DevOps",
+    "Microsoft Teams",
+    "M365 ecosystem"
+  ],
+  "job_duties_and_responsibilities": [
+    "Build new features & products using React, TypeScript, Django, and Azure",
+    "Contribute to technical direction, product roadmap, and solution architecture",
+    "Mentor junior developers, run code reviews, guide best practices",
+    "Own delivery workflows \u2013 from ticket to deployment",
+    "Stay 70\u201380% hands-on: ship clean, production-ready code",
+    "Support customer deployments and ensure system stability"
+  ],
+  "required_qualifications": [
+    "3+ years in a Senior Software Engineering role",
+    "Experience with modern web frameworks (Django, Rails, Laravel, .NET etc.)",
+    "Strong front end skills with React or similar frameworks",
+    "Solid experience in CI/CD, cloud platforms (ideally Azure) and DevOps",
+    "A collaborative mindset and excellent communication skills"
+  ],
+  "preferred_qualifications": [
+    "Bonus points if you\u2019ve built for Microsoft Teams or the M365 ecosystem"
+  ],
+  "company_name": "Independent Software Vendor",
+  "company_details": "Our client is an independent software vendor with big ideas and a people-first approach. They are growing fast with exciting new features, AI tools, and Teams integrations on the way. The company values curiosity, trust, and fun, offering a modern, Microsoft-native tech stack and a remote-friendly work environment."
+}

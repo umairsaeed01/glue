@@ -13,6 +13,7 @@ from selenium.common.exceptions import (
 )
 from openai import OpenAI
 from resume_summarizer import RÉSUMÉ_SUMMARY
+from resume_summary_manager import ResumeSummaryManager
 
 # ─────────────────────────────────────────────────────────────────────────────
 # Extractor #1: single‐choice <select> elements
@@ -22,7 +23,27 @@ def extract_selects(driver, form):
     try:
         for sel in form.find_elements(By.TAG_NAME, "select"):
             try:
-                question = sel.find_element(By.XPATH, "preceding::strong[1]").text.strip()
+                # Try multiple strategies to find the question text
+                question = None
+                
+                # Strategy 1: Look for label with for attribute matching select id
+                select_id = sel.get_attribute("id")
+                if select_id:
+                    try:
+                        label = form.find_element(By.CSS_SELECTOR, f"label[for='{select_id}']")
+                        strong = label.find_element(By.TAG_NAME, "strong")
+                        question = strong.text.strip()
+                    except:
+                        pass
+                
+                # Strategy 2: Original strategy (preceding strong)
+                if not question:
+                    question = sel.find_element(By.XPATH, "preceding::strong[1]").text.strip()
+                
+                # Strategy 3: Fallback to name attribute
+                if not question:
+                    question = sel.get_attribute("name") or "Unnamed select question"
+                    
             except:
                 question = sel.get_attribute("name") or "Unnamed select question"
             name = sel.get_attribute("name")
@@ -318,8 +339,38 @@ def extract_radios(driver, form):
 # ─────────────────────────────────────────────────────────────────────────────
 # MAIN HANDLER
 # ─────────────────────────────────────────────────────────────────────────────
-def handle_dynamic_questions(driver):
+def handle_dynamic_questions(driver, resume_pdf_path=None, company_name=None):
+    """
+    Handle dynamic questions with job-specific resume summary.
+    
+    Args:
+        driver: Selenium WebDriver instance
+        resume_pdf_path (str): Path to the job-specific resume PDF (optional)
+        company_name (str): Company name for summary file naming (optional)
+    """
     wait = WebDriverWait(driver, 15)
+    
+    # Debug logging to confirm which summary is being used
+    print(f"[Dynamic] Resume PDF path: {resume_pdf_path}")
+    print(f"[Dynamic] Company name: {company_name}")
+    
+    # Get job-specific resume summary on-demand
+    summary_manager = ResumeSummaryManager()
+    job_summary = summary_manager.get_job_specific_summary(
+        resume_pdf_path=resume_pdf_path,
+        company_name=company_name,
+        fallback_summary=RÉSUMÉ_SUMMARY
+    )
+    
+    # Debug logging to confirm which summary was used
+    if resume_pdf_path and company_name:
+        print(f"[Dynamic] Using job-specific summary for {company_name}")
+        print(f"[Dynamic] Summary length: {len(job_summary)} characters")
+        print(f"[Dynamic] Summary preview: {job_summary[:200]}...")
+    else:
+        print(f"[Dynamic] Using fallback summary (no resume path or company name provided)")
+        print(f"[Dynamic] Fallback summary length: {len(job_summary)} characters")
+    
     try:
         form = wait.until(EC.presence_of_element_located((By.TAG_NAME, "form")))
     except TimeoutException:
@@ -382,7 +433,7 @@ FOR EACH question you MUST choose at least one answer. Always answer in the requ
         "role": "user",
         "content": (
             "RÉsumÉ summary:\n\"\"\"\n"
-            + RÉSUMÉ_SUMMARY
+            + job_summary
             + "\n\"\"\"\n\nQuestions:\n"
             + json.dumps(all_questions, indent=2)
         )

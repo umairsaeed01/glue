@@ -1,0 +1,35 @@
+{
+  "job_title": "Application Technologist",
+  "job_purpose": "Join a federal government department in Perth as an Application Technologist to work with a small team of technical staff in a collaborative and teamwork-oriented environment.",
+  "keywords": [
+    "Java",
+    "Angular",
+    "Python",
+    "Bamboo",
+    "GitLab",
+    "CI/CD pipelines",
+    "code modification",
+    "security concerns",
+    "documentation"
+  ],
+  "job_duties_and_responsibilities": [
+    "Build Java and Angular applications from provided source",
+    "Manually install packages as required",
+    "Proficient in code modification and addition",
+    "Experience in Python highly desired",
+    "Build and deploy using Bamboo and GitLab CI/CD pipelines",
+    "Perform continual maintenance and upkeep of platforms",
+    "Address security concerns and identify code vulnerabilities",
+    "Create written documentation"
+  ],
+  "required_qualifications": [
+    "Experience building Java and Angular applications",
+    "Proficiency in code modification and addition",
+    "Experience with Bamboo and GitLab CI/CD pipelines",
+    "Ability to address security concerns and identify code vulnerabilities",
+    "Experience in creating written documentation"
+  ],
+  "preferred_qualifications": [],
+  "company_name": "Araza",
+  "company_details": "Araza is a consultancy known for aligning teams with client needs on innovative projects. They prioritize core values of being great and grateful, fostering diversity and inclusivity, and caring for their employees. Araza has won multiple awards for innovation and growth."
+}

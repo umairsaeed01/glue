@@ -1,0 +1,54 @@
+{
+  "job_title": "Web Developer",
+  "job_purpose": "Responsible for designing, developing, deploying, and maintaining the company's digital platforms, with a focus on corporate websites to reflect the quality and professionalism of engineering and structural services.",
+  "keywords": [
+    "Front-end web development",
+    "HTML5",
+    "CSS3",
+    "JavaScript",
+    "React",
+    "Vue.js",
+    "Angular",
+    "WordPress",
+    "Responsive design",
+    "Cross-browser compatibility",
+    "Web accessibility",
+    "Git",
+    "SEO",
+    "Google Analytics",
+    "UI/UX design",
+    "Web security",
+    "GDPR compliance"
+  ],
+  "job_duties_and_responsibilities": [
+    "Design, build, and maintain the company's website ensuring security, responsiveness, and optimal performance",
+    "Implement new features aligned with user and business needs",
+    "Develop custom themes, templates, and plugins for CMS platforms like WordPress",
+    "Ensure website is up to date with security patches and software updates",
+    "Monitor and improve site performance including load time, SEO rankings, and accessibility",
+    "Collaborate with various teams to integrate technical project content into the website",
+    "Provide technical support and advice on digital communication tools",
+    "Keep up with emerging web technologies and propose improvements to digital infrastructure",
+    "Recommend UX/UI enhancements based on analytics and user feedback",
+    "Ensure compliance with accessibility standards and SEO best practices"
+  ],
+  "required_qualifications": [
+    "Proven experience in front-end web development",
+    "Proficiency in HTML5, CSS3, JavaScript",
+    "Experience with React, Vue.js, or Angular",
+    "Strong understanding of responsive design, cross-browser compatibility, and web accessibility",
+    "Competence in using Git or similar version control systems",
+    "Attention to detail and structured coding approach",
+    "Problem-solving skills and ability to meet deadlines"
+  ],
+  "preferred_qualifications": [
+    "Experience in engineering, construction, or technical service firms",
+    "Familiarity with SEO, Google Analytics, and performance monitoring tools",
+    "Basic graphic design or UI/UX design skills",
+    "Knowledge of web security best practices and GDPR compliance",
+    "Understanding of AEC industry and communication needs",
+    "UI/UX experience for B2B websites or client dashboards"
+  ],
+  "company_name": "Regional Group",
+  "company_details": "Regional Group is a leading name in the Australian piling sector, offering cost-effective and environmentally responsible turnkey solutions for geotechnical drilling and piling needs. The company values excellence, safety, and commitment to delivering specialised geotechnical solutions across various sectors."
+}

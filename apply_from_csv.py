@@ -5,6 +5,7 @@ import sys
 import argparse
 import time
 from datetime import datetime
+from collections import Counter
 
 from launch_browser_updated import main
 #from local_generate import process_job
@@ -328,6 +329,25 @@ def process_all_jobs(csv_file_path, base_generated_path, start_row=1, max_jobs=N
         print(f"⏭️  Skipped (already processed): {skipped_count}")
         print(f"📊 Total processed in this session: {success_count + error_count}")
         print(f"📈 Progress: {start_row}-{end_row} of {total_rows} total jobs")
+
+        # --- Detailed status breakdown ---
+        print(f"\nProcessed file: {csv_file_path}")
+        try:
+            with open(csv_file_path, 'r', newline='', encoding='utf-8') as file:
+                reader = csv.DictReader(file)
+                status_counts = Counter()
+                for row in reader:
+                    status = row.get('Applied', '').strip()
+                    if status:
+                        status_counts[status] += 1
+                if status_counts:
+                    print("\nDetailed outcome breakdown:")
+                    for status, count in status_counts.most_common():
+                        print(f"  {status}: {count}")
+                else:
+                    print("No status information found in the CSV.")
+        except Exception as e:
+            print(f"Error reading status breakdown: {e}")
         
     except Exception as e:
         print(f"Error in batch processing: {e}")

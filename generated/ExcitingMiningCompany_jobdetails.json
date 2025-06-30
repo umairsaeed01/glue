@@ -1,0 +1,34 @@
+{
+  "job_title": "Backend Developer (.NET Core)",
+  "job_purpose": "Design, develop, and maintain scalable backend systems using .NET Core for an exciting mining company.",
+  "keywords": [
+    ".NET Core",
+    "SQL",
+    "RESTful APIs",
+    "Git",
+    "CI/CD pipelines",
+    "Agile development methodologies",
+    "Software engineering best practices"
+  ],
+  "job_duties_and_responsibilities": [
+    "Design, develop, and maintain scalable backend systems using .NET Core.",
+    "Build and integrate RESTful APIs for internal and external services.",
+    "Write clean, efficient, and well-documented code.",
+    "Work with SQL databases to design schema, write queries, and optimize performance.",
+    "Collaborate with front-end developers, QA engineers, and product managers to deliver high-quality solutions.",
+    "Participate in code reviews and contribute to technical discussions.",
+    "Troubleshoot and debug application issues."
+  ],
+  "required_qualifications": [
+    "Minimum 3 years of commercial experience in backend development with .NET Core.",
+    "Strong experience with SQL (e.g., MS SQL Server, PostgreSQL).",
+    "Proven experience designing and working with APIs.",
+    "Familiarity with version control systems (e.g., Git).",
+    "Experience with CI/CD pipelines and agile development methodologies.",
+    "Solid understanding of software engineering best practices.",
+    "Excellent problem-solving skills and attention to detail."
+  ],
+  "preferred_qualifications": [],
+  "company_name": "Exciting Mining Company",
+  "company_details": "A dynamic and innovative mining organization seeking a skilled Backend Developer to contribute to its technological advancements."
+}

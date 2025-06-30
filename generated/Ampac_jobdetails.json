@@ -1,0 +1,46 @@
+{
+  "job_title": "Graduate Electronics Engineer",
+  "job_purpose": "Develop time-critical, safety-focused solutions in a real-time environment to prevent loss of life and catastrophic damage caused by fire.",
+  "keywords": [
+    "Electronics Engineering",
+    "EDA",
+    "Schematic and PCB design capture",
+    "Design theory and simulation",
+    "Low level software (C/C++)",
+    "Testing skills with electronics equipment",
+    "Excellent communication skills",
+    "Team-oriented"
+  ],
+  "job_duties_and_responsibilities": [
+    "Develop safety-focused solutions",
+    "Collaborate with a dedicated team",
+    "Work on preventing loss of life or injury",
+    "Utilize electronic design automation",
+    "Design schematic and PCB",
+    "Implement design theory and simulation",
+    "Develop low-level software in C/C++",
+    "Conduct testing using electronics equipment",
+    "Interpret requirements and meet timelines",
+    "Communicate effectively within the team"
+  ],
+  "required_qualifications": [
+    "Tertiary qualification in BEng (Electronics Engineering) or equivalent",
+    "Experience in EDA, schematic and PCB design capture",
+    "Knowledge of design theory and simulation",
+    "Proficiency in low-level software (C/C++)",
+    "Testing skills with electronics equipment",
+    "Strong work ethic and attention to detail",
+    "Ability to interpret requirements and work to a timeline",
+    "Excellent communication and interpersonal skills",
+    "Team-oriented mindset"
+  ],
+  "preferred_qualifications": [
+    "Experience with Altium Designer",
+    "Knowledge in Digital, Analogue, FPGA, Audio, embedded systems, micro-controllers",
+    "Familiarity with project release protocols and documentation",
+    "Prototyping hardware, debug, and verification experience",
+    "Spice modeling knowledge"
+  ],
+  "company_name": "Ampac",
+  "company_details": "Australia's largest independent manufacturer of fire detection and emergency warning products, dedicated to preventing loss of life and catastrophic damage caused by fire. Part of the Halma Group, employing over 8,000 people across more than 20 countries."
+}

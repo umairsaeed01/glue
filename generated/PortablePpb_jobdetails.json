@@ -1,0 +1,51 @@
+{
+  "job_title": "Software Engineer - Front-End and Back-End Development",
+  "job_purpose": "Develop secure, robust, high-quality software for Portable PPB and its clients, ensuring high availability of systems and resolving escalated incidents.",
+  "keywords": [
+    "Front-End Development",
+    "Back-End Development",
+    "Testing and Quality Assurance",
+    "DevOps and CI/CD",
+    "Collaboration and Knowledge Sharing",
+    "Design Patterns",
+    "MVVM",
+    "Object-Oriented Programming",
+    "SOLID Principles",
+    "AWS",
+    "Dart/Flutter",
+    "SQL",
+    "DevOps",
+    "CI/CD Pipelines",
+    "GitHub",
+    "Python",
+    "Kubernetes",
+    "Stakeholder Engagement",
+    "Communication Skills",
+    "Innovation",
+    "Agile/Scrum"
+  ],
+  "job_duties_and_responsibilities": [
+    "Develop and maintain responsive, user-friendly interfaces",
+    "Build scalable, secure back-end systems with offline-first caching functionality",
+    "Write and execute unit and integration tests",
+    "Set up and manage CI/CD pipelines and deploy solutions to cloud environments",
+    "Work cross-functionally with designers, product managers, and other developers",
+    "Participate in code reviews and team meetings"
+  ],
+  "required_qualifications": [
+    "5+ years\u2019 experience as a Software Engineer or equivalent",
+    "Strong in design patterns, MVVM, object-oriented programming, and SOLID principles",
+    "Extensive experience working with AWS and managing large-scale environments",
+    "Proficiency in Dart/Flutter and SQL",
+    "Experience in DevOps, CI/CD pipelines, GitHub, Python, and Kubernetes",
+    "Proven track record of managing multiple projects and delivering impactful solutions",
+    "Exceptional stakeholder engagement and communication skills",
+    "Proactive, resourceful, and able to drive innovation in a dynamic environment"
+  ],
+  "preferred_qualifications": [
+    "Experience in Flutter/Dart or any C-like language",
+    "Knowledge of Supabase/Postgres, PowerSync (offline-first architecture), Typescript, C/C++, Android/Kotlin, Git, Docker, Agile/Scrum, Web/Desktop/Mobile App Design, pXRF/Geochemistry, Embedded Systems"
+  ],
+  "company_name": "Portable PPB",
+  "company_details": "A dynamic and growing company that has launched innovative technology into the global gold mining industry. Recognized for innovation and solid support from investors and the global gold industry."
+}

@@ -1,0 +1,59 @@
+{
+  "job_title": "Experienced .NET Developer with Mobile App Development Experience",
+  "job_purpose": "Join a dynamic and innovative software development company specializing in the Waste Industry to develop and maintain vertical market applications with a focus on mobile app development.",
+  "keywords": [
+    ".NET Developer",
+    "Mobile App Development",
+    "C#",
+    "WinForms",
+    "Microsoft .NET Framework",
+    "Cross-Platform Mobile Applications",
+    "Flutter",
+    "React Native",
+    "Xamarin/MAUI",
+    "API Development",
+    "REST",
+    "Web API",
+    "WCF/Web Services",
+    "Database Technologies",
+    "MariaDB",
+    "Firebird",
+    "Microsoft SQL Server",
+    "MySQL",
+    "Problem-Solving",
+    "Attention to Detail",
+    "DevExpress",
+    "ORMs",
+    "EF",
+    "Dapper",
+    "Web Development",
+    "Angular",
+    "React",
+    ".NET Core"
+  ],
+  "job_duties_and_responsibilities": [
+    "Design, develop, and deploy scalable and secure applications using front-end and back-end technologies.",
+    "Create, maintain, and enhance current mobile applications while developing new ones.",
+    "Collaborate with designers, product managers, and stakeholders to understand project requirements and deliver high-quality solutions.",
+    "Optimize application performance, troubleshoot issues, and implement enhancements as needed.",
+    "Stay updated on industry trends, best practices, and emerging technologies to continuously improve development processes and offerings."
+  ],
+  "required_qualifications": [
+    "Bachelor's degree in Computer Science, Engineering, or related field.",
+    "Minimum 3 years of experience as a .NET Developer, Mobile App Developer, or similar role.",
+    "Strong proficiency in C#, WinForms, and Microsoft .NET framework.",
+    "Strong back-end development skills.",
+    "Experience developing cross-platform mobile applications using frameworks such as Flutter, React Native, or Xamarin/MAUI.",
+    "API development experience in REST, Web API, or WCF/Web Services.",
+    "Familiarity with database technologies such as MariaDB, Firebird, Microsoft SQL Server, or MySQL.",
+    "Excellent problem-solving skills, attention to detail, and ability to work independently and collaboratively in a fast-paced environment."
+  ],
+  "preferred_qualifications": [
+    "Experience with DevExpress.",
+    "Experience with ORMs such as EF or Dapper.",
+    "Web development experience with Angular or React.",
+    "Experience with .NET Core."
+  ],
+  "company_name": "BinManager",
+  "company_details": "BinManager is a dynamic and innovative software development company specializing in the Waste Industry. They provide easy-to-use solutions and are committed to quality, creativity, and customer satisfaction."
+}

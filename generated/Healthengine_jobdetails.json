@@ -1,0 +1,31 @@
+{
+  "job_title": "Senior Full Stack Engineer",
+  "job_purpose": "To build, maintain & support the Healthengine website & microservices as part of the larger development team.",
+  "keywords": [
+    "JavaScript framework (React preferred)",
+    "PHP",
+    "Postgres",
+    "AWS infrastructure",
+    "Agile development methodologies (Kanban/Scrum)",
+    "AI"
+  ],
+  "job_duties_and_responsibilities": [
+    "Work as part of a product team to deliver high-quality and high-performing experiences to hundreds of thousands of users",
+    "Collaborate with other developers and designers to come up with innovative and delight-filled solutions",
+    "Implement ideas to help increase developer velocity and better user experiences",
+    "Implements functionality across the entire technical stack adhering to standards established and agreed to by the front and back-end guilds",
+    "Break down user stories into technical tasks, and plan areas of future technical work for the team",
+    "Contribute to common code bases and standards for the team",
+    "Play a valued role in the hiring process and mentor junior/mid-level engineers"
+  ],
+  "required_qualifications": [
+    "Strong understanding of at least one JavaScript framework (React preferred)",
+    "Strong understanding of PHP (or strong experience in a similar language)",
+    "Strong understanding of Postgres (or other relational databases)",
+    "Ideally experienced in AWS infrastructure",
+    "Ideally experienced in Agile development methodologies (Kanban/Scrum)"
+  ],
+  "preferred_qualifications": [],
+  "company_name": "Healthengine",
+  "company_details": "Operating at the intersection of health and tech, Healthengine's mission is to improve access to healthcare by helping Australians find and connect with all primary care providers. They strive to achieve this through Australia\u2019s leading healthcare marketplace, bringing together over 4 million active Australians and more than 10 thousand practitioners powered by their technology."
+}

@@ -1,0 +1,53 @@
+{
+  "job_title": "Senior Software Engineer",
+  "job_purpose": "Design, develop, and provide operational support for products and platforms used by staff, strata managers, and clients while providing technical leadership and guidance to other engineers.",
+  "keywords": [
+    "AI integration",
+    "LLM-driven features",
+    "RAG pipelines",
+    "Reusable prompt libraries",
+    "Targeted Software Solutions",
+    "Stakeholder engagement",
+    "Strategic Solutions",
+    "Transformers libraries",
+    "Vector-search systems",
+    "Commercial Software Development",
+    "Solution Architecture",
+    "CMS",
+    "Educational Qualifications",
+    "Requirements Gathering",
+    "Agile",
+    "Front-End",
+    "Back-End",
+    "Cloud Platforms",
+    "DevOps"
+  ],
+  "job_duties_and_responsibilities": [
+    "Lead the end-to-end design and implementation of LLM-driven features",
+    "Build and maintain RAG pipelines",
+    "Develop reusable prompt libraries and orchestration layers",
+    "Design Targeted Software Solutions",
+    "Engage with Stakeholders",
+    "Architect Strategic Solutions",
+    "Work with cutting-edge technologies",
+    "Contribute to high-impact projects",
+    "Focus on employee wellbeing",
+    "Engage in community and social responsibility initiatives"
+  ],
+  "required_qualifications": [
+    "Proven track record building with large language models and generative AI",
+    "Hands-on experience with Transformers libraries",
+    "Practical skills in vector-search systems",
+    "Commercial Software Development experience",
+    "Solution Architecture expertise",
+    "CMS experience",
+    "Educational Qualifications in Computer Science or related discipline",
+    "Requirements Gathering and Agile experience"
+  ],
+  "preferred_qualifications": [
+    "Experience with GraphQL, AWS, Power Automate, or performance/load testing",
+    "Experience with mobile development frameworks like React Native, Ionic, or PWA"
+  ],
+  "company_name": "Town Square",
+  "company_details": "Town Square is reenvisioning Strata Management Software and offers an innovative technology environment, impactful projects, employee wellbeing focus, community and social responsibility initiatives, and RAC perks."
+}

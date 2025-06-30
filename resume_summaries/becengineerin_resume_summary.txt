@@ -1,0 +1,27 @@
+Education:
+- Master of Data Science, Deakin University, Melbourne, VIC (July 2022 - Present)
+- Bachelors of Software Engineering, Bahria University, Islamabad, VIC (July 2018)
+
+Employment History:
+- AI Engineer | Machine Learning Engineer at WeClan, Melbourne, VIC (April 2024 - July 2024)
+
+Projects:
+1. AI-POWERED DENTAL APPOINTMENT SCHEDULER (January 2025)
+2. AI-GENERATED NO-CODE WEBSITE (February 2025)
+3. LEARNING INSIGHT REPORT (July 2022)
+4. INTERACTIVE MEDICAL DATA DASHBOARD (October 2021)
+
+Skills:
+Hard Skills:
+- Programming: C#, Python
+- Technology: AWS
+
+Soft Skills:
+- Problem Solving
+- Stakeholder Collaboration
+
+Working Rights:
+- Temporary Graduate Visa (unlimited working rights)
+
+Location:
+- Living in Perth

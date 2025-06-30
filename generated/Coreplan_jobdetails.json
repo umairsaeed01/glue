@@ -7,11 +7,12 @@
     "ETL/ELT processes",
     "API integrations",
     "AWS",
-    "Data pipelines",
-    "Customer-facing",
-    "Technical expertise",
-    "Data integration",
-    "Cloud services"
+    "Data warehouses",
+    "PostgreSQL",
+    "Data pipeline orchestration",
+    "Customer-facing technical roles",
+    "Analytical mindset",
+    "Strong communication skills"
   ],
   "job_duties_and_responsibilities": [
     "Design and implement custom data integration solutions for enterprise mining customers",
@@ -24,16 +25,15 @@
   ],
   "required_qualifications": [
     "Experience with Python and data pipelines in a production environment",
-    "Knowledge of Snowflake and PostgreSQL",
-    "Practical understanding of ETL/ELT processes and data pipeline orchestration tools",
+    "Knowledge of Snowflake, PostgreSQL, ETL/ELT processes, and data pipeline orchestration tools",
     "Experience with API integrations, webhooks, and data streaming technologies",
     "Familiarity with cloud services like AWS",
     "Ability to write clean, maintainable scripts in Python, Node.js, and shell",
-    "Experience in customer-facing technical roles",
+    "Experience in customer-facing technical roles or professional services",
     "Analytical mindset and troubleshooting skills",
-    "Strong communication skills and attention to detail"
+    "Strong communication skills and collaborative mindset"
   ],
   "preferred_qualifications": [],
   "company_name": "CorePlan",
-  "company_details": "CorePlan is a Perth tech startup revolutionizing mining operations with a digital SaaS drilling management platform. The company aims to advance digital drilling operations in mining through innovative solutions and a high-performing team."
+  "company_details": "CorePlan is a Perth tech startup revolutionizing mining operations with a digital SaaS drilling management platform. The company aims to advance digital drilling operations in mining through innovative solutions and a high-performing team of self-starters."
 }

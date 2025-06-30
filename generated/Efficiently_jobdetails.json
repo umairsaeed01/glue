@@ -1,0 +1,45 @@
+{
+  "job_title": "Senior Full Stack Developer",
+  "job_purpose": "To play a key role in the development of an innovative platform for businesses in the oil and gas, mining, and heavy industrial sectors.",
+  "keywords": [
+    "Full-Stack Architecture Experience",
+    "Advanced Frontend Expertise",
+    "Familiarity with Web Components",
+    "Backend Mastery",
+    "DevOps & Infrastructure",
+    "Testing & Quality",
+    "Technical Leadership",
+    "Cross-functional Communication",
+    "Strategic Thinking",
+    "Problem-Solving Excellence",
+    "Start-up Mindset"
+  ],
+  "job_duties_and_responsibilities": [
+    "Design and implement scalable, maintainable full-stack solutions",
+    "Collaborate on researching and defining architectural patterns and technology choices",
+    "Guide junior developers through code reviews and knowledge-sharing sessions",
+    "Research and implement new technologies for competitive advantages",
+    "Take complete ownership of product features from design to deployment",
+    "Partner with product managers and designers to shape the product roadmap",
+    "Continuously improve application performance, scalability, and reliability",
+    "Implement and maintain security best practices across the stack",
+    "Design systems for large growth while maintaining performance and reliability",
+    "Improve development workflows, automate tasks, and enhance team productivity",
+    "Engage with key customers to understand their needs and translate feedback into solutions"
+  ],
+  "required_qualifications": [
+    "5+ years designing and implementing scalable web applications with modern tech stacks (React/Angular/Vue + C#/.NET)",
+    "Deep proficiency in modern JavaScript/TypeScript, state management patterns, and performance optimization techniques",
+    "Experience building RESTful APIs with C#/.NET, implementing secure authentication, and working with ORMs and relational databases",
+    "Hands-on experience with containerization (Docker, Kubernetes), CI/CD pipelines, and infrastructure-as-code practices",
+    "Proven track record implementing comprehensive testing strategies (unit, integration, E2E) and maintaining high code coverage",
+    "Experience mentoring junior developers and conducting code reviews",
+    "Ability to translate technical concepts for non-technical stakeholders and collaborate effectively with product, design, and business teams",
+    "Capacity to balance technical debt, feature development, and architectural decisions while aligning with business objectives",
+    "Passion for exploring emerging technologies and implementing cutting-edge solutions",
+    "Comfort with ambiguity and rapidly changing priorities in a fast-paced environment"
+  ],
+  "preferred_qualifications": [],
+  "company_name": "Efficiently",
+  "company_details": "Efficiently is an innovative tech start-up focused on revolutionizing how businesses in heavy industries leverage technology. The company is committed to developing a highly configurable platform that empowers customers to digitize their operations with flexibility and affordability at its core."
+}

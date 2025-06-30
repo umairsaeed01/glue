@@ -1,38 +1,44 @@
 {
-  "job_title": "Junior React Engineer (Contract)",
-  "job_purpose": "Join a dynamic team for an exciting project on an app used by over 2 million Australians, focusing on extending front-end applications for iOS and Android.",
+  "job_title": "Software Packaging Administrator",
+  "job_purpose": "Responsible for building, testing, and maintaining software packages to ensure efficient deployment across the organization.",
   "keywords": [
-    "React Engineer",
-    "Front-end applications",
-    "iOS",
-    "Android",
-    "Enterprise experience",
-    "Problem-solving",
-    "Communication skills",
-    "Team collaboration",
-    "Proactive",
-    "Video functionality",
-    "CMS integration"
+    "Software packaging",
+    "Deployment",
+    "SCCM",
+    "InstallShield",
+    "MSI",
+    "App-V",
+    "Windows",
+    "Mac operating systems",
+    "Troubleshooting",
+    "Documentation",
+    "Scripting tools",
+    "PowerShell",
+    "VBScript",
+    "Python",
+    "IT support",
+    "Communication",
+    "Cross-functional teams"
   ],
   "job_duties_and_responsibilities": [
-    "Collaborate with the team to extend and enhance front-end applications for iOS and Android platforms.",
-    "Implement video functionality and ensure seamless integration of content from the CMS.",
-    "Identify and address issues early to prevent escalation.",
-    "Contribute to high-quality and user-friendly feature delivery in a fast-paced environment."
+    "Develop and maintain software packages using SCCM, InstallShield, MSI, and App-V",
+    "Test packages in multiple environments for functionality and compatibility",
+    "Collaborate with IT teams to manage deployments and resolve deployment-related issues",
+    "Provide technical support for application packaging and distribution",
+    "Maintain thorough documentation and follow best practice standards"
   ],
   "required_qualifications": [
-    "Minimum of 2 years of hands-on experience in React development.",
-    "Experience in enterprise environments (large companies/clients).",
-    "Strong problem-solving skills and a can-do attitude.",
-    "Excellent communication skills.",
-    "Ability to work well within a team and integrate seamlessly.",
-    "Proactive in issue identification and resolution."
+    "Experience in software packaging and deployment",
+    "Proficiency in SCCM, InstallShield, and scripting tools (PowerShell, VBScript, Python)",
+    "Strong knowledge of Windows and Mac operating systems",
+    "Excellent troubleshooting and problem-solving skills",
+    "Strong communication and ability to work in cross-functional teams"
   ],
   "preferred_qualifications": [
-    "Experience with other frameworks in addition to React.",
-    "Location: Melbourne-based.",
-    "React experience preferred."
+    "Experience with cloud-based deployment tools",
+    "Relevant certifications (e.g., Microsoft Modern Desktop Administrator)",
+    "Familiarity with ITIL practices"
   ],
   "company_name": "Confidential (Company Name not provided in job description)",
-  "company_details": "Be part of a high-growth project for an app used by over 2 million Australians. Collaborate with a talented and diverse team in an innovative, supportive environment where your contributions directly impact the app\u2019s success."
+  "company_details": "Leading IT environment in Perth on a 6-month contract. Seeking a Software Packaging Administrator to ensure efficient and seamless deployment of software packages."
 }

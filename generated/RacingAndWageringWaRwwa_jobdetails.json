@@ -1,0 +1,40 @@
+{
+  "job_title": "Functional Test Engineer",
+  "job_purpose": "Joining RWWA as a Functional Test Engineer to enhance software quality and contribute to the expansion of the digital footprint.",
+  "keywords": [
+    "Software Testing",
+    "Test Automation",
+    "Automated UI Testing",
+    "Automated Mobile Application Testing",
+    "API Testing",
+    "Selenium Webdriver",
+    "Appium",
+    "Rest Sharp",
+    "Postman",
+    "Nunit",
+    "Xunit",
+    "C#",
+    "CI/CD tools",
+    "Gitlab",
+    "Azure DevOps",
+    "AWS",
+    "Agile environment"
+  ],
+  "job_duties_and_responsibilities": [
+    "Design and execute automated test scripts for UI, mobile apps, and APIs",
+    "Utilize Selenium Webdriver, Appium, Rest Sharp, Postman, Nunit, Xunit, and C# for testing",
+    "Work in a fast-paced agile environment",
+    "Contribute to continuous testing and innovation in testing technology"
+  ],
+  "required_qualifications": [
+    "Minimum 5 years of experience in Software Testing and Test Automation",
+    "Solid understanding of software development and testing life cycles",
+    "Proficiency in automated testing tools and frameworks",
+    "Experience with CI/CD tools like Gitlab and Azure DevOps",
+    "Cloud experience, specifically with AWS",
+    "Ability to work in a collaborative team setting"
+  ],
+  "preferred_qualifications": [],
+  "company_name": "Racing and Wagering WA (RWWA)",
+  "company_details": "RWWA is revolutionizing the digital entertainment industry, offering a collaborative and innovative work environment with flexible arrangements. The company values diversity and inclusion, providing opportunities for growth and learning."
+}

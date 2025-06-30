@@ -1,6 +1,6 @@
 {
   "job_title": "Automation and AI Integration Specialist",
-  "job_purpose": "To bring automation and AI into the heart of corporate and operational decision making, solving real problems for real users from the boardroom to the operations centre.",
+  "job_purpose": "To bring automation and AI into the heart of corporate and operational decision making.",
   "keywords": [
     "Automation",
     "AI Integration",
@@ -9,8 +9,6 @@
     "Python",
     "TypeScript",
     "APIs",
-    "Operational Platforms",
-    "Legacy Systems",
     "AI Tooling",
     "Transport",
     "Logistics",
@@ -34,5 +32,5 @@
   ],
   "preferred_qualifications": [],
   "company_name": "Make It Smarter",
-  "company_details": "Make It Smarter is a polished and professional corporate environment with a small, hands-on Tech team that values action over layers. They focus on fast, API-driven automation using tools like n8n, Python, and TypeScript. The company offers a collaborative environment that values transparency, simplicity, and momentum."
+  "company_details": "The corporate environment is polished and professional, while the Tech team is small, hands-on, and startup-like. The company values transparency, simplicity, and momentum."
 }

@@ -1,29 +1,7 @@
-Education:
-- Master of Data Science, Deakin University, Melbourne, VIC (July 2022 - Present)
-- Bachelors of Software Engineering, Bahria University, Islamabad, VIC (July 2018)
-
-Employment History:
-- Cyber Security Intern at WE CLAN, Melbourne, VIC (April 2024 - July 2024)
-
-Projects:
-1. AI-POWERED DENTAL APPOINTMENT SCHEDULER
-2. AI-GENERATED NO-CODE WEBSITE
-3. LEARNING INSIGHT REPORT
-4. INTERACTIVE MEDICAL DATA DASHBOARD
-
-Skills:
-Hard Skills:
-- Programming Languages: Python, C#, C++, C, SQL, PL/SQL
-- AI and Software Development: AI Engineering, Large Language Models (LLMs), Microservices, RESTful APIs
-- Cloud and Database Technologies: AWS, Azure, Oracle Database, ETL, Data Modeling
-- Tools & Technologies: FastAPI, Flask, Tableau, Power BI
-
-Soft Skills:
-- Stakeholder Collaboration
-- Analytical Thinking
-- Problem Solving
-- Time Management
-- Cross-Functional Teamwork
-
-Working Rights:
-Temporary Visa (unlimited working rights)
+Q: How many years' experience do you have as a software developer? | A: 2 years
+Q: How many years' experience do you have in a software development role? | A: 2 years
+Q: Which of the following statements best describes your right to work in Australia? | A: I have a graduate temporary work visa
+Q: How many years' experience do you have as a .NET developer? | A: 1 year
+Q: What's your expected annual base salary? | A: $80k
+Q: Do you have experience working within a scrum agile team? | A: Yes
+Q: Have you worked in a role which requires C# development experience? | A: Yes

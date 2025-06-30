@@ -1,0 +1,41 @@
+{
+  "job_title": "Full-Stack Web Developer",
+  "job_purpose": "To shape the eCommerce platform of a fast-growing children's clothing business, creating a seamless and engaging shopping experience for customers.",
+  "keywords": [
+    "Full-stack development",
+    "eCommerce websites",
+    "Front-end skills",
+    "Back-end knowledge",
+    "Customer journey design",
+    "Payment gateways",
+    "eCommerce analytics tools",
+    "CMS platforms",
+    "Mobile app development"
+  ],
+  "job_duties_and_responsibilities": [
+    "Develop, maintain, and optimize the website with a focus on UX, speed, and conversion",
+    "Build engaging front-end interfaces and scalable back-end systems",
+    "Implement and manage products, inventory, filters, and merchandising features",
+    "Create an intuitive shopping journey from landing page to post-purchase",
+    "Collaborate with design, marketing, and customer experience teams to translate business needs into technical solutions",
+    "Integrate and manage eCommerce platforms like WooCommerce",
+    "Oversee integration with payment gateways for secure transactions",
+    "Analyze site performance, user behavior, and checkout flows for improvements",
+    "Possibly contribute to mobile app development or API integrations"
+  ],
+  "required_qualifications": [
+    "Proven experience in full-stack development with a focus on eCommerce websites",
+    "Strong front-end skills: HTML5, CSS3, JavaScript (React, Vue, or similar)",
+    "Solid back-end knowledge: PHP, Node.js, Python, or similar",
+    "Understanding of customer journey design, sales funnels, and conversion optimization",
+    "Experience with payment gateways, secure checkout flows, and cart recovery strategies",
+    "Familiarity with eCommerce analytics tools like Google Analytics, SEM Rush, Hotjar, or similar",
+    "Comfort with CMS platforms and integrations",
+    "Proactive, collaborative mindset with a problem-solving attitude"
+  ],
+  "preferred_qualifications": [
+    "Experience with mobile app development or app store integration"
+  ],
+  "company_name": "Children's Clothing Carousel",
+  "company_details": "A fast-growing children's clothing business dedicated to making shopping for children's wear fun, easy, and beautifully simple. The company values creativity, high-energy, innovation, and a supportive culture that fosters initiative."
+}

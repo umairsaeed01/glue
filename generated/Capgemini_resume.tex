@@ -1,0 +1,127 @@
+%==== PACKAGES AND OTHER DOCUMENT CONFIGURATIONS  ====%
+\documentclass{resume} % Use the custom resume.cls style
+\usepackage[left=0.25in,top=0.25in,right=0.25in,bottom=0.25in]{geometry} % Document margins
+\usepackage[T1]{fontenc}
+\usepackage{xcolor}
+\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+\usepackage{fontawesome} % For GitHub and LinkedIn symbols
+\usepackage{textcomp} % For mobile phone and email symbols
+% \usepackage[colorlinks=true, linkcolor=blue, citecolor=blue, urlcolor=blue]{hyperref}
+\usepackage{xcolor}  % Required for defining custom colors
+\usepackage{hyperref}
+% Define your custom colors
+% \definecolor{myblue}{RGB}{173, 216, 246}
+% \definecolor{myblue}{RGB}{123, 176, 206}
+\definecolor{myblue}{RGB}{0, 164, 218}
+
+% Set hyperlink colors
+\hypersetup{
+    colorlinks=true,
+    linkcolor=myblue,
+    citecolor=myblue,
+    urlcolor=myblue
+}
+
+\usepackage{hyperref}
+
+%==== Headings ====%
+\name{Umair Saeed} % Your name
+\address{
+{\faPhone} \href{tel:+61{-}452024050}{+61{-}452024050} \quad {\faEnvelope} \href{mailto:umirsaed1@gmail.com}{umirsaed1@gmail.com} \quad {\faGithub} \href{https://github.com/umairsaeed01}{Umair} \quad {\faLinkedin} \href{https://www.linkedin.com/in/umirsae}{Umair} }
+
+\begin{document}
+
+%===== WORK EXPERIENCE SECTION =====%
+    \begin{rSection}{Work Experience}
+                    \begin{rSubsection}
+                {AI Engineer | Machine Learning Engineer}{April 2024 - July 2024}
+                                    {\normalfont{\textit{WECLAN}}}
+                                {\normalfont{\textit{Melbourne, VIC}}}
+                                    \item Developed a C{-}based security alert classifier with anomaly detection, reducing false positives by 25\%.
+                                    \item Conducted penetration testing automation using ML{-}based pattern recognition models, improving threat detection efficiency.
+                                    \item Built dashboard visualizations to monitor compliance metrics using Power BI \& Python.
+                            \end{rSubsection}
+            \end{rSection}
+
+%==== EDUCATION SECTION ====%
+\begin{rSection}{Education}
+                        \textbf{DEAKIN UNIVERSITY, Melbourne, VIC} \hfill {July 2022 - } \\
+                            {Master of Data Science}
+                         
+             
+         
+                        \textbf{BAHRIA UNIVERSITY, Islamabad, VIC} \hfill {July 2018 - July 2022} \\
+                            {Bachelors of Software Engineering}
+                         
+             
+         
+    \end{rSection}
+
+% ==== PROJECTS SECTION =====%
+    \begin{rSection}{Projects}
+                    \begin{rSubsection}
+                                    {AI{-}POWERED DENTAL APPOINTMENT SCHEDULER}
+                                {\normalfont{January 2025 - }}{}{}
+                                    \item Developed an NLP{-}driven AI voice assistant for automated dental appointment booking, integrating speech{-}to{-}text (Whisper API) \& text{-}to{-}speech (Google TTS) with 92\% accuracy, aligning with AI technology innovations at Capgemini.
+                                    \item Designed a scheduling algorithm using FastAPI, PostgreSQL, and .NET, achieving 100\% automation of the booking process, contributing to software development and DevOps initiatives.
+                                    \item Deployed the AI model using AWS Lambda \& Docker, reducing response time by 30\% and ensuring scalability, demonstrating proficiency in technology innovations.
+                            \end{rSubsection}
+                    \begin{rSubsection}
+                                    {AI{-}GENERATED NO{-}CODE WEBSITE}
+                                {\normalfont{February 2025 - }}{}{}
+                                    \item Built a fully functional AI{-}powered website generator (www.civaroai.com) using GPT{-}driven code conversion and C++ for backend efficiency, showcasing AI technology innovations.
+                                    \item Integrated an automated demo scheduling system via AI chatbots, reducing administrative workload by 30\%, demonstrating business analysis skills.
+                                    \item Increased website traffic by 15\% through Google Search Console optimization, contributing to technology innovations and client work.
+                            \end{rSubsection}
+                    \begin{rSubsection}
+                                    {LEARNING INSIGHT REPORT}
+                                {\normalfont{July 2022 - }}{}{}
+                                    \item Developed ML models predicting financial stability with 90\% accuracy, utilizing XGBoost \& Random Forest, aligning with AI and technology innovations at Capgemini.
+                                    \item Designed interactive Tableau dashboards for audience engagement tracking, showcasing data visualization skills.
+                                    \item Conducted customer segmentation analysis for targeted business strategies, demonstrating alignment with consulting industry practices.
+                            \end{rSubsection}
+                    \begin{rSubsection}
+                                    {INTERACTIVE MEDICAL DATA DASHBOARD}
+                                {\normalfont{Oct 2021 - }}{}{}
+                                    \item Built real{-}time SQL{-}connected Tableau dashboards for enhanced medical data visualization, aligning with technology innovations and client work at Capgemini.
+                                    \item Collected, cleaned, and analyzed large{-}scale patient datasets for statistical insights, showcasing data analysis skills.
+                                    \item Assisted in developing predictive models for medical research applications, contributing to technology innovations and software development.
+                            \end{rSubsection}
+            \end{rSection}
+
+%==== TECHNICAL STRENGTHS SECTION ====%
+    \begin{rSection}{Technical Skills}
+        \begin{tabular}{ @{} l @{	} l }
+                                \textbf{Programming}: SQL, PL/SQL, .NET, C, C++, C\#, Python, FastAPI, Flask\\
+                                \textbf{Technology}: Oracle Database, AWS, Azure, Database Indexing \& Optimization, Stored Procs, Functions, Triggers, PL/SQL Performance Tuning, ETL\\
+                                \textbf{Soft Skills}: Stakeholder Collaboration, Analytical Thinking, Problem Solving, Time Management\\
+                        %             %     \href{https://skillsoft.digitalbadges.skillsoft.com/profile/umairsaeed185770/wallet}{\textbf{Certifications:}} 
+            %     Machine Learning with TensorFlow \& Cloud ML, Storage \& Analytics, Implementations with BigQuery for Big Data\\
+            %  
+        \end{tabular}
+    \end{rSection}
+
+% CERTIFICATIONS SECTION
+    \begin{rSection}{Certifications}
+        \begin{rSubsection}{}{}{}
+                            \item Machine Learning with TensorFlow \& Cloud ML
+                            \item Storage \& Analytics
+                            \item Implementations with BigQuery for Big Data
+                    \end{rSubsection}
+        \href{https://skillsoft.digitalbadges.skillsoft.com/profile/umairsaeed185770/wallet}{View all certifications}
+    \end{rSection}
+
+% ACHIEVEMENTS SECTION
+    \begin{rSection}{Achievements}
+        \begin{rSubsection}{}{}{}
+                            \item Led a cross{-}functional team in implementing a new software development process, resulting in a 30\% increase in project efficiency
+                            \item Received recognition for outstanding problem{-}solving skills during a client project, leading to a 15\% improvement in client satisfaction
+                            \item Collaborated with the Program Management Office to streamline project communication, reducing meeting times by 20\%
+                    \end{rSubsection}
+    \end{rSection}
+
+\newcommand\myfontsize{\fontsize{0.1pt}{0.1pt}\selectfont} \myfontsize \color{white}
+Consulting industry, Practical experience, Client work, Professional network, Software Development, DevOps, Change Management, Business Analysis, Program Management Office, AI, Technology innovations, Consulting industry, Practical experience, Client work, Professional network, Software Development, DevOps, Change Management, Business Analysis, Program Management Office, AI, Technology innovations, {artificial intelligence engineer, azure cognitive services exp, azure services, core azure services, azure cognitive and generative ai, genai, aws,  gcp, java, clean, efficient, maintainable code, react, front end, back end, ai solutions, data analysis, pretrained models, automl, software development principles, version control, testing, continuous integration and deployment, python, javascript, prompt engieering, frontend, backend, html, css, api, angular, development, machine learning, artificial intelligence, deep learning, data warehouse, data modeling, data extraction, data transformation, data loading, sql, etl, data quality, data governance, data privacy, data visualization, data controls, privacy, security, compliance, sla, aws, terabyte to petabyte scale data, full stack software development, cloud, security engineering, security architecture, ai/ml engineering, technical product management, microsoft office, google suite, visualization tools, scripting, coding, programming languages, analytical skills, collaboration, leadership, communication, presentation skills, computer vision, senior, ms or ph.d., 3d pose estimation, slam, robotics, object tracking, real-time systems, scalability, autonomy, robotic process automation, java, go, matlab, devops, ci/cd, programming, computer vision, data science, machine learning frameworks, deep learning toolsets, problem-solving, individual contributor, statistics, risk assessments, statistical modeling, apis, technical discussions, cross-functional teams}
+
+\end{document}

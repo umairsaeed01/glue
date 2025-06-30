@@ -30,24 +30,69 @@ def debug_print(message, level="INFO"):
     """Helper function for consistent debug output"""
     print(f"[{level}] {message}")
 
-def dispatch_special_pages(driver, job_url=None, row_number=None, csv_file_path=None):
+def extract_company_name_from_resume_path(resume_path):
+    """Extract company name from resume filename (e.g., 'Microsoft_resume.pdf' -> 'Microsoft')"""
+    try:
+        if not resume_path:
+            return None
+        
+        filename = os.path.basename(resume_path)
+        # Remove '_resume.pdf' suffix
+        if filename.endswith('_resume.pdf'):
+            company_name = filename[:-12]  # Remove '_resume.pdf'
+            return company_name
+        else:
+            # Fallback: try to extract any company-like name
+            name_parts = filename.replace('.pdf', '').split('_')
+            if len(name_parts) > 1:
+                return name_parts[0]
+            return None
+    except Exception as e:
+        print(f"[Company Name] Error extracting company name: {e}")
+        return None
+
+def dispatch_special_pages(driver, job_url=None, row_number=None, csv_file_path=None, resume_path=None):
     """Dispatch to appropriate page handler based on URL"""
     global question_logs_global
+    
+    # Extract company name from resume path
+    company_name = extract_company_name_from_resume_path(resume_path)
     
     url = driver.current_url
 
     # 1) Role Requirements page - INTERMEDIATE PAGE (continue to next step)
     if "/apply/role-requirements" in url:
         print("[Dispatcher] Detected role-requirements page, dispatching to handler")
-        success, question_logs = handle_dynamic_questions(driver)
+        from role_requirements_handler import handle_role_requirements_page
+        result = handle_role_requirements_page(driver, resume_pdf_path=resume_path, company_name=company_name)
+        
+        # Handle both old and new return formats
+        if isinstance(result, tuple):
+            success, question_logs = result
+            # Store question logs for later use
+            question_logs_global = question_logs
+            print(f"[Dispatcher] Role requirements question logs: {question_logs}")
+        else:
+            success = result
+            question_logs_global = ""  # No questions from role requirements
+            
+        if not success:
+            raise RuntimeError("Role requirements handler failed to fill the form.")
+        print("[Dispatcher] Role-requirements page handled successfully, continuing to next step")
+        return False  # Continue to next step, don't exit
+
+    # 2) Dynamic questions page - INTERMEDIATE PAGE (continue to next step)
+    if any(indicator in url for indicator in ["questions", "screening"]) or "/apply/questions" in url:
+        print("[Dispatcher] Detected dynamic questions page, dispatching to handler")
+        success, question_logs = handle_dynamic_questions(driver, resume_pdf_path=resume_path, company_name=company_name)
         if not success:
             raise RuntimeError("Dynamic handler failed to fill the form.")
         # Store question logs for later use
         question_logs_global = question_logs
-        print("[Dispatcher] Role-requirements page handled successfully, continuing to next step")
+        print("[Dispatcher] Dynamic questions page handled successfully, continuing to next step")
         return False  # Continue to next step, don't exit
 
-    # 2) Profile page - INTERMEDIATE PAGE (continue to next step)
+    # 3) Profile page - INTERMEDIATE PAGE (continue to next step)
     if "/apply/profile" in url:
         print("[Dispatcher] Detected profile page, dispatching to handler")
         from profile_handler import handle_profile_page
@@ -58,7 +103,7 @@ def dispatch_special_pages(driver, job_url=None, row_number=None, csv_file_path=
             print("[Dispatcher] Profile page handling failed")
             return False
 
-    # 3) Review page - INTERMEDIATE PAGE (continue to next step)
+    # 4) Review page - INTERMEDIATE PAGE (continue to next step)
     if "/apply/review" in url:
         print("[Dispatcher] Detected review page, dispatching to handler")
         from review_handler import handle_review_page
@@ -69,7 +114,7 @@ def dispatch_special_pages(driver, job_url=None, row_number=None, csv_file_path=
             print("[Dispatcher] Review page handling failed")
             return False
 
-    # 4) Success page - FINAL PAGE (end process)
+    # 5) Success page - FINAL PAGE (end process)
     # Check multiple success page patterns
     success_indicators = [
         "/apply/success" in url,
@@ -87,6 +132,7 @@ def dispatch_special_pages(driver, job_url=None, row_number=None, csv_file_path=
     
     if any(success_indicators):
         print("[Dispatcher] Detected success page, dispatching to handler")
+        print(f"[Dispatcher] question_logs_global value: '{question_logs_global}'")
         from success_handler import handle_success_page
         # Pass the collected question logs to the success handler
         result = handle_success_page(driver, job_url, row_number, csv_file_path=csv_file_path, questions_and_answers=question_logs_global)
@@ -102,7 +148,7 @@ def dispatch_special_pages(driver, job_url=None, row_number=None, csv_file_path=
 
     return False
 
-def try_click_continue(driver, job_url=None, row_number=None, csv_file_path=None):
+def try_click_continue(driver, job_url=None, row_number=None, csv_file_path=None, resume_path=None):
     """Try to click the continue button using multiple selectors"""
     selectors = [
         "button[data-testid='continue-button']",
@@ -125,7 +171,7 @@ def try_click_continue(driver, job_url=None, row_number=None, csv_file_path=None
             print(f"[SUCCESS] Clicked continue button using selector: {selector}")
             
             # Check if we need to dispatch to special page handler
-            dispatch_result = dispatch_special_pages(driver, job_url, row_number, csv_file_path=csv_file_path)
+            dispatch_result = dispatch_special_pages(driver, job_url, row_number, csv_file_path=csv_file_path, resume_path=resume_path)
             if dispatch_result == 'SUCCESS_COMPLETE':
                 return 'SUCCESS_COMPLETE'  # Application complete, exit
             elif dispatch_result is True:  # Only exit for success pages (True), not intermediate pages (False)
@@ -294,7 +340,7 @@ def main(job_url=None, resume_path=None, cover_letter_path=None, row_number=None
                 debug_print("Waiting 10 seconds before clicking continue button...", "INFO")
                 time.sleep(10)
                 # Try to click continue button after uploads
-                continue_result = try_click_continue(driver, job_url, row_number, csv_file_path=csv_file_path)
+                continue_result = try_click_continue(driver, job_url, row_number, csv_file_path=csv_file_path, resume_path=resume_path)
                 if continue_result == 'SUCCESS_COMPLETE':
                     debug_print("Application completed successfully, exiting main loop", "SUCCESS")
                     csv_updated_by_handler = True  # Success handler updated CSV
@@ -303,7 +349,7 @@ def main(job_url=None, resume_path=None, cover_letter_path=None, row_number=None
                 elif continue_result:
                     debug_print("Successfully clicked continue button after uploads", "SUCCESS")
                     # Check if we need to dispatch to special page handler
-                    dispatch_result = dispatch_special_pages(driver, job_url, row_number, csv_file_path=csv_file_path)
+                    dispatch_result = dispatch_special_pages(driver, job_url, row_number, csv_file_path=csv_file_path, resume_path=resume_path)
                     if dispatch_result == 'SUCCESS_COMPLETE':
                         debug_print("Application completed successfully, exiting main loop", "SUCCESS")
                         csv_updated_by_handler = True  # Success handler updated CSV
@@ -323,7 +369,7 @@ def main(job_url=None, resume_path=None, cover_letter_path=None, row_number=None
             debug_print(f"Current URL: {current_url}", "INFO")
 
             # Check if we need to dispatch to special page handler
-            dispatch_result = dispatch_special_pages(driver, job_url, row_number, csv_file_path=csv_file_path)
+            dispatch_result = dispatch_special_pages(driver, job_url, row_number, csv_file_path=csv_file_path, resume_path=resume_path)
             if dispatch_result == 'SUCCESS_COMPLETE':
                 debug_print("Application completed successfully, exiting main loop", "SUCCESS")
                 csv_updated_by_handler = True  # Success handler updated CSV
@@ -351,8 +397,9 @@ def main(job_url=None, resume_path=None, cover_letter_path=None, row_number=None
             
             if any(success_indicators):
                 debug_print("Detected success page in main loop, dispatching to handler", "SUCCESS")
+                print(f"[Main Loop] question_logs_global value: '{question_logs_global}'")
                 from success_handler import handle_success_page
-                result = handle_success_page(driver, job_url, row_number, csv_file_path=csv_file_path)
+                result = handle_success_page(driver, job_url, row_number, csv_file_path=csv_file_path, questions_and_answers=question_logs_global)
                 if result == 'SUCCESS_COMPLETE' or result:
                     debug_print("Application completed successfully, exiting main loop", "SUCCESS")
                     csv_updated_by_handler = True  # Success handler updated CSV
@@ -424,7 +471,7 @@ def main(job_url=None, resume_path=None, cover_letter_path=None, row_number=None
                 executed_action_keys.add(f"{action['action']}|{action['selector']}|{action.get('value', '')}")
 
                 # Check if we need to dispatch to special page handler after each action
-                dispatch_result = dispatch_special_pages(driver, job_url, row_number, csv_file_path=csv_file_path)
+                dispatch_result = dispatch_special_pages(driver, job_url, row_number, csv_file_path=csv_file_path, resume_path=resume_path)
                 if dispatch_result == 'SUCCESS_COMPLETE':
                     debug_print("Application completed successfully, exiting action loop", "SUCCESS")
                     csv_updated_by_handler = True  # Success handler updated CSV
@@ -438,7 +485,7 @@ def main(job_url=None, resume_path=None, cover_letter_path=None, row_number=None
 
             # Handle any remaining special pages in sequence (role-requirements → profile → review)
             while True:
-                dispatch_result = dispatch_special_pages(driver, job_url, row_number, csv_file_path=csv_file_path)
+                dispatch_result = dispatch_special_pages(driver, job_url, row_number, csv_file_path=csv_file_path, resume_path=resume_path)
                 if dispatch_result == 'SUCCESS_COMPLETE':
                     debug_print("Application completed successfully, exiting main loop", "SUCCESS")
                     csv_updated_by_handler = True  # Success handler updated CSV

@@ -1,0 +1,39 @@
+{
+  "job_title": "Data Engineer",
+  "job_purpose": "To build and maintain analytics services on a Microsoft Azure-hosted Digital Data Platform, create secure and scalable data pipelines, engage with stakeholders to deliver solutions, transform raw data into valuable insights, work in an agile environment, and support governance frameworks around data ownership and cataloguing.",
+  "keywords": [
+    "Data Engineer",
+    "Azure Data Factory",
+    "Azure cloud",
+    "Python",
+    "SQL",
+    "ETL",
+    "CI/CD",
+    "Data warehousing",
+    "Data platform architectures",
+    "Stakeholder engagement"
+  ],
+  "job_duties_and_responsibilities": [
+    "Building and maintaining analytics services on a Microsoft Azure-hosted Digital Data Platform",
+    "Creating secure, scalable data pipelines using Azure Data Factory, Databricks, and related tools",
+    "Engaging with stakeholders across the business to understand their data needs and deliver solutions",
+    "Helping transform raw data into valuable insights by modeling it into robust, dimensional formats",
+    "Working in an agile environment, deploying resources via CI/CD and managing code through Azure DevOps",
+    "Supporting and maintaining governance frameworks around data ownership and cataloguing"
+  ],
+  "required_qualifications": [
+    "At least 3 years of experience in data engineering, integration, or application development",
+    "Strong Python and SQL skills",
+    "Hands-on experience with Azure Data Factory (or Fabric Pipelines), plus broader Azure cloud skills",
+    "A solid grasp of data warehousing, ETL concepts, and modern data platform architectures",
+    "Experience using CI/CD tools (Terraform, Jenkins, etc.) and Git-based version control",
+    "A collaborative, stakeholder-focused mindset \u2013 with the ability to work autonomously as needed"
+  ],
+  "preferred_qualifications": [
+    "Prior experience in mining or refinery operations (highly desirable)",
+    "Microsoft certifications in Azure",
+    "A degree in Computer Science, IT, Engineering, or similar \u2013 or equivalent hands-on experience"
+  ],
+  "company_name": "Confidential (Company Name not provided in the job description)",
+  "company_details": "A well-established and forward-thinking organization seeking a skilled Data Engineer to help drive their digital transformation journey. The role involves working on a modern Azure-hosted platform, collaborating with various teams, and contributing to solving real operational problems."
+}

@@ -1,0 +1,36 @@
+{
+  "job_title": "Graduate or Junior Software Engineer",
+  "job_purpose": "Supporting software systems that power mining operations and industrial process control at BEC Engineering in Burswood, WA.",
+  "keywords": [
+    "C#",
+    "Software Engineering",
+    "Documentation",
+    "Testing",
+    "Development",
+    "Technical Writing",
+    "Problem-Solving",
+    "Industrial Systems",
+    "Process Control",
+    "Software Development Practices"
+  ],
+  "job_duties_and_responsibilities": [
+    "Maintain, support, and improve existing software systems using C#",
+    "Create and maintain technical documentation for long-term maintainability",
+    "Assist in testing, debugging, and validating software",
+    "Collaborate with senior developers and engineers for updates and ongoing development",
+    "Support operational teams by addressing technical issues and participating in investigations"
+  ],
+  "required_qualifications": [
+    "Degree in Computer Science, Software Engineering, or related field",
+    "Basic experience with C# or similar programming language",
+    "Strong communication and technical writing skills",
+    "Detail-oriented problem-solving and documentation approach"
+  ],
+  "preferred_qualifications": [
+    "Familiarity with tools like Git, unit testing frameworks, or issue tracking systems",
+    "Interest in industrial systems, process control, or operational environments",
+    "Exposure to structured software development practices"
+  ],
+  "company_name": "BEC Engineering",
+  "company_details": "BEC Engineering is a well-established and respected Electrical, Power and Control Systems Engineering Consulting firm located in Burswood, WA. They offer a supportive environment with strong mentorship and training, real-world experience in software and industrial engineering, opportunities for skill growth, competitive compensation, and the chance to contribute to mission-critical systems in the mining industry."
+}

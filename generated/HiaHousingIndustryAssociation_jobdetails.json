@@ -1,0 +1,40 @@
+{
+  "job_title": "Developer (.NET and SiteCore)",
+  "job_purpose": "To provide .NET and SiteCore development and support services to HIA, contributing to the organization's vision of representing the Australian residential building industry and maintaining high standards.",
+  "keywords": [
+    ".NET Framework",
+    "SiteCore Development",
+    "C#",
+    "ASP.Net",
+    "Web forms",
+    "REST/WEB API",
+    "jQuery",
+    "Javascript",
+    "HTML",
+    "CSS",
+    "XML",
+    "T-SQL",
+    "DEVops",
+    "Dynamics CRM",
+    ".NET Core MVC",
+    "Entity Framework/nHibernate ORM"
+  ],
+  "job_duties_and_responsibilities": [
+    "Develop high-quality code leveraging existing code libraries, patterns, and architectural techniques",
+    "Design and develop functional web applications based on usability",
+    "Configuration and creation of new SiteCore assets",
+    "Provide SiteCore/.Net technical expertise",
+    "Participate in sprint planning and technical design",
+    "Maintain currency of skill set through training and seminars",
+    "Ensure all development is done in accordance with IT processes"
+  ],
+  "required_qualifications": [
+    "Experience in SiteCore and .NET framework administration",
+    "Detail-oriented with strong analytical and problem-solving skills",
+    "Self-motivated with the ability to work independently and in a team",
+    "Conversant with various technologies including .NET Framework, WCF, SOAP, C#, ASP.Net, VB.Net, Web forms, REST/WEB API, jQuery, Javascript, SOAP, HTML, CSS, XML, XSLT, T-SQL, DEVops, Dynamics CRM, .NET Core MVC, Entity Framework/nHibernate ORM"
+  ],
+  "preferred_qualifications": [],
+  "company_name": "HIA (Housing Industry Association)",
+  "company_details": "HIA has been representing the Australian residential building industry for over seventy-five years, focusing on creating real change, providing quality services at the lowest possible cost, and maintaining high standards. Employees enjoy attractive benefits including annual leave purchase options, salary sacrifice arrangements, study assistance programs, paid maternity leave, and group insurance cover."
+}

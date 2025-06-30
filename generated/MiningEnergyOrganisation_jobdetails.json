@@ -36,7 +36,7 @@
     "Implement prompt engineering strategies and optimization techniques",
     "Create autonomous agents for complex multi-step tasks",
     "Integrate LLM-powered features into products with strong UX",
-    "Develop evaluation frameworks for LLM output quality and safety",
+    "Develop evaluation frameworks to test LLM output quality",
     "Stay updated on LLM advancements and contribute to best practices",
     "Write clean, maintainable, and well-documented code"
   ],
@@ -46,7 +46,7 @@
     "Strong proficiency in Python (preferred) or TypeScript/JavaScript",
     "Experience integrating APIs, especially LLMs",
     "Familiarity with FastAPI, Flask, Node.js",
-    "Understanding of prompt engineering and model evaluation",
+    "Understanding of prompt engineering and basic model evaluation",
     "Experience with cloud platforms (AWS, GCP, Azure)",
     "Experience with AI development tools and libraries",
     "Knowledge of data privacy and security concerns in AI applications"

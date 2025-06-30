@@ -1,40 +1,38 @@
 {
-  "job_title": "Data Scientist",
-  "job_purpose": "Seeking a Data Scientist to work on a contract basis on an exciting new project in Perth, Australia.",
+  "job_title": "Senior Back End Developer",
+  "job_purpose": "Designing, implementing, and maintaining robust, scalable backend software for a next-generation fleet management and autonomy solution.",
   "keywords": [
-    "Data Scientist",
-    "Statistical Analysis",
-    "Machine Learning",
-    "Python",
-    "SQL",
-    "R",
-    "Data Visualization",
-    "Cloud Computing",
-    "Git Code Management"
+    "C# .NET Core",
+    "Entity Framework",
+    "RabbitMQ",
+    "SQL Server",
+    "unit testing frameworks",
+    "microservice architectures",
+    "Docker",
+    "Kubernetes",
+    "Linux systems",
+    "Akka.net"
   ],
   "job_duties_and_responsibilities": [
-    "Provide expertise on statistical, mathematical, and machine learning concepts",
-    "Conduct research, design, and implement cutting-edge algorithms and predictive statistical models",
-    "Perform exploratory analysis of datasets to develop and refine preliminary hypotheses",
-    "Identify key data features and engineer data pipelines",
-    "Provide training and knowledge transfer for analytics products",
-    "Develop and deploy data science solutions using best-in-class processes",
-    "Foster an innovative and disruptive technology culture"
+    "Design and implement backend services, APIs, and behaviors meeting functional and non-functional requirements",
+    "Lead technical execution of complex user stories from design to deployment",
+    "Contribute to technical design reviews and provide feedback on system architecture",
+    "Ensure code quality through peer reviews, automated testing, and documentation",
+    "Improve codebase maintainability through refactoring, observability, and test coverage enhancements",
+    "Mentor junior developers on patterns, practices, and software design paradigms",
+    "Collaborate with Domain Engineers to integrate shared frameworks and libraries",
+    "Escalate technical risks or misalignments to the Tech Lead"
   ],
   "required_qualifications": [
-    "Tertiary qualifications in Mathematics, Statistics, Computer Science, or related field",
-    "Strong technical background and coding skills in Python, SQL, and/or R",
-    "Experience in implementing data science projects using HR or Social Sciences data",
-    "Solid understanding of statistical concepts, machine learning, and algorithms",
-    "Experience with data manipulation and analysis libraries",
-    "Strong analytical and problem-solving skills",
-    "Excellent communication and teamwork abilities",
-    "Curiosity and eagerness to learn new concepts and technologies"
+    "Proven 5+ years' experience as a Software Developer or similar role",
+    "Experience with C# .NET Core, Entity Framework, RabbitMQ",
+    "Experience with SQL Server",
+    "Experience with unit testing frameworks",
+    "Experience with microservice architectures and containerization using Docker or Kubernetes",
+    "Familiarity with Linux systems",
+    "Familiarity with Akka.net"
   ],
-  "preferred_qualifications": [
-    "Experience with cloud computing platforms like AWS and Azure",
-    "Experience with Git code management tools"
-  ],
+  "preferred_qualifications": [],
   "company_name": "Brunel",
-  "company_details": "Brunel is a recruitment and flexible workforce solution provider connecting talented individuals with opportunities in Australasia and globally. They specialize in highly skilled roles across various disciplines and pride themselves on being an equal opportunity employer."
+  "company_details": "Brunel is a recruitment and flexible workforce solution provider connecting talented people with opportunities in Australasia and globally. They specialize in highly skilled roles across technical, professional, trades, and craft disciplines."
 }

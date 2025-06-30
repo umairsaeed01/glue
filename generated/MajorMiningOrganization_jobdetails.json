@@ -1,0 +1,36 @@
+{
+  "job_title": "Senior .NET Developer - Mining Industry",
+  "job_purpose": "To design, build, and maintain scalable software solutions for mission-critical mining applications within a major mining organization.",
+  "keywords": [
+    ".NET",
+    "Python",
+    "Mining Industry",
+    "C# .NET",
+    "REST APIs",
+    "Microservices",
+    "Azure",
+    "AWS",
+    "SQL Server",
+    "PostgreSQL",
+    "CI/CD",
+    "DevOps",
+    "Agile Methodologies"
+  ],
+  "job_duties_and_responsibilities": [
+    "Design, build, and maintain scalable software solutions across mining operations",
+    "Collaborate with cross-functional teams to modernize legacy systems and integrate new platforms",
+    "Support the full SDLC: analysis, development, testing, deployment, and documentation",
+    "Solve complex problems in high-volume, data-intensive environments"
+  ],
+  "required_qualifications": [
+    "Strong skills in C# .NET (Core & Framework) and Python",
+    "Solid experience with REST APIs, microservices, and cloud platforms (Azure or AWS)",
+    "Familiarity with mining systems (fleet management, grade control, geological tools)",
+    "Expertise in SQL Server/PostgreSQL, CI/CD, and DevOps practices",
+    "Strong communication skills and ability to work with distributed teams",
+    "Proven track record with enterprise-scale applications and agile methodologies"
+  ],
+  "preferred_qualifications": [],
+  "company_name": "Major Mining Organization",
+  "company_details": "An established digital team within a major mining organization, driving innovation across diverse mining operations."
+}

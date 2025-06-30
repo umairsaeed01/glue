@@ -1,0 +1,55 @@
+{
+  "job_title": "Junior Web Application Developer",
+  "job_purpose": "To assist in front-end and back-end development of web applications, provide customer support, work with REST and GraphQL APIs, and contribute to project planning in a supportive and technically modern environment.",
+  "keywords": [
+    "Vue.js",
+    "React",
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "REST",
+    "GraphQL",
+    "Node.js",
+    "Python",
+    "Bootstrap",
+    "AWS Lambda",
+    "PostgreSQL",
+    "CI/CD pipelines",
+    "CircleCI",
+    "Serverless Framework",
+    "Agile software development",
+    "Git",
+    "AgriFood",
+    "Agricultural data",
+    "GIS data"
+  ],
+  "job_duties_and_responsibilities": [
+    "Assist senior developers in front-end development using Vue.js or React",
+    "Provide customer support by resolving technical support tickets",
+    "Handle small-scale standalone development tasks as assigned",
+    "Work with REST and GraphQL APIs to fetch and display data",
+    "Collaborate with the team using Git for version control and CircleCI for deployments",
+    "Design, develop, and maintain both front-end and back-end components of web applications",
+    "Participate in the Agile software development process and contribute to project planning and estimation"
+  ],
+  "required_qualifications": [
+    "Basic experience with single-page applications using Vue.js or React",
+    "Familiarity with JavaScript, HTML, CSS",
+    "Eagerness to learn and grow in a collaborative team environment",
+    "Strong problem-solving skills and a proactive mindset",
+    "Basic understanding of APIs (REST or GraphQL)",
+    "Familiarity with Node.js and/or Python for backend tasks",
+    "Experience with Bootstrap for responsive UI design",
+    "Exposure to AWS Lambda and serverless computing",
+    "Understanding of PostgreSQL or other relational databases",
+    "Hands-on experience with CI/CD pipelines (e.g., CircleCI)",
+    "Familiarity with Serverless Framework for deploying cloud functions",
+    "Tertiary qualification in Computer Science, Information Technology, or another relevant field",
+    "Self-motivated and able to work both autonomously and within a team environment"
+  ],
+  "preferred_qualifications": [
+    "Exposure to agriculture, agrifood, agricultural data, or GIS data"
+  ],
+  "company_name": "AxisTech",
+  "company_details": "AxisTech is an AgriFood Tech company providing dynamic and innovative services and solutions in agriculture and the food and beverage value chain. The company offers a supportive and technically modern environment with genuine opportunities for career development."
+}

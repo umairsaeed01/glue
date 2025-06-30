@@ -1,0 +1,42 @@
+{
+  "job_title": "Systems Developer",
+  "job_purpose": "Enhancing and maintaining the ERP platform, NetSuite, and ensuring seamless integration of related third-party applications at Ear Science Institute Australia.",
+  "keywords": [
+    "Systems Developer",
+    "ERP platform",
+    "NetSuite",
+    "SuiteScript",
+    "REST-based APIs",
+    "OAuth2",
+    "JWT",
+    "data migration",
+    "system integration",
+    "Microsoft 365",
+    "SharePoint"
+  ],
+  "job_duties_and_responsibilities": [
+    "Collaborate with internal stakeholders to translate business requirements into ERP functionality",
+    "Develop and maintain configurations, customizations, and custom scripts using SuiteScript in NetSuite",
+    "Integrate multiple software products and implement REST-based and other APIs",
+    "Implement and maintain OAuth2 and JWT\u2019s",
+    "Troubleshoot and debug issues in existing customizations",
+    "Identify areas of improvement in the system",
+    "Support system integration of corporate applications and process automation development",
+    "Support end-user requests for new reports, dashboards, roles, and permissions",
+    "Maintain and support the NetSuite ERP applications and related 3rd party integrations"
+  ],
+  "required_qualifications": [
+    "Bachelor\u2019s Degree in Computer Science / Information Technology",
+    "Strong knowledge of JavaScript, C#, HTML, CSS",
+    "Strong understanding of databases, particularly MSSQL",
+    "Experience with NetSuite administration and/or implementation",
+    "Experience with REST-based and other APIs",
+    "Experience with OAuth2 and JWT\u2019s",
+    "Experience with data migration",
+    "Proficiency in integrating with multiple software products",
+    "Experience with Microsoft 365 and SharePoint"
+  ],
+  "preferred_qualifications": [],
+  "company_name": "Ear Science Institute Australia",
+  "company_details": "Ear Science Institute Australia is dedicated to transforming the lives of individuals with ear and hearing disorders through cutting-edge research, clinical care, and innovation. The organization values workplace diversity, promotes inclusion, and encourages applications from Aboriginal and Torres Strait Islanders, women, and individuals with disabilities."
+}

@@ -3,8 +3,11 @@ import csv
 import sys
 from collections import Counter
 
-def check_csv_status(csv_file_path="software_engineer.csv"):
+def check_csv_status(csv_file_path):
     """Check the status of all jobs in the CSV file"""
+    if not csv_file_path:
+        print("Error: No CSV file path provided.")
+        return 1
     try:
         with open(csv_file_path, 'r', newline='', encoding='utf-8') as file:
             reader = csv.DictReader(file)
@@ -68,4 +71,8 @@ def check_csv_status(csv_file_path="software_engineer.csv"):
     return 0
 
 if __name__ == "__main__":
-    sys.exit(check_csv_status()) 
+    if len(sys.argv) < 2:
+        print("Error: Please provide the CSV file name as an argument (e.g., python check_status.py ai.csv)")
+        sys.exit(1)
+    csv_file_path = sys.argv[1]
+    sys.exit(check_csv_status(csv_file_path)) 
