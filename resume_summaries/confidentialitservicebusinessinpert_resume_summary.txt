@@ -1,0 +1,98 @@
+Education:
+- Master of Data Science from Deakin University, Melbourne, VIC (July 2022 - Present)
+- Bachelors of Software Engineering from Bahria University, Islamabad, VIC (July 2018)
+
+Employment History:
+- AI Engineer | Machine Learning Engineer at WECLAN, Melbourne, VIC (April 2024 - July 2024)
+  - Developed a C-based security alert classifier with anomaly detection, reducing false positives by 25%.
+  - Conducted penetration testing automation using ML-based pattern recognition models.
+  - Built dashboard visualizations to monitor compliance metrics using Power BI & Python.
+
+Projects:
+1. AI-POWERED DENTAL APPOINTMENT SCHEDULER (January 2025 - Present)
+   - Developed an NLP-driven AI voice assistant for automated dental appointment booking.
+   - Technologies: FastAPI, PostgreSQL, .NET, AWS Lambda, Docker.
+   - Achieved 100% automation of the booking process and reduced response time by 30%.
+
+2. AI-GENERATED NO-CODE WEBSITE (February 2025 - Present)
+   - Built an AI-powered website generator using GPT-driven code conversion and C++ for backend efficiency.
+   - Integrated an automated demo scheduling system via AI chatbots.
+   - Increased website traffic by 15% through Google Search Console optimization.
+
+3. LEARNING INSIGHT REPORT (July 2022 - Present)
+   - Developed ML models predicting financial stability with 90% accuracy using XGBoost & Random Forest.
+   - Designed interactive Tableau dashboards for audience engagement tracking.
+   - Conducted customer segmentation analysis for targeted business strategies.
+
+4. INTERACTIVE MEDICAL DATA DASHBOARD (October 2021 - Present)
+   - Built real-time SQL-connected Tableau dashboards for enhanced medical data visualization.
+   - Collected, cleaned, and analyzed large-scale patient datasets for statistical insights.
+   - Assisted in developing predictive models for medical research applications.
+
+Skills:
+Hard Skills:
+- Programming: SQL, PL/SQL, .NET, C, C++, C#, Python
+- Technology: Oracle Database, AWS, Azure, Database Indexing & Optimization, ETL
+Soft Skills:
+- Stakeholder Collaboration, Analytical Thinking, Problem Solving, Time Management, Team Collaboration
+
+==================================================
+ADDITIONAL INFORMATION
+==================================================
+
+-5
+-
+Email: umirsaed1@gmail.com | Phone: +61-452024050
+Certifications:
+Machine Learning with TensorFlow & Cloud ML
+Storage & Analytics
+Implementations with BigQuery for Big Data
+Launching your IT career opportunities
+Gaining Insight through Organizational Awareness
+Using Performance Appraisals to Advance Your Career
+Getting Your Career on the Right Track
+Power Up: Turning on Your Self-starter Potential
+Developing Your Business Acumen
+Developing a Plan to Further Your Career
+Math & Optimizations: Introducing Sets & Set Operations
+SCOR: PKI & IKE
+SCOR: Network Access & Secure Network Management
+Emerging Technologies and IT Career Pathways
+Getting Started with Machine Learning
+How Blockchain Technology is Transforming Businesses
+Agile Principles and Methodologies
+Connecting with the Internet of Things
+SCOR: Security Basics & Common Threats
+Building and Training the Project Team (2021 Update)
+New Project Manager Essentials
+CBROPS: CVSS, Deployments, Access Control, & Data Visibility
+Cultivating Cross-functional Team Collaboration
+Enabling Business-IT Collaboration and Strategic Alignment
+Strategies for Managing Technical Teams
+CBROPS: The CIA Triad & Security Approaches
+CBROPS: Threat Actors, Security, & Risk Management
+Navigating IT Careers and Professional Environments
+Building Digital Dexterity in Organizations
+Developing Diplomacy and Tact
+Building Trust with Business Ethics
+RSTECH: Cisco Memory Functions & Removing Cisco Devices
+Becoming a Continuous Learner
+RSTECH: Networking Hardware, Models, & Technologies
+RSTECH: Network Responsibilities, Addressing, & Utilities
+Synchronize Goals to Optimize Your Team
+Building Customer Relationships in a Virtual Environment
+Learning from Failure and Success
+Setting up your Individual & Team Learnings
+Contributing as a Virtual Team Member
+Facing Virtual Team Challenges
+LINKS:
+Github:// https://github.com/umairsaeed01
+LinkedIn:// https://www.linkedin.com/in/umirsaed/
+SOCIETIES:
+Deakin University Computer Society
+(DUCS)
+Scrum Alliance Certified ScrumMaster
+Working Rights:
+Temporary Visa Graduate working visa (unlimited working rights)
+Living in:
+Perth

@@ -18,7 +18,7 @@ from playbook_executor import execute_playbook_actions
 from llm_agent import analyze_page_with_context, generate_playbook
 from openai import OpenAI
 from html_processor import extract_form_sections
-from dynamic_handler import handle_dynamic_questions
+from role_requirements_handler import handle_role_requirements_page
 
 RESUME_PATH = os.path.abspath("./resume.pdf")
 COVER_LETTER_PATH = os.path.abspath("./cover_letter.pdf")
@@ -63,7 +63,6 @@ def dispatch_special_pages(driver, job_url=None, row_number=None, csv_file_path=
     # 1) Role Requirements page - INTERMEDIATE PAGE (continue to next step)
     if "/apply/role-requirements" in url:
         print("[Dispatcher] Detected role-requirements page, dispatching to handler")
-        from role_requirements_handler import handle_role_requirements_page
         result = handle_role_requirements_page(driver, resume_pdf_path=resume_path, company_name=company_name)
         
         # Handle both old and new return formats
@@ -83,13 +82,22 @@ def dispatch_special_pages(driver, job_url=None, row_number=None, csv_file_path=
 
     # 2) Dynamic questions page - INTERMEDIATE PAGE (continue to next step)
     if any(indicator in url for indicator in ["questions", "screening"]) or "/apply/questions" in url:
-        print("[Dispatcher] Detected dynamic questions page, dispatching to handler")
-        success, question_logs = handle_dynamic_questions(driver, resume_pdf_path=resume_path, company_name=company_name)
+        print("[Dispatcher] Detected dynamic questions page, dispatching to enhanced role-requirements handler")
+        result = handle_role_requirements_page(driver, resume_pdf_path=resume_path, company_name=company_name)
+        
+        # Handle both old and new return formats
+        if isinstance(result, tuple):
+            success, question_logs = result
+            # Store question logs for later use
+            question_logs_global = question_logs
+            print(f"[Dispatcher] Enhanced role-requirements question logs: {question_logs}")
+        else:
+            success = result
+            question_logs_global = ""  # No questions from role requirements
+            
         if not success:
-            raise RuntimeError("Dynamic handler failed to fill the form.")
-        # Store question logs for later use
-        question_logs_global = question_logs
-        print("[Dispatcher] Dynamic questions page handled successfully, continuing to next step")
+            raise RuntimeError("Enhanced role-requirements handler failed to fill the form.")
+        print("[Dispatcher] Enhanced role-requirements page handled successfully, continuing to next step")
         return False  # Continue to next step, don't exit
 
     # 3) Profile page - INTERMEDIATE PAGE (continue to next step)
